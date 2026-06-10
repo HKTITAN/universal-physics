@@ -1,3 +1,10 @@
+---
+title: Gaps and Contradictions
+type: registry
+tags: [registry, contradictions, domain-validity]
+updated: 2026-06-08
+---
+
 # Gaps and Contradictions
 
 Status: Living catalogue — refereed, cumulative, open to revision.

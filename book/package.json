@@ -1,0 +1,21 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "katex": "^0.17.0",
+    "markdown-it": "^14.2.0",
+    "markdown-it-texmath": "^1.0.0",
+    "pagedjs-cli": "^0.4.3",
+    "pdf-lib": "^1.17.1"
+  }
+}

@@ -1,3 +1,10 @@
+---
+title: Quantum Mechanics (Non-Relativistic, Hilbert-Space Formulation)
+type: domain
+tags: [domain, quantum-mechanics]
+updated: 2026-06-08
+---
+
 # Quantum Mechanics (Non-Relativistic, Hilbert-Space Formulation)
 
 Status: Foundational domain page — stable core, contested interpretation

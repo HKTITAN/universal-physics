@@ -1,3 +1,10 @@
+---
+title: Particle Physics and the Standard Model
+type: domain
+tags: [domain, particle-physics]
+updated: 2026-06-08
+---
+
 # Particle Physics and the Standard Model
 
 Status: Stable core; living BSM frontier

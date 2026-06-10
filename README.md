@@ -1,3 +1,10 @@
+---
+title: Universal Physics — A Research Wiki
+type: index
+tags: [index, physics-wiki, navigation, unification]
+updated: 2026-06-10
+---
+
 # Universal Physics — A Research Wiki
 
 **Status:** Active research — six iterations complete (analytical phase saturated at iteration 5; iteration 6 was a new-input iteration that left the verdict unchanged and restructured its hedges).
@@ -68,6 +75,16 @@ Two pillars — **quantum field theory** (the Standard Model) and **general rela
 
 ---
 
+## Read it elsewhere
+
+- **Website:** [universal-physics.khe.money](https://universal-physics.khe.money) — the full wiki as a technical reference manual (built from this repo's `site/`).
+- **Book:** [universal-physics-book.pdf](universal-physics-book.pdf) — *Universal Physics*, the properly typeset book edition (6×9in; built from `book/`).
+- **Vault:** open this repo directly in [Obsidian](https://obsidian.md) — frontmatter, graph-view color groups, [index.md](index.md) catalog, and [MAP.canvas](MAP.canvas) are configured.
+
 ## How to contribute (human or agent)
 
-Read [AGENTS.md](AGENTS.md) and [EPISTEMICS.md](EPISTEMICS.md) first. Enrich pages in place, tag every claim, cross-link, run candidate ideas through the verification protocol before promoting them, and log every change in [CHANGELOG.md](CHANGELOG.md).
+**Contributions are invited** — see [CONTRIBUTING.md](CONTRIBUTING.md) for the bar (the anti-crank protocol) and where help is most valuable (the open levers). In short: read [AGENTS.md](AGENTS.md) and [EPISTEMICS.md](EPISTEMICS.md) first; enrich pages in place; tag every claim; cross-link; never fabricate a citation; run candidate ideas through the verification protocol before promoting them; and log every change in [CHANGELOG.md](CHANGELOG.md).
+
+---
+
+**Authors:** Harshit Khemani + Claude (Anthropic) · **License:** [CC BY-SA 4.0 (content) + MIT (code)](LICENSE.md) · **Site design** inspired by Dan Hollick's [Making Software](https://makingsoftware.com)

@@ -1,3 +1,10 @@
+---
+title: "Is the Born Rule Fundamental or Derivable, and Is Quantum Mechanics Exactly Linear?"
+type: note
+tags: [note, iter2, born-rule, quantum-foundations]
+updated: 2026-06-08
+---
+
 # Is the Born Rule Fundamental or Derivable, and Is Quantum Mechanics Exactly Linear?
 
 Status: Active — iteration-2 deep dive; conclusions feed proposed ledger refinements (not yet merged)

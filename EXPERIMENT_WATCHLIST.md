@@ -1,3 +1,10 @@
+---
+title: Experiment Watchlist
+type: registry
+tags: [registry, experiments, phenomenology]
+updated: 2026-06-10
+---
+
 # Experiment Watchlist
 
 **Status:** Living watch-list (post-saturation mode). The analytical program is saturated (see [CONCLUSION.md](CONCLUSION.md)); the object-level verdict is now gated by *experiment*, not by further reasoning. This page tracks the channels that bear on the landscape. Refreshed and extended in iteration 6 (2026-06-10).

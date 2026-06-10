@@ -1,3 +1,10 @@
+---
+title: Classical Mechanics
+type: domain
+tags: [domain, classical-mechanics]
+updated: 2026-06-08
+---
+
 # Classical Mechanics
 
 Status: Stable core formalism; foundational status and several internal problems remain active.

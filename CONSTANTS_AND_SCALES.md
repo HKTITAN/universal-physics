@@ -1,3 +1,10 @@
+---
+title: Constants and Scales
+type: reference
+tags: [reference, constants, planck-scale, fine-tuning]
+updated: 2026-06-08
+---
+
 # Constants and Scales
 
 Status: Stable scaffold — quantitative claims pinned to CODATA/SI conventions; interpretive claims tagged.

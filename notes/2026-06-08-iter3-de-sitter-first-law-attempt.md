@@ -1,3 +1,10 @@
+---
+title: "Attempt: a de Sitter entanglement first law (OP-41)"
+type: note
+tags: [note, iter3, de-sitter, first-law]
+updated: 2026-06-08
+---
+
 # Attempt: a de Sitter entanglement first law (OP-41)
 
 Status: ATTEMPT — partial result; primary open problem (holographic/algebraic dS first law) NOT closed, obstruction located

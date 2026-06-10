@@ -1,3 +1,10 @@
+---
+title: Mathematics for Physics
+type: domain
+tags: [domain, mathematics]
+updated: 2026-06-08
+---
+
 # Mathematics for Physics
 
 Status: Living page — rigorous core, actively curated at the analysis/QFT seam

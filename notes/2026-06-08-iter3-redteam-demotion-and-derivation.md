@@ -1,3 +1,10 @@
+---
+title: "Red-team: the demotion-and-derivation posture and its fixed cores"
+type: note
+tags: [note, iter3, red-team, epistemics]
+updated: 2026-06-08
+---
+
 # Red-team: the demotion-and-derivation posture and its fixed cores
 
 Status: Red-team audit — central iteration-2 conclusion survives at its core; synthesis-page compression over-claims relative to its own source notes

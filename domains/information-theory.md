@@ -1,3 +1,10 @@
+---
+title: "Information Theory & Physics"
+type: domain
+tags: [domain, information-theory]
+updated: 2026-06-08
+---
+
 # Information Theory & Physics
 
 Status: Active — mature classical/quantum core; speculative gravitational frontier

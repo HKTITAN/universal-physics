@@ -1,3 +1,10 @@
+---
+title: "Unified Program Synthesis: Demotion-and-Derivation as the Defensible Core"
+type: note
+tags: [note, iter2, synthesis, quantum-gravity]
+updated: 2026-06-08
+---
+
 # Unified Program Synthesis: Demotion-and-Derivation as the Defensible Core
 
 Status: Synthesis — partial coherence (one program + one adjacent program)

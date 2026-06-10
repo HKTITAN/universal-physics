@@ -1,3 +1,10 @@
+---
+title: "Iteration 4: the SO(d+1,1)-family escape from the dS first-law obstruction (OP-41 / HYP-dS-NOMIN)"
+type: note
+tags: [note, iter4, de-sitter, first-law]
+updated: 2026-06-08
+---
+
 # Iteration 4: the SO(d+1,1)-family escape from the dS first-law obstruction (OP-41 / HYP-dS-NOMIN)
 
 Status: ATTEMPT executed — the one un-foreclosed escape from iteration 3 is carried out and BREAKS at a precisely located, now-quantified step. Net: HYP-dS-NOMIN is PROMOTED from conjecture toward a no-go (for the strict, unitary, single-common-state route).

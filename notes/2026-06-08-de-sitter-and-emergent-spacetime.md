@@ -1,3 +1,10 @@
+---
+title: "Can emergent-spacetime / holography graduate to our Λ>0 universe?"
+type: note
+tags: [note, iter2, de-sitter, emergent-spacetime]
+updated: 2026-06-08
+---
+
 # Can emergent-spacetime / holography graduate to our Λ>0 universe?
 
 Status: Active research note — negative meta-result reinforced, with one genuine Λ>0 foothold

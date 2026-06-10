@@ -1,3 +1,10 @@
+---
+title: "Formalize: an encode-vs-generate criterion for emergent geometry (OP-46)"
+type: note
+tags: [note, iter3, emergent-geometry, encode-vs-generate]
+updated: 2026-06-08
+---
+
 # Formalize: an encode-vs-generate criterion for emergent geometry (OP-46)
 
 Status: Attemptive — criterion delivered and decision-usable; classification of six constructions reached (medium confidence on the criterion being uniquely correct, high on the per-construction verdicts)

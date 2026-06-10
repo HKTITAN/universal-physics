@@ -1,3 +1,10 @@
+---
+title: "Iteration-3 Synthesis: Sharper Obstructions, Same Partial Coherence"
+type: note
+tags: [note, iter3, synthesis]
+updated: 2026-06-08
+---
+
 # Iteration-3 Synthesis: Sharper Obstructions, Same Partial Coherence
 
 Status: Active synthesis — coherence verdict UNCHANGED at PARTIAL

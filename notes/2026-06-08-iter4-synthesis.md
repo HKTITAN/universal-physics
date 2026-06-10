@@ -1,3 +1,10 @@
+---
+title: "Iteration-4 Synthesis: Convergence, Not Direction — the dS Cardinality No-Go"
+type: note
+tags: [note, iter4, synthesis]
+updated: 2026-06-08
+---
+
 # Iteration-4 Synthesis: Convergence, Not Direction — the dS Cardinality No-Go
 
 Status: Active synthesis — coherence verdict UNCHANGED at PARTIAL; structural argument SHARPENED

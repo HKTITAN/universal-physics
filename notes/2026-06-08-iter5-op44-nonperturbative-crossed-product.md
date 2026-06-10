@@ -1,3 +1,10 @@
+---
+title: "OP-44/OP-CP1: nonperturbative fate of the crossed-product Type II structure"
+type: note
+tags: [note, iter5, crossed-product, von-neumann-algebras]
+updated: 2026-06-08
+---
+
 # OP-44/OP-CP1: nonperturbative fate of the crossed-product Type II structure
 
 Status: ATTEMPT executed — OP-44 / OP-CP1 sharpened to a **REGIME-DEPENDENT** verdict with a *located boundary* (the would-be black-hole scale $N_\ast$); the algebraic-subregion description survives nonperturbatively only as an **approximate / coarse-grained (QRF-relational) Type II** structure for sub-black-hole dressing and degenerates for black-hole-scale dressing. Does **not** flip the headline "encodes-not-generates" verdict; `didItMove = sharpened-obstruction`. Medium confidence.

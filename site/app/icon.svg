@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#f5f1e6"/>
+  <rect x="2.5" y="2.5" width="27" height="27" fill="none" stroke="#2240c8" stroke-width="2"/>
+  <text x="16" y="21.5" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#2240c8">UP</text>
+</svg>

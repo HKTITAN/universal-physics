@@ -1,3 +1,10 @@
+---
+title: Assumptions Ledger
+type: registry
+tags: [registry, assumptions, foundations]
+updated: 2026-06-08
+---
+
 # Assumptions Ledger
 
 Status: Living document — cross-cutting + per-domain foundational assumptions catalogued, classified, and audited for artifact-suspects.

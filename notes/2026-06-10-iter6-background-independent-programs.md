@@ -1,3 +1,10 @@
+---
+title: "Iteration 6 — R4: The Other Background-Independent Programs, 2023–2026 (Landscape Refresh)"
+type: note
+tags: [note, iter6, background-independence, literature-review]
+updated: 2026-06-10
+---
+
 # Iteration 6 — R4: The Other Background-Independent Programs, 2023–2026 (Landscape Refresh)
 
 **Status:** COMPLETE — literature sweep + delta analysis. Ten findings: one missing program (classical–quantum hybrid gravity) warrants a new landscape entry; string theory gains two genuinely landscape-moving items (dark dimension; explicit KKLT candidates); five programs get status updates; two negative results recorded (no everpresent-Λ/DESI confrontation; no quantum-graphity successor). Nothing bears on the closed items OP-41 / OP-46 / OP-48(c) or reopens the standing verdict.

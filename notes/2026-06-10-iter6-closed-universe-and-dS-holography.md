@@ -1,3 +1,10 @@
+---
+title: "Iteration 6 — de Sitter and closed-universe quantum gravity: the 2023–2026 literature delta"
+type: note
+tags: [note, iter6, de-sitter, holography]
+updated: 2026-06-10
+---
+
 # Iteration 6 — de Sitter and closed-universe quantum gravity: the 2023–2026 literature delta
 
 **Status:** Research-sweep note (iteration 6, track R1-dS-closed-universe). External-literature delta relative to the saturated iteration-5 baseline; **no verdict change** — the standing [../CONCLUSION.md](../CONCLUSION.md) verdict and both hedges survive, with one hedge (OP-48c horn C) *reinforced from an independent direction* and one hypothesis (HYP-dS-CARDINALITY-R1) *extended to two new routes*.

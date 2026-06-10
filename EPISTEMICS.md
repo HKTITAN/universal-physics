@@ -1,3 +1,10 @@
+---
+title: Epistemics — Standards of Evidence and Labeling
+type: schema
+tags: [schema, epistemic-tags, evidence-standards]
+updated: 2026-06-08
+---
+
 # Epistemics — Standards of Evidence and Labeling
 
 **Status:** Stable convention (governs the whole wiki).

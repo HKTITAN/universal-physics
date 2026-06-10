@@ -1,3 +1,10 @@
+---
+title: "Execute the dS first-law escape: an SO(d+1,1) family of modular Hamiltonians (OP-41)"
+type: note
+tags: [note, iter4, de-sitter, first-law]
+updated: 2026-06-08
+---
+
 # Execute the dS first-law escape: an SO(d+1,1) family of modular Hamiltonians (OP-41)
 
 Status: ATTEMPT executed and refereed — the one un-foreclosed escape from iteration 3 is carried out, breaks at a now-quantified step, and is then **re-scoped under four referee verdicts**. Net: HYP-dS-NOMIN is PROMOTED from conjecture toward a near-no-go for the strict, unitary, single-common-state, isometry-orbit route. `didItMove = promoted-toward-no-go`.

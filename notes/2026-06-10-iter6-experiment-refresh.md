@@ -1,3 +1,10 @@
+---
+title: "Iteration 6 — Experiment & Anomaly Refresh (mid-2026)"
+type: note
+tags: [note, iter6, experiments, anomalies]
+updated: 2026-06-10
+---
+
 # Iteration 6 — Experiment & Anomaly Refresh (mid-2026)
 
 **Status:** Watchlist refresh — empirical channels only. No bearing on the analytical verdict in [../CONCLUSION.md](../CONCLUSION.md); every item below lands in the gate/core/target taxonomy of [../EXPERIMENT_WATCHLIST.md](../EXPERIMENT_WATCHLIST.md).

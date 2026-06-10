@@ -1,3 +1,10 @@
+---
+title: Theory Map of Physics
+type: reference
+tags: [reference, theory-structure, reductions, scale-ladder]
+updated: 2026-06-08
+---
+
 # Theory Map of Physics
 
 Status: Living synthesis — structural overview, cross-linking all domain pages.

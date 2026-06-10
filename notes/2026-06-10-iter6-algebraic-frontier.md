@@ -1,3 +1,10 @@
+---
+title: "OP-44 literature delta (2024–2026): the survival side hardens perturbatively; the failure side turns out algebraic; no theorem on either side of $N_\\ast$"
+type: note
+tags: [note, iter6, crossed-product, literature-review]
+updated: 2026-06-10
+---
+
 # OP-44 literature delta (2024–2026): the survival side hardens perturbatively; the failure side turns out algebraic; no theorem on either side of $N_\ast$
 
 **Status:** Research sweep executed (iteration 6, track R2-algebraic) — 17 abstracts individually fetched and verified this session; OP-44/OP-CP1 verdict UNCHANGED (regime-dependent, no theorem on either side of $N_\ast$) but its interior structure is refined: perturbative survival is now theorem-grade including non-stationary cuts and the QFC; all published post-breakdown candidates remain algebraic; a fourth verdict option ("survives-after-averaging over $N$") enters the literature. Two orchestrator leads corrected.

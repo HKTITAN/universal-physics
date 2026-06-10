@@ -1,3 +1,10 @@
+---
+title: Findings — Cumulative Synthesis
+type: synthesis
+tags: [synthesis, executive-summary, unification]
+updated: 2026-06-10
+---
+
 # Findings — Cumulative Synthesis
 
 **Status:** Living synthesis — iteration 1. Read this first; it is the executive summary of the whole wiki.

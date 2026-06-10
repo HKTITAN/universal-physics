@@ -1,3 +1,10 @@
+---
+title: Quantum Field Theory
+type: domain
+tags: [domain, quantum-field-theory]
+updated: 2026-06-08
+---
+
 # Quantum Field Theory
 
 Status: Mature core, active foundational frontier

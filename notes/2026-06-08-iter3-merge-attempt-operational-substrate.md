@@ -1,3 +1,10 @@
+---
+title: "Attempt: Merge Program A (geometry-from-algebra) and Program B (quantum-framework-final)"
+type: note
+tags: [note, iter3, quantum-foundations, von-neumann-algebras]
+updated: 2026-06-08
+---
+
 # Attempt: Merge Program A (geometry-from-algebra) and Program B (quantum-framework-final)
 
 Status: Attemptive — substantive partial merge at one sublayer; thin methodological bridge at the deeper sublayer; NOT empty re-description (medium confidence)

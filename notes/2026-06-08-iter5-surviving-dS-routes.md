@@ -1,3 +1,10 @@
+---
+title: "The two dS routes surviving the cardinality no-go: pseudo-entropy and Jacobson-in-CLPW"
+type: note
+tags: [note, iter5, de-sitter, pseudo-entropy]
+updated: 2026-06-08
+---
+
 # The two dS routes surviving the cardinality no-go: pseudo-entropy and Jacobson-in-CLPW
 
 Status: ATTEMPT executed and refereed — the two routes left un-foreclosed by the iteration-4 de Sitter cardinality no-go are pushed to their breaking points. Neither moves Program A from ENCODES to GENERATES at $\Lambda>0$; the headline verdict is **reinforced, not flipped**. The iteration adds value by *sharpening* the obstruction: the two routes fail for **distinct, now-identified reasons** (non-unitarity vs. single-trace / area-coefficient re-input), unified by a deeper diagnostic — *the area-entropy coefficient is an input, not an output*. `didItMove = sharpened-obstruction`.

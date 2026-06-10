@@ -1,3 +1,10 @@
+---
+title: "Quantum-gravity phenomenology 2022–2026: the distinguishing-prediction hunt, audited"
+type: note
+tags: [note, iter6, phenomenology, quantum-gravity]
+updated: 2026-06-10
+---
+
 # Quantum-gravity phenomenology 2022–2026: the distinguishing-prediction hunt, audited
 
 **Status:** Iteration-6 research note (track R5-qg-phenomenology). Catalogue of every live observable-signature program, classified against the watch-list taxonomy (gate / core / target / wager). Web-verified June 2026.

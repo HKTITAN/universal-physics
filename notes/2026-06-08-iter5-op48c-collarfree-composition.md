@@ -1,3 +1,10 @@
+---
+title: "OP-48 point (c): a state-/collar-free composition surrogate on Type III₁?"
+type: note
+tags: [note, iter5, type-iii-algebras, composition]
+updated: 2026-06-08
+---
+
 # OP-48 point (c): a state-/collar-free composition surrogate on Type III₁?
 
 **Status:** SETTLED as a conditional no-go for OP-48(c) (medium-high confidence); headline verdict *encodes-not-generates* STANDS and is tightened, not flipped.

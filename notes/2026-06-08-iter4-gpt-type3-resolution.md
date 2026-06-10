@@ -1,3 +1,10 @@
+---
+title: "Resolve OP-48: can GPT framework-axioms live on a Type III₁ algebra? (split-property test)"
+type: note
+tags: [note, iter4, generalized-probabilistic-theories, type-iii-algebras]
+updated: 2026-06-08
+---
+
 # Resolve OP-48: can GPT framework-axioms live on a Type III₁ algebra? (split-property test)
 
 Status: SETTLED as a sharp disjunction (medium confidence) — OP-48 / OP-GPT-TYPE3 is a NO-GO for *exact* composition on a single Type III₁ factor and a *state-/collar-dependent* YES for nested regions under the split property; full operational reconstruction remains OPEN. didItMove = **sharpened-obstruction**.

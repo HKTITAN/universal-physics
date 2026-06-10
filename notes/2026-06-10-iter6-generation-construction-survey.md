@@ -1,3 +1,10 @@
+---
+title: "OP-46 attack, iteration 6: the generation hunt — causal fermion systems, signature-selection models, and the broadened smuggling list"
+type: note
+tags: [note, iter6, emergent-geometry, causal-fermion-systems]
+updated: 2026-06-10
+---
+
 # OP-46 attack, iteration 6: the generation hunt — causal fermion systems, signature-selection models, and the broadened smuggling list
 
 **Status:** ATTEMPT executed — the designated verdict-flipper was hunted across five candidate pools, including the most serious candidate previously absent from this wiki (causal fermion systems). **The verdict does not flip.** Net new: (1) CFS is graded and closes at the same signature-installation step — relocated into its first axiom; (2) a genuinely new *selection-type* pattern is identified (Sung-Sik Lee's matrix model), forcing a precision repair of CONCLUSION §8 and an extension of the smuggling list; (3) process matrices and post-2024 Lorentzian NCG are foreclosed for OP-46 purposes; (4) no post-2024 weakening of Borchers–Wiesbrock exists.

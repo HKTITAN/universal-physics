@@ -1,3 +1,10 @@
+---
+title: "OP-49 resolved-negative (conditional): reality of the dS/CFT pseudo-entropy excludes nontrivial first-law content"
+type: note
+tags: [note, iter6, pseudo-entropy, de-sitter]
+updated: 2026-06-10
+---
+
 # OP-49 resolved-negative (conditional): reality of the dS/CFT pseudo-entropy excludes nontrivial first-law content
 
 **Status:** ATTACK executed on the decidable sub-problem OP-49 (≡ OP-dS-PSEUDO-REALITY). Verdict: **resolved-negative, conditional** — 'genuine post-selection reality' and 'nontrivial $\delta G$' are mutually exclusive in the dS/CFT pseudo-entropy first law, with the obstruction located. Two scoped residuals (exceptional points; SVD-entropy first law) keep this short of a theorem. `didItMove = lever-closed (conditionally)`.

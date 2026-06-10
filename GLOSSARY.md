@@ -1,3 +1,10 @@
+---
+title: Glossary
+type: reference
+tags: [reference, glossary, definitions]
+updated: 2026-06-08
+---
+
 # Glossary
 
 Status: living reference — comprehensive but not exhaustive; definitions are standard but each links to its home domain for the full treatment.

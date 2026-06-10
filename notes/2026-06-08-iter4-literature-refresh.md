@@ -1,3 +1,10 @@
+---
+title: "Iteration 4: citation verification + current-literature refresh"
+type: note
+tags: [note, iter4, literature-review, citations]
+updated: 2026-06-08
+---
+
 # Iteration 4: citation verification + current-literature refresh
 
 Status: COMPLETE — citation-hygiene + freshness pass. Three previously `[unverified]` 2026 preprint IDs are **all confirmed real** against the live arXiv (none fabricated); one real-but-misattributed byline is fixed; one genuinely claim-moving literature delta (muon $g-2$) is identified; the rest are incremental and do not move a standing wiki claim. No fabrication found anywhere.

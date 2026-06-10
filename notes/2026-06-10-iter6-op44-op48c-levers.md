@@ -1,3 +1,10 @@
+---
+title: "OP-44 & OP-48(c) iteration-6 attack: theorem-shaped brackets on the crossed-product fate, and a hardened horn C"
+type: note
+tags: [note, iter6, crossed-product, type-iii-algebras]
+updated: 2026-06-10
+---
+
 # OP-44 & OP-48(c) iteration-6 attack: theorem-shaped brackets on the crossed-product fate, and a hardened horn C
 
 **Status:** ATTEMPT executed — both residual levers MOVED without flipping the headline. OP-44: `didItMove = sharpened-both-sides` (proven failure-side instance + proven survival-side rigidity in the AdS time-band model; the order-$G_N^2$ obstruction is now *named*: quadratic/boost linearization-instability constraints). OP-48(c) horn C: `didItMove = hardened` (exact full-pair reading is theorem-shaped; approximate reading uniformly gapped; residue relocated to a GPT formalization choice plus a constructed III$_1$-composition alternative). Medium-high confidence.

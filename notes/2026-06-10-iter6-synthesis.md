@@ -1,3 +1,9 @@
+---
+title: Iteration 6 Synthesis — New-Input Iteration (2026-06-10)
+type: note
+tags: [note, iter6, synthesis]
+---
+
 # Iteration 6 Synthesis — New-Input Iteration (2026-06-10)
 
 **Status:** Closing synthesis of the first post-saturation iteration. 22 agents; 10 adversarially-refereed tracks; ~90 findings, all kept, zero fatal. **Headline verdict unchanged for the fifth consecutive iteration; hedge structure restructured.** Distilled into [../FINDINGS.md](../FINDINGS.md) §Iteration 6, [../CONCLUSION.md](../CONCLUSION.md) (amended), [../EXPERIMENT_WATCHLIST.md](../EXPERIMENT_WATCHLIST.md), [../OPEN_PROBLEMS.md](../OPEN_PROBLEMS.md), [../HYPOTHESES.md](../HYPOTHESES.md), [../UNIFICATION_LANDSCAPE.md](../UNIFICATION_LANDSCAPE.md), [../BIBLIOGRAPHY.md](../BIBLIOGRAPHY.md), [../CHANGELOG.md](../CHANGELOG.md).

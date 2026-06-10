@@ -1,3 +1,10 @@
+---
+title: "OP-46: emergent LORENTZIAN geometry from a non-CKV modular flow? (the verdict-flipping move)"
+type: note
+tags: [note, iter5, modular-flow, lorentzian-geometry]
+updated: 2026-06-08
+---
+
 # OP-46: emergent LORENTZIAN geometry from a non-CKV modular flow? (the verdict-flipping move)
 
 Status: ATTEMPT executed — the single move that could flip OP-46 clause (iii) (derive an emergent *Lorentzian* metric + boost/horizon from a genuinely non-symmetric modular flow via the two named escape readouts: modular-Berry holonomy, and Lorentzian/causal NCG spectral distance) is carried out. Verdict DOES NOT FLIP, but the obstruction is promoted from a single-readout near-no-go (iter-4) toward a **readout-independent** one: the Lorentzian-signature + causal-order output is *re-imported, not generated* on every readout currently on the table. Net new: the modular-Berry route IS the first surveyed construction to cross the N4 signature barrier (genuinely Lorentzian kinematic space) — but only from the symmetric vacuum, so it CONFIRMS rather than refutes the iter-4 finding.

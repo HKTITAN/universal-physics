@@ -1,3 +1,10 @@
+---
+title: Bibliography — Canonical Sources for the Universal Physics Wiki
+type: reference
+tags: [reference, bibliography, sources]
+updated: 2026-06-10
+---
+
 # Bibliography — Canonical Sources for the Universal Physics Wiki
 
 **Status:** Living reference (append-only; deduped across domain dossiers).

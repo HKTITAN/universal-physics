@@ -1,3 +1,10 @@
+---
+title: AGENTS.md — Behavioral Schema for the Physics Research Wiki
+type: schema
+tags: [schema, conventions, wiki-maintenance]
+updated: 2026-06-08
+---
+
 # AGENTS.md — Behavioral Schema for the Physics Research Wiki
 
 **Status:** Stable convention (read this before editing anything).
@@ -46,6 +53,8 @@ Both outcomes are valuable. "We do not know" said precisely is a result.
 | [ROADMAP.md](ROADMAP.md) | Prioritized research agenda |
 | [CHANGELOG.md](CHANGELOG.md) | Append-only iteration log |
 | `domains/*.md` | Deep dossiers: quantum-mechanics, quantum-field-theory, general-relativity, classical-mechanics, thermodynamics, statistical-mechanics, cosmology, particle-physics, information-theory, mathematics |
+
+**Vault conventions (2026-06-10).** Pages carry YAML frontmatter with four keys: `title` (the page's H1 title), `type` (one of `index` / `capstone` / `synthesis` / `registry` / `reference` / `schema` / `domain` / `note`), `tags` (a list; the first tag mirrors `type`), and `updated` (ISO date). [index.md](index.md) is the content catalog — every page with a one-line summary, grouped by role. [log.md](log.md) is the thin append-only operations index (one line per major operation) over [CHANGELOG.md](CHANGELOG.md), which remains the canonical detailed log. `.obsidian/graph.json` defines the graph-view color groups (README/index warm yellow; CONCLUSION/FINDINGS crimson; `#registry` green; `#schema` gray; `domains/` blue; `notes/` orange; `#reference` teal) — keep new pages consistent with these groups so the graph stays legible.
 
 ---
 

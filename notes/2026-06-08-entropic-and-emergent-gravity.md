@@ -1,3 +1,10 @@
+---
+title: "Entropic / emergent gravity: genuine derivation, or suggestive analogy?"
+type: note
+tags: [note, iter2, emergent-gravity, thermodynamics]
+updated: 2026-06-08
+---
+
 # Entropic / emergent gravity: genuine derivation, or suggestive analogy?
 
 Status: Active research note — disaggregated verdict on four programs

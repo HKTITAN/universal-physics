@@ -1,3 +1,10 @@
+---
+title: Open Problems — The Registry of What Physics Does Not Know
+type: registry
+tags: [registry, open-problems, quantum-gravity]
+updated: 2026-06-10
+---
+
 # Open Problems — The Registry of What Physics Does Not Know
 
 **Status:** Living registry (stable IDs; merges cross-cutting and per-domain open problems).

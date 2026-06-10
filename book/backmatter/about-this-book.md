@@ -1,0 +1,9 @@
+# About This Book
+
+*Universal Physics* began as a research wiki, not a manuscript. It was built by a multi-agent process: a human author, Harshit Khemani, directing teams of AI research agents (Claude, built by Anthropic) across six iterations between June 8 and June 10, 2026 — dozens of agents per iteration, each assigned one focused question, each new claim passed through an adversarial referee whose explicit job was to break it.
+
+The process had three standing rules. First, the epistemic-tag discipline (Chapter 2): every nontrivial claim carries exactly one of [ESTABLISHED], [INFERENCE], [SPECULATIVE], [OPEN], or [CONTESTED], and no speculation may wear the clothes of fact. Second, web verification: citations were checked against the actual papers, and the bibliography contains real references only. Third, the append-only log: every change, correction, and demotion is recorded in the repository's changelog — including the places where the investigation reversed itself.
+
+The iterations had distinct characters: 1 built the map; 2 stress-tested the central wager; 3 shifted from surveying to attempting (and red-teamed the project's own posture); 4 measured diminishing returns; 5 executed the final verdict-flipping lever and declared analytical saturation; 6 injected two years of new literature in a deliberate attempt to overturn the verdict, and failed.
+
+The book's chapters reproduce the wiki's pages verbatim; only navigation chrome was trimmed. Roughly thirty long-form working notes behind the Part V syntheses are not reprinted here but remain public, with the full change history, at **github.com/HKTITAN/universal-physics** and **universal-physics.khe.money**. Content is licensed CC BY-SA 4.0; accompanying code, MIT. The book and site design are inspired by Dan Hollick's *Making Software* (makingsoftware.com).

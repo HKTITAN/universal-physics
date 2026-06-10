@@ -1,3 +1,10 @@
+---
+title: "Unification Landscape: A Critical Survey of Unification and Quantum-Gravity Programs"
+type: reference
+tags: [reference, quantum-gravity, unification-programs]
+updated: 2026-06-08
+---
+
 # Unification Landscape: A Critical Survey of Unification and Quantum-Gravity Programs
 
 Status: Living survey — comparative, deliberately blunt about empirical status. Two entries added + six status refreshes in iteration 6 (2026-06-10).

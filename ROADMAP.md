@@ -1,3 +1,10 @@
+---
+title: Research Roadmap
+type: schema
+tags: [schema, roadmap, prioritization]
+updated: 2026-06-08
+---
+
 # Research Roadmap
 
 **Status:** Post-saturation watch-list mode (revised each iteration).

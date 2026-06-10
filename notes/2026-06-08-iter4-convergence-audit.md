@@ -1,3 +1,10 @@
+---
+title: "Convergence / completeness audit — how far from a conclusion?"
+type: note
+tags: [note, iter4, convergence, audit]
+updated: 2026-06-08
+---
+
 # Convergence / completeness audit — how far from a conclusion?
 
 Status: Active audit — headline verdict UNCHANGED (PARTIAL coherence; wager not-yet-physics); new-insight trend DIMINISHING; recommendation HYBRID.

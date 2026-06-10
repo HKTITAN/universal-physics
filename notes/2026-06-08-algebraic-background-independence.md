@@ -1,3 +1,10 @@
+---
+title: "Does the modular / crossed-product (von Neumann algebra) program deliver background independence?"
+type: note
+tags: [note, iter2, von-neumann-algebras, background-independence]
+updated: 2026-06-08
+---
+
 # Does the modular / crossed-product (von Neumann algebra) program deliver background independence?
 
 Status: Active investigation — verdict reached (high confidence on the headline; medium/open on the nonperturbative fate)

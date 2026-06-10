@@ -1,3 +1,10 @@
+---
+title: General Relativity
+type: domain
+tags: [domain, general-relativity]
+updated: 2026-06-08
+---
+
 # General Relativity
 
 Status: Stable core; active frontiers at the quantum/cosmological boundary.

@@ -1,3 +1,10 @@
+---
+title: "Hypotheses: Candidate Research Directions Toward Background-Independent Physics"
+type: registry
+tags: [registry, hypotheses, background-independence]
+updated: 2026-06-10
+---
+
 # Hypotheses: Candidate Research Directions Toward Background-Independent Physics
 
 Status: Living page — active, refereed, low-to-medium confidence throughout

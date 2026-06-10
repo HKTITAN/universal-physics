@@ -1,3 +1,9 @@
+---
+title: Research Notes
+type: index
+tags: [index, notes, research-log]
+---
+
 # Research Notes
 
 Dated, deep-dive investigation logs. Each note records one focused research question pursued in an iteration, with full epistemic tagging and an adversarial **referee verdict** on every new claim. Notes are the long-form working memory of the wiki; their distilled conclusions are folded into [FINDINGS.md](../FINDINGS.md) and the registries ([OPEN_PROBLEMS.md](../OPEN_PROBLEMS.md), [ASSUMPTIONS_LEDGER.md](../ASSUMPTIONS_LEDGER.md), [HYPOTHESES.md](../HYPOTHESES.md)).

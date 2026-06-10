@@ -1,0 +1,227 @@
+/* Universal Physics — book stylesheet (Paged.js). Implements book/STYLE.md. */
+
+/* ---------- fonts ---------- */
+:root {
+  --serif: "Source Serif 4", "STIX Two Text", Georgia, "Times New Roman", serif;
+  --mono: "Source Code Pro", Consolas, "JetBrains Mono NL", monospace;
+}
+
+/* ---------- page geometry ---------- */
+@page {
+  size: 6in 9in;
+  margin-top: 0.75in;
+  margin-bottom: 0.75in;
+  @bottom-center {
+    content: counter(page);
+    font-family: var(--serif);
+    font-size: 9.5pt;
+    color: #000;
+  }
+}
+@page :left  { margin-left: 0.75in;  margin-right: 0.875in;
+  @top-left {
+    content: "Universal Physics";
+    font-family: var(--serif); font-variant: small-caps;
+    letter-spacing: 0.06em; font-size: 8.5pt; color: #222;
+  }
+}
+@page :right { margin-left: 0.875in; margin-right: 0.75in;
+  @top-right {
+    content: string(chaptitle);
+    font-family: var(--serif); font-variant: small-caps;
+    letter-spacing: 0.04em; font-size: 8.5pt; color: #222;
+  }
+}
+
+/* bare pages: half title, title, copyright — no heads, no folios */
+@page bare {
+  @bottom-center { content: none; }
+  @top-left { content: none; }
+  @top-right { content: none; }
+}
+/* front matter: roman folios, no running heads */
+@page front {
+  @bottom-center { content: counter(page, lower-roman); font-family: var(--serif); font-size: 9.5pt; }
+  @top-left { content: none; }
+  @top-right { content: none; }
+}
+/* part openers: recto, no folio, no heads */
+@page part {
+  @bottom-center { content: none; }
+  @top-left { content: none; }
+  @top-right { content: none; }
+}
+/* chapters alternate two named pages so each chapter starts a page group;
+   :first of each group = chapter-opener page -> running heads suppressed */
+@page chapterA:first { @top-left { content: none; } @top-right { content: none; } }
+@page chapterB:first { @top-left { content: none; } @top-right { content: none; } }
+@page chapterA:blank { @top-left { content: none; } @top-right { content: none; } @bottom-center { content: none; } }
+@page chapterB:blank { @top-left { content: none; } @top-right { content: none; } @bottom-center { content: none; } }
+@page part:blank { @bottom-center { content: none; } }
+
+/* ---------- base type ---------- */
+html { font-size: 10.5pt; }
+body {
+  font-family: var(--serif);
+  font-size: 10.5pt;
+  line-height: 1.38;
+  color: #000;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  margin: 0;
+  widows: 2; orphans: 2;
+}
+p { margin: 0 0 0.55em; }
+strong { font-weight: 600; }
+a { color: inherit; text-decoration: none; }
+
+h2, h3, h4 { break-after: avoid; line-height: 1.2; text-align: left; hyphens: none; }
+h2 { font-size: 14pt;   font-weight: 600; margin: 1.3em 0 0.5em; }
+h3 { font-size: 11.5pt; font-weight: 600; margin: 1.1em 0 0.35em; }
+h4 { font-size: 10.5pt; font-weight: 600; font-style: italic; margin: 0.9em 0 0.25em; }
+
+code, pre { font-family: var(--mono); }
+code { font-size: 88%; }
+pre {
+  font-size: 8.5pt; line-height: 1.35; text-align: left;
+  background: #f5f5f5; border: 0.5pt solid #ddd; padding: 5pt 7pt;
+  white-space: pre-wrap; overflow-wrap: anywhere; hyphens: none;
+}
+hr { border: none; border-top: 0.5pt solid #aaa; width: 30%; margin: 1.1em auto; }
+img { max-width: 100%; }
+
+ul, ol { margin: 0.3em 0 0.6em; padding-left: 1.4em; }
+li { margin-bottom: 0.18em; }
+
+/* external links / arXiv ids stay visually plain; allow breaking */
+a[href^="http"] { overflow-wrap: anywhere; }
+
+/* ---------- half title / title / copyright ---------- */
+.halftitle, .titlepage, .copyrightpage { page: bare; }
+.halftitle { break-before: page; break-after: page; }
+.halftitle .ht {
+  margin-top: 2.6in; text-align: center;
+  font-size: 16pt; letter-spacing: 0.35em; font-weight: 600;
+}
+.titlepage { break-after: page; text-align: center; }
+.tp-title { margin-top: 1.9in; font-size: 30pt; font-weight: 700; letter-spacing: 0.02em; }
+.tp-rule { width: 1.6in; border-top: 0.75pt solid #000; margin: 0.22in auto; }
+.tp-subtitle { font-size: 12.5pt; font-style: italic; margin: 0 0.3in; line-height: 1.4; }
+.tp-authors { margin-top: 1.0in; font-size: 12pt; font-variant: small-caps; letter-spacing: 0.08em; }
+.tp-imprint { margin-top: 1.1in; font-size: 9pt; font-family: var(--mono); color: #333; }
+.copyrightpage { break-after: page; font-size: 8.5pt; text-align: left; }
+.copyrightpage p { margin: 0 0 0.5em; }
+.copyrightpage { padding-top: 4.6in; }
+.cp-note { color: #333; margin-top: 1em; }
+
+/* ---------- TOC ---------- */
+.tocpage { page: front; break-before: page; break-after: page; }
+.fm-title { font-size: 22pt; font-weight: 700; margin: 0.4in 0 0.35in; text-align: left; }
+.toc-part { font-weight: 700; font-size: 10pt; letter-spacing: 0.05em; margin: 0.9em 0 0.35em; }
+.toc-fm, .toc-ch { margin: 0 0 0.3em; }
+.toc-ch { margin-left: 0.18in; }
+.toc a { display: flex; align-items: baseline; text-decoration: none; color: inherit; }
+.toc .toc-t { text-align: left; hyphens: none; }
+.toc .toc-n { display: inline-block; min-width: 1.35em; font-weight: 600; }
+.toc .toc-dots { flex: 1 1 auto; min-width: 0.2in; border-bottom: 1px dotted #777; margin: 0 3pt 2.5pt; }
+.toc a::after { content: target-counter(attr(href), page); font-variant-numeric: tabular-nums; }
+.toc-part a::after { content: none; }
+.toc-part a { display: inline; }
+
+/* ---------- preface (front matter chapter) ---------- */
+.frontmatter-ch { page: front; break-before: page; break-after: page; }
+
+/* ---------- part openers ---------- */
+.partopener { page: part; break-before: right; break-after: page; }
+.po-head { margin-top: 1.5in; text-align: center; }
+.po-num { font-size: 11pt; letter-spacing: 0.3em; font-variant: small-caps; }
+.po-title { font-size: 20pt; font-weight: 700; margin-top: 0.18in; line-height: 1.25; }
+.po-prose {
+  margin: 0.7in auto 0; max-width: 4.25in;
+  text-align: left; hyphens: auto;
+}
+.po-prose p { text-align: left; }
+.po-prose h1 { display: none; }
+
+/* ---------- chapters ---------- */
+.chapter { break-before: page; }
+.chA { page: chapterA; }
+.chB { page: chapterB; }
+.ch-opener { margin-bottom: 0.35in; }
+.ch-num {
+  font-variant: small-caps; letter-spacing: 0.28em;
+  font-size: 10pt; margin: 0.25in 0 0.12in;
+}
+.ch-title {
+  font-size: 23pt; font-weight: 700; line-height: 1.15;
+  margin: 0 0 0.16in; text-align: left; hyphens: none;
+  string-set: none;
+}
+.rh-src { string-set: chaptitle content(text); visibility: hidden; display: inline-block; height: 0; overflow: hidden; }
+.ch-rule { width: 60%; border-top: 0.5pt solid #555; }
+/* arabic folios restart at Chapter 1 */
+#ch-1 { counter-reset: page 1; }
+
+/* ---------- tables ---------- */
+table {
+  border-collapse: collapse; width: 100%;
+  font-size: 9pt; line-height: 1.28; margin: 0.7em 0;
+  border-top: 0.5pt solid #000; border-bottom: 0.5pt solid #000;
+  text-align: left; hyphens: none;
+}
+thead th {
+  font-weight: 600; font-variant: small-caps; font-size: 9pt;
+  border-bottom: 0.4pt solid #000; padding: 3pt 5pt 3pt 0; text-align: left;
+  vertical-align: bottom;
+}
+td { padding: 2.5pt 5pt 2.5pt 0; vertical-align: top; }
+tbody tr:nth-child(even) td { background: #f7f7f7; }
+tr { break-inside: avoid; }
+
+/* ---------- blockquotes & referee verdicts ---------- */
+blockquote {
+  margin: 0.6em 0.25in; font-size: 95%;
+}
+blockquote.verdict {
+  background: #f2f2f2;
+  border-left: 0.5pt solid #999;
+  margin: 0.8em 0; padding: 0.1in 0.25in;
+}
+blockquote.verdict > p:first-child > strong:first-child {
+  font-variant: small-caps; letter-spacing: 0.03em;
+}
+
+/* ---------- epistemic tag chips ---------- */
+.etag {
+  font-family: var(--mono);
+  font-size: 80%;
+  letter-spacing: 0.04em;
+  border: 0.5pt solid #b5b5b5;
+  border-radius: 2px;
+  background: #f4f4f4;
+  padding: 0 0.15em;
+  white-space: nowrap;
+}
+/* chips inside code spans: don't double-box */
+code .etag { border: none; background: none; padding: 0; }
+
+/* ---------- math ---------- */
+.katex { font-size: 1em !important; color: #000; }
+.katex-display { margin: 0.7em 0; overflow: hidden; break-inside: avoid; }
+.katex-display > .katex { white-space: normal; max-width: 100%; }
+
+/* ---------- cross-references & working-note citations ---------- */
+.xref::after { content: " (p.\00A0" target-counter(attr(href), page) ")"; }
+.wn { font-size: 95%; }
+.wn code, code { overflow-wrap: anywhere; }
+
+/* ---------- back matter ---------- */
+.bm-glossary .ch-body p { text-align: left; }
+.bm-bibliography .ch-body ul { list-style: none; padding-left: 0; }
+.bm-bibliography .ch-body li {
+  padding-left: 0.25in; text-indent: -0.25in;  /* hanging indent */
+  margin-bottom: 0.3em; text-align: left;
+}
+.ph-entry { text-align: left; }

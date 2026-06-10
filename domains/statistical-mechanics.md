@@ -1,3 +1,10 @@
+---
+title: Statistical Mechanics
+type: domain
+tags: [domain, statistical-mechanics]
+updated: 2026-06-08
+---
+
 # Statistical Mechanics
 
 Status: Stable core; foundations (irreversibility, quantum thermalization) actively researched.

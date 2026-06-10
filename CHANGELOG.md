@@ -1,3 +1,9 @@
+---
+title: Changelog
+type: schema
+tags: [schema, changelog, provenance]
+---
+
 # Changelog
 
 Append-only log of how the wiki evolves. Each entry records what changed and **why**, including any promotion/demotion of a claim's epistemic tag (see [EPISTEMICS.md](EPISTEMICS.md)). Newest first.

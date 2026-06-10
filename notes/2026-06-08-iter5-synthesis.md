@@ -1,3 +1,10 @@
+---
+title: "Iteration-5 Synthesis (Closing): The Named List Is Settled, the Verdict Did Not Flip — Analytical Saturation"
+type: note
+tags: [note, iter5, synthesis]
+updated: 2026-06-08
+---
+
 # Iteration-5 Synthesis (Closing): The Named List Is Settled, the Verdict Did Not Flip — Analytical Saturation
 
 Status: Closing synthesis — coherence verdict UNCHANGED at PARTIAL; the program is now **ANALYTICALLY SATURATED**; recommend capstone

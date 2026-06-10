@@ -1,0 +1,132 @@
+{
+  "$schema": "./manifest.schema.json",
+  "book": {
+    "title": "Universal Physics",
+    "subtitle": "A Map of Why a Final Theory Is Open — and What Would Close It",
+    "authors": ["Harshit Khemani", "Claude (Anthropic)"],
+    "edition": "First edition",
+    "publicationDate": "2026-06",
+    "license": {
+      "content": "CC BY-SA 4.0",
+      "code": "MIT"
+    },
+    "website": "https://universal-physics.khe.money",
+    "repository": "https://github.com/HKTITAN/universal-physics",
+    "designCredit": "Site and book design inspired by Dan Hollick's Making Software (makingsoftware.com) — inspiration only; no copy, illustrations, or assets reproduced.",
+    "trim": "6in x 9in",
+    "language": "en"
+  },
+  "conventions": {
+    "sourceRoot": "..",
+    "epistemicTags": ["ESTABLISHED", "INFERENCE", "SPECULATIVE", "OPEN", "CONTESTED"],
+    "contentPolicy": "Source .md pages are FROZEN. Trim instructions below may only drop wiki-navigation chrome (YAML frontmatter, 'See also' link blocks, 'Start here' nav, contribution how-tos, inter-page link syntax converted to cross-references). Body text, claims, epistemic tags, and referee verdicts must be reproduced verbatim.",
+    "linkHandling": "Convert internal wiki links to chapter/section cross-references with page numbers; convert links to non-chapter working notes into citations of the form 'Working note: <title> (repo: notes/<file>)'.",
+    "noteOnIterationOne": "Iteration 1 produced the wiki's base pages and has no standalone synthesis note; its synthesis is the opening sections of FINDINGS.md (Chapter 21). Iterations 2-6 each have a synthesis note, included as Chapters 22-26."
+  },
+  "frontMatter": [
+    { "id": "half-title", "title": "Half Title", "generate": "title-only page: UNIVERSAL PHYSICS" },
+    { "id": "title-page", "title": "Title Page", "generate": "title, subtitle, authors, imprint line: universal-physics.khe.money" },
+    {
+      "id": "copyright",
+      "title": "Copyright",
+      "generate": "Copyright (c) 2026 Harshit Khemani & Claude (Anthropic). Content licensed CC BY-SA 4.0; accompanying code MIT. First edition, June 2026. universal-physics.khe.money - github.com/HKTITAN/universal-physics. Research and content: Harshit Khemani + Claude. Design inspired by Dan Hollick's Making Software (makingsoftware.com)."
+    },
+    { "id": "toc", "title": "Contents", "generate": "full TOC: parts, chapters, first-level sections; leader dots; real page numbers" },
+    { "id": "preface", "title": "Preface", "source": "book/frontmatter/preface.md" }
+  ],
+  "parts": [
+    {
+      "part": 1,
+      "title": "PART I — THE QUESTION AND THE METHOD",
+      "opener": "book/frontmatter/part-openers/part-1.md",
+      "chapters": [
+        {
+          "number": 1,
+          "title": "The Project: A Universal Theory, Taken Seriously",
+          "sources": ["README.md"],
+          "trim": "Drop YAML frontmatter, the 'Start here' navigation list, the 'Full index' link block, and the 'How to contribute' section. Keep the project statement, the LLM-maintained-wiki pattern paragraph, the 'Research notes (iteration logs)' narrative paragraph, and 'The honest one-paragraph status of the field' verbatim."
+        },
+        {
+          "number": 2,
+          "title": "Epistemics: Standards of Evidence and Labeling",
+          "sources": ["EPISTEMICS.md"],
+          "trim": "Drop YAML frontmatter only. Reproduce in full — this chapter is the key to reading every tag in the book."
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "PART II — THE ESTABLISHED MAP",
+      "opener": "book/frontmatter/part-openers/part-2.md",
+      "chapters": [
+        { "number": 3, "title": "The Theory Map: How the Frameworks Fit Together", "sources": ["THEORY_MAP.md"], "trim": "Drop YAML frontmatter and trailing 'See also' block. Tables set full-width per STYLE.md." },
+        { "number": 4, "title": "Classical Mechanics", "sources": ["domains/classical-mechanics.md"], "trim": "Drop YAML frontmatter and 'See also' block." },
+        { "number": 5, "title": "Thermodynamics", "sources": ["domains/thermodynamics.md"], "trim": "Drop YAML frontmatter and 'See also' block." },
+        { "number": 6, "title": "Statistical Mechanics", "sources": ["domains/statistical-mechanics.md"], "trim": "Drop YAML frontmatter and 'See also' block." },
+        { "number": 7, "title": "Quantum Mechanics", "sources": ["domains/quantum-mechanics.md"], "trim": "Drop YAML frontmatter and 'See also' block." },
+        { "number": 8, "title": "Quantum Field Theory", "sources": ["domains/quantum-field-theory.md"], "trim": "Drop YAML frontmatter and 'See also' block." },
+        { "number": 9, "title": "Particle Physics and the Standard Model", "sources": ["domains/particle-physics.md"], "trim": "Drop YAML frontmatter and 'See also' block." },
+        { "number": 10, "title": "General Relativity", "sources": ["domains/general-relativity.md"], "trim": "Drop YAML frontmatter and 'See also' block." },
+        { "number": 11, "title": "Cosmology", "sources": ["domains/cosmology.md"], "trim": "Drop YAML frontmatter and 'See also' block." },
+        { "number": 12, "title": "Information Theory and Physics", "sources": ["domains/information-theory.md"], "trim": "Drop YAML frontmatter and 'See also' block." },
+        { "number": 13, "title": "Mathematics for Physics", "sources": ["domains/mathematics.md"], "trim": "Drop YAML frontmatter and 'See also' block." }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "PART III — WHERE PHYSICS BREAKS",
+      "opener": "book/frontmatter/part-openers/part-3.md",
+      "chapters": [
+        { "number": 14, "title": "Gaps and Contradictions: The Seventeen Clashes", "sources": ["GAPS_AND_CONTRADICTIONS.md"], "trim": "Drop YAML frontmatter and 'See also' block. GC-n identifiers retained verbatim and indexed." },
+        { "number": 15, "title": "The Open-Problems Registry", "sources": ["OPEN_PROBLEMS.md"], "trim": "Drop YAML frontmatter and 'See also' block. OP-n identifiers retained verbatim and indexed." },
+        { "number": 16, "title": "Constants, Scales, and Free Parameters", "sources": ["CONSTANTS_AND_SCALES.md"], "trim": "Drop YAML frontmatter and 'See also' block. Numeric tables full-width." }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "PART IV — THE CANDIDATE ROADS",
+      "opener": "book/frontmatter/part-openers/part-4.md",
+      "chapters": [
+        { "number": 17, "title": "Candidate Unifying Principles", "sources": ["UNIFYING_PRINCIPLES.md"], "trim": "Drop YAML frontmatter and 'See also' block." },
+        { "number": 18, "title": "The Unification Landscape: A Critical Survey", "sources": ["UNIFICATION_LANDSCAPE.md"], "trim": "Drop YAML frontmatter and 'See also' block." },
+        { "number": 19, "title": "Hypotheses, Refereed", "sources": ["HYPOTHESES.md"], "trim": "Drop YAML frontmatter and 'See also' block. Hn identifiers retained verbatim; referee verdicts set as gray panels per STYLE.md." },
+        { "number": 20, "title": "The Assumptions Ledger: Bedrock or Artifact?", "sources": ["ASSUMPTIONS_LEDGER.md"], "trim": "Drop YAML frontmatter and 'See also' block. A-n identifiers retained verbatim and indexed." }
+      ]
+    },
+    {
+      "part": 5,
+      "title": "PART V — THE INVESTIGATION",
+      "opener": "book/frontmatter/part-openers/part-5.md",
+      "notes": "The ~30 non-synthesis working notes under notes/ are NOT chapters. Wherever a synthesis chapter links to one, render the link as a citation: 'Working note: <title> (repo: notes/<filename>)'. The full notes index (notes/README.md) is cited once in the Part V opener and in About This Book.",
+      "chapters": [
+        { "number": 21, "title": "Findings: The Running Synthesis (Iterations 1–6)", "sources": ["FINDINGS.md"], "trim": "Drop YAML frontmatter and 'See also' block. This is the narrative spine of Part V; its opening sections double as the iteration-1 synthesis." },
+        { "number": 22, "title": "Iteration 2 Synthesis: Does the Unified Program Cohere?", "sources": ["notes/2026-06-08-unified-program-synthesis.md"], "trim": "Drop YAML frontmatter; links to sibling working notes become citations." },
+        { "number": 23, "title": "Iteration 3 Synthesis: From Surveying to Attempting", "sources": ["notes/2026-06-08-iter3-synthesis.md"], "trim": "Drop YAML frontmatter; links to sibling working notes become citations." },
+        { "number": 24, "title": "Iteration 4 Synthesis: Diminishing Returns, Measured", "sources": ["notes/2026-06-08-iter4-synthesis.md"], "trim": "Drop YAML frontmatter; links to sibling working notes become citations." },
+        { "number": 25, "title": "Iteration 5 Synthesis: Saturation", "sources": ["notes/2026-06-08-iter5-synthesis.md"], "trim": "Drop YAML frontmatter; links to sibling working notes become citations." },
+        { "number": 26, "title": "Iteration 6 Synthesis: The Verdict Meets New Input", "sources": ["notes/2026-06-10-iter6-synthesis.md"], "trim": "Drop YAML frontmatter; links to sibling working notes become citations." }
+      ]
+    },
+    {
+      "part": 6,
+      "title": "PART VI — THE VERDICT",
+      "opener": "book/frontmatter/part-openers/part-6.md",
+      "chapters": [
+        { "number": 27, "title": "Conclusion: The Converged Verdict", "sources": ["CONCLUSION.md"], "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page." },
+        { "number": 28, "title": "The Experiment Watchlist", "sources": ["EXPERIMENT_WATCHLIST.md"], "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width." },
+        { "number": 29, "title": "Roadmap: What Comes Next", "sources": ["ROADMAP.md"], "trim": "Drop YAML frontmatter and 'See also' block." }
+      ]
+    }
+  ],
+  "backMatter": [
+    { "id": "glossary", "title": "Glossary", "sources": ["GLOSSARY.md"], "trim": "Drop YAML frontmatter and 'See also' block; set as two-column definition list if the renderer supports it, single column otherwise." },
+    { "id": "bibliography", "title": "Bibliography", "sources": ["BIBLIOGRAPHY.md"], "trim": "Drop YAML frontmatter; hanging-indent reference style. Every entry was web-verified during the investigation; arXiv identifiers retained." },
+    { "id": "about", "title": "About This Book", "source": "book/backmatter/about-this-book.md" },
+    {
+      "id": "publication-history",
+      "title": "Publication History",
+      "sources": ["CHANGELOG.md"],
+      "trim": "Condense: one dated entry per iteration (1-6) summarizing scope and verdict status, plus the capstone entry. Per-page micro-edits dropped; full log remains in the repository (CHANGELOG.md)."
+    }
+  ]
+}

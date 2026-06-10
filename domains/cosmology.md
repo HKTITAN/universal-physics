@@ -1,3 +1,10 @@
+---
+title: Cosmology
+type: domain
+tags: [domain, cosmology]
+updated: 2026-06-08
+---
+
 # Cosmology
 
 Status: Mature concordance model (ΛCDM) with several live empirical tensions and deep open foundational problems.

@@ -1,3 +1,10 @@
+---
+title: Thermodynamics
+type: domain
+tags: [domain, thermodynamics]
+updated: 2026-06-08
+---
+
 # Thermodynamics
 
 Status: Stable core; active frontier at the gravity/information/nonequilibrium interfaces.

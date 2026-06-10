@@ -1,3 +1,10 @@
+---
+title: "Unifying Principles: Candidate Deep Foundations of Physics"
+type: reference
+tags: [reference, principles, foundations]
+updated: 2026-06-08
+---
+
 # Unifying Principles: Candidate Deep Foundations of Physics
 
 Status: Living survey — actively curated; rankings provisional and contested.

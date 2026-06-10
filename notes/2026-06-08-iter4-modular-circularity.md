@@ -1,3 +1,10 @@
+---
+title: "Break the Bisognano–Wichmann/CHM circularity: geometry from non-symmetric modular flow? (OP-46)"
+type: note
+tags: [note, iter4, modular-flow, emergent-geometry]
+updated: 2026-06-08
+---
+
 # Break the Bisognano–Wichmann/CHM circularity: geometry from non-symmetric modular flow? (OP-46)
 
 Status: ATTEMPT executed — the deepest reorganization-vs-generation test (OP-46 clause (iii)) is carried out and the obstruction is SHARPENED, per-route, from "no surveyed construction satisfies it" (iteration 3) to a conditional near-no-go: under the standard stress-tensor-flux readout, clause (iii) is unsatisfiable-by-construction. Net: PROMOTED toward a no-go for clause (iii), short of a full theorem; the single live escape (a non-CKV readout on a non-symmetric state) is precisely located.

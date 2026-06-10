@@ -1,3 +1,10 @@
+---
+title: "Amplitudes and Positive Geometry 2023–2026: Surfaceology, Cosmohedra, Hidden Zeros, and the Gravity Bound"
+type: note
+tags: [note, iter6, amplitudes, positive-geometry]
+updated: 2026-06-10
+---
+
 # Amplitudes and Positive Geometry 2023–2026: Surfaceology, Cosmohedra, Hidden Zeros, and the Gravity Bound
 
 **Status:** Iteration-6 research note (track R3) — web-verified literature delta against [H5](../HYPOTHESES.md#h5), [UNIFICATION_LANDSCAPE §9](../UNIFICATION_LANDSCAPE.md), and [FINDINGS §4](../FINDINGS.md). All arXiv IDs below were verified against abstract pages on 2026-06-10.

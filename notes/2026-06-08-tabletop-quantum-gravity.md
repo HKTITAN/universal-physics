@@ -1,3 +1,10 @@
+---
+title: "Would gravitationally-induced entanglement prove the gravitational field is quantum?"
+type: note
+tags: [note, iter2, quantum-gravity, bmv-experiment]
+updated: 2026-06-08
+---
+
 # Would gravitationally-induced entanglement prove the gravitational field is quantum?
 
 Status: Active investigation — logical scope clarified, experiment far from reach, key loopholes [CONTESTED] and live as of mid-2026
