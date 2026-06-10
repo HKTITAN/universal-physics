@@ -102,6 +102,25 @@ Primary support for [domains/quantum-mechanics.md](domains/quantum-mechanics.md)
 - From R3 (search-snippet JHEP issue/page refs, five): including the colored-Yukawa loop-integrated paper arXiv:2406.04411 [JHEP ref unverified]; enter all five flagged R3 journal refs as arXiv-ID-only with `[unverified]` journal fields. Attribution fix: the gravituhedron paper arXiv:2012.15780 is single-author **Trnka**.
 - Other riders: Nimmrichter et al. arXiv:2502.13821 "accepted PRL [journal ref unverified]"; diamagnetic microchip trap arXiv:2411.02325 [unverified]; Gonzalo–Montero–Obied–Vafa arXiv:2209.09249 [unverified]; PRD 111, 026014 (2025) Barrett–Crane author list [unverified]; the "~10⁻¹³ d displacement" figure attributed to 2604.16276 [unverified — not in its abstract]. Bibliographic fixes carried from referees: Sharmila et al. is *Nat. Commun.* **17**, 701 (2026); Bub et al. arXiv:2408.11094 is published as *PRL* **134**, 121501 (2025).
 
+### Iteration-7 verified additions (2026-06-10)
+
+*All references below were re-verified live by the iteration-7 referees (arXiv/journal pages fetched; verbatim quotes checked against primary PDFs where load-bearing). No `[unverified]` riders were introduced by this iteration.*
+
+**Modular theory ↔ Krein structures (A1, the verdict-flipper track):**
+- **H. Gottschalk**, "Die Momente gefalteter Gauß-Maße und ihre Anwendung in der Quantenfeldtheorie" / related Krein-space QFT work, *J. Math. Phys.* **43**, 4753 (2002). [ESTABLISHED] — Prior art running **Krein → modular**: modular structure built atop a posited indefinite-metric space; the reverse direction (modular → Krein) is absent from the literature (the A1 direction-map finding).
+- **L. Jakóbczyk**, on Tomita–Takesaki theory in indefinite-metric (Krein-space) QFT, 1985 (OSTI 5135323). [ESTABLISHED] — Same direction: Krein structure assumed, modular objects derived.
+- **A. Devastato, S. Farnsworth, F. Lizzi, P. Martinetti**, "Lorentz signature and twisted spectral triples," *JHEP* **03** (2018) 089 (arXiv:1710.04965). [ESTABLISHED] — The twisted-spectral-triple route: the Krein/η datum installed via the twist (author list corrected by the iteration-7 referee from a truncated form).
+
+**Crossed products / constraints (A2):**
+- **J. Kirklin**, all-orders generalized second law, arXiv:2412.01903; *JHEP* **07** (2025) 192. [ESTABLISHED] — The nearest existing discharge machinery for higher-order constraint imposition; does not execute the dS closed-slice cubic step.
+- **S. Ali Ahmad, R. Jefferson** (AAJ), perturbative crossed products beyond subleading order, arXiv:2501.01487. [ESTABLISHED] — First controlled step past leading order (carried from iteration 6; re-anchored here for the A2 descent argument).
+
+**Closed-universe / OP-50 watch (A4):**
+- **D. Harlow, M. Usatyuk, Y. Zhao**, *JHEP* **02** (2026) 108 (arXiv:2501.02359). [CONTESTED premise] — Now journal-published; upgrades the iteration-6 `[unverified]` JHEP flag for this entry.
+- **K. Higginbotham**, observer complementarity, *JHEP* **03** (2026) 183 (arXiv:2512.17993). [CONTESTED] — Now journal-published; upgrades the iteration-6 `[unverified]` flag.
+- **Y. Nomura, T. Ugajin**, partial-observability follow-up, arXiv:2602.13387. [ESTABLISHED as claims]
+- **Miyata–Horikoshi–Tajima–Ugajin**, arXiv:2606.04575. [ESTABLISHED as the paper's construction] — The third OP-50 position: a pre-gauge-constraint hyperfinite II₁ dominant sector with a post-constraint polynomial-dimension physical Hilbert space (scope per the iteration-7 referee).
+
 ### Interpretation, measurement, and dynamical-collapse models (mostly [CONTESTED] / [SPECULATIVE])
 
 - **H. Everett III**, "Relative state formulation of quantum mechanics," *Rev. Mod. Phys.* **29**, 454 (1957). [CONTESTED] — The no-collapse (relative-state / many-worlds) interpretation retaining only unitary evolution.
