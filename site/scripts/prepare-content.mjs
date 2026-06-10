@@ -13,10 +13,17 @@ const repoRoot = resolve(siteRoot, "..");
 const dest = join(siteRoot, "content");
 
 if (!existsSync(join(repoRoot, "CONCLUSION.md"))) {
+  // CLI deploys upload only site/ — the wiki sources aren't present remotely.
+  // If a pre-generated content/ snapshot was uploaded with the deployment, use it.
+  if (existsSync(join(dest, "CONCLUSION.md"))) {
+    console.log("prepare-content: wiki sources not found; using the bundled content/ snapshot.");
+    process.exit(0);
+  }
   console.error(
     "prepare-content: could not find the wiki at " +
       repoRoot +
-      " (expected CONCLUSION.md). Is the site checked out inside the universal-physics repo?"
+      " (expected CONCLUSION.md) and no content/ snapshot exists. " +
+      "Either check the site out inside the universal-physics repo, or set the Vercel project Root Directory to `site` on a full-repo (git) deployment."
   );
   process.exit(1);
 }

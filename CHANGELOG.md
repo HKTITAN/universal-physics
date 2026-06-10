@@ -10,6 +10,16 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-06-10 — Publishing pipeline (no physics content changed)
+
+**Scope:** Infrastructure/presentation only — zero research claims altered; all page bodies byte-identical except where noted.
+- **Vault formatting** (per the Karpathy llm-wiki pattern): YAML frontmatter (`title`/`type`/`tags`/`updated`) prepended to all 63 pages; [index.md](index.md) content catalog and [log.md](log.md) operations index created; graph-view color groups + physics tuned in `.obsidian/graph.json`; `MAP.canvas` overview map; vault conventions documented in [AGENTS.md](AGENTS.md) §2 (and the named-ID convention blessed in §3).
+- **Website** (`site/`): Next.js technical-reference-manual edition of the wiki (72 static pages, six SVG figure plates, numbered 17-chapter structure, `/contribute` + `/about`), deployed at universal-physics.khe.money / universal-physics.vercel.app. Design inspired by Dan Hollick's *Making Software*; reviewed against the design-engineering checklist.
+- **Book** (`book/` → `universal-physics-book.pdf`): *Universal Physics — A Map of Why a Final Theory Is Open — and What Would Close It*, first edition June 2026 — 6×9in, ~620 pp, 29 chapters in 6 parts, new preface + part openers (the only newly-written prose; editorial, claim-free), Paged.js typeset with running heads and a paged TOC. **Supersedes and replaces** the old `universal-physics-wiki.pdf` flat compilation (removed; preserved in git history).
+- **Repo:** published publicly at github.com/HKTITAN/universal-physics; LICENSE.md (CC BY-SA 4.0 content + MIT code), CONTRIBUTING.md (the verification protocol as the contribution bar; open levers listed); contributions invited.
+
+---
+
 ## 2026-06-10 — Iteration 6: new-input iteration (verdict unchanged 5th consecutive time; hedges restructured)
 
 **Scope:** First post-saturation iteration — deliberate injection of new 2023–2026 input rather than further reasoning. 22 agents; 10 adversarially-refereed tracks (6 research: closed-universe/dS holography, algebraic frontier, amplitudes/positive geometry, background-independent programs, QG phenomenology, experiment refresh; 4 attack: distinguishing-prediction hunt, generation-construction survey, OP-44/OP-48c levers, OP-49 pseudo-entropy reality). ~90 findings, **all kept, zero fatal**. Filed under [notes/](notes/) (iter6-*).
