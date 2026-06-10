@@ -1,0 +1,8 @@
+﻿node_modules/
+.next/
+.vercel/
+out/
+.obsidian/workspace.json
+*.log
+.DS_Store
+book/dist/
