@@ -10,6 +10,19 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-06-10 — Citation-precision lint: the iteration-8 X1 singular-product-state theorem (no physics changed)
+
+**Scope:** Four scholarly citation-precision corrections to the OP-48(c) X1-existence theorem (the iteration-8 A4 result), applied across [CONCLUSION.md](CONCLUSION.md) §5 item 4, [OPEN_PROBLEMS.md](OPEN_PROBLEMS.md) OP-48 iteration-8 note, [notes/2026-06-10-iter8-op48c-X1-singular-states.md](notes/2026-06-10-iter8-op48c-X1-singular-states.md) (body), and [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md). These were flagged in the iteration-8 referee verdict (items 1–3 + the product-sense gloss) and are now propagated into the page bodies and canonical entries. **No claim, tag, or verdict changed** — the X1-existence theorem and its "costed framework exit" reading stand exactly; only attributions are sharpened.
+
+- **Non-normality obstruction = Takesaki 1958 (Tôhoku Math. J. **10**, 116–119), via Rédei–Summers Prop. 2 — NOT Florig–Summers 1997.** The submission's headline/F1 jointly credited "Takesaki/Florig–Summers"; the joint attribution is dropped. Florig–Summers (J. Math. Phys. **38**, 1318–1328, 1997) is the separate C\*-side *faithful*-product-state ⟺ product-sense characterization (Rédei–Summers Prop. 4 = ref [14]), now cited as such with its own BIBLIOGRAPHY entry.
+- **Step 1 (factor ⟹ Schlieder) = the central-carrier fact (Kadison–Ringrose: every nonzero projection in a factor has central carrier $I$) — NOT Halvorson Def 3.4**, which is merely the *definition* of the Schlieder property. The proof, not a definition, is now cited; a Kadison–Ringrose BIBLIOGRAPHY entry was added. (Halvorson's implication box remains correctly cited for the *Schlieder ⟺ C\*-independence* step.)
+- **"Normal states are weak-* dense in the state space of $B(\mathcal H)$" (X1-COST) is the basic vector-state density fact — NOT Fell's theorem** (which is the quasi-equivalence/same-kernel/folium density result). The Fell attribution is corrected/dropped in the note body and references.
+- **Product-sense over-generalization removed.** The note no longer claims $\mathcal M\vee_{C^*}\mathcal M'\cong\mathcal M\otimes_{\min}\mathcal M'$ ("C\*-independence in the product sense") holds for *every* III₁ factor — Rédei–Summers Prop. 1 denies the general implication (plain ⇏ product-sense). X1-existence needs only **plain C\*-independence + the Roos post-Def-1 sentence**; the min-norm-domination / product-sense route is not load-bearing and is stated as such.
+
+*(The derived book PDF and the website will reflect these on the next rebuild — batched with the iteration-9 integration; the repo markdown, the source of truth, is corrected now.)*
+
+---
+
 ## 2026-06-10 — Iteration 8: the net/family carrier no-go (verdict unchanged 7th consecutive time; principal hedge hardened toward HIGH on a narrowed condition)
 
 **Scope:** Lever-execution iteration — the standing analytical levers re-attacked from the structurally-richer net/family angle the single-algebra levers had not covered. 4 adversarially-refereed attack tracks (A1: does the net upgrade — relative modular operators, $\{J_O\}$, HSMI, modular intersection, modular-Berry over a net — evade the iteration-7 carrier no-go; A2: OP-44's R1/R2 residues pushed to theorem-shape; A3: the OP-49 cap-blindness / junction-additivity mechanism; A4: the OP-48c X1 singular-product-state exit). Referee corrections and outcome checks **binding over original claims** — one submitted outcome label was overturned (A3). Every load-bearing citation re-verified live; verbatim quotes checked against primary PDFs; key mathematics independently re-derived and numerics independently replicated. Filed under [notes/](notes/) (iter8-*).
