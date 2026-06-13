@@ -256,7 +256,7 @@
       "chapters": [
         {
           "number": 21,
-          "title": "Findings: The Running Synthesis (Iterations 1–7)",
+          "title": "Findings: The Running Synthesis (Iterations 1–8)",
           "sources": [
             "FINDINGS.md"
           ],
@@ -309,6 +309,14 @@
             "notes/2026-06-10-iter7-synthesis.md"
           ],
           "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
+        },
+        {
+          "number": 28,
+          "title": "Iteration 8 Synthesis: The Net/Family Carrier No-Go",
+          "sources": [
+            "notes/2026-06-10-iter8-synthesis.md"
+          ],
+          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
         }
       ]
     },
@@ -318,7 +326,7 @@
       "opener": "book/frontmatter/part-openers/part-6.md",
       "chapters": [
         {
-          "number": 28,
+          "number": 29,
           "title": "Conclusion: The Converged Verdict",
           "sources": [
             "CONCLUSION.md"
@@ -326,7 +334,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
         },
         {
-          "number": 29,
+          "number": 30,
           "title": "The Experiment Watchlist",
           "sources": [
             "EXPERIMENT_WATCHLIST.md"
@@ -334,7 +342,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
         },
         {
-          "number": 30,
+          "number": 31,
           "title": "Roadmap: What Comes Next",
           "sources": [
             "ROADMAP.md"

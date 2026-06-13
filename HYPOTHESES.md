@@ -361,6 +361,17 @@ When a future direction is judged genuinely unsound or vacuous, record it here w
 
 ---
 
+## Iteration 8 refinements (2026-06-10) — the net/family levers
+
+*From the net/family lever-execution iteration (see [notes/](notes/) iter8-\*). No headline movement (7th consecutive); the principal hedge hardens toward HIGH on a narrowed condition.*
+
+- **HYP-CKV-VACUITY-R5 — the carrier no-go upgrades from single-algebra to net/family.** `[INFERENCE — HIGH classification; conditional on the net-constructibility ansatz]` Iteration 7's single-algebra trichotomy left one structurally-richer input uncovered: net-modular data (relative modular operators, $\{J_O\}$, HSMI, modular intersection, modular-Berry over a net). Iteration 8 closes it via the **same boost-covariance engine**: a local indefinite multiplication form has a sign locus the modular flow $p\mapsto e^{-2\pi t}p$ boosts away, so local ⟹ non-covariant ⟹ non-canonical; every modular-covariant net-data form is positive-and-local, signature-free, or indefinite-but-non-local — never both indefinite and localized. Localization enters only through the net's index set, which **is** the geometry (BGL; Morinelli–Neeb–Ólafsson Euler element as input; Lashkari–Leung–Moosa–Ouseph JHEP 10 (2025) 153). **Hedge: MEDIUM-HIGH → toward HIGH, conditional now on a net-constructibility ansatz** (narrower than the single-algebra ansatz), with two named obligations outstanding (naturality theorem; modular-Berry-holonomy escape). [→ [notes](notes/2026-06-10-iter8-net-carrier-no-go.md)]
+- **HYP-FACTORIZATION-IS-GEOMETRY — restated; the carrier-convergence count STAYS at five.** `[INFERENCE]` The net/family no-go is the **net-level extension of route (5)'s boost-covariance engine**, not a sixth independent route (binding referee correction to the finder's "sixth convergence"). The carrier problem — derive an algebra-compatible, *localized* (fiberwise) $(n,n)$ pairing from modular data — remains the single compressed analytical reopening target, now with the net upgrade and its net-index-set smuggle folded into route (5). Five routes converge there.
+- **HYP-ENCODING-SCREEN — inherits the hardened grade.** `[INFERENCE]` The §7 no-test corollary inherits the OP-46 hardening: **MEDIUM-HIGH → toward HIGH, conditional on the net-constructibility ansatz** (same condition). No new hedge; no experimental channel emerged.
+- **OP-48c horn-C / the normal-state postulate — X1 is now a theorem-with-a-price-tag.** `[INFERENCE, high]` Singular product states across the III₁ Haag-dual pair provably exist (Schlieder ⟹ C\*-independence ⟹ Roos ⟹ Hahn–Banach; non-normal by Takesaki), no reconstruction axiom *fails* on them (they are upstream of every axiom's $\sigma$-additive state space), and admitting them relinquishes density-matrix states + $\sigma$-additivity + finite tomographic dimension jointly — so the normal-state postulate is a load-bearing, non-derivable installation choice. Horn C stays theorem-conditional-on-framework; encodes-not-generates recurs at the state-postulate layer, now theorem-grade. [→ [notes](notes/2026-06-10-iter8-op48c-X1-singular-states.md)]
+
+---
+
 ## See also
 
 - [GAPS_AND_CONTRADICTIONS.md](GAPS_AND_CONTRADICTIONS.md) — the contradictions these directions target

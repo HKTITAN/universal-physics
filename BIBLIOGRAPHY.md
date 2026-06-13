@@ -153,6 +153,29 @@ Primary support for [domains/quantum-mechanics.md](domains/quantum-mechanics.md)
 - Schützhold PRL (2025) volume/page (APS Physics + HZDR coverage confirm the result; the exact PRL coordinate is not pinned this session).
 - Delhom–Giacomelli analog-gravity lecture notes arXiv:2512.14209 and the Steinhauer-line analog-Hawking PRL **126**, 111301 (2021) — cited in the analog-gravity dead-by-construction note; loose but immaterial (the verdict does not depend on either resolving precisely).
 
+### Iteration-8 verified additions (2026-06-10)
+
+*All re-verified live by the iteration-8 referees (arXiv/journal pages fetched; load-bearing quotes checked against primary PDFs). No `[unverified]` riders introduced.*
+
+**Net/family carrier no-go (A1):**
+- **Y. Lashkari (M. Lashkari), C. Leung, M. Moosa, A. Ouseph** (as listed), "...local representation of the boundary algebras / AdS$_2$ emergence," *JHEP* **10** (2025) 153; arXiv (verified). [ESTABLISHED] — Verbatim: *"AdS$_2$ emerges from insisting on a local representation of the boundary algebras that satisfy Haag's duality"* — localization is an imposed input, the load-bearing "net-index-set IS the geometry" datum.
+- **V. Morinelli, K.-H. Neeb, G. Ólafsson**, Euler-element / Bisognano–Wichmann for standard-subspace nets. [ESTABLISHED] — The Euler element (wedge localization) is an *input*, not derived from modular data.
+- (Borchers–Buchholz–Longo positivity⟺isotony, and the chiral standard-pair machinery, already on record.)
+
+**OP-44 R1/R2 (A2):**
+- **P. Hintz**, "...solvability / linearization," arXiv:2306.07715. [ESTABLISHED] — Thm 1.1 solvability for smooth, divergence-free, spatially-compact sources; Remark 1.2 extends the *linear* theorem to $\Lambda>0$ "with purely notational modifications" (verbatim, verified).
+- **A. Pound**, second-order self-force / puncture regularization, arXiv:1506.06245. [ESTABLISHED] — $\delta^2 G[h_1,h_1]\sim 1/r^4$ non-integrable; no solution to the fully nonlinear point-particle-sourced equation; the puncture/effective-source scheme.
+- (KLS-II, arXiv:2601.07910, already on record — edge modes "address only second-order perturbations.")
+
+**OP-49 junction (A3):**
+- **C. Bachas, I. Brunner, D. Roggenkamp**, conformal-interface transmissivity (transmissive-defect criterion $T^1=T^2$). [ESTABLISHED]
+- **J. Fuchs, M. R. Gaberdiel, I. Runkel, C. Schweigert**, arXiv:0705.3129. [ESTABLISHED] — Topological-defect / orientation-reversal machinery (corrects a prior "Bachas et al." attribution of this ID).
+- **A. Karch, Y. Kusuki, H. Ooguri, H.-Y. Sun, M. Wang**, interface effective central charge / transmission-dependent log coefficient (SSA, $c$-theorem, positive $c$ assumed — hence inapplicable at imaginary $c$). [ESTABLISHED, unitary regime]
+
+**OP-48c X1 (A4):**
+- **M. Takesaki** (1958), normal-product-state W\*-characterization (via Rédei–Summers). [ESTABLISHED] — The obstruction that forces singular product states on a III₁ pair to be non-normal.
+- **H. Roos** (1970, via Rédei–Summers), product-state extension across C\*-independent algebras; **H. Halvorson**, C\*-independence ⟸ Schlieder. [ESTABLISHED]
+
 ### Interpretation, measurement, and dynamical-collapse models (mostly [CONTESTED] / [SPECULATIVE])
 
 - **H. Everett III**, "Relative state formulation of quantum mechanics," *Rev. Mod. Phys.* **29**, 454 (1957). [CONTESTED] — The no-collapse (relative-state / many-worlds) interpretation retaining only unitary evolution.
