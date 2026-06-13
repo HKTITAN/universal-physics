@@ -256,7 +256,7 @@
       "chapters": [
         {
           "number": 21,
-          "title": "Findings: The Running Synthesis (Iterations 1–8)",
+          "title": "Findings: The Running Synthesis (Iterations 1–9)",
           "sources": [
             "FINDINGS.md"
           ],
@@ -317,6 +317,14 @@
             "notes/2026-06-10-iter8-synthesis.md"
           ],
           "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
+        },
+        {
+          "number": 29,
+          "title": "Iteration 9 Synthesis: The Carrier No-Go Naturality Content; Reverse-WW = the Carrier Problem",
+          "sources": [
+            "notes/2026-06-10-iter9-synthesis.md"
+          ],
+          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
         }
       ]
     },
@@ -326,7 +334,7 @@
       "opener": "book/frontmatter/part-openers/part-6.md",
       "chapters": [
         {
-          "number": 29,
+          "number": 30,
           "title": "Conclusion: The Converged Verdict",
           "sources": [
             "CONCLUSION.md"
@@ -334,7 +342,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
         },
         {
-          "number": 30,
+          "number": 31,
           "title": "The Experiment Watchlist",
           "sources": [
             "EXPERIMENT_WATCHLIST.md"
@@ -342,7 +350,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
         },
         {
-          "number": 31,
+          "number": 32,
           "title": "Roadmap: What Comes Next",
           "sources": [
             "ROADMAP.md"

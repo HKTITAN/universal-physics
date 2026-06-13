@@ -179,6 +179,21 @@ Primary support for [domains/quantum-mechanics.md](domains/quantum-mechanics.md)
 - **M. Rédei, S. J. Summers**, *When are quantum systems operationally independent?*, arXiv:0810.5294 (2009). [ESTABLISHED] — Assembles the Roos / Takesaki / Florig–Summers independence results (Props 1/2/4); the primary carrier for the X1 existence theorem. **H. Halvorson** (math-ph/0602036) supplies the Schlieder ⟺ C\*-independence implication box (Def 3.4 is the *definition* of Schlieder, not the proof of Step 1).
 - The **central-carrier fact** — every nonzero projection in a factor has central carrier $I$ — is **Kadison–Ringrose**, *Fundamentals of the Theory of Operator Algebras* (1983/1986); it (not Halvorson Def 3.4) is the proof of Step 1, factor ⟹ Schlieder.
 
+### Iteration-9 verified additions (2026-06-10)
+
+*Referee-audited live this session; no `[unverified]` riders introduced.*
+
+**Carrier naturality + reverse-WW (A1, A3):**
+- **Z. Weiner**, "An algebraic version of Haag's theorem," arXiv:1006.4726. [ESTABLISHED] — Under the split property + geometric modular action, the unitary-equivalence class of the vacuum-sector net of double-cone algebras on a fixed Cauchy surface **completely determines the AQFT model**: the load-bearing "net + vacuum is a complete invariant" theorem behind the reverse-WW ⟺ carrier-problem identification.
+- **D. Buchholz, O. Dreyer, M. Florig, S. J. Summers**, "Geometric modular action and spacetime symmetry groups," arXiv:math-ph/9805026. [ESTABLISHED] — GMA: the geometry is a functor of the modular data (the constructibility-naturality input; "Buchholz–Summers" is incomplete shorthand for this four-author paper).
+- **S. J. Summers, R. White**, arXiv:hep-th/0304179. [ESTABLISHED] — GMA reconstruction of the spacetime symmetry group from modular data.
+- **D. Bisch**, arXiv:math/0304340. [ESTABLISHED] — Subfactor / planar-algebra standard-invariant reference (attribution corrected: **Bisch, not Jones**).
+- **K.-H. Neeb, G. Ólafsson**, arXiv:1704.01336. [ESTABLISHED] — Antiunitary representations / Euler element as the localization datum (the "fiber bundles over ordered symmetric spaces" reading: geometry in the base, no signature in the fibers).
+- arXiv:2312.12182 — partial-converse Euler-element generation (Euler element *derived* from net + Bisognano–Wichmann + regularity, which already encode the causal/Lie structure). [ESTABLISHED]
+
+**Modular-Berry holonomy (A2):**
+- **B. Czech et al.**, arXiv:2305.16384 (modular Berry curvature ↔ bulk symplectic form); **W.-z. Huang, M.-z. Ma**, arXiv:2110.08703 (kinematic space from the modular geometric tensor — the Lorentzian dS$_2$ metric, vacuum-inherited); supporting: arXiv:1812.02176, arXiv:2505.04682, arXiv:2111.05345. [ESTABLISHED] — Establish the modular-Berry curvature as the signature-free symplectic Crofton form and the kinematic-space metric's signature as symmetry-inherited.
+
 ### Interpretation, measurement, and dynamical-collapse models (mostly [CONTESTED] / [SPECULATIVE])
 
 - **H. Everett III**, "Relative state formulation of quantum mechanics," *Rev. Mod. Phys.* **29**, 454 (1957). [CONTESTED] — The no-collapse (relative-state / many-worlds) interpretation retaining only unitary evolution.
