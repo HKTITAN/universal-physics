@@ -256,7 +256,7 @@
       "chapters": [
         {
           "number": 21,
-          "title": "Findings: The Running Synthesis (Iterations 1–9)",
+          "title": "Findings: The Running Synthesis (Iterations 1–10)",
           "sources": [
             "FINDINGS.md"
           ],
@@ -325,6 +325,14 @@
             "notes/2026-06-10-iter9-synthesis.md"
           ],
           "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
+        },
+        {
+          "number": 30,
+          "title": "Iteration 10 Synthesis: The Commutant-to-Generated Gap, Attacked From Both Sides",
+          "sources": [
+            "notes/2026-06-10-iter10-synthesis.md"
+          ],
+          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
         }
       ]
     },
@@ -334,7 +342,7 @@
       "opener": "book/frontmatter/part-openers/part-6.md",
       "chapters": [
         {
-          "number": 30,
+          "number": 31,
           "title": "Conclusion: The Converged Verdict",
           "sources": [
             "CONCLUSION.md"
@@ -342,7 +350,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
         },
         {
-          "number": 31,
+          "number": 32,
           "title": "The Experiment Watchlist",
           "sources": [
             "EXPERIMENT_WATCHLIST.md"
@@ -350,7 +358,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
         },
         {
-          "number": 32,
+          "number": 33,
           "title": "Roadmap: What Comes Next",
           "sources": [
             "ROADMAP.md"
