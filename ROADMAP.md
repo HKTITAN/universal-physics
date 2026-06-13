@@ -7,10 +7,18 @@ updated: 2026-06-08
 
 # Research Roadmap
 
-**Status:** Post-saturation watch-list mode (revised each iteration).
-**Last updated:** 2026-06-08
+**Status:** Post-saturation, lever-execution mode (revised each iteration).
+**Last updated:** 2026-06-10
 
 > **Update (post-iteration-5):** the analytical program is **saturated** — five iterations converged on a stable PARTIAL / encodes-not-generates / not-yet-physics verdict, and the one designated verdict-flipping lever (OP-46 Lorentzian non-CKV readout) was executed and did not flip. The standing verdict is consolidated in [CONCLUSION.md](CONCLUSION.md). Active effort now shifts from analysis to **lightweight experiment-tracking** ([EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)). The Tier-1/2 analytical items below are retained as a *record of what was attacked and closed*; the only genuinely-open analytical lever is OP-44/OP-CP1 (nonperturbative crossed-product fate, regime boundary $N_\ast$), plus the standing "what would reopen the analysis" trigger in [CONCLUSION.md](CONCLUSION.md) §8.
+
+> **Update (post-iterations-6–7) — saturation held under new input and lever execution.** Iteration 6 injected two years of new external literature (10 refereed tracks); iteration 7 *executed* the four named decidable levers. The verdict is unchanged for the **sixth consecutive iteration**, but the frontier sharpened to a single object. The compressed verdict-flipper has been re-compressed twice: from "derive geometry from algebra" → "derive an indefinite pairing from modular data" (iter 6) → **executed and found geometry-void** (iter 7: $\eta_0=\mathrm{sgn}(\ln\Delta)$ exists, smuggle-free, but is unitarily universal / algebra-incompatible / non-localizable) → the now-current target: **derive an algebra-compatible, *localized* (n,n) pairing from modular data — the carrier problem ([HYPOTHESES.md](HYPOTHESES.md) HYP-FACTORIZATION-IS-GEOMETRY), where five independent closure routes converge.** The OP-46 hedge hardened MEDIUM → MEDIUM-HIGH. Iteration 8 (in flight) attacks the carrier problem via net/relative modular data plus three named residues (OP-44 R1/R2; OP-49 junction additivity (c′); OP-48c exit X1).
+>
+> **The current live agenda, by leverage:**
+> 1. **The carrier problem** (HYP-FACTORIZATION-IS-GEOMETRY) — the single analytical development that would flip "encodes" to "generates". Attacked in iteration 8; if it survives there, the next inputs are net-cohomological / modular-Berry-curvature constructions and any 2024–2026 result deriving *localization* (not just a pairing) from modular data.
+> 2. **The distinguishing-test sweep** — the *binding* blocker per [CONCLUSION.md](CONCLUSION.md) §7 is not the algebra but the absence of any experiment that separates the wager from a geometry-first description (HYP-ENCODING-SCREEN). A standing iteration should sweep the live experimental literature for a candidate distinguishing test, refereed against the screen (write the chain wager → observable, mark each link). *Seeded lead (held, unrefereed):* Sharmila–Vermeulen–Datta, "Signatures of correlation of spacetime fluctuations in laser interferometers," *Nat. Commun.* 2025, arXiv:2505.22892 — a mechanism-agnostic, correlator-based fluctuation classification; expected to *reinforce* §7 (a correlator cannot separate fundamental from emergent metric) rather than threaten it.
+> 3. **The named residues** — OP-44 R1 (distributional clock sources vs FMM/AMM linearization stability) and R2 (κ³ cubic-charge horizon non-splittability); OP-49 (c′) junction additivity; OP-48c X1/X2 framework exits. Each is decidable by a stated computation.
+> 4. **Empirical anchors** ([EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)) — the 2027 DESI 5-yr $w(z)$ verdict (nearest dated event), GQuEST results, the CQ-gravity squeeze. None tests the wager; all test its gate/cores/target.
 
 What to work on next, and why. Items are framed as *questions to resolve* or *artifacts to produce*, prioritized by leverage — how much a credible answer would move the central question of whether a universal theory is possible. Cross-references point to where the work lands.
 
