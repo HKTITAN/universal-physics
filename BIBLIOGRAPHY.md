@@ -202,6 +202,25 @@ Primary support for [domains/quantum-mechanics.md](domains/quantum-mechanics.md)
 - **Houdayer, C.** — bicentralizer triviality for type III₁ factors. arXiv:0809.3827. — Cited as a *corroborating* (not biconditional) result: proves the *bicentralizer* trivial, distinct from the centralizer-triviality used in A2-F2. Attribution-precision entry to forestall the same over-attribution the iteration-8/9 referees flagged.
 - **Boutonnet, R.; Houdayer, C.** — amenable modular-invariant subalgebras lie in the almost-periodic summand. arXiv:1602.01741. — Cited as *corroborating* the fork in A2-F2 (amenable modular-invariant subalgebras / almost-periodic summand), again explicitly NOT the source of the centralizer biconditional.
 
+### Iteration-11 verified additions (2026-06-10)
+
+**Operator algebras — Connes' bicentralizer problem (the named open problem the hedge re-grounds on):**
+- **Haagerup, U.** — "Connes' bicentralizer problem and uniqueness of the injective factor of type III$_1$." *Acta Math.* **158** (1987) 95–148. — The biconditional linking bicentralizer-triviality to the existence of a state with an irreducible (large) modular centralizer. Cited for the genuine content of the iteration-11 A1 re-grounding (NOT for a reduction of the carrier no-go).
+- **Marrakchi, A.** — "Kadison's similarity problem and the bicentralizer conjecture" (arXiv:2308.15163). — Solves Kadison's problem *only for* type III$_1$ factors that *satisfy* the bicentralizer conjecture; treats the conjecture itself as OPEN. Load-bearing source for "Connes' bicentralizer problem is open in general as of 2026" — the correction to the mission's false HMT-resolved premise.
+- **Marrakchi, A. & Vaes, S.** — *Crelle* (J. reine angew. Math.) **809** (2024) 247. — Theorem A: the modular centralizer $M_\psi=\mathbb C1$ is achievable on *every* type III$_1$ factor, **unconditionally** (does not invoke the bicentralizer conjecture). The fact that breaks the submitted logical-equivalence reduction (killing a carrier needs trivial centralizer, achievable for free; the bicentralizer condition is the opposite).
+- **Ando, H., Haagerup, U., Houdayer, C. & Marrakchi, A.** — "Structure of bicentralizer algebras and inclusions of type III factors." *Math. Ann.* **376** (2020) 1145–1194 (arXiv:1804.05706). — The relative bicentralizer $BC_\varphi(\mathcal N\subset\mathcal M)$ of an inclusion with expectation. Cited only as the *suggestive structural connection* for subregion-localized carriers (tagged SPECULATIVE — not an established reduction).
+
+**Holography of information and its failure mode (A2):**
+- **Geng, H., Jafferis, D. L., Shrivastava, A. & Tata, S.** — "The Fate of Information Localizability and Holography in Quantum Gravity" (arXiv:2512.18912, 21 Dec 2025). — Keystone new datum. Verbatim-verified: *"holography cannot be proven at the perturbative level in Newton's constant $G_N$ via the non-localizability of information,"* via *"the emergence of a perturbatively localized observer."* The failure mechanism is re-localization via dressing to a nontrivial background / emergent observer-clock — co-locating holographic completeness with the carrier gap.
+- **Laddha, A., Prabhu, S., Raju, S. & Shrivastava, P.** — holography of information at null infinity (arXiv:2002.02448). — Massless information localized in an infinitesimal neighbourhood of the past boundary of future null infinity. (Self-correction from the digest: fourth author is Shrivastava, not "Sasmal.")
+- **Raju, S.** — holography of information in AdS / Wheeler–DeWitt (arXiv:2107.14802). — Two states agreeing at the boundary for an infinitesimal time agree everywhere in the bulk (perturbative in $G_N$).
+- **Chakraborty et al. / de Sitter holography of information** (arXiv:2303.16316). — Cosmological correlators in an arbitrarily small region completely specify the state. (Cited for the de Sitter instance of the conditional state-completeness result.)
+
+**Operational / Tsirelson (A2):**
+- **Ji, Z., Natarajan, A., Vidick, T., Wright, J. & Yuen, H.** — "MIP*=RE" (arXiv:2001.04383). — $C_{qa}\subsetneq C_{qc}$ (negative answer to Tsirelson's problem; Connes embedding refuted). Cited for: operational correlation data does not pin down the operator algebra — but the underdetermination is in the split/tensor (Type-I) structure (the OP-48 collar), NOT in net-completeness.
+
+*(T-duality/mirror symmetry in A2-F3 rests on standard textbook/established results — exact CFT isomorphism between geometrically distinct targets — and on the nLab "no complete construction of these SCFTs" status note for the full mirror-SCFT-isomorphism caveat; no new primary arXiv citation is load-bearing there, so none is added beyond the inline note.)*
+
 ### Interpretation, measurement, and dynamical-collapse models (mostly [CONTESTED] / [SPECULATIVE])
 
 - **H. Everett III**, "Relative state formulation of quantum mechanics," *Rev. Mod. Phys.* **29**, 454 (1957). [CONTESTED] — The no-collapse (relative-state / many-worlds) interpretation retaining only unitary evolution.

@@ -256,7 +256,7 @@
       "chapters": [
         {
           "number": 21,
-          "title": "Findings: The Running Synthesis (Iterations 1–10)",
+          "title": "Findings: The Running Synthesis (Iterations 1–11)",
           "sources": [
             "FINDINGS.md"
           ],
@@ -333,6 +333,14 @@
             "notes/2026-06-10-iter10-synthesis.md"
           ],
           "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
+        },
+        {
+          "number": 31,
+          "title": "Iteration 11 Synthesis: The Hedge Re-Grounded on a Named Open Problem; Terminal Saturation",
+          "sources": [
+            "notes/2026-06-10-iter11-synthesis.md"
+          ],
+          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
         }
       ]
     },
@@ -342,7 +350,7 @@
       "opener": "book/frontmatter/part-openers/part-6.md",
       "chapters": [
         {
-          "number": 31,
+          "number": 32,
           "title": "Conclusion: The Converged Verdict",
           "sources": [
             "CONCLUSION.md"
@@ -350,7 +358,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
         },
         {
-          "number": 32,
+          "number": 33,
           "title": "The Experiment Watchlist",
           "sources": [
             "EXPERIMENT_WATCHLIST.md"
@@ -358,7 +366,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
         },
         {
-          "number": 33,
+          "number": 34,
           "title": "Roadmap: What Comes Next",
           "sources": [
             "ROADMAP.md"
