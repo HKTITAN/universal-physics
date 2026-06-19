@@ -665,6 +665,27 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-06-19-iter12-indefinite-metric-carrier-closed.md",
         group: "Iteration 12 — 2026-06-19 · the last levers close; terminal saturation re-confirmed",
       },
+      {
+        num: "13.63",
+        slug: "2026-06-19-iter13-C1-unique-gate-audit",
+        title: "Is the Carrier Problem the Unique Gate? (Bottleneck-Completeness)",
+        file: "notes/2026-06-19-iter13-C1-unique-gate-audit.md",
+        group: "Iteration 13 — 2026-06-19 · the frame audited from outside; how close are we",
+      },
+      {
+        num: "13.64",
+        slug: "2026-06-19-iter13-C2-cross-program-triangulation",
+        title: "Cross-Program Triangulation (One Invariant, It Discriminates Nothing)",
+        file: "notes/2026-06-19-iter13-C2-cross-program-triangulation.md",
+        group: "Iteration 13 — 2026-06-19 · the frame audited from outside; how close are we",
+      },
+      {
+        num: "13.65",
+        slug: "2026-06-19-iter13-C3-how-close-calibration",
+        title: "How Close Are We? — The Calibrated Answer",
+        file: "notes/2026-06-19-iter13-C3-how-close-calibration.md",
+        group: "Iteration 13 — 2026-06-19 · the frame audited from outside; how close are we",
+      },
     ],
   },
   {

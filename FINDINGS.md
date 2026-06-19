@@ -2,13 +2,13 @@
 title: Findings — Cumulative Synthesis
 type: synthesis
 tags: [synthesis, executive-summary, unification]
-updated: 2026-06-10
+updated: 2026-06-19
 ---
 
 # Findings — Cumulative Synthesis
 
-**Status:** Living synthesis — iteration 1. Read this first; it is the executive summary of the whole wiki.
-**Last updated:** 2026-06-10
+**Status:** Living synthesis — current through iteration 13. Read this first; it is the executive summary of the whole wiki.
+**Last updated:** 2026-06-19
 
 This page distills the current state of the investigation into six questions: *what is solid; where do the frameworks genuinely clash; which deep principles look most fundamental; what candidate unifying directions survive scrutiny; is a universal theory even possible; and what should we work on next.* Every claim is tagged per [EPISTEMICS.md](EPISTEMICS.md). Detail and derivations live on the linked pages; this page is the map, not the territory.
 
@@ -255,6 +255,18 @@ s region order, a base functor that is part of the SOURCE datum — so "localize
 - **B3 (mid-2026 external-input sweep) — CONFIRMS-SATURATION.** [INFERENCE, high] No new decidable verdict-moving lever. The one genuinely-new 2026 carrier-adjacent mathematics — the Morinelli-Neeb-Olafsson Euler-pair geometric-BW / Spin-Statistics theorems (arXiv:2603.26390 Part II / 2508.10960) — is, by verbatim abstract read, a cleaner statement of HYP-ENCODING-SCREEN (symmetry = INPUT; BW / Spin-Statistics derived FROM the Euler element; NO construction of causal/metric structure from non-symmetric data): NOT a carrier, NOT a reverse-WW inversion, **NOT a sixth route — count stays FIVE**. Connes' bicentralizer confirmed OPEN in general (Ando-Goldbring, arXiv:2605.12776). New objective-collapse bounds (VIP/XENONnT: CSL ~2 orders, DP ~5x; primary arXiv:2506.05507, PRL March 2026) tighten the A-3 CORE, not the wager. DESI five-year w(z) verdict still 2027, low-z-SN-calibration-dependent (DR2 dynamical-dark-energy preference reduced to < 2 sigma; Huang-Cai-Wang arXiv:2502.04212), bears on TARGET not wager. "GR from RG" (arXiv:2602.11806) confirmed an evade-not-invert WW instance (it explicitly engages Weinberg-Witten and unfreezes a UV-Dirichlet-fixed installed metric) — discharging the iter-11 minor defect that the WW gloss was "not confirmable."
 
 **Net:** terminal analytical saturation UPHELD as of 2026-06-19. One of iteration 11's three open subquestions retired as a non-load-bearing lever (a sharpening of the saturation diagnosis); external channels still dry. No carrier closes; no reverse-WW witness; the extraordinary-claim gate does not fire.
+
+## Iteration 13 update (2026-06-19)
+
+*A new-angle structural/synthesis meta-audit (3 refereed tracks: C1 unique-gate / bottleneck-completeness; C2 cross-program triangulation; C3 how-close calibration) — explicitly NOT a carrier re-attack (saturated). Net: the audit CONFIRMS the bottleneck map is complete over the tracked set and triangulation yields an ontological leaning but no testable invariant — re-confirming the consolidation. Verdict unchanged for the **12th consecutive iteration**; principal hedge unmoved in grade and condition; carrier-convergence count stays FIVE; no new registry IDs.*
+
+**The bottleneck map is complete over the tracked set** [INFERENCE]. The carrier problem (≡ reverse-Weinberg–Witten ≡ the net-naturality theorem) is the unique *analytical reasoning-decidable* gate to the Program-A *wager*. Every candidate independent obstruction fails the two-part test "simultaneously a wager-gate AND a neglected reasoning-decidable lever": the measurement problem (GC-6), Λ (GC-3), OP-50 closed-universe, BH-information (GC-4/5), and the GC-1..17 clashes are each either downstream of or orthogonal to the wager AND themselves external-gated (collapse experiments / experiment+fine-tuning / community resolution / deeper-QG input). The only wager-touching clashes (GC-1, GC-13, GC-16) obstruct exactly what the carrier problem already encodes [INFERENCE — they are *targeted by*, not *identical to*, the carrier formulation]. This is an absence-over-the-enumerated-set claim, not a theorem of completeness. One scope clarification (already implicit in CONCLUSION §3/§7): the gate is unique *to the wager*, not *to unification* — AdS/CFT is an existence proof for §3A independently of the carrier. One recorded contingency: if the Programs-A/B fusion-refusal (§2) were ever overturned, the measurement problem could become a wager-gate and the audit would need re-running.
+
+**Triangulation yields one shared invariant, and it discriminates nothing** [INFERENCE]. Across the five programs the unique referee-survivable shared structural invariant is the area law S=A/4G — but it is a semiclassical retrodiction every program AND every geometry-first description reproduces, hence screen-PASSING, not class-SEPARATING; it re-confirms the encode screen rather than breaking it. The shared "geometry-is-emergent" leaning is ontological only: it fractures into incompatible substrates (string/loop/causal-set/algebraic) and is rejected by asymptotic safety. A shared vocabulary is not a shared prediction.
+
+**"How close are we" is axis-dependent and collapses to "how close is the carrier theorem"** [CALIBRATION]. Framework-consistency is largely won (no proven GR-QFT inconsistency; AdS/CFT a strongly-evidenced worked example, NOT a theorem — read "existence proof" as "modulo the AdS/CFT conjecture"). A derived candidate theory is math-gated at the single carrier bottleneck. Experimental traction on the wager is exactly zero with no in-principle test (BMV bears on the gate, is many orders — "~6-8 orders" — below decisive). The nearest dated decision point — DESI five-year (DR3) w(z) analysis ~2027 (survey separately extended through Dec 2028) — bears on the TARGET, not the wager. The three axes are not independent: experimental traction is downstream of the derived theory, which is the chokepoint, so the binding bottleneck is EXTERNAL INPUT, not reasoning. A confirmed universal theory remains NOT FORECASTABLE.
+
+**Consolidation HOLDS.** No genuine independent reasoning-decidable bottleneck and no referee-survivable testable shared constraint emerged; terminal analytical saturation is re-confirmed from the frame/synthesis side. Active mode stays consolidation + lightweight watch on the two clocks (the carrier/net-naturality/bicentralizer/GMA mathematics, and the 2027 DESI w(z) verdict).
 
 ## See also
 - [CONCLUSION.md](CONCLUSION.md) — the capstone verdict · [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)
