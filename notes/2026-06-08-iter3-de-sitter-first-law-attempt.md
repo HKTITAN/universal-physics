@@ -148,7 +148,7 @@ The exact breaking step is **Step 5**, and it breaks for a *structurally differe
 
 > [CONTESTED — referee, important] Do **not** read (iii) as a structural no-go. (a) The cited Banihashemi–Jacobson–Svesko–Visser paper *resolves* the minus sign as a misidentification of internal energy (the Brown–York energy vanishes as the system boundary shrinks), rather than enshrining it as a fatal reversal. (b) This same fixed-volume / negative-temperature *maximization* is exactly the structure from which Jacobson 2015 *does* recover the semiclassical Einstein equation including $\Lambda>0$. A stationary point is a stationary point whether it is a max or a min: stationarity yields the *equality* (first-law / equation-of-motion) content; the sign only flips inequality directions in the GSL. So (iii) is a genuine structural *difference* — RT minimizes *area over surfaces*, CLPW maximizes *entropy over states* — but it is **not** by itself the obstruction. The obstruction is (i): too few constraints.
 
-**(iv) The modular Hamiltonian is geometric only because empty dS is assumed.** [ESTABLISHED.] $K_{\rm BD} = 2\pi H_\xi$ holds for Bunch–Davies; for a *perturbed* state the modular flow is non-geometric (no Bisognano–Wichmann), so $\delta\langle K\rangle$ is not a clean boost energy and the right-hand side is not $\delta\langle T_{00}\rangle$ in any local frame. Geometry is *presupposed*, not generated — consistent with the iteration-2 algebraic-background-independence verdict. See [2026-06-07-iter2-algebraic-background-independence.md](2026-06-07-iter2-algebraic-background-independence.md).
+**(iv) The modular Hamiltonian is geometric only because empty dS is assumed.** [ESTABLISHED.] $K_{\rm BD} = 2\pi H_\xi$ holds for Bunch–Davies; for a *perturbed* state the modular flow is non-geometric (no Bisognano–Wichmann), so $\delta\langle K\rangle$ is not a clean boost energy and the right-hand side is not $\delta\langle T_{00}\rangle$ in any local frame. Geometry is *presupposed*, not generated — consistent with the iteration-2 algebraic-background-independence verdict (recorded in the iteration-2 synthesis).
 
 ---
 
@@ -250,11 +250,11 @@ This reinforces **H2**'s negative meta-conclusion (algebra presupposes geometry 
 - [../FINDINGS.md](../FINDINGS.md) — master findings ledger (H2 negative meta-conclusion; H4 $\Lambda>0$ boundary).
 - [../HYPOTHESES.md](../HYPOTHESES.md) — H2 (algebra presupposes geometry), H4 (entanglement-first-law dynamics).
 - [../OPEN_PROBLEMS.md](../OPEN_PROBLEMS.md) — OP-41 / OP-dS-FIRSTLAW; proposed OP-dS-FIRSTLAW-R2.
-- [../domains/holography.md](../domains/holography.md) — FGHMVR, RT/HRT, boundary modular Hamiltonians.
-- [../domains/de-sitter.md](../domains/de-sitter.md) — static patch, CLPW Type II$_1$, Bunch–Davies, minus-sign first law.
-- [../domains/algebraic-qft.md](../domains/algebraic-qft.md) — crossed products, Tomita–Takesaki, Bisognano–Wichmann, CHM.
-- [2026-06-07-iter2-algebraic-background-independence.md](2026-06-07-iter2-algebraic-background-independence.md) — iteration-2 verdict that algebra presupposes geometry (failure (iv) here).
-- [2026-06-07-iter2-de-sitter-first-law.md](2026-06-07-iter2-de-sitter-first-law.md) — iteration-2 OP-dS-FIRSTLAW (Obstructions 1/3 = the boundary/region pair sharpened here).
+- Holography — FGHMVR, RT/HRT, boundary modular Hamiltonians.
+- De Sitter — static patch, CLPW Type II$_1$, Bunch–Davies, minus-sign first law.
+- Algebraic QFT — crossed products, Tomita–Takesaki, Bisognano–Wichmann, CHM.
+- Iteration-2 verdict that algebra presupposes geometry (failure (iv) here).
+- Iteration-2 OP-dS-FIRSTLAW (Obstructions 1/3 = the boundary/region pair sharpened here).
 
 ### Key results cited
 

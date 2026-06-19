@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Read the contribution bar first"
+    url: https://github.com/HKTITAN/universal-physics/blob/main/CONTRIBUTING.md
+    about: "The non-negotiable anti-crank protocol every contribution must follow (epistemic tags, no fabricated citations, red-team your own claim)."
+  - name: "The carrier-problem dossier (the one open gate)"
+    url: https://github.com/HKTITAN/universal-physics/blob/main/notes/2026-06-19-iter15-carrier-problem-dossier.md
+    about: "The single open mathematical problem, posed formally and self-contained for external solvers."

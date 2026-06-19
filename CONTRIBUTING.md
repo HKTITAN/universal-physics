@@ -16,7 +16,7 @@ Everything in this wiki obeys [EPISTEMICS.md](EPISTEMICS.md) and the verificatio
 
 The analytical program is saturated; the verdict moves only on **new input**. The open levers (see [CONCLUSION.md](CONCLUSION.md) §5 and [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)):
 
-- **The verdict-flipper:** derive the indefinite pairing (Krein η / a canonical (n,n) operator class) from (algebra, state) modular data — no symmetry, η-form, foliation, twist, indefinite-pairing axiom, or signature-valued template installed by hand. Any serious sketch reopens the capstone.
+- **The carrier problem (the verdict-flipper).** The one open mathematical gate is posed, formally and self-contained, in **[the carrier-problem dossier](notes/2026-06-19-iter15-carrier-problem-dossier.md)**: derive an algebra-compatible, *localized* indefinite (n,n) / Krein pairing from (algebra, state) modular data — installing no symmetry, η-form, foliation, twist, indefinite-pairing axiom, or signature-valued template by hand — **or** prove it cannot exist (the net-naturality theorem). Either way reopens the capstone. Open a **Carrier problem — proof attempt** issue (template provided).
 - **OP-44:** the order-$G_N^2$ proof obligation (quadratic boost linearization-instability constraints) — the one named decidable analytical step.
 - **OP-49 residual:** the stated SVD-entropy hemisphere computation.
 - **OP-50:** the closed-universe Hilbert-space dispute — theorems on any branch.

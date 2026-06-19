@@ -19,7 +19,7 @@ Resolve **OP-48 point (c)**: exhibit, or prove impossible, a **state-independent
 
 Iteration 4 left (c) **OPEN**: the split property gives only a state-/collar-**dependent** factorization (canonical only relative to the vacuum modular conjugation $J$, failing at zero collar). The closing question this note attacks: is there a **canonical, choice-free** composition surrogate — Haagerup standard form / natural cone, Connes spatial theory, Connes fusion, the funnel property, or an operational commuting-pair axiomatization — and **does it single out QM**, or does *any* QM-selecting surrogate necessarily reintroduce a state/collar dependence?
 
-See [../open-problems.md](../open-problems.md) (OP-48), the predecessor note [2026-05-xx-iter4-op48-split-composition.md](2026-05-xx-iter4-op48-split-composition.md) for the iter-4 framing, and the domain page [../domains/operator-algebras.md](../domains/operator-algebras.md).
+See [OPEN_PROBLEMS.md](../OPEN_PROBLEMS.md) (OP-48) and the iteration-4 split-composition framing (predecessor; superseded).
 
 ---
 
@@ -86,7 +86,7 @@ The break is at **Step 2**, and iter-5 makes it a *structured obstruction* rathe
 
 2. **Wrong-direction operational signature.** On the physical Type III$_1$ factor the collar-free composition is a **universal embezzler** ($\kappa_{\max}=0$): every normal state lets one extract arbitrary entanglement by local operations with arbitrarily small disturbance. Finite-dim QM composition (Type I) is the antipodal $\kappa_{\max}=2$. So the collar-free surrogate, on III$_1$, is operationally **distinguishable from — indeed opposite to** — finite-dim QM.
 
-**What moved:** OPEN $\rightarrow$ a structured conditional no-go with a web-verified operational invariant ($\kappa_{\max}$) doing the separating work. `didItMove = advanced`. This did **not** flip the headline verdict: no emergent Lorentzian geometry from non-symmetric data was derived, and the QM-selecting axiom is shown to *coincide with* the geometry-/state-importing split input, reinforcing rather than overturning *encodes-not-generates* (see [../README.md](../README.md) and [../verdicts.md](../verdicts.md)).
+**What moved:** OPEN $\rightarrow$ a structured conditional no-go with a web-verified operational invariant ($\kappa_{\max}$) doing the separating work. `didItMove = advanced`. This did **not** flip the headline verdict: no emergent Lorentzian geometry from non-symmetric data was derived, and the QM-selecting axiom is shown to *coincide with* the geometry-/state-importing split input, reinforcing rather than overturning *encodes-not-generates* (see [README.md](../README.md) and [CONCLUSION.md](../CONCLUSION.md)).
 
 ---
 
@@ -161,11 +161,11 @@ The 2026 rigidity results do **not** rescue selection: Pati (arXiv:2601.13012) f
 
 ## See also
 
-- [../open-problems.md](../open-problems.md) — OP-48; registry items `OP-GPT-TYPE3`, `HYP-EMBEZZLE-SELECT`.
-- [../verdicts.md](../verdicts.md) — *encodes-not-generates* (tightened, not flipped).
-- [../domains/operator-algebras.md](../domains/operator-algebras.md) — Type III$_1$ factors, standard form, Connes fusion, split property.
-- [../domains/quantum-foundations.md](../domains/quantum-foundations.md) — GPT local tomography, no-signalling rigidity (Pati, Torres Alegre).
-- [2026-05-xx-iter4-op48-split-composition.md](2026-05-xx-iter4-op48-split-composition.md) — iter-4 predecessor (`HYP-SPLIT-GEOM`, the "canonicity tax"; superseded framing).
+- [OPEN_PROBLEMS.md](../OPEN_PROBLEMS.md) — OP-48; registry items `OP-GPT-TYPE3`, `HYP-EMBEZZLE-SELECT`.
+- [CONCLUSION.md](../CONCLUSION.md) — *encodes-not-generates* (tightened, not flipped).
+- Operator algebras — Type III$_1$ factors, standard form, Connes fusion, split property.
+- Quantum foundations — GPT local tomography, no-signalling rigidity (Pati, Torres Alegre).
+- Iteration-4 predecessor (`HYP-SPLIT-GEOM`, the "canonicity tax"; superseded framing).
 
 ### Key results cited
 
