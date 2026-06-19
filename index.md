@@ -114,9 +114,9 @@ Every page in the wiki, with an honest one-line summary. Entry point and reading
 - [notes/2026-06-10-iter6-experiment-refresh.md](notes/2026-06-10-iter6-experiment-refresh.md) — Mid-2026 numbers re-verified; the w(z) decision point compresses to 2027; nothing touches the wager.
 - [notes/2026-06-10-iter6-synthesis.md](notes/2026-06-10-iter6-synthesis.md) — Verdict unchanged for the fifth consecutive iteration; hedge accounting (2 → 3, one shrunk) and what could move it next.
 
-### Iterations 7–13 — 2026-06-10 / 2026-06-19 (lever execution → terminal saturation)
+### Iterations 7–15 — 2026-06-10 / 2026-06-19 (lever execution → terminal saturation)
 
-The per-note catalogue for iterations 7–13 is maintained in the authoritative iteration index, **[notes/README.md](notes/README.md)** (kept here as a single home to avoid dual-maintenance drift). In brief:
+The per-note catalogue for iterations 7–15 is maintained in the authoritative iteration index, **[notes/README.md](notes/README.md)** (kept here as a single home to avoid dual-maintenance drift). In brief:
 
 - **Iteration 7** — the four named decidable levers executed; verdict unchanged (6th); principal hedge hardened MEDIUM → MEDIUM-HIGH.
 - **Iteration 8** — net/family carrier no-go; hedge hardened toward HIGH on a narrowed condition (7th).
@@ -125,6 +125,8 @@ The per-note catalogue for iterations 7–13 is maintained in the authoritative 
 - **Iteration 11** — carrier reduction re-grounded on Connes' (open) bicentralizer problem; terminal-saturation audit (10th).
 - **Iteration 12** — physics-net bicentralizer lever retired; external sweeps dry; indefinite-metric / Krein route closed-negative; **terminal saturation re-confirmed** (11th).
 - **Iteration 13** — new-angle frame audit: bottleneck-completeness confirmed, cross-program triangulation, the calibrated "how close are we"; consolidation holds (12th).
+- **Iteration 14** — the verdict's maximal adversarial assault: three tracks instructed to falsify the three pillars; all held; verdict unchanged (13th).
+- **Iteration 15** — the net-naturality theorem attacked from three new mathematical frameworks (factorization-algebra/functorial QFT; index/K-theory; higher-categorical AQFT); all reproduce the encoding screen; the carrier problem posed as a dossier for external solvers; verdict unchanged (14th).
 
 ---
 

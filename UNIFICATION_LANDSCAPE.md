@@ -362,7 +362,7 @@ geometrizing entanglement. The canonical example is type IIB string theory on $\
 - Which GFT model is correct, and whether any admits a geometric phase with the right continuum limit, is unresolved [OPEN].
 
 
-*Iteration-6 status refresh (2026-06-10):* mean-field/Landau–Ginzburg evidence for a condensate transition now exists in realistic Lorentzian models (Marchetti–Oriti–Pithis–Thürigen, PRL 130, 141501 (2023); Lorentzian Barrett–Crane follow-up PRD 111, 026014 (2025) [author list unverified]); whether that phase is geometric/continuum-GR remains [OPEN]. [→ [notes](notes/2026-06-10-iter6-background-independent-programs.md)]
+*Iteration-6 status refresh (2026-06-10):* mean-field/Landau–Ginzburg evidence for a condensate transition now exists in realistic Lorentzian models (Marchetti–Oriti–Pithis–Thürigen, PRL 130, 141501 (2023); Lorentzian Barrett–Crane follow-up Dekhil–Jercher–Pithis, PRD 111, 026014 (2025), DOI 10.1103/PhysRevD.111.026014 [author list web-verified 2026-06-19]); whether that phase is geometric/continuum-GR remains [OPEN]. [→ [notes](notes/2026-06-10-iter6-background-independent-programs.md)]
 - Recovery of full classical GR and standard QFT/matter is not established [OPEN].
 - Inherits the unsolved dynamics / semiclassical-limit problems of spin foams and LQG [INFERENCE].
 - Largely formal; limited contact with observation beyond model-dependent cosmology [OPEN].

@@ -10,6 +10,16 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-06-19 — Plan 003: citation-integrity sweep (`[unverified]` ledger resolved + one over-attribution struck)
+
+Maintenance pass on the anti-crank citation ledger (no physics claim, registry quantity, verdict, or hedge touched). All checks web-verified live this session against arXiv / OSTI / ADS / APS listings; no DOI invented.
+
+- **Over-attribution removed (highest value).** The "~10⁻¹³ d displacement" figure was attributed to arXiv:2604.16276 (Xue–Tang–Yang–Han–Kan–Liu, *"Aziz and Howl's Gravity-Induced Entanglement Channel is Essentially Classical Mechanics"*) with the standing flag "[unverified — not in its abstract]." Web-verified: the figure is **not** in that paper's abstract or body — the paper instead argues the Aziz–Howl effect is "essentially classical" semiclassical wavepacket motion, "negligibly small" under proper Gaussian-wavepacket analysis. The unsourced number has been **struck** wherever it was asserted as that paper's result (notes/2026-06-08-tabletop-quantum-gravity.md ×2; HYPOTHESES.md HYP-GIE-DISCRIM; BIBLIOGRAPHY.md ledger), with the paper retained as a citation for what it does say. The "not in its abstract" flag text is removed (resolved, not deferred).
+- **Riders promoted (web-verified DOIs).** arXiv:2406.04411 → *JHEP* **09** (2024) 160, DOI 10.1007/JHEP09(2024)160 (OSTI/arXiv). arXiv:2209.09249 (Gonzalo–Montero–Obied–Vafa) → *JHEP* **11** (2023) 109, DOI 10.1007/JHEP11(2023)109 (ADS 2023JHEP...11..109G). PRD 111, 026014 (2025) Barrett–Crane author list confirmed = Dekhil–Jercher–Pithis, DOI 10.1103/PhysRevD.111.026014 (BIBLIOGRAPHY, UNIFICATION_LANDSCAPE, iter-6 background-independent note).
+- **Riders left flagged (correctly).** arXiv:2502.13821 (Nimmrichter et al.) — arXiv carries no journal-ref/DOI; the "accepted PRL" claim cannot be pinned to a volume/page → stays `[unverified]`. arXiv:2411.02325 (diamagnetic microchip trap) — "Accepted for publication in *Phys. Rev. A*," no volume/page issued → stays `[unverified]`. No volume/page guessed (EPISTEMICS §4).
+
+---
+
 ## 2026-06-19 — Iteration 15: net-naturality theorem confirmed robust across three new mathematical frameworks (verdict unchanged 14th consecutive; carrier problem posed for external resolution)
 
 Three refereed attack tracks brought frameworks never previously applied to the carrier problem — disjoint from the exhausted Tomita–Takesaki / centralizer / bicentralizer machinery: **(E1)** Costello–Gwilliam factorization algebras + Atiyah–Segal–Lurie functorial/cobordism QFT + the Benini–Carmona–Grant-Stuart–Schenkel AQFT≅prefactorization-algebra equivalence (arXiv:2412.07318/1903.03396); **(E2)** Connes–Atiyah–Singer index theory in operator-algebraic form (spectral triples, bounded KK, coarse/Roe geometry); **(E3)** higher-categorical / homotopical / non-unitary tensor-categorical AQFT (operadic + Lorentzian-bordism FFT + cobordism hypothesis). **All three REPRODUCE the encode-not-generate screen; no referee-survivable decidable handle was found.**

@@ -7,7 +7,7 @@ updated: 2026-06-19
 
 # Findings — Cumulative Synthesis
 
-**Status:** Living synthesis — current through iteration 13. Read this first; it is the executive summary of the whole wiki.
+**Status:** Living synthesis — current through iteration 15. Read this first; it is the executive summary of the whole wiki.
 **Last updated:** 2026-06-19
 
 This page distills the current state of the investigation into six questions: *what is solid; where do the frameworks genuinely clash; which deep principles look most fundamental; what candidate unifying directions survive scrutiny; is a universal theory even possible; and what should we work on next.* Every claim is tagged per [EPISTEMICS.md](EPISTEMICS.md). Detail and derivations live on the linked pages; this page is the map, not the territory.
