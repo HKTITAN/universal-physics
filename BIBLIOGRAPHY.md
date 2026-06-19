@@ -221,6 +221,27 @@ Primary support for [domains/quantum-mechanics.md](domains/quantum-mechanics.md)
 
 *(T-duality/mirror symmetry in A2-F3 rests on standard textbook/established results — exact CFT isomorphism between geometrically distinct targets — and on the nLab "no complete construction of these SCFTs" status note for the full mirror-SCFT-isomorphism caveat; no new primary arXiv citation is load-bearing there, so none is added beyond the inline note.)*
 
+### Iteration-12 verified additions (2026-06-19)
+
+**Operator algebras (carrier-lever / bicentralizer).**
+- Ando, Haagerup, Houdayer, Marrakchi, *Structure of bicentralizer algebras and inclusions of type III factors*, Math. Ann. 376 (2020) 1145-1194 (arXiv:1804.05706). [VERIFIED] — defines/studies the **relative** bicentralizer of inclusions; its relative-bicentralizer theorem is restricted to **discrete** inclusions with N amenable (the discrete-only scope is the load-bearing fact for B1; physics local inclusions are non-discrete). Already in the standing iter-11 corpus; re-cited here for the discrete-only scope.
+- Marrakchi, Vaes, *Ergodic states on type III_1 factors and ergodic actions*, Crelle (J. reine angew. Math.) 809 (2024) 247 (arXiv:2305.14217). [VERIFIED verbatim] — Theorem A: ergodic states (trivial centralizer M_psi = C1) form a dense G_delta on **any** III_1 factor, **UNCONDITIONAL**, no bicentralizer hypothesis. (Corrects the iter-11 A1 misattribution that called Thm A "conditional on the bicentralizer conjecture.")
+- Haagerup, *Connes' bicentralizer problem and uniqueness of the injective factor of type III_1*, Acta Math. 158 (1987) 95-148. [VERIFIED] — the large-centralizer biconditional (trivial bicentralizer <=> exists a faithful normal state with (M_psi)' cap M = C1) — the carrier-admitting direction. Already in the standing corpus.
+- Ando, Goldbring, *(model-theory / Connes bicentralizer)*, arXiv:2605.12776 (May 2026). [VERIFIED] — re-confirms Connes' bicentralizer problem is OPEN in general as of 2026. (Authors are Ando-Goldbring, not "I. Goldbring et al.")
+
+**AQFT / encoding-screen (external-math sweep).**
+- Morinelli, Neeb, Olafsson, *(Euler-element / geometric Bisognano-Wichmann / Spin-Statistics program)*, arXiv:2508.10960; and Part II arXiv:2603.26390. [VERIFIED by abstract read] — BW / Spin-Statistics derived FROM the Euler element (symmetry is INPUT); a cleaner statement of the encoding screen, NOT a carrier, NOT a reverse-WW inversion, NOT a sixth route.
+- Morinelli (single-author), arXiv:2412.20410. [VERIFIED — single-author] — Euler-program; part of the same encoding-screen family.
+- arXiv:2511.09360 (Euler-program). [VERIFIED real per sweep] — per-paper authorship to be confirmed before bibliography insertion (not all three-author); mark [authorship unverified] until checked.
+- Liu, *(lecture notes, modular/AQFT)*, arXiv:2510.07017. [VERIFIED real] — presupposes geometry as input; fails the encode-not-generate screen.
+- Naaijkens, Penneys, Wallick, arXiv:2605.10693. [VERIFIED real] — LTO-internal Euclidean-side reflection-positivity axiom + Tomita-Takesaki for Haag duality on cone regions; ORTHOGONAL — constructs no Lorentzian metric, no indefinite pairing, no carrier witness; makes NO claim that J carries the Euclidean datum.
+- Weiner, *(algebraic Haag theorem)*, arXiv:1006.4726. [VERIFIED verbatim, standing corpus] — split + geometric modular action => the vacuum-sector net is a complete invariant (conditional on the geometric inputs).
+- Sheikh-Jabbari, Taghiloo, *"GR from RG"*, arXiv:2602.11806. [VERIFIED real] — RG-induced Einstein-Hilbert term with a UV-Dirichlet-fixed metric; explicitly engages Weinberg-Witten; an EVADE-not-invert WW instance (discharges the iter-11 "WW gloss not confirmable" minor defect).
+
+**Experiment-watchlist (target/core, not wager).**
+- VIP / XENONnT objective-collapse bounds, primary arXiv:2506.05507 (PRL, March 2026). [VERIFIED real] — CSL ~2 orders, DP ~5x; tighten the A-3 core. Adjacent/auxiliary: arXiv:2512.15393, arXiv:2604.21705 [both VERIFIED real].
+- Huang, Cai, Wang, *(low-z SN calibration-bias analysis for DESI w(z))*, arXiv:2502.04212. [VERIFIED — abstract states dynamical-dark-energy preference "less than 2 sigma"] — Efstathiou in acknowledgments only (not an author).
+
 ### Interpretation, measurement, and dynamical-collapse models (mostly [CONTESTED] / [SPECULATIVE])
 
 - **H. Everett III**, "Relative state formulation of quantum mechanics," *Rev. Mod. Phys.* **29**, 454 (1957). [CONTESTED] — The no-collapse (relative-state / many-worlds) interpretation retaining only unitary evolution.

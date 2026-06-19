@@ -49,6 +49,15 @@ These are the residual open levers from [CONCLUSION.md](CONCLUSION.md) §5. None
 5. **OP-50 (new, [CONTESTED]).** The closed-universe Hilbert-space problem: is $\dim\mathcal H_{\rm closed}=1$ per α-sector, with QM recovered only observer-relationally? An independent path-integral route to OP-48(c)'s conditional structure; watch the ARSSV / Hong Liu / Engelhardt–Gesteau counter-positions. See [OPEN_PROBLEMS.md](OPEN_PROBLEMS.md).
 6. **Reverse-Weinberg–Witten (un-registered; HYP-ENCODING-SCREEN portability corollary; [OPEN, as of 2026-06]).** Exhibit an observable $X$ realizable in some theory with **no** fundamental metric degrees of freedom and by **no** core-satisfying fundamental-metric theory — or prove no such observable exists. Its existence would be the wager's first in-principle distinguishing test; its impossibility would make the §7 not-yet-physics verdict permanent-in-principle rather than contingent. The 2024–2026 distinguishing-test hunt confirms it is **unattempted**: emergent-gravity constructions only *evade* Weinberg–Witten (remove the background; zero $T_{\mu\nu}$ matrix elements) — exactly the moves that erase observational handles. **NB: this is NOT "OP-50"** (a working-note misnomer); reverse-WW carries no registry ID. See [HYPOTHESES.md](HYPOTHESES.md) HYP-ENCODING-SCREEN, [notes/2026-06-10-distinguishing-test-hunt.md](notes/2026-06-10-distinguishing-test-hunt.md).
 
+## 2026-06 external-input sweep note (iteration 12)
+
+*Append-only; no new row, no registry ID. From the iteration-12 B3 track (referee-verified live).*
+- **Connes' bicentralizer problem** re-confirmed **OPEN in general** (Ando–Goldbring, arXiv:2605.12776) — re-validates the binding iteration-11 correction; the carrier no-go is NOT equivalent to it.
+- **Objective collapse** — new 2026 bounds tighten the A-3 **core**, not the wager: VIP/XENONnT (CSL ~2 orders, Diósi–Penrose ~5×; no excess; primary arXiv:2506.05507, PRL March 2026).
+- **DESI five-year $w(z)$** verdict reaffirmed **2027**; the DR2 dynamical-dark-energy preference reduces to **< 2σ** under low-z SN-calibration systematics (Huang–Cai–Wang, arXiv:2502.04212); Roman launch 2026, Roman+Euclid joint dark-energy ~2027. Bears on Program A's **target**, **never the wager**.
+- **Theory-watch-item 6 (reverse-WW):** "GR from RG" (arXiv:2602.11806) confirmed an **evade-not-invert** Weinberg–Witten instance (UV-Dirichlet-fixed installed metric) — discharges the iteration-11 minor "WW gloss not confirmable" defect. Reverse-WW stays [OPEN, as of 2026-06].
+- **New 2026 carrier-adjacent math:** the Morinelli–Neeb–Olafsson Euler-pair geometric-BW / Spin–Statistics theorems (arXiv:2603.26390 Part II / 2508.10960 Part I) are a cleaner statement of HYP-ENCODING-SCREEN (symmetry = input) — **NOT** a carrier, **NOT** a sixth route.
+
 ---
 
 ## How to use this page

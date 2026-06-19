@@ -404,6 +404,18 @@ When a future direction is judged genuinely unsound or vacuous, record it here w
 
 ---
 
+## Iteration 12 refinements (2026-06-19) — the physics-net lever retired, the indefinite-metric route closed, external channels dry
+
+*From the iteration-12 tracks (B1/B2/B3, all UPHELD-WITH-CORRECTION) plus the subquestion-#3 frontier scout. No headline movement (ELEVENTH consecutive confirmation); the principal hedge's grade AND condition both unchanged; terminal saturation re-confirmed.*
+
+- **HYP-CKV-VACUITY-R6 — UNCHANGED** (grade MEDIUM-HIGH→HIGH conditional AND condition: the net-naturality theorem + the located commutant-to-generated gap). `[INFERENCE — HIGH classification]` No R-advance, no R7. Iteration 12 minted no R-advance: the physics-net relative-bicentralizer lever is non-load-bearing (B1), no 2023–2026 external math touched the residual (B2/B3), and the indefinite-metric / Krein carrier route is closed-negative (scout).
+
+- **HYP-FACTORIZATION-IS-GEOMETRY — route (5) annotated; subquestion #3 CLOSED-NEGATIVE; count stays FIVE.** `[INFERENCE, high]` (i) The relative-bicentralizer "externalized vocabulary" from iteration-11 A1 is confirmed **NAMING-ONLY / non-load-bearing** (B1): the relative-bicentralizer triviality question is genuinely OPEN as pure operator algebra (AHHM is discrete-inclusion-only) but cannot close the no-go (trivial bicentralizer is carrier-friendly). (ii) The **indefinite-metric / PT-symmetric / Krein carrier route (subquestion #3) is CLOSED-NEGATIVE** (scout): it collapses to encode-not-generate by the gauge-artifact / installed-not-derived / $\eta_0$-equivalent trichotomy — the *same* route-5 carrier problem in Krein vocabulary, **not a sixth route**. Two of iteration-11's three open subquestions are thereby discharged (the third, the bicentralizer-flow signed-obstruction, folds into B1's non-load-bearing bicentralizer territory). Carrier-convergence count **stays FIVE**.
+
+- **HYP-ENCODING-SCREEN — UNCHANGED; two 2026 instances recorded.** `[INFERENCE]` Grade MEDIUM-HIGH→HIGH, condition unchanged; reverse-WW stays pinned to the §8 reopening condition, [OPEN, as of 2026-06], un-registered, NOT OP-50. Two 2026 instances of the screen are logged, both INPUT-presupposing: the Morinelli–Neeb–Olafsson Euler-pair geometric-BW / Spin–Statistics theorems (symmetry = input; arXiv:2603.26390 / 2508.10960), and "GR from RG" (arXiv:2602.11806, a confirmed evade-not-invert Weinberg–Witten instance with a UV-Dirichlet-fixed installed metric — discharging the iteration-11 minor "WW gloss not confirmable" defect). Neither is a carrier, a reverse-WW inversion, or a sixth route.
+
+---
+
 ## See also
 
 - [GAPS_AND_CONTRADICTIONS.md](GAPS_AND_CONTRADICTIONS.md) — the contradictions these directions target

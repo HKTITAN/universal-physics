@@ -341,6 +341,15 @@
             "notes/2026-06-10-iter11-synthesis.md"
           ],
           "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
+        },
+        {
+          "number": 32,
+          "title": "Iteration 12: Terminal Saturation Re-Confirmed — the Physics-Net Lever Retired and the Indefinite-Metric Route Closed",
+          "sources": [
+            "notes/2026-06-19-iter12-external-input-sweep.md",
+            "notes/2026-06-19-iter12-indefinite-metric-carrier-closed.md"
+          ],
+          "trim": "Drop YAML frontmatter and the referee/provenance blocks; links to sibling working notes become citations. Run the two sources as one chapter: the refreshed terminal-saturation audit followed by the indefinite-metric carrier closure."
         }
       ]
     },
@@ -350,7 +359,7 @@
       "opener": "book/frontmatter/part-openers/part-6.md",
       "chapters": [
         {
-          "number": 32,
+          "number": 33,
           "title": "Conclusion: The Converged Verdict",
           "sources": [
             "CONCLUSION.md"
@@ -358,7 +367,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
         },
         {
-          "number": 33,
+          "number": 34,
           "title": "The Experiment Watchlist",
           "sources": [
             "EXPERIMENT_WATCHLIST.md"
@@ -366,7 +375,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
         },
         {
-          "number": 34,
+          "number": 35,
           "title": "Roadmap: What Comes Next",
           "sources": [
             "ROADMAP.md"
