@@ -124,5 +124,14 @@ A three-track structural/synthesis audit of the FRAME — explicitly NOT a carri
 
 Net: the audit STRENGTHENS the terminal-saturation diagnosis from the frame side — no neglected independent reasoning-decidable bottleneck, no referee-survivable testable shared constraint. Consolidation HOLDS; active mode stays consolidation + lightweight watch on the carrier mathematics and the 2027 DESI w(z) verdict.
 
+### Iteration 14 — maximal adversarial assault (2026-06-19)
+
+- `notes/2026-06-19-iter14-D1-carrier-signature-assault.md` — Pillar 1 assault: Fullwood–Vedral signature-as-output (arXiv:2604.07471) and cognates; FAILED-TO-FALSIFY (signature is carrier-installed, authors disclaim mechanism). Referee: ATTACK-FAILS-VERDICT-HOLDS.
+- `notes/2026-06-19-iter14-D2-no-test-assault.md` — Pillar 2 assault: GQuEST/geontropic as reverse-WW witness + Schneider global-content seam; FAILED-TO-FALSIFY (prong 1 screen-passing on authors' own words; prong 2 locates the seam without a witness). Referee: ATTACK-FAILS-VERDICT-HOLDS.
+- `notes/2026-06-19-iter14-D3-saturation-assault.md` — Pillar 3 assault: non-Hermitian/Krein cMERA dS (arXiv:2606.17983) + DESI completion + bicentralizer reformulation; FAILED-TO-FALSIFY + NO-NEW-INPUT (Krein route confirms iter-12 closure; DESI target-not-wager). Referee: ATTACK-FAILS-VERDICT-HOLDS.
+- `notes/2026-06-19-iter14-synthesis.md` — the maximal-assault synthesis: all three pillars survived; carrier count FIVE; hedges unmoved; verdict 13th consecutive, now earned by surviving the strongest attack rather than another lever-test. Strongest surviving crack: Schneider 2024 as an external corroboration of the screen's sole (un-breached) seam.
+
+README note: iteration 14 changes the *kind* of confirmation, not the registry. Watch-mode continues; the standing verdict's two reopening channels remain a carrier/reverse-WW theorem (external math) and a generative readout (none exists). Mid-2026 literature swept; no carrier, no witness, no sixth route.
+
 ## See also
 - [../CONCLUSION.md](../CONCLUSION.md) · [../EXPERIMENT_WATCHLIST.md](../EXPERIMENT_WATCHLIST.md) · [../FINDINGS.md](../FINDINGS.md) · [../ROADMAP.md](../ROADMAP.md) · [../CHANGELOG.md](../CHANGELOG.md) · [../AGENTS.md](../AGENTS.md) · [../README.md](../README.md)

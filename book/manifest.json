@@ -359,6 +359,14 @@
             "notes/2026-06-19-iter13-C3-how-close-calibration.md"
           ],
           "trim": "Drop YAML frontmatter and the referee/provenance blocks. Run the two sources as one chapter: the bottleneck-completeness audit, then the calibrated 'how close are we' answer (whose single calibrated paragraph is the chapter's close)."
+        },
+        {
+          "number": 34,
+          "title": "Iteration 14: The Verdict Survives Its Maximal Adversarial Assault",
+          "sources": [
+            "notes/2026-06-19-iter14-synthesis.md"
+          ],
+          "trim": "Drop YAML frontmatter and 'See also'. The inverse-burden capstone: the three pillars assaulted with the strongest 2024-2026 falsifications, all held; the Schneider corroboration of the screen's sole un-breached seam is the chapter's close."
         }
       ]
     },
@@ -368,7 +376,7 @@
       "opener": "book/frontmatter/part-openers/part-6.md",
       "chapters": [
         {
-          "number": 34,
+          "number": 35,
           "title": "Conclusion: The Converged Verdict",
           "sources": [
             "CONCLUSION.md"
@@ -376,7 +384,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
         },
         {
-          "number": 35,
+          "number": 36,
           "title": "The Experiment Watchlist",
           "sources": [
             "EXPERIMENT_WATCHLIST.md"
@@ -384,7 +392,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
         },
         {
-          "number": 36,
+          "number": 37,
           "title": "Roadmap: What Comes Next",
           "sources": [
             "ROADMAP.md"

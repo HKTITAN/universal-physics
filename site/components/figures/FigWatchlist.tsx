@@ -58,7 +58,7 @@ export default function FigWatchlist() {
   return (
     <FigurePlate
       id="12.1"
-      caption="The watchlist taxonomy with decision windows. Every live channel constrains the program's gate (is gravity non-classical? — BMV/QGEM and the classical-side CQ trade-off), its fixed cores (exact linearity, tightened in 2026 by VIP/XENONnT; Lorentz invariance; strong-field GR), its target (eternal dS? — w(z), the nearest dated verdict at 2027), or program-adjacent phenomenology (GQuEST, whose chain re-imports η=1/4G). All four funnel into the central wager, and none decides it even in principle — as of iteration 13 a corollary of the encode-not-generate obstruction (HYP-ENCODING-SCREEN, grade R6: MEDIUM-HIGH → HIGH). [INFERENCE, high]"
+      caption="The watchlist taxonomy with decision windows. Every live channel constrains the program's gate (is gravity non-classical? — BMV/QGEM and the classical-side CQ trade-off), its fixed cores (exact linearity, tightened in 2026 by VIP/XENONnT; Lorentz invariance; strong-field GR), its target (eternal dS? — w(z), the nearest dated verdict at 2027), or program-adjacent phenomenology (GQuEST, whose chain re-imports η=1/4G). All four funnel into the central wager, and none decides it even in principle — as of iteration 14 a corollary of the encode-not-generate obstruction (HYP-ENCODING-SCREEN, grade R6: MEDIUM-HIGH → HIGH). [INFERENCE, high]"
     >
       <svg
         viewBox="0 0 760 470"
@@ -124,7 +124,7 @@ export default function FigWatchlist() {
           NO CHANNEL DECIDES IT — EVEN IN PRINCIPLE
         </text>
         <text x="380" y={wagerY + 104} fontSize="11" fill={S.ochre} textAnchor="middle">
-          HYP-ENCODING-SCREEN · grade R6: MEDIUM-HIGH → HIGH · iteration 13
+          HYP-ENCODING-SCREEN · grade R6: MEDIUM-HIGH → HIGH · iteration 14
         </text>
       </svg>
     </FigurePlate>

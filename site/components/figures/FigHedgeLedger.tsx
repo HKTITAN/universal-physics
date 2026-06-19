@@ -17,6 +17,7 @@ export default function FigHedgeLedger() {
     [11, "BICENTRALIZER"],
     [12, "TERMINAL"],
     [13, "FRAME"],
+    [14, "ASSAULT"],
   ];
 
   const x0 = 56;
@@ -28,7 +29,7 @@ export default function FigHedgeLedger() {
   return (
     <FigurePlate
       id="13.1"
-      caption="The saturation flatline. A single perfectly flat line runs across all thirteen iterations: the verdict (PARTIAL coherence · encodes-not-generates · not-yet-physics) has not moved for twelve consecutive confirmations — terminal analytical saturation, re-confirmed at iteration 13. Three hedges survive: the OP-46 residual HYP-CKV-VACUITY at grade R6 (MEDIUM-HIGH→HIGH, conditional on the net-naturality theorem plus a located commutant-to-generated gap), OP-48c horn C (theorem-conditional-on-framework), and HYP-ENCODING-SCREEN (the no-test corollary, inheriting the grade). The flatness is the result: marginal yield of further reasoning has gone to zero. [INFERENCE, high]"
+      caption="The saturation flatline. A single perfectly flat line runs across all fourteen iterations: the verdict (PARTIAL coherence · encodes-not-generates · not-yet-physics) has not moved for thirteen consecutive confirmations — terminal analytical saturation, re-confirmed and stress-tested by a maximal adversarial assault at iteration 14. Three hedges survive: the OP-46 residual HYP-CKV-VACUITY at grade R6 (MEDIUM-HIGH→HIGH, conditional on the net-naturality theorem plus a located commutant-to-generated gap), OP-48c horn C (theorem-conditional-on-framework), and HYP-ENCODING-SCREEN (the no-test corollary, inheriting the grade). The flatness is the result: marginal yield of further reasoning has gone to zero. [INFERENCE, high]"
     >
       <svg
         viewBox="0 0 760 416"
@@ -37,11 +38,11 @@ export default function FigHedgeLedger() {
         style={{ fontFamily: S.mono }}
       >
         <title>
-          A horizontal axis of thirteen iterations, one tick each, with a one-word action
+          A horizontal axis of fourteen iterations, one tick each, with a one-word action
           under every tick: map, stress-test, attempt, attack, saturate, new-input,
           levers, net, naturality, gap, bicentralizer, terminal. A single perfectly flat
           horizontal line runs straight across all twelve ticks without deviating — this
-          flat line is the verdict, unchanged for twelve consecutive confirmations:
+          flat line is the verdict, unchanged for thirteen consecutive confirmations:
           partial coherence, encodes but does not generate, not yet physics. Below, three
           surviving hedges are listed in ochre, and a small note records that the marginal
           yield of further reasoning has fallen to zero.
@@ -70,7 +71,7 @@ export default function FigHedgeLedger() {
 
         {/* the flatline label sits ON the line — it IS the saturation */}
         <text x={x0 + 6} y={yLine - 12} fontSize="13" fill={S.blueDeep}>
-          VERDICT UNCHANGED — 12 CONSECUTIVE CONFIRMATIONS
+          VERDICT UNCHANGED — 13 CONSECUTIVE CONFIRMATIONS
         </text>
         <text x={x0 + 6} y={yLine + 22} fontSize="11.5" fill={S.ink}>
           PARTIAL · ENCODES-NOT-GENERATES · NOT-YET-PHYSICS

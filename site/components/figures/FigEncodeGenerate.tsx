@@ -259,7 +259,7 @@ export default function FigEncodeGenerate() {
           HYP-CKV-VACUITY-R6
         </text>
         <text x="420" y="452" fontSize="11.5" fill={S.faint}>
-          verdict unchanged · 12 consecutive iterations
+          verdict unchanged · 13 consecutive iterations
         </text>
       </svg>
     </FigurePlate>
