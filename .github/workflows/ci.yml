@@ -1,9 +1,10 @@
 name: validate
 
-# Integrity gate for the wiki, the book manifest, and the website build.
-# Runs on every push and pull request so outside contributions are validated
-# before merge. (The Paged.js/Chrome book PDF render is intentionally not run
-# here — it needs system Chrome; the manifest check is the book-side gate.)
+# Integrity gate for the wiki, the manifests, the citations, the book, and the
+# website build. Runs on every push and pull request so outside contributions
+# are validated before merge. (Only the Paged.js/Chrome PDF render is skipped —
+# it needs system Chrome; the stage-1 HTML build below is the book-side gate and
+# exercises the cross-reference + fail-loud-source guards.)
 
 on:
   push:
@@ -25,6 +26,19 @@ jobs:
 
       - name: Validate book manifest (contiguous chapters, sources exist)
         run: node scripts/check-book-manifest.mjs
+
+      - name: Check manifest drift (vault <-> site <-> book)
+        run: node scripts/check-manifests.mjs
+
+      - name: Check citation well-formedness (arXiv IDs / DOIs)
+        run: node scripts/check-citations.mjs
+
+      - name: Install book deps
+        working-directory: book
+        run: npm ci
+
+      - name: Book stage-1 build (HTML assembly + cross-reference + fail-loud sources)
+        run: node book/build.js
 
       - name: Install site deps
         working-directory: site

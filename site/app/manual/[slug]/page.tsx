@@ -27,7 +27,14 @@ export async function generateMetadata({
   return {
     title: `${entry.num} ${entry.title}`,
     description: entry.summary,
-    openGraph: { title: `${entry.num} ${entry.title} · Universal Physics`, description: entry.summary },
+    alternates: { canonical: `/manual/${slug}` },
+    openGraph: {
+      title: `${entry.num} ${entry.title} · Universal Physics`,
+      description: entry.summary,
+      // Next replaces (does not merge) the parent openGraph when a route sets
+      // its own, so re-declare the shared branded card here.
+      images: [{ url: "/og-image.svg", width: 1200, height: 630 }],
+    },
   };
 }
 

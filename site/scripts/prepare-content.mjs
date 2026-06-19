@@ -31,25 +31,54 @@ if (!existsSync(join(repoRoot, "CONCLUSION.md"))) {
 rmSync(dest, { recursive: true, force: true });
 mkdirSync(dest, { recursive: true });
 
-// 1. root-level .md files
-let n = 0;
+/** Count the .md files (recursively, excluding .pdf) under a directory. */
+function countMarkdown(dir) {
+  let n = 0;
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const full = join(dir, entry.name);
+    if (entry.isDirectory()) n += countMarkdown(full);
+    else if (entry.isFile() && entry.name.endsWith(".md")) n++;
+  }
+  return n;
+}
+
+// 1. root-level .md files — copy each, failing loud on the offending path.
+let rootCount = 0;
 for (const entry of readdirSync(repoRoot, { withFileTypes: true })) {
   if (entry.isFile() && entry.name.endsWith(".md")) {
-    copyFileSync(join(repoRoot, entry.name), join(dest, entry.name));
-    n++;
+    const from = join(repoRoot, entry.name);
+    try {
+      copyFileSync(from, join(dest, entry.name));
+    } catch (err) {
+      console.error(`prepare-content: failed to copy ${from}: ${err.message}`);
+      process.exit(1);
+    }
+    rootCount++;
   }
 }
 
-// 2. domains/ and notes/
+// 2. domains/ and notes/ — recursive copy, failing loud on the offending tree.
+const dirCounts = {};
 for (const dir of ["domains", "notes"]) {
   const src = join(repoRoot, dir);
   if (existsSync(src)) {
-    cpSync(src, join(dest, dir), {
-      recursive: true,
-      filter: (p) => !p.endsWith(".pdf"),
-    });
-    n++;
+    try {
+      cpSync(src, join(dest, dir), {
+        recursive: true,
+        filter: (p) => !p.endsWith(".pdf"),
+      });
+    } catch (err) {
+      console.error(`prepare-content: failed to copy ${src}: ${err.message}`);
+      process.exit(1);
+    }
+    dirCounts[dir] = countMarkdown(join(dest, dir));
   }
 }
 
-console.log(`prepare-content: copied wiki content into site/content/ (${n} top-level items).`);
+const dirSummary = Object.entries(dirCounts)
+  .map(([dir, count]) => `${count} ${dir}`)
+  .join(", ");
+const total = rootCount + Object.values(dirCounts).reduce((a, b) => a + b, 0);
+console.log(
+  `prepare-content: copied ${rootCount} root${dirSummary ? ", " + dirSummary : ""} = ${total} markdown files into site/content/.`
+);

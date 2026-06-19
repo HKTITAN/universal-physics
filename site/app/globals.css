@@ -242,7 +242,7 @@ a {
   gap: 0.5rem;
 }
 .cover-kicker .ref {
-  color: var(--ink-500);
+  color: var(--ink-600);
 }
 .cover-title {
   font-family: var(--mono);
@@ -280,7 +280,7 @@ a {
   font-size: 0.62rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--ink-500);
+  color: var(--ink-600);
   margin: 0 0 0.3rem;
 }
 .cover-stats dd {
@@ -290,7 +290,7 @@ a {
   color: var(--ink-950);
 }
 .cover-stats dd .unit {
-  color: var(--ink-500);
+  color: var(--ink-600);
   font-size: 0.72rem;
 }
 
@@ -335,7 +335,7 @@ a {
   align-items: baseline;
 }
 .toc-heading .ref {
-  color: var(--ink-400);
+  color: var(--ink-600);
   font-size: 0.68rem;
   letter-spacing: 0.08em;
 }
@@ -398,7 +398,7 @@ a {
 }
 .toc-sections .toc-num {
   font-size: 0.7rem;
-  color: var(--ink-400);
+  color: var(--ink-600);
 }
 .toc-sections a {
   font-family: var(--mono);
@@ -416,7 +416,7 @@ a {
   font-size: 0.62rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--ink-400);
+  color: var(--ink-600);
   margin: 0.6rem 0 0.15rem 3.5rem;
 }
 
@@ -473,7 +473,7 @@ a {
   font-size: 0.7rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--ink-500);
+  color: var(--ink-600);
   margin: 1.6rem 0 0;
   display: flex;
   flex-wrap: wrap;
@@ -520,7 +520,7 @@ a {
   transform: translateY(-3px);
 }
 .chapter-label .updated {
-  color: var(--ink-400);
+  color: var(--ink-600);
   letter-spacing: 0.05em;
 }
 
@@ -547,7 +547,7 @@ a {
   font-size: 0.62rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--ink-400);
+  color: var(--ink-600);
   margin: 0 0 0.6rem;
   font-weight: 400;
 }
@@ -652,7 +652,7 @@ a {
   font-size: 0.62rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--ink-500);
+  color: var(--ink-600);
   display: block;
   margin-bottom: 0.3rem;
 }
@@ -868,7 +868,7 @@ a {
   background: transparent;
 }
 .chip-unverified {
-  color: var(--ink-500);
+  color: var(--ink-600);
   border-color: var(--ink-300);
   border-style: dotted;
   background: transparent;

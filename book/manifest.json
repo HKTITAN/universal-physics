@@ -252,7 +252,7 @@
       "part": 5,
       "title": "PART V — THE INVESTIGATION",
       "opener": "book/frontmatter/part-openers/part-5.md",
-      "notes": "The ~30 non-synthesis working notes under notes/ are NOT chapters. Wherever a synthesis chapter links to one, render the link as a citation: 'Working note: <title> (repo: notes/<filename>)'. The full notes index (notes/README.md) is cited once in the Part V opener and in About This Book.",
+      "notes": "Most of the 74 working notes under notes/ are NOT chapters (only the synthesis notes listed above are). Wherever a synthesis chapter links to one, render the link as a citation: 'Working note: <title> (repo: notes/<filename>)'. The full notes index (notes/README.md) is cited once in the Part V opener and in About This Book.",
       "chapters": [
         {
           "number": 21,

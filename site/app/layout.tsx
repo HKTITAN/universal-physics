@@ -39,12 +39,23 @@ export const metadata: Metadata = {
     siteName: "Universal Physics",
     type: "website",
     locale: "en_US",
+    // Branded card (paper + ink-blue). SVG card; swap for a 1200×630 PNG if a
+    // raster generator becomes available. TODO(og-image): produce a PNG variant.
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Universal Physics — a six-iteration research manual",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Universal Physics",
     description:
       "A six-iteration, adversarially-refereed research manual: the verdict, the registries, the open problems, the experiment watchlist.",
+    images: ["/og-image.svg"],
   },
 };
 

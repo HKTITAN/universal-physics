@@ -1,0 +1,22 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Universal Physics — a six-iteration adversarially-refereed research manual">
+  <rect width="1200" height="630" fill="#f5f1e6"/>
+  <!-- faint grid ruling, echoing the site's instrument-manual paper -->
+  <g stroke="rgba(96,86,60,0.075)" stroke-width="1">
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="480" x2="1200" y2="480"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  <!-- brand mark -->
+  <rect x="80" y="80" width="96" height="96" fill="#2240c8"/>
+  <text x="128" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="48" fill="#faf7ef" text-anchor="middle" letter-spacing="2">UP</text>
+  <text x="200" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="34" fill="#1d1a13" letter-spacing="6">UNIVERSAL PHYSICS</text>
+  <line x1="80" y1="220" x2="1120" y2="220" stroke="#1d1a13" stroke-width="3"/>
+  <text x="80" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="74" fill="#1d1a13">A six-iteration</text>
+  <text x="80" y="438" font-family="Georgia, 'Times New Roman', serif" font-size="74" fill="#1d1a13">research <tspan fill="#2240c8">manual</tspan>.</text>
+  <text x="80" y="540" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="26" fill="#615a4b">Adversarially refereed · 17 catalogued clashes · the precise account</text>
+  <text x="80" y="578" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="26" fill="#615a4b">of why a universal theory is not yet in hand.</text>
+</svg>

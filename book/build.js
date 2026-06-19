@@ -20,6 +20,40 @@ const REPO = path.resolve(BOOK, '..');
 const DIST = path.join(BOOK, 'dist');
 const manifest = JSON.parse(fs.readFileSync(path.join(BOOK, 'manifest.json'), 'utf8'));
 
+/* ---------------- fail-loud pre-flight: every manifest source must exist ----------------
+ * Mirrors scripts/check-book-manifest.mjs's existence checking, but collects ALL
+ * missing sources with their owning manifest entry (chapter/back-matter title) and
+ * throws ONE listing — so a missing/renamed source fails the build with "which chapter"
+ * context instead of a bare ENOENT from the first readFileSync that happens to hit it. */
+function preflightSources() {
+  const missing = []; // {rel, label}
+  const check = (rel, label) => {
+    if (!rel) return;
+    if (!fs.existsSync(path.resolve(REPO, rel))) missing.push({ rel, label });
+  };
+  for (const part of manifest.parts || []) {
+    check(part.opener, `part ${part.part} opener`);
+    for (const ch of part.chapters || [])
+      for (const s of ch.sources || [])
+        check(s, `chapter ${ch.number} "${ch.title}"`);
+  }
+  for (const bm of manifest.backMatter || []) {
+    check(bm.source, `back matter "${bm.title}"`);   // singular form (e.g. about)
+    for (const s of bm.sources || [])                 // plural form
+      check(s, `back matter "${bm.title}"`);
+  }
+  for (const fm of manifest.frontMatter || []) {
+    check(fm.source, `front matter "${fm.title}"`);
+    for (const s of fm.sources || []) check(s, `front matter "${fm.title}"`);
+  }
+  if (missing.length) {
+    const lines = missing.map(x => `  - ${x.rel} (manifest entry: ${x.label})`).join('\n');
+    throw new Error(
+      `book/build.js: ${missing.length} chapter/backmatter source(s) not found:\n${lines}`);
+  }
+}
+preflightSources();
+
 const md = new MarkdownIt({ html: true, linkify: true, typographer: false })
   .use(texmath, { engine: katex, delimiters: 'dollars', katexOptions: { throwOnError: false, strict: false } });
 md.linkify.set({ fuzzyLink: false }); // don't auto-link bare "FOO.md" (.md is a TLD)
@@ -28,7 +62,14 @@ md.linkify.set({ fuzzyLink: false }); // don't auto-link bare "FOO.md" (.md is a
 
 function loadRaw(rel) {
   const p = path.resolve(REPO, rel);
-  const src = fs.readFileSync(p, 'utf8');
+  let src;
+  try {
+    src = fs.readFileSync(p, 'utf8');
+  } catch (e) {
+    // Fail loud with which source: preflightSources() catches the common missing-file
+    // case up front, but this also covers unreadable files and any path not pre-checked.
+    throw new Error(`book/build.js: cannot read source: ${rel} (${e.code || e.message})`);
+  }
   return matter(src); // {content, data}
 }
 
@@ -335,6 +376,37 @@ const html = `<!doctype html><html lang="en"><head><meta charset="utf-8">
 ${out.join('\n')}
 </body></html>`;
 
+/* ---------------- cross-reference resolver (post-render) ----------------
+ * Every internal anchor link (href="#X") must point at a real id="X" in the
+ * assembled document. This catches a renamed/removed chapter that a surviving
+ * cross-reference still points at, or a typo'd "#ch-999" — failures that would
+ * otherwise become a silent dead link only noticed once someone reads the PDF.
+ * Scope: INTERNAL "#" fragments only; external http(s)/mailto links are ignored
+ * (rewriteLink already leaves those untouched). The defined-id set is collected
+ * from the FINAL html, so any id the build or the source markdown emits counts. */
+function checkCrossRefs(doc) {
+  const ids = new Set();
+  let m;
+  const idRe = /\bid="([^"]+)"/g;
+  while ((m = idRe.exec(doc))) ids.add(m[1]);
+
+  const dangling = new Map(); // target -> count
+  const hrefRe = /href="#([^"]*)"/g;
+  while ((m = hrefRe.exec(doc))) {
+    const target = m[1];
+    if (target === '') continue;             // bare "#" is not a cross-reference
+    if (!ids.has(target)) dangling.set(target, (dangling.get(target) || 0) + 1);
+  }
+  if (dangling.size) {
+    const lines = [...dangling.entries()]
+      .map(([t, n]) => `  - #${t} (${n} reference${n > 1 ? 's' : ''}, no matching id)`).join('\n');
+    throw new Error(
+      `book/build.js: ${dangling.size} dangling internal cross-reference(s):\n${lines}`);
+  }
+  return ids.size;
+}
+const idCount = checkCrossRefs(html);
+
 fs.mkdirSync(DIST, { recursive: true });
 // KaTeX assets next to the HTML so font URLs resolve
 const kdist = path.join(BOOK, 'node_modules', 'katex', 'dist');
@@ -342,4 +414,5 @@ fs.copyFileSync(path.join(kdist, 'katex.min.css'), path.join(DIST, 'katex.min.cs
 fs.cpSync(path.join(kdist, 'fonts'), path.join(DIST, 'fonts'), { recursive: true });
 fs.writeFileSync(path.join(DIST, 'book.html'), html, 'utf8');
 console.log('book.html written:', Math.round(html.length / 1024) + ' KB,',
-  chapterBySource.size, 'chapters,', noteTitles.size, 'notes mapped');
+  chapterBySource.size, 'chapters,', noteTitles.size, 'notes mapped;',
+  'cross-refs OK (' + idCount + ' anchors)');

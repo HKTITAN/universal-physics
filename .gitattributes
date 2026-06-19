@@ -1,0 +1,11 @@
+# The book PDF is a committed, distributed artifact (~6 MB) rebuilt each
+# iteration. Mark it binary and disable delta compression so git stops
+# attempting pathological deltas on it (which bloat the pack on every rebuild).
+# The file stays tracked — this only changes how git stores/diffs it.
+universal-physics-book.pdf binary -delta
+*.pdf binary -delta
+
+# NOTE: a repo-wide `* text=auto eol=lf` rule was considered but deliberately
+# omitted — `git add --renormalize --dry-run` showed it would rewrite ~160
+# already-committed files (line-ending churn not worth it here). Revisit only
+# if line endings ever cause real noise. See plans/008-repo-hygiene-contribution.md.

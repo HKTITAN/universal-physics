@@ -23,6 +23,21 @@ The analytical program is saturated; the verdict moves only on **new input**. Th
 - **Watchlist maintenance:** new bounds/results in any channel (DESI/Euclid w(z), GQuEST, CQ-gravity squeezes, collapse bounds, GW nulls, BMV progress), with citations.
 - **Lint:** broken links, stale numbers, tag inconsistencies, `[unverified]` references you can resolve to a DOI.
 
+## Use the issue templates
+
+Open an issue before (or alongside) a substantial PR — it routes the work and gives reviewers the anti-crank checklist up front. Two templates are provided:
+
+- **[Carrier problem — proof attempt / counterexample](.github/ISSUE_TEMPLATE/carrier-problem-proof.md)** — for the one open mathematical gate (the net-naturality theorem). Read the [dossier](notes/2026-06-19-iter15-carrier-problem-dossier.md) first.
+- **[Attack track — open problem / hypothesis](.github/ISSUE_TEMPLATE/attack-track.md)** — for any registered `OP-n` / `GC-n` / `Hn` / `A-n` / named `HYP-*`, or to propose a new one.
+
+A [pull-request template](.github/pull_request_template.md) carries the same checklist for the PR itself.
+
+## Citation format
+
+- Cite arXiv as `arXiv:YYMM.NNNNN` (post-2007 scheme) or the old `archive/YYMMNNN` scheme (e.g. `hep-th/9711200`) — whichever the paper actually uses.
+- **Never guess a DOI, journal, volume, or page.** If you cannot verify the bibliographic detail against the live source, cite the arXiv ID alone and flag the unresolved journal-ref `[unverified]` per [EPISTEMICS.md](EPISTEMICS.md) §4. A missing journal-ref is fine; a fabricated one is disqualifying.
+- The link checker (`scripts/check-links.mjs`) runs in CI on every push; a citation checker enforcing this format runs as it lands (see [CHANGELOG.md](CHANGELOG.md)). Run the available checkers locally before opening a PR.
+
 ## Process
 
 1. Fork → branch → PR against `main`.

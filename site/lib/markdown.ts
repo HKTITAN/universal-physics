@@ -37,7 +37,7 @@ function rehypeWikiLinks() {
       if (node.tagName !== "a" || typeof node.properties?.href !== "string") return;
       let href = node.properties.href as string;
       if (/^(https?:|mailto:)/.test(href)) {
-        node.properties.rel = "noreferrer";
+        node.properties.rel = "noopener noreferrer";
         return;
       }
       if (href.startsWith("#")) return;

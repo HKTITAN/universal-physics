@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://universal-physics.khe.money/book/manifest.schema.json",
+  "title": "Universal Physics book manifest",
+  "description": "Schema for book/manifest.json — the build manifest consumed by book/build.js. Content policy: source .md pages are FROZEN; the manifest only declares structure (parts, chapters, sources) and trim (chrome-stripping) instructions. This schema is for editor/tooling validation; the build path uses plain JS (scripts/check-book-manifest.mjs) and adds no runtime validation dependency.",
+  "type": "object",
+  "required": ["book", "conventions", "frontMatter", "parts", "backMatter"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Relative path to this schema for editor tooling."
+    },
+    "book": {
+      "type": "object",
+      "description": "Top-level book metadata used to render the title/copyright pages.",
+      "required": ["title", "subtitle", "authors", "edition"],
+      "additionalProperties": true,
+      "properties": {
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "authors": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "edition": { "type": "string" },
+        "publicationDate": { "type": "string" },
+        "license": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "website": { "type": "string" },
+        "repository": { "type": "string" },
+        "designCredit": { "type": "string" },
+        "trim": { "type": "string" },
+        "language": { "type": "string" }
+      }
+    },
+    "conventions": {
+      "type": "object",
+      "description": "Project-wide conventions (epistemic tags, content/link policy). Free-form; not consumed structurally by the build.",
+      "additionalProperties": true
+    },
+    "frontMatter": {
+      "type": "array",
+      "description": "Front-matter pages. Most are generated (id + generate hint); the preface carries a real source path.",
+      "items": {
+        "type": "object",
+        "required": ["id", "title"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "generate": { "type": "string" },
+          "source": { "type": "string" },
+          "sources": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "parts": {
+      "type": "array",
+      "description": "Ordered parts; each has an opener page and an ordered list of chapters.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["part", "title", "opener", "chapters"],
+        "additionalProperties": false,
+        "properties": {
+          "part": { "type": "integer", "minimum": 1 },
+          "title": { "type": "string" },
+          "opener": {
+            "type": "string",
+            "description": "Path (relative to sourceRoot) to the part-opener markdown."
+          },
+          "notes": {
+            "type": "string",
+            "description": "Optional editorial note for this part (e.g. how working-note links are cited). Not rendered structurally."
+          },
+          "chapters": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["number", "title", "sources"],
+              "additionalProperties": false,
+              "properties": {
+                "number": { "type": "integer", "minimum": 1 },
+                "title": { "type": "string" },
+                "sources": {
+                  "type": "array",
+                  "description": "One or more source .md paths (relative to sourceRoot) concatenated into the chapter. build.js renders sources[0] as the chapter spine; multi-source chapters run their sources in order.",
+                  "items": { "type": "string" },
+                  "minItems": 1
+                },
+                "trim": {
+                  "type": "string",
+                  "description": "Human-readable chrome-stripping instruction. Advisory; the actual stripping logic lives in build.js."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "backMatter": {
+      "type": "array",
+      "description": "Back-matter sections (glossary, bibliography, about, publication history).",
+      "items": {
+        "type": "object",
+        "description": "A back-matter entry. Source ASYMMETRY (matched in build.js): most entries carry a plural `sources` array, but the 'about' entry carries a singular `source` string. Exactly one of `source`/`sources` is expected for a sourced entry; 'publication-history' is generated from a condensed CHANGELOG and may rely on build.js logic. This schema allows either form.",
+        "required": ["id", "title"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "source": {
+            "type": "string",
+            "description": "Singular source path. Used by the 'about' entry; build.js branches on bm.source vs bm.sources."
+          },
+          "sources": {
+            "type": "array",
+            "description": "Plural source paths (the common form).",
+            "items": { "type": "string" },
+            "minItems": 1
+          },
+          "trim": { "type": "string" }
+        }
+      }
+    }
+  }
+}
