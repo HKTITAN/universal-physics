@@ -10,6 +10,18 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-06-19 — Iteration 15: net-naturality theorem confirmed robust across three new mathematical frameworks (verdict unchanged 14th consecutive; carrier problem posed for external resolution)
+
+Three refereed attack tracks brought frameworks never previously applied to the carrier problem — disjoint from the exhausted Tomita–Takesaki / centralizer / bicentralizer machinery: **(E1)** Costello–Gwilliam factorization algebras + Atiyah–Segal–Lurie functorial/cobordism QFT + the Benini–Carmona–Grant-Stuart–Schenkel AQFT≅prefactorization-algebra equivalence (arXiv:2412.07318/1903.03396); **(E2)** Connes–Atiyah–Singer index theory in operator-algebraic form (spectral triples, bounded KK, coarse/Roe geometry); **(E3)** higher-categorical / homotopical / non-unitary tensor-categorical AQFT (operadic + Lorentzian-bordism FFT + cobordism hypothesis). **All three REPRODUCE the encode-not-generate screen; no referee-survivable decidable handle was found.**
+
+Each framework smuggles the identical geometric input — the causal-disjointness/orthogonality/index-set order `n₁` (localization template), or a metric/Dirac/Krein datum `η` (signature carrier installed on a pre-given space). The BPS/BCGS categorical equivalence is a new precise object but only a *translation tool* (a fourth independent witness to the iter-9 §4 obstruction, not a sixth route). Index pairings all factor through the Dirac operator (the metric); the Lorentzian/indefinite case installs the Krein space whose form IS the `(n,n)` carrier (arXiv:1611.07062). The categorical lens does not close the commutant-to-generated gap.
+
+Referee corrections (binding, none verdict-bearing): E1 — arXiv:2212.08175 re-attributed to Gwilliam–Rejzner; E2 — spectral-localizer attribution split (Loring–Schulz-Baldes vs Kaad 2508.08668), III₁ K-vacuity scoped to single-algebra; E3 — Bunk–MacManus–Schenkel (arXiv:2308.01026, restore MacManus), Müller–Stehouwer (arXiv:2301.06664). All citations web-verified; no fabrication.
+
+**No registry quantity moved.** Verdict (PARTIAL / encodes-not-generates / not-yet-physics / not-forecastable) UNCHANGED — 14th consecutive confirmation, now robust across factorization-algebra, index/K-theory, and higher-categorical mathematics in addition to modular and Krein methods. Principal hedge HYP-CKV-VACUITY-R6 (grade and condition) UNMOVED; HYP-ENCODING-SCREEN no-test corollary UNMOVED; carrier-convergence count **FIVE**; no new ID consumed. Deliverable: the iteration-15 dossier — the net-naturality theorem distilled as a self-contained open-problem statement for external solvers.
+
+---
+
 ## Iteration 14 (2026-06-19) — maximal adversarial assault on the standing verdict; verdict survives on all three pillars (13th consecutive confirmation)
 
 **Mode:** Inverse-burden assault. Three adversarial tracks (D1/D2/D3), each instructed to assume the standing verdict is WRONG and to build the strongest web-verifiable 2024-2026 falsification of its assigned pillar with no hedging toward the verdict; a referee governed each under the binding anti-crank protocol. **Outcome: every prong FAILED-TO-FALSIFY; every referee returned ATTACK-FAILS-VERDICT-HOLDS.**

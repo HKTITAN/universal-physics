@@ -12,7 +12,7 @@ updated: 2026-06-19
 [![Website](https://img.shields.io/badge/site-universal--physics.khe.money-blue)](https://universal-physics.khe.money)
 [![Book (PDF)](https://img.shields.io/badge/book-PDF-crimson)](universal-physics-book.pdf)
 [![Verdict](https://img.shields.io/badge/verdict-PARTIAL%20%C2%B7%20not--yet--physics-orange)](CONCLUSION.md)
-[![Status](https://img.shields.io/badge/iteration-14%20%C2%B7%20saturated-lightgrey)](CONCLUSION.md)
+[![Status](https://img.shields.io/badge/iteration-15%20%C2%B7%20saturated-lightgrey)](CONCLUSION.md)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0%20%2B%20MIT-green)](LICENSE.md)
 
 ---
@@ -25,7 +25,7 @@ This repository is a serious, cumulative, self-critical knowledge base — an **
 
 ## The standing verdict
 
-After fourteen iterations, the verdict has been stable for **13 consecutive iterations** and the analytical program has reached **terminal analytical saturation** — continued reasoning now mostly re-derives the same map; only new external input can move the result.
+After fifteen iterations, the verdict has been stable for **14 consecutive iterations** and the analytical program has reached **terminal analytical saturation** — continued reasoning now mostly re-derives the same map; only new external input can move the result.
 
 **A single universal theory of physics is *not forbidden and not delivered.***
 
@@ -34,7 +34,7 @@ After fourteen iterations, the verdict has been stable for **13 consecutive iter
 - **Not yet physics.** The central wager has **no distinguishing experimental test even in principle**. By this wiki's own anti-crank standard it is a sharp, coherent research *strategy*, not a result.
 - **Not forecastable.** The object-level question — *is there a final theory, and is it this one?* — is gated less by the ~15-order-of-magnitude energy desert than by the absence of any experiment that bears on the central wager.
 
-**The single open gate** is the **carrier problem**: derive an algebra-compatible, *localized* (fiberwise) indefinite `(n,n)` pairing from modular data alone — installing no symmetry, η-form, foliation, twist, indefinite-pairing axiom, or signature-valued template by hand. Five independent routes converge on the same closing step. A construction meeting the full spec would flip the headline from "encodes" to "generates" and reopen the capstone. As of iteration 14, no carrier closes, no reverse-Weinberg–Witten witness exists, and the external channels (notably Connes' bicentralizer problem, re-confirmed open in general) remain dry.
+**The single open gate** is the **carrier problem**: derive an algebra-compatible, *localized* (fiberwise) indefinite `(n,n)` pairing from modular data alone — installing no symmetry, η-form, foliation, twist, indefinite-pairing axiom, or signature-valued template by hand. Five independent routes converge on the same closing step. A construction meeting the full spec would flip the headline from "encodes" to "generates" and reopen the capstone. As of iteration 15, no carrier closes, no reverse-Weinberg–Witten witness exists, and the external channels (notably Connes' bicentralizer problem, re-confirmed open in general) remain dry.
 
 ➡️ **Read the full reasoning in [CONCLUSION.md](CONCLUSION.md) — the capstone verdict.**
 
@@ -100,7 +100,7 @@ Work proceeds through three operations — **Ingest** (add knowledge, enrich in 
 ## Read it elsewhere
 
 - **Website** — [universal-physics.khe.money](https://universal-physics.khe.money): the full wiki as a technical reference manual (built from `site/`).
-- **Book (PDF)** — [universal-physics-book.pdf](universal-physics-book.pdf): *Universal Physics*, the properly typeset edition (6×9 in; typeset through iteration 14; built from `book/`).
+- **Book (PDF)** — [universal-physics-book.pdf](universal-physics-book.pdf): *Universal Physics*, the properly typeset edition (6×9 in; typeset through iteration 15; built from `book/`).
 - **Vault** — open this repo directly in [Obsidian](https://obsidian.md): frontmatter, graph-view color groups, the [index.md](index.md) catalog, and [MAP.canvas](MAP.canvas) are configured.
 
 ---
@@ -125,7 +125,7 @@ Contributions are invited — from typo fixes to full attack tracks on the open 
 3. **Red-team your own claim** against the relevant no-go theorems and this wiki's own closures.
 4. **Enrich pages in place**, cross-link, and log every change in [CHANGELOG.md](CHANGELOG.md).
 
-The analytical program is saturated; the verdict moves only on **new input**. Help is most valuable on the carrier problem (the verdict-flipper), the named decidable analytical levers (see [CONCLUSION.md](CONCLUSION.md) §5), and watchlist maintenance (new bounds in any channel, with citations).
+The analytical program is saturated; the verdict moves only on **new input**. The single open gate is posed as a self-contained, formally-precise **open-problem dossier for external solvers** — [notes/2026-06-19-iter15-carrier-problem-dossier.md](notes/2026-06-19-iter15-carrier-problem-dossier.md). Help is most valuable there (the net-naturality / carrier theorem — the verdict-flipper), and on watchlist maintenance (new bounds in any channel, with citations).
 
 ---
 

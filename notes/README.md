@@ -133,5 +133,7 @@ Net: the audit STRENGTHENS the terminal-saturation diagnosis from the frame side
 
 README note: iteration 14 changes the *kind* of confirmation, not the registry. Watch-mode continues; the standing verdict's two reopening channels remain a carrier/reverse-WW theorem (external math) and a generative readout (none exists). Mid-2026 literature swept; no carrier, no witness, no sixth route.
 
+- **2026-06-19-iter15-three-new-frameworks-synthesis.md** — Iteration 15 synthesis. Three refereed tracks attacked the net-naturality theorem (the one open gate) with frameworks never before applied in the wiki: (E1) factorization-algebra / functorial-QFT, (E2) Connes–Atiyah–Singer index / K-theory / coarse geometry, (E3) higher-categorical / homotopical / non-unitary tensor-categorical AQFT. All three REPRODUCE the encode-not-generate screen; no decidable handle found. Each smuggles the same geometric input (causal-disjointness/orthogonality order `n₁`, or a Dirac/Krein/metric datum `η`). The no-go is now robust across every modern mathematical framework tried. Verdict unchanged (14th consecutive); count FIVE; no ID consumed. Contains the **iteration-15 dossier**: the carrier problem as a self-contained open-problem statement for external solvers.
+
 ## See also
 - [../CONCLUSION.md](../CONCLUSION.md) · [../EXPERIMENT_WATCHLIST.md](../EXPERIMENT_WATCHLIST.md) · [../FINDINGS.md](../FINDINGS.md) · [../ROADMAP.md](../ROADMAP.md) · [../CHANGELOG.md](../CHANGELOG.md) · [../AGENTS.md](../AGENTS.md) · [../README.md](../README.md)

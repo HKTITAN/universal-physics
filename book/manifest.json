@@ -367,6 +367,14 @@
             "notes/2026-06-19-iter14-synthesis.md"
           ],
           "trim": "Drop YAML frontmatter and 'See also'. The inverse-burden capstone: the three pillars assaulted with the strongest 2024-2026 falsifications, all held; the Schneider corroboration of the screen's sole un-breached seam is the chapter's close."
+        },
+        {
+          "number": 35,
+          "title": "The Carrier Problem, Posed: The Open Gate Distilled for External Solvers",
+          "sources": [
+            "notes/2026-06-19-iter15-carrier-problem-dossier.md"
+          ],
+          "trim": "Drop YAML frontmatter and 'See also'; keep the dossier body verbatim (it is the formal open-problem statement). The closing chapter of the research arc: fifteen iterations distilled into the single most-attackable form of the one open gate, posed for external resolution."
         }
       ]
     },
@@ -376,7 +384,7 @@
       "opener": "book/frontmatter/part-openers/part-6.md",
       "chapters": [
         {
-          "number": 35,
+          "number": 36,
           "title": "Conclusion: The Converged Verdict",
           "sources": [
             "CONCLUSION.md"
@@ -384,7 +392,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
         },
         {
-          "number": 36,
+          "number": 37,
           "title": "The Experiment Watchlist",
           "sources": [
             "EXPERIMENT_WATCHLIST.md"
@@ -392,7 +400,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
         },
         {
-          "number": 37,
+          "number": 38,
           "title": "Roadmap: What Comes Next",
           "sources": [
             "ROADMAP.md"
