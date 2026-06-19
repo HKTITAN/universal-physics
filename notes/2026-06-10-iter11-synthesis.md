@@ -1,3 +1,10 @@
+---
+title: "Iteration 11 synthesis — the hedge re-grounded on a named open problem; saturation goes terminal."
+type: note
+tags: [note, iter11]
+updated: 2026-06-10
+---
+
 **Iteration 11 synthesis — the hedge re-grounded on a named open problem; saturation goes terminal.**
 
 The single most important thing to get right this iteration is what did NOT happen. The mission framed A1 as potentially closing the carrier no-go to a proved theorem (its premise: Connes' bicentralizer problem was "resolved in general by Houdayer–Marrakchi–Tomatsu"). That premise is FALSE — verified by the referee against live sources: Connes' bicentralizer conjecture is OPEN in general as of 2026. So there was never a closure available, and the VERDICT-DELTA "re-verify three times before endorsing" gate (which triggers only on a closure-to-proved-theorem or a referee-UPHELD reverse-WW witness) does not fire. Neither extraordinary outcome occurred.

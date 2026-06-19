@@ -1,3 +1,10 @@
+---
+title: "Net + Vacuum as a Complete Invariant: Three Independent Handles, One Carrier Gate (2026-06-10)"
+type: note
+tags: [note, iter11]
+updated: 2026-06-10
+---
+
 # Net + Vacuum as a Complete Invariant: Three Independent Handles, One Carrier Gate (2026-06-10)
 
 **Status:** ATTEMPT executed, track A2-reverse-WW-independent-handle of iteration 11. Outcome **SHARPENED-OPEN**. The reverse-Weinberg–Witten = carrier identity (iteration 9) is attacked from a **different direction** than the carrier no-go — via (1) holography of information, (2) a counterexample search, (3) MIP*=RE/Connes — to ask whether *"is net + vacuum a complete invariant"* can be settled independently. All three handles land back on the **same carrier gate** without flipping the headline. The standing verdict is unchanged for the **10th consecutive time**.

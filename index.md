@@ -2,13 +2,13 @@
 title: Index — Content Catalog
 type: index
 tags: [index, catalog, navigation]
-updated: 2026-06-10
+updated: 2026-06-19
 ---
 
 # Index — Content Catalog
 
 **Status:** Maintained catalog — one line per page, grouped by role.
-**Last updated:** 2026-06-10
+**Last updated:** 2026-06-19
 
 Every page in the wiki, with an honest one-line summary. Entry point and reading order: [README.md](README.md). Operations history: [log.md](log.md) (thin index) over [CHANGELOG.md](CHANGELOG.md) (canonical).
 
@@ -113,6 +113,18 @@ Every page in the wiki, with an honest one-line summary. Entry point and reading
 - [notes/2026-06-10-iter6-qg-phenomenology.md](notes/2026-06-10-iter6-qg-phenomenology.md) — GQuEST is Program-A-adjacent, not a wager test (its chain re-imports η = 1/4G); the CQ gate may close from the classical side before BMV.
 - [notes/2026-06-10-iter6-experiment-refresh.md](notes/2026-06-10-iter6-experiment-refresh.md) — Mid-2026 numbers re-verified; the w(z) decision point compresses to 2027; nothing touches the wager.
 - [notes/2026-06-10-iter6-synthesis.md](notes/2026-06-10-iter6-synthesis.md) — Verdict unchanged for the fifth consecutive iteration; hedge accounting (2 → 3, one shrunk) and what could move it next.
+
+### Iterations 7–13 — 2026-06-10 / 2026-06-19 (lever execution → terminal saturation)
+
+The per-note catalogue for iterations 7–13 is maintained in the authoritative iteration index, **[notes/README.md](notes/README.md)** (kept here as a single home to avoid dual-maintenance drift). In brief:
+
+- **Iteration 7** — the four named decidable levers executed; verdict unchanged (6th); principal hedge hardened MEDIUM → MEDIUM-HIGH.
+- **Iteration 8** — net/family carrier no-go; hedge hardened toward HIGH on a narrowed condition (7th).
+- **Iteration 9** — carrier-no-go naturality content; reverse-Weinberg–Witten = the carrier problem; modular-Berry escape discharged (8th).
+- **Iteration 10** — the commutant-to-generated gap attacked from both sides; hedge unmoved in grade AND condition (9th).
+- **Iteration 11** — carrier reduction re-grounded on Connes' (open) bicentralizer problem; terminal-saturation audit (10th).
+- **Iteration 12** — physics-net bicentralizer lever retired; external sweeps dry; indefinite-metric / Krein route closed-negative; **terminal saturation re-confirmed** (11th).
+- **Iteration 13** — new-angle frame audit: bottleneck-completeness confirmed, cross-program triangulation, the calibrated "how close are we"; consolidation holds (12th).
 
 ---
 

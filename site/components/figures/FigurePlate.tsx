@@ -28,6 +28,8 @@ export const S = {
   blueDeep: "var(--blue-deep)",
   wash: "var(--blue-wash)",
   ochre: "var(--ochre)",
+  ochreWash: "var(--ochre-wash)",
+  inkMid: "var(--ink-700)",
   paper: "var(--paper-raised)",
   mono: "var(--mono)",
 } as const;

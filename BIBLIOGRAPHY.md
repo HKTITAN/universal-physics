@@ -2,13 +2,13 @@
 title: Bibliography — Canonical Sources for the Universal Physics Wiki
 type: reference
 tags: [reference, bibliography, sources]
-updated: 2026-06-10
+updated: 2026-06-19
 ---
 
 # Bibliography — Canonical Sources for the Universal Physics Wiki
 
 **Status:** Living reference (append-only; deduped across domain dossiers).
-**Last updated:** 2026-06-10
+**Last updated:** 2026-06-19
 
 This page is the consolidated source list for the wiki. It contains **only real, standard references** that the author is confident exist: canonical textbooks (author + title) and genuinely landmark papers (author, year). Where a precise detail (volume, page, exact year) is uncertain, the entry carries an inline `[unverified]` flag and gives author + title + approximate year only — per the [EPISTEMICS.md](EPISTEMICS.md) rule that we never fabricate citations, numbers, or theorems.
 

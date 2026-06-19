@@ -2,88 +2,130 @@
 title: Universal Physics — A Research Wiki
 type: index
 tags: [index, physics-wiki, navigation, unification]
-updated: 2026-06-10
+updated: 2026-06-19
 ---
 
-# Universal Physics — A Research Wiki
+# Universal Physics
 
-**Status:** Active research — six iterations complete (analytical phase saturated at iteration 5; iteration 6 was a new-input iteration that left the verdict unchanged and restructured its hedges).
-**Last updated:** 2026-06-10
+> An LLM-maintained, adversarially-refereed research wiki driving toward — and rigorously bounding — a universal theory of physics.
 
-A serious, cumulative attempt to (1) map the best current understanding of fundamental physics, (2) find exactly where it breaks, (3) separate genuinely fundamental assumptions from historical artifacts, (4) search for deeper unifying principles, and (5) evaluate — honestly — whether a *universal theory of physics* is possible, and if so, what it could look like.
-
-This is **not** an essay arguing for a pet "theory of everything." It is a structured, self-critical knowledge base built to be iterated on for a long time. Speculation is welcome but always labeled as such (see [EPISTEMICS.md](EPISTEMICS.md)). The goal is either a candidate framework with real backing, or a precise account of why the evidence does not support one yet.
-
-It follows the persistent **LLM-maintained wiki** pattern (raw sources → wiki → schema): knowledge is *compiled once* into interlinked markdown that compounds, rather than re-derived on every query.
-
----
-
-## Start here
-
-1. **[CONCLUSION.md](CONCLUSION.md)** — **the capstone verdict** (analytical phase saturated after 5 iterations; survived the iteration-6 new-input stress test with three explicit hedges). *Read this first.*
-2. **[FINDINGS.md](FINDINGS.md)** — the running executive synthesis: what's solid, what's broken, what's promising, iteration by iteration.
-3. **[THEORY_MAP.md](THEORY_MAP.md)** — the map: every framework, its math, its domain of validity, and how the theories reduce to one another.
-4. **[GAPS_AND_CONTRADICTIONS.md](GAPS_AND_CONTRADICTIONS.md)** — where the frameworks actually clash, with the technical root of each clash.
-5. **[EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)** — the empirical channels that gate the object-level question (post-saturation watch-list).
+[![Website](https://img.shields.io/badge/site-universal--physics.khe.money-blue)](https://universal-physics.khe.money)
+[![Book (PDF)](https://img.shields.io/badge/book-PDF-crimson)](universal-physics-book.pdf)
+[![Verdict](https://img.shields.io/badge/verdict-PARTIAL%20%C2%B7%20not--yet--physics-orange)](CONCLUSION.md)
+[![Status](https://img.shields.io/badge/iteration-13%20%C2%B7%20saturated-lightgrey)](CONCLUSION.md)
+[![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0%20%2B%20MIT-green)](LICENSE.md)
 
 ---
 
-## Full index
+## What this is
 
-**Meta / process**
-- [AGENTS.md](AGENTS.md) — behavioral schema: how to read, extend, and maintain the wiki (Ingest / Query / Lint, verification protocol)
-- [EPISTEMICS.md](EPISTEMICS.md) — evidence tags `[ESTABLISHED] [INFERENCE] [SPECULATIVE] [OPEN] [CONTESTED]` and labeling rules
-- [ROADMAP.md](ROADMAP.md) — prioritized research agenda
-- [CHANGELOG.md](CHANGELOG.md) — append-only iteration log
-
-**Synthesis**
-- [FINDINGS.md](FINDINGS.md) — cumulative synthesis (flagship)
-- [THEORY_MAP.md](THEORY_MAP.md) — the map of physics
-- [OPEN_PROBLEMS.md](OPEN_PROBLEMS.md) — open-problems registry (`OP-n`)
-- [GAPS_AND_CONTRADICTIONS.md](GAPS_AND_CONTRADICTIONS.md) — inter-framework tensions (`GC-n`)
-- [ASSUMPTIONS_LEDGER.md](ASSUMPTIONS_LEDGER.md) — assumptions: fundamental ↔ artifact (`A-n`)
-- [UNIFYING_PRINCIPLES.md](UNIFYING_PRINCIPLES.md) — candidate deep principles
-- [UNIFICATION_LANDSCAPE.md](UNIFICATION_LANDSCAPE.md) — critical survey of unification / quantum-gravity programs
-- [HYPOTHESES.md](HYPOTHESES.md) — candidate unifying directions, refereed (`Hn`, i.e. H0–H8)
-- [CONSTANTS_AND_SCALES.md](CONSTANTS_AND_SCALES.md) — constants, units, scales, free parameters, naturalness
-
-**Reference**
-- [GLOSSARY.md](GLOSSARY.md) — definitions
-- [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) — real references only
-
-**Domain deep-dives** (`domains/`)
-- [Quantum Mechanics](domains/quantum-mechanics.md)
-- [Quantum Field Theory](domains/quantum-field-theory.md)
-- [General Relativity](domains/general-relativity.md)
-- [Classical Mechanics](domains/classical-mechanics.md)
-- [Thermodynamics](domains/thermodynamics.md)
-- [Statistical Mechanics](domains/statistical-mechanics.md)
-- [Cosmology](domains/cosmology.md)
-- [Particle Physics & the Standard Model](domains/particle-physics.md)
-- [Information Theory & Physics](domains/information-theory.md)
-- [Mathematics for Physics](domains/mathematics.md)
+This repository is a serious, cumulative, self-critical knowledge base — an **LLM-maintained research wiki** built by **Harshit Khemani** (research direction) and **Claude** (Anthropic; research labor, via multi-agent workflows) — whose single goal is to map the best current understanding of fundamental physics, find exactly where it breaks, separate genuinely fundamental assumptions from historical artifacts, search for deeper unifying principles, and evaluate **honestly** whether a universal theory of physics is possible. It is **not** an essay arguing for a pet "theory of everything"; every claim is epistemically tagged, every hypothesis is run through an adversarial anti-crank referee, and the explicit, equally-valuable success condition is *either* a candidate framework with real backing *or* a precise, reasoned account of why the evidence does not yet support one. Knowledge is **compiled once** into interlinked markdown that compounds, rather than re-derived on every query.
 
 ---
 
-## Research notes (iteration logs)
+## The standing verdict
 
-Forward-research deep-dives live under [notes/](notes/) (index: [notes/README.md](notes/README.md)). **Iteration 2 (2026-06-08)** added five refereed tracks — [de Sitter emergence](notes/2026-06-08-de-sitter-and-emergent-spacetime.md), [Born rule & linearity](notes/2026-06-08-born-rule-and-quantum-linearity.md), [tabletop quantum gravity](notes/2026-06-08-tabletop-quantum-gravity.md), [entropic gravity](notes/2026-06-08-entropic-and-emergent-gravity.md), [algebraic background-independence](notes/2026-06-08-algebraic-background-independence.md) — and a [unified-program synthesis](notes/2026-06-08-unified-program-synthesis.md) (verdict: *partial coherence*). **Iteration 3 (2026-06-08)** shifted from surveying to *attempting*: it [attempted the de Sitter entanglement first law](notes/2026-06-08-iter3-de-sitter-first-law-attempt.md) (locating the exact obstruction), [formalized encode-vs-generate](notes/2026-06-08-iter3-encode-vs-generate-criterion.md), [attempted to merge the two programs](notes/2026-06-08-iter3-merge-attempt-operational-substrate.md) (narrow success, deep failure), and [red-teamed our own posture](notes/2026-06-08-iter3-redteam-demotion-and-derivation.md) — verdict ([synthesis](notes/2026-06-08-iter3-synthesis.md)): coherence *still partial*, progress *negative/structural*, the central wager *still not yet physics*. **Iteration 4 (2026-06-08)** executed the last open dS escape (it failed — a scoped cardinality near-no-go), settled OP-48 as a sharp disjunction, web-verified the literature (**muon g−2 now SM-consistent** per WP2025), and ran a convergence audit: analytical saturation **≈1–3 iterations away**, object-level confirmation **non-forecastable**, trend **diminishing**. **Iteration 5 (2026-06-08)** was the closing push: it executed the one designated verdict-flipping move (the OP-46 *Lorentzian* non-CKV readout) and **it did not flip** — producing the first emergent Lorentzian metric in the survey, but with its signature *inherited from a symmetric vacuum*. The named list is settled and the program is now **analytically saturated**; the standing verdict is consolidated in the capstone [CONCLUSION.md](CONCLUSION.md), and effort shifts to the [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md). Conclusions are folded into [FINDINGS.md](FINDINGS.md) (§§ "Iteration 2–5 update") and the registries.
+After thirteen iterations, the verdict has been stable for **12 consecutive iterations** and the analytical program has reached **terminal analytical saturation** — continued reasoning now mostly re-derives the same map; only new external input can move the result.
 
-## The honest one-paragraph status of the field
+**A single universal theory of physics is *not forbidden and not delivered.***
 
-Two pillars — **quantum field theory** (the Standard Model) and **general relativity** — are each spectacularly confirmed in their own domains and *mutually consistent everywhere we can currently test*. They are known to be incomplete: gravity is not perturbatively renormalizable, the measurement problem is unresolved, and ~95% of the cosmic energy budget (dark matter, dark energy) is uncharacterized. The sharpest *conceptual* clashes (the black-hole information paradox, the cosmological-constant problem, the problem of time) live where both theories are extrapolated past their tested regimes. Whether these point to a single final theory or to an endless tower of effective theories is itself `[OPEN]`. This wiki tracks that question rather than presupposing its answer.
+- **PARTIAL coherence.** There is not one unified program but two internally-coherent ones — *geometry-from-algebra* and *is-the-quantum-framework-final* — joined only by thin bridges. The tempting "it's all information" fusion is refused.
+- **Encodes, does not generate.** The most developed direction — *causal/algebraic/entanglement structure precedes metric geometry* — **encodes** geometry without yet **generating** it. Every load-bearing result is conceded by its own architects to presuppose a fixed background with a Killing/conformal symmetry.
+- **Not yet physics.** The central wager has **no distinguishing experimental test even in principle**. By this wiki's own anti-crank standard it is a sharp, coherent research *strategy*, not a result.
+- **Not forecastable.** The object-level question — *is there a final theory, and is it this one?* — is gated less by the ~15-order-of-magnitude energy desert than by the absence of any experiment that bears on the central wager.
+
+**The single open gate** is the **carrier problem**: derive an algebra-compatible, *localized* (fiberwise) indefinite `(n,n)` pairing from modular data alone — installing no symmetry, η-form, foliation, twist, indefinite-pairing axiom, or signature-valued template by hand. Five independent routes converge on the same closing step. A construction meeting the full spec would flip the headline from "encodes" to "generates" and reopen the capstone. As of iteration 13, no carrier closes, no reverse-Weinberg–Witten witness exists, and the external channels (notably Connes' bicentralizer problem, re-confirmed open in general) remain dry.
+
+➡️ **Read the full reasoning in [CONCLUSION.md](CONCLUSION.md) — the capstone verdict.**
+
+---
+
+## How it is built — the llm-wiki structure
+
+This wiki follows the persistent **LLM-maintained wiki** pattern (Karpathy, *llm-wiki.md*): a three-layer system.
+
+| Layer | What it is | Where it lives |
+|---|---|---|
+| **Raw sources** | The literature — textbooks, papers, data. Immutable; only cited. | [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) |
+| **The wiki** | Interlinked markdown that *compiles* understanding once and reuses it. | this repository |
+| **The schema** | The rules of structure, labeling, and workflow. | [AGENTS.md](AGENTS.md) + [EPISTEMICS.md](EPISTEMICS.md) |
+
+Two disciplines hold the whole thing together:
+
+- **Epistemic tags.** Every nontrivial claim wears exactly one of `[ESTABLISHED]` · `[INFERENCE]` · `[SPECULATIVE]` · `[OPEN]` · `[CONTESTED]`. Speculation never wears established clothes. See [EPISTEMICS.md](EPISTEMICS.md).
+- **The anti-crank referee protocol** ([AGENTS.md](AGENTS.md) §4). Before any hypothesis is "kept", it is stated precisely (with its math), red-teamed against the relevant no-go theorems (Weinberg–Witten, Coleman–Mandula/HLS, Haag, Bell/PBR/Kochen–Specker, Reeh–Schlieder, the singularity theorems, unitarity/causality bounds) and against this wiki's own closures, then assigned a severity (none/minor/major/fatal — `fatal` ⇒ rejected, with the corpse and the cause of death kept). A candidate that *explains everything and predicts nothing* fails by construction.
+
+Work proceeds through three operations — **Ingest** (add knowledge, enrich in place, tag, cross-link, log), **Query** (search the wiki before the web; answers inherit their weakest premise's tag), and **Lint** (hunt contradictions, stale claims, orphans, overclaiming, fabrication, ID integrity).
+
+---
+
+## Repository map
+
+**Start here**
+
+| Page | What it is |
+|---|---|
+| [CONCLUSION.md](CONCLUSION.md) | **The capstone verdict.** Read first. |
+| [FINDINGS.md](FINDINGS.md) | Running executive synthesis, iteration by iteration. |
+| [THEORY_MAP.md](THEORY_MAP.md) | Every framework, its math, domain of validity, reductions. |
+| [GAPS_AND_CONTRADICTIONS.md](GAPS_AND_CONTRADICTIONS.md) | Where the frameworks clash, with the technical root of each. |
+| [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md) | The empirical channels that gate the object-level question. |
+
+**Core pages**
+
+| Page | Role |
+|---|---|
+| [AGENTS.md](AGENTS.md) | Behavioral schema — how to read, extend, and maintain the wiki |
+| [EPISTEMICS.md](EPISTEMICS.md) | Evidence tags and labeling rules — **binding** |
+| [OPEN_PROBLEMS.md](OPEN_PROBLEMS.md) | Open-problems registry (`OP-n`) |
+| [HYPOTHESES.md](HYPOTHESES.md) | Candidate unifying directions, refereed (`Hn`) |
+| [UNIFICATION_LANDSCAPE.md](UNIFICATION_LANDSCAPE.md) | Critical survey of unification / quantum-gravity programs |
+| [UNIFYING_PRINCIPLES.md](UNIFYING_PRINCIPLES.md) | Candidate deep principles |
+| [ASSUMPTIONS_LEDGER.md](ASSUMPTIONS_LEDGER.md) | Assumptions: fundamental ↔ artifact (`A-n`) |
+| [CONSTANTS_AND_SCALES.md](CONSTANTS_AND_SCALES.md) | Constants, units, scales, free parameters, naturalness |
+| [GLOSSARY.md](GLOSSARY.md) · [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md) | Definitions · real references only |
+| [ROADMAP.md](ROADMAP.md) · [CHANGELOG.md](CHANGELOG.md) | Research agenda · append-only iteration log |
+
+**Directories**
+
+| Path | Contents |
+|---|---|
+| [`domains/`](domains/) | Deep dossiers: quantum mechanics, QFT, general relativity, classical mechanics, thermodynamics, statistical mechanics, cosmology, particle physics, information theory, mathematics |
+| [`notes/`](notes/README.md) | Forward-research iteration logs (the adversarial attack tracks, iteration by iteration) |
+| `book/` | Source for the typeset PDF book |
+| `site/` | Source for the website |
 
 ---
 
 ## Read it elsewhere
 
-- **Website:** [universal-physics.khe.money](https://universal-physics.khe.money) — the full wiki as a technical reference manual (built from this repo's `site/`).
-- **Book:** [universal-physics-book.pdf](universal-physics-book.pdf) — *Universal Physics*, the properly typeset book edition (6×9in; built from `book/`).
-- **Vault:** open this repo directly in [Obsidian](https://obsidian.md) — frontmatter, graph-view color groups, [index.md](index.md) catalog, and [MAP.canvas](MAP.canvas) are configured.
+- **Website** — [universal-physics.khe.money](https://universal-physics.khe.money): the full wiki as a technical reference manual (built from `site/`).
+- **Book (PDF)** — [universal-physics-book.pdf](universal-physics-book.pdf): *Universal Physics*, the properly typeset edition (6×9 in; typeset through iteration 13; built from `book/`).
+- **Vault** — open this repo directly in [Obsidian](https://obsidian.md): frontmatter, graph-view color groups, the [index.md](index.md) catalog, and [MAP.canvas](MAP.canvas) are configured.
 
-## How to contribute (human or agent)
+---
 
-**Contributions are invited** — see [CONTRIBUTING.md](CONTRIBUTING.md) for the bar (the anti-crank protocol) and where help is most valuable (the open levers). In short: read [AGENTS.md](AGENTS.md) and [EPISTEMICS.md](EPISTEMICS.md) first; enrich pages in place; tag every claim; cross-link; never fabricate a citation; run candidate ideas through the verification protocol before promoting them; and log every change in [CHANGELOG.md](CHANGELOG.md).
+## How to read this
+
+- **Want the bottom line?** [CONCLUSION.md](CONCLUSION.md), then [FINDINGS.md](FINDINGS.md).
+- **Want the map of physics?** [THEORY_MAP.md](THEORY_MAP.md) and the [`domains/`](domains/) dossiers.
+- **Want the open frontier?** [OPEN_PROBLEMS.md](OPEN_PROBLEMS.md), [HYPOTHESES.md](HYPOTHESES.md), [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md).
+- **Want to see the work?** The iteration logs under [`notes/`](notes/README.md).
+
+Throughout, trust the tags: `[ESTABLISHED]` is load-bearing fact; `[SPECULATIVE]` and `[OPEN]` are flagged as such on purpose.
+
+---
+
+## How to contribute
+
+Contributions are invited — from typo fixes to full attack tracks on the open problems. **The bar is proper backing, not credentials.** See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the full anti-crank protocol; in short:
+
+1. **Tag every nontrivial claim** with exactly one epistemic tag.
+2. **Never fabricate a citation, number, theorem, or arXiv ID** — a missing reference is acceptable, a fake one is disqualifying.
+3. **Red-team your own claim** against the relevant no-go theorems and this wiki's own closures.
+4. **Enrich pages in place**, cross-link, and log every change in [CHANGELOG.md](CHANGELOG.md).
+
+The analytical program is saturated; the verdict moves only on **new input**. Help is most valuable on the carrier problem (the verdict-flipper), the named decidable analytical levers (see [CONCLUSION.md](CONCLUSION.md) §5), and watchlist maintenance (new bounds in any channel, with citations).
 
 ---
 

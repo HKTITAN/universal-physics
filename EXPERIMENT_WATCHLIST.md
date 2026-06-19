@@ -2,13 +2,13 @@
 title: Experiment Watchlist
 type: registry
 tags: [registry, experiments, phenomenology]
-updated: 2026-06-10
+updated: 2026-06-19
 ---
 
 # Experiment Watchlist
 
 **Status:** Living watch-list (post-saturation mode). The analytical program is saturated (see [CONCLUSION.md](CONCLUSION.md)); the object-level verdict is now gated by *experiment*, not by further reasoning. This page tracks the channels that bear on the landscape. Refreshed and extended in iteration 6 (2026-06-10).
-**Last updated:** 2026-06-10
+**Last updated:** 2026-06-19
 
 > **Read this caveat first.** **NO channel on this page decides the central wager** (causal/algebraic/entanglement structure precedes metric geometry) — a fact that, as of iteration 6, is a *corollary* of the encode-not-generate obstruction (HYP-ENCODING-SCREEN, [HYPOTHESES.md](HYPOTHESES.md)) and inherits its MEDIUM hedge, not merely an observation about the 2026 landscape. The channels constrain the program's logical **gate** (is gravity non-classical?), its fixed **cores** (is linearity/Lorentz/strong-field GR exact?), its correct **target** (is the universe eternal dS?), or — a fourth category added this iteration — **program-adjacent phenomenology**: GQuEST is the first *funded* experiment probing a conjecture *inspired by* Program A's modular/causal-diamond vocabulary, but its inference chain re-imports the area-entropy coefficient $\eta=1/4G$ at the modular→metric step (extending HYP-dS-CARDINALITY-R1's pattern from derivation routes to a phenomenological chain), so it is decision-grade only for **minimal-graviton-EFT IR noise vs exotic Planck-normalized UV-IR mixing** — on no reading a wager test. A positive anywhere yields *abductive* support at most, never class-level separation. Note also the **asymmetric gate-closure route**: falsification of the explicit classical-quantum (CQ) diffusion kernels would close the gate *from the classical side* — by eliminating the principal live local stochastic classical alternative, within that model-class scope — possibly years before any BMV-style entanglement witness runs. That the wager remains untestable even in principle until a *distinguishing* prediction is found is the standing obstacle, not a temporary gap.
 

@@ -2,13 +2,13 @@
 title: Open Problems — The Registry of What Physics Does Not Know
 type: registry
 tags: [registry, open-problems, quantum-gravity]
-updated: 2026-06-10
+updated: 2026-06-19
 ---
 
 # Open Problems — The Registry of What Physics Does Not Know
 
 **Status:** Living registry (stable IDs; merges cross-cutting and per-domain open problems).
-**Last updated:** 2026-06-10
+**Last updated:** 2026-06-19
 
 This page is the canonical, stably-numbered list of genuinely unresolved problems that a program toward a universal theory must confront. Each entry carries a **precise statement**, a **why-it-is-hard** analysis, the **current leading approaches**, an **epistemic tag** (per [EPISTEMICS.md](EPISTEMICS.md)), and cross-links.
 

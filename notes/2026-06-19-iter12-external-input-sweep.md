@@ -1,3 +1,10 @@
+---
+title: "Refreshed terminal-saturation audit + external-input sweep — iteration 12 (track B3)"
+type: note
+tags: [note, iter12]
+updated: 2026-06-19
+---
+
 # Refreshed terminal-saturation audit + external-input sweep — iteration 12 (track B3)
 
 **Status:** Active audit (the honest meta-track) · iteration 12 · track B3-external-input-sweep + saturation-refresh · Outcome **CONFIRMS-SATURATION / AUDIT**

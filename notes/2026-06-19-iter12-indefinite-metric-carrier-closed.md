@@ -1,3 +1,10 @@
+---
+title: "Scoping memo — iter-11 A1 subquestion #3: does a non-self-adjoint / PT-symmetric / Krein-space relative modular structure furnish a CARRIER outside…"
+type: note
+tags: [note, iter12]
+updated: 2026-06-19
+---
+
 > **Provenance & verification.** This note records a read-only adversarial frontier scout (iteration-12 companion) that scoped iteration-11 A1 open **subquestion #3** - whether a non-self-adjoint / PT-symmetric / indefinite-metric (Krein-space) modular structure could be a carrier outside the bicentralizer framing. Its outcome is **verdict-neutral** (another encode-not-generate confirmation; the 11th consecutive). The two load-bearing NEW citations were **independently web-verified** this session: arXiv:math-ph/0408048 = **Gottschalk**, *"Complex velocity transformations and the Bisognano-Wichmann theorem for quantum fields acting on Krein spaces"* (this CORRECTS the iter-11 A1 note, which had misattributed this arXiv ID to Morchio-Strocchi - Morchio-Strocchi indefinite-metric QFT is a separate, real framework); and arXiv:2307.16805 = **Sablevice-Millington**, *"Poincare symmetries and representations in pseudo-Hermitian quantum field theory."* The one paywalled source (the Pi_1 J-symmetric Tomita theorem, Jakobczyk line) is marked **[unverified - paywalled; scout-confirmed across snippets]**; its rank-1 restriction is load-bearing only as the reason the single genuine Krein modular theorem fails the signature bar, and the structural conclusion does not depend on it alone.
 
 ---

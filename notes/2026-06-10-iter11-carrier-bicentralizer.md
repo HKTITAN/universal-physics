@@ -1,3 +1,10 @@
+---
+title: "OP-46 / carrier obligation, iteration 11 (track A1): the carrier no-go's inner horn is RELATED TO Connes' bicentralizer problem (structural connect…"
+type: note
+tags: [note, iter11]
+updated: 2026-06-10
+---
+
 # OP-46 / carrier obligation, iteration 11 (track A1): the carrier no-go's inner horn is RELATED TO Connes' bicentralizer problem (structural connection, not a reduction) — re-grounded vocabulary, not closed
 
 **Status:** ATTEMPT executed; **centerpiece MAJOR-CORRECTED by the referee** (see the binding banner below). The carrier / net-naturality problem was examined against the bicentralizer circle of operator-algebra problems. **Genuine surviving result: the algebra-internal (inner) carrier horn is RELATED TO centralizer/bicentralizer structure theory and, loosely, to Connes' bicentralizer conjecture for type III$_1$ factors** (and, for the net/localized version, the *relative* bicentralizer of the local inclusions) — a *structural connection*, NOT the logical-equivalence reduction this track originally submitted. The mission's premise that the conjecture was "resolved in general by Houdayer–Marrakchi–Tomatsu" is **false** (verified live: Connes' bicentralizer problem is open in general in 2026; only large classes and equivalent reformulations are settled). The principal hedge's commutant-gap residual therefore gains a **related external vocabulary** — cleaner and more honest — but its **grade and registry condition are UNCHANGED (stays HYP-CKV-VACUITY-R6)** and the no-go does **not** close to a theorem. Verdict unchanged (10th consecutive); carrier-convergence count stays **FIVE**.

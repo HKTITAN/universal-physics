@@ -8,7 +8,7 @@ export default function Cover() {
       {/* ── manual cover plate ── */}
       <section className="cover-plate" aria-labelledby="cover-title">
         <p className="cover-kicker">
-          <span>Technical reference manual · Revision 6 · 2026-06-10</span>
+          <span>Technical reference manual · Revision 13 · 2026-06-19</span>
           <span className="ref">DOC UP-2026 · universal-physics.khe.money</span>
         </p>
         <h1 className="cover-title" id="cover-title">
@@ -17,14 +17,14 @@ export default function Cover() {
           <span className="accent">PHYSICS</span>
         </h1>
         <p className="cover-subtitle">
-          A six-iteration, adversarially-refereed research program toward a universal theory of
+          A thirteen-iteration, adversarially-refereed research program toward a universal theory of
           physics — and the precise account of why one is not yet in hand.
         </p>
         <dl className="cover-stats">
           <div>
             <dt>Iterations</dt>
             <dd>
-              6 <span className="unit">(saturated at 5)</span>
+              13 <span className="unit">(terminal saturation)</span>
             </dd>
           </div>
           <div>
@@ -34,21 +34,21 @@ export default function Cover() {
             </dd>
           </div>
           <div>
-            <dt>Refereed findings, iter 6</dt>
+            <dt>Open gate</dt>
             <dd>
-              ~90 <span className="unit">10 tracks</span>
+              1 <span className="unit">carrier problem · 5 converging routes</span>
             </dd>
           </div>
           <div>
             <dt>Explicit hedges</dt>
             <dd>
-              3 <span className="unit">one MEDIUM, one shrunk</span>
+              3 <span className="unit">principal MEDIUM-HIGH→HIGH</span>
             </dd>
           </div>
           <div>
             <dt>Verdict</dt>
             <dd>
-              <span className="unit">stable iter 2→6:</span> not-yet-physics
+              <span className="unit">unchanged 12 iters:</span> not-yet-physics
             </dd>
           </div>
         </dl>
@@ -72,8 +72,8 @@ export default function Cover() {
           sharp, coherent research <em>strategy</em>, not a result.
         </p>
         <p style={{ fontFamily: "var(--mono)", fontSize: "0.72rem", color: "var(--ink-500)" }}>
-          Condensed; the full paragraph, with its hedges and stability record, is{" "}
-          <Link href="/manual/conclusion">chapter 1</Link>.
+          Condensed; the full paragraph, with its hedges and its twelve-iteration stability record,
+          is <Link href="/manual/conclusion">chapter 1</Link>.
         </p>
       </blockquote>
 
@@ -83,7 +83,7 @@ export default function Cover() {
       <section className="toc-section" id="contents" aria-labelledby="toc-title">
         <h2 className="toc-heading" id="toc-title">
           Table of contents
-          <span className="ref">17 chapters · 48 sections</span>
+          <span className="ref">{CHAPTERS.length} chapters · {CHAPTERS.reduce((n, c) => n + c.sections.length, 0)} sections</span>
         </h2>
         <ol className="toc">
           {CHAPTERS.map((ch) => {

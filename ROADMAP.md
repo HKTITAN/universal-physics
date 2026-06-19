@@ -2,7 +2,7 @@
 title: Research Roadmap
 type: schema
 tags: [schema, roadmap, prioritization]
-updated: 2026-06-08
+updated: 2026-06-19
 ---
 
 # Research Roadmap
