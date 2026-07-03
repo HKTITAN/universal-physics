@@ -10,6 +10,19 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-07-02 — Watch-mode sweep #1 (post-saturation; NOT an iteration — no confirmation-counter change)
+
+First execution of the standing watch obligation ([ROADMAP.md](ROADMAP.md) watch-mode clocks). Window 2026-06-15 → 2026-07-02; six channels; every gate-relevance claim adversarially refereed (citations re-verified live; smuggle + encoding-screen audits). Full record: [notes/2026-07-02-watch-sweep-01.md](notes/2026-07-02-watch-sweep-01.md).
+
+- **Outcome: zero referee-surviving strong findings.** Verdict, principal hedge (HYP-CKV-VACUITY-R6), and FIVE-route count untouched. This entry is a watch record, not a 15th confirmation — the confirmation counter moves only with refereed analytical iterations, which remain closed.
+- **Bicentralizer cluster actively moving (watch value):** Marrakchi, arXiv:2606.23636 (v1 2026-06-22) — unconditional ergodicity of the relative bicentralizer flow for type III₁ irreducible subfactors *with expectation*; completes Kadison's 1967 MASA problem. Downgraded strong→weak by three independent referees: not bicentralizer triviality (Connes' problem stays OPEN), no carrier content, and the "with expectation" hypothesis blocks transfer to the expectation-free physics-net inclusions (per the iter-12 record). **Watch target sharpened:** an ergodicity/rigidity theorem for *expectation-free* irreducible inclusions, or movement on triviality itself.
+- **Krein closure absorbs another instance:** Bateman–Turok, arXiv:2607.00096 — Krein-space four-derivative QFT with Krein Born rule + tree-level positivity; n₁ (fixed Minkowski) and the global non-unique ghost parity κ installed by hand ("no preferred choice of ghost parity" — the paper). Iteration-12 closure channel (B), one more corroborating instance. Referee integrity note: an intermediate pipeline summary fabricated a quote for this paper; caught against verbatim text and corrected before entry.
+- **Watchlist updates ([EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)):** Euclid DR1 restructured (ESA, 2026-06-15, verified live) — cosmology products slip to **mid-2027** (supersedes "2026-10-21"); Roman at KSC 2026-06-21, launch NET 2026-08-30 (verified live); BMV/QGEM row gains the first genuinely post-Newtonian GIE channel (frame-dragging, Wakakuwa–Petruzziello–Lantaño–Huelga–Plenio, arXiv:2606.31678). The 2027 w(z) decision point holds.
+- **Dossier echo: dry.** Zero external engagement with the posed carrier problem as of 2026-07-02 (13 days).
+- [BIBLIOGRAPHY.md](BIBLIOGRAPHY.md): "Watch-sweep #1 verified additions (2026-07-02)" section added (3 verified preprints + 2 verified news items + dated in-window markers).
+
+---
+
 ## 2026-06-19 — Plan 003: citation-integrity sweep (`[unverified]` ledger resolved + one over-attribution struck)
 
 Maintenance pass on the anti-crank citation ledger (no physics claim, registry quantity, verdict, or hedge touched). All checks web-verified live this session against arXiv / OSTI / ADS / APS listings; no DOI invented.

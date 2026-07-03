@@ -2,13 +2,13 @@
 title: Operations Log
 type: schema
 tags: [schema, log, operations, provenance]
-updated: 2026-06-19
+updated: 2026-07-02
 ---
 
 # Operations Log
 
 **Status:** Thin append-only index — one line per major operation.
-**Last updated:** 2026-06-19
+**Last updated:** 2026-07-02
 
 [CHANGELOG.md](CHANGELOG.md) is the **canonical detailed log**: it records what changed, why, and every epistemic promotion/demotion, entry by entry. This page is the thin operations index over it — one line per major operation (ingest / synthesis / lint), oldest first, for fast orientation. Detail always lives in the corresponding CHANGELOG.md entry.
 
@@ -30,3 +30,8 @@ updated: 2026-06-19
 ## 2026-06-19 synthesis | Iteration 12: physics-net bicentralizer lever retired; external sweeps dry; indefinite-metric/Krein route closed (verdict unchanged 11th; TERMINAL SATURATION re-confirmed)
 ## 2026-06-19 synthesis | Iteration 13: new-angle frame audit — bottleneck-completeness confirmed, cross-program triangulation, calibrated how-close (verdict unchanged 12th; consolidation holds)
 ## 2026-06-19 lint | Presentation overhaul: 6 site figures redesigned (composition-encodes-meaning), home + README revamped, vault organization refreshed
+## 2026-06-19 synthesis | Iteration 14: maximal adversarial assault — three tracks try to falsify the three pillars; all held (verdict unchanged 13th)
+## 2026-06-19 synthesis | Iteration 15: three never-tried frameworks reproduce the screen; carrier-problem dossier posed for external solvers (verdict unchanged 14th; FINAL analytical iteration)
+## 2026-06-19 lint | Hardening: link/manifest checkers + CI, contribution front-door (plans 001-002); citation-integrity sweep + dossier hardening (plan 003)
+## 2026-06-19 lint | Hardening batch: manifest-drift + citation checkers, book/site/repo guards (plans 004-008); book 791 pp
+## 2026-07-02 watch | Watch-mode sweep #1: six channels, window 06-15→07-02; zero strong survivors; bicentralizer cluster active (Marrakchi); Euclid DR1 cosmology → mid-2027 (verdict untouched — no counter change)

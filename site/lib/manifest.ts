@@ -742,6 +742,13 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-06-19-iter15-E3-higher-categorical.md",
         group: "Iteration 15 — 2026-06-19 · the open gate under un-tried mathematics, posed for external resolution",
       },
+      {
+        num: "13.74",
+        slug: "2026-07-02-watch-sweep-01",
+        title: "Watch-Mode Sweep #1 — External-Input Channels (Dry at Strong; Clocks Updated)",
+        file: "notes/2026-07-02-watch-sweep-01.md",
+        group: "Watch mode — post-saturation · dated external-input sweeps (not analytical iterations)",
+      },
     ],
   },
   {

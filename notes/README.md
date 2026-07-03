@@ -135,5 +135,11 @@ README note: iteration 14 changes the *kind* of confirmation, not the registry. 
 
 - **2026-06-19-iter15-three-new-frameworks-synthesis.md** — Iteration 15 synthesis. Three refereed tracks attacked the net-naturality theorem (the one open gate) with frameworks never before applied in the wiki: (E1) factorization-algebra / functorial-QFT, (E2) Connes–Atiyah–Singer index / K-theory / coarse geometry, (E3) higher-categorical / homotopical / non-unitary tensor-categorical AQFT. All three REPRODUCE the encode-not-generate screen; no decidable handle found. Each smuggles the same geometric input (causal-disjointness/orthogonality order `n₁`, or a Dirac/Krein/metric datum `η`). The no-go is now robust across every modern mathematical framework tried. Verdict unchanged (14th consecutive); count FIVE; no ID consumed. Contains the **iteration-15 dossier**: the carrier problem as a self-contained open-problem statement for external solvers.
 
+### Watch mode — post-saturation (2026-07-02 →)
+
+Dated external-input sweeps on the ROADMAP watch clocks. These are NOT analytical iterations: they carry no confirmation-counter change; the verdict moves only if a referee-surviving strong finding lands.
+
+- [2026-07-02-watch-sweep-01.md](2026-07-02-watch-sweep-01.md) — **Watch-mode sweep #1 (window 2026-06-15 → 2026-07-02): DRY-AT-STRONG; clocks updated.** Six channels, every gate-relevance claim adversarially refereed; zero strong survivors. Logged: Marrakchi arXiv:2606.23636 (unconditional bicentralizer-flow ergodicity — the tracked cluster is active; transfer blocked by the with-expectation hypothesis; watch target sharpened to expectation-free inclusions); Bateman–Turok arXiv:2607.00096 (one more installed-not-derived instance for the iter-12 Krein closure); Wakakuwa–…–Plenio arXiv:2606.31678 (first post-Newtonian frame-dragging GIE channel — BMV row); Euclid DR1 cosmology products slip to mid-2027 (verified); Roman NET 2026-08-30 (verified). Dossier echo: dry.
+
 ## See also
 - [../CONCLUSION.md](../CONCLUSION.md) · [../EXPERIMENT_WATCHLIST.md](../EXPERIMENT_WATCHLIST.md) · [../FINDINGS.md](../FINDINGS.md) · [../ROADMAP.md](../ROADMAP.md) · [../CHANGELOG.md](../CHANGELOG.md) · [../AGENTS.md](../AGENTS.md) · [../README.md](../README.md)

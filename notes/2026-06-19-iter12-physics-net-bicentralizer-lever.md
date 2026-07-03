@@ -140,3 +140,9 @@ A verdict-neutral, citation-clean submission whose honest core is verified-corre
 - Haagerup, Acta Math. 158 (1987) 95-148 — injective-III₁ trivial bicentralizer + large-centralizer biconditional; real, faithfully used (biconditional verbatim-audited in the iter-11 record).
 - Buchholz-D'Antoni-Fredenhagen, CMP 111 (1987) 123-135 — hyperfinite III₁ local algebra; verified.
 - Doplicher-Longo, Invent. Math. 73 (1984) 493-536; Buchholz-Wichmann, CMP 106 (1986); Izumi-Longo-Popa, J. Funct. Anal. (1998) — real, correctly attributed (ILP Def-number precision = finder-inference).
+
+---
+
+### Watch-mode addendum (2026-07-02)
+
+**The tracked cluster moved.** Marrakchi, *Ergodicity of the bicentralizer flow and Kadison's problem* (arXiv:2606.23636, v1 2026-06-22, web-verified live): the relative bicentralizer flow of a type III₁ irreducible subfactor **with expectation** is always ergodic — unconditional, removing the bicentralizer-conjecture hypothesis his Inventiones-track result (arXiv:2308.15163, cited above) needed; completes Kadison's 1967 MASA problem. **No change to this note's conclusion:** the theorem's hypothesis is exactly this note's transfer-blocker — the physics local inclusions M(O) ⊂ M(W) are irreducible with **no normal conditional expectation** (non-discrete, infinite index), so the physics-net gating object remains untouched, and bicentralizer *triviality* (the carrier-FRIENDLY direction) remains OPEN. Three independent referees confirmed (watch-sweep #1, [2026-07-02-watch-sweep-01.md](2026-07-02-watch-sweep-01.md)). Sharpened watch target: ergodicity/rigidity for **expectation-free** irreducible inclusions. `[ESTABLISHED as preprint claim; INFERENCE on non-transfer, high]`

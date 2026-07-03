@@ -127,6 +127,7 @@ The per-note catalogue for iterations 7–15 is maintained in the authoritative 
 - **Iteration 13** — new-angle frame audit: bottleneck-completeness confirmed, cross-program triangulation, the calibrated "how close are we"; consolidation holds (12th).
 - **Iteration 14** — the verdict's maximal adversarial assault: three tracks instructed to falsify the three pillars; all held; verdict unchanged (13th).
 - **Iteration 15** — the net-naturality theorem attacked from three new mathematical frameworks (factorization-algebra/functorial QFT; index/K-theory; higher-categorical AQFT); all reproduce the encoding screen; the carrier problem posed as a dossier for external solvers; verdict unchanged (14th).
+- **Watch mode (2026-07-02 →)** — post-saturation dated sweeps of the external-input clocks (not iterations; no counter change). Sweep #1: dry at strong; bicentralizer cluster active (Marrakchi); Euclid DR1 cosmology → mid-2027. See [notes/2026-07-02-watch-sweep-01.md](notes/2026-07-02-watch-sweep-01.md).
 
 ---
 
