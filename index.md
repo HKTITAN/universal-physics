@@ -2,13 +2,13 @@
 title: Index — Content Catalog
 type: index
 tags: [index, catalog, navigation]
-updated: 2026-06-19
+updated: 2026-07-03
 ---
 
 # Index — Content Catalog
 
 **Status:** Maintained catalog — one line per page, grouped by role.
-**Last updated:** 2026-06-19
+**Last updated:** 2026-07-03
 
 Every page in the wiki, with an honest one-line summary. Entry point and reading order: [README.md](README.md). Operations history: [log.md](log.md) (thin index) over [CHANGELOG.md](CHANGELOG.md) (canonical).
 
@@ -114,7 +114,7 @@ Every page in the wiki, with an honest one-line summary. Entry point and reading
 - [notes/2026-06-10-iter6-experiment-refresh.md](notes/2026-06-10-iter6-experiment-refresh.md) — Mid-2026 numbers re-verified; the w(z) decision point compresses to 2027; nothing touches the wager.
 - [notes/2026-06-10-iter6-synthesis.md](notes/2026-06-10-iter6-synthesis.md) — Verdict unchanged for the fifth consecutive iteration; hedge accounting (2 → 3, one shrunk) and what could move it next.
 
-### Iterations 7–15 — 2026-06-10 / 2026-06-19 (lever execution → terminal saturation)
+### Iterations 7–16 — 2026-06-10 / 2026-07-03 (lever execution → terminal saturation → the clock-(1) iteration)
 
 The per-note catalogue for iterations 7–15 is maintained in the authoritative iteration index, **[notes/README.md](notes/README.md)** (kept here as a single home to avoid dual-maintenance drift). In brief:
 
@@ -128,6 +128,7 @@ The per-note catalogue for iterations 7–15 is maintained in the authoritative 
 - **Iteration 14** — the verdict's maximal adversarial assault: three tracks instructed to falsify the three pillars; all held; verdict unchanged (13th).
 - **Iteration 15** — the net-naturality theorem attacked from three new mathematical frameworks (factorization-algebra/functorial QFT; index/K-theory; higher-categorical AQFT); all reproduce the encoding screen; the carrier problem posed as a dossier for external solvers; verdict unchanged (14th).
 - **Watch mode (2026-07-02 →)** — post-saturation dated sweeps of the external-input clocks (not iterations; no counter change). Sweep #1: dry at strong; bicentralizer cluster active (Marrakchi); Euclid DR1 cosmology → mid-2027. See [notes/2026-07-02-watch-sweep-01.md](notes/2026-07-02-watch-sweep-01.md).
+- **Iteration 16** — the clock-(1)-triggered multi-wedge iteration (2026-07-03): the commutant-to-generated gap **classified, not closed** (LEM-NET-NATURALITY-G, referee-verified proofs); the residual pinned to hypothesis **(E_O)** (massive double-cone vacuum ergodicity); **HYP-CKV-VACUITY advances R6 → R7** — the first hedge movement since iteration 9; verdict unchanged (**15th**). Tracks: [G1](notes/2026-07-03-iter16-G1-multiwedge-naturality.md) · [G2](notes/2026-07-03-iter16-G2-constructive-carrier.md) · [G3](notes/2026-07-03-iter16-G3-marrakchi-transfer.md) · [G4](notes/2026-07-03-iter16-G4-untried-readouts.md) · [synthesis](notes/2026-07-03-iter16-synthesis.md).
 
 ---
 

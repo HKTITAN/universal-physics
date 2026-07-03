@@ -1,4 +1,4 @@
----
+﻿---
 title: "Track B1 (iteration 12): the relative-bicentralizer lever for physics nets is NON-load-bearing — subquestion #1 closes NEGATIVE"
 type: note
 tags: [note, iter12]
@@ -28,7 +28,7 @@ This track does two things: (a) establish the (relative-)bicentralizer **status*
 The local von Neumann algebras M(O) of the standard models — the free scalar and free Dirac field, chiral/conformal nets, and any model satisfying Buchholz-Wichmann nuclearity, the split property, or modular nuclearity — are **injective (hyperfinite) type III₁ factors**. The chain (each link web-verified):
 
 1. **Buchholz-Wichmann nuclearity ⟹ split property** (Buchholz-Wichmann, *Causal independence and the energy-level density of states in local QFT*, Commun. Math. Phys. 106 (1986)); the modular-nuclearity ⟺ split correspondence (Buchholz-D'Antoni-Longo, *Nuclear maps and modular structures II*).
-2. **Split ⟹ hyperfiniteness** of the local algebra of an open region (a type I factor is interposed between concentric regions; Doplicher-Longo, *Standard and split inclusions of von Neumann algebras*, Invent. Math. 73 (1984) 493-536).
+2. **Split ⟹ hyperfiniteness** of the local algebra of an open region (a type I factor is interposed between concentric regions; Doplicher-Longo, *Standard and split inclusions of von Neumann algebras*, Invent. Math. 75 (1984) 493-536).
 3. **Type III₁** is generic: Buchholz-D'Antoni-Fredenhagen, *The universal structure of local algebras*, Commun. Math. Phys. 111 (1987) 123-135 (Araki for the free field directly).
 4. **Uniqueness**: Connes' classification (1973) + Haagerup's uniqueness pin the injective III₁ factor to the Araki-Woods R∞.
 
@@ -95,7 +95,7 @@ Clean. No carrier closes to a theorem; no reverse-WW witness; no RESOLVED-POSITI
 - Ando-Haagerup-Houdayer-Marrakchi, Math. Ann. 376 (2020) 1145-1194, arXiv:1804.05706 — relative bicentralizer; theorem only for DISCRETE inclusions, N amenable (abstract verbatim-verified).
 - Marrakchi-Vaes, Crelle 809 (2024) 247, arXiv:2305.14217, Thm A — ergodic states (M_ψ=C1) dense G_δ on ANY III₁ factor, UNCONDITIONAL (abstract verbatim-verified).
 - Buchholz-D'Antoni-Fredenhagen, Commun. Math. Phys. 111 (1987) 123-135 — universal structure of local algebras (III₁) (web-verified).
-- Doplicher-Longo, Invent. Math. 73 (1984) 493-536 — standard/split inclusions ⟹ hyperfiniteness (web-verified).
+- Doplicher-Longo, Invent. Math. 75 (1984) 493-536 — standard/split inclusions ⟹ hyperfiniteness (web-verified).
 - Izumi-Longo-Popa, J. Funct. Anal. (1998) Def. 3.7 — discrete inclusion (web-verified, definition).
 
 ---
@@ -111,7 +111,7 @@ Clean. No carrier closes to a theorem; no reverse-WW witness; no RESOLVED-POSITI
 - **AHHM (arXiv:1804.05706) is discrete-inclusion-only — VERIFIED VERBATIM.** Abstract fetched live: *"When the inclusion N⊂M is discrete, we prove a relative bicentralizer theorem and we use it to solve Kadison's problem when N is amenable,"* and for general irreducible inclusions only the flow-ergodicity ⟺ hyperfinite-subfactor-with-normal-expectation relation. The finder's central structural claim — AHHM's relative-bicentralizer theorem does **not** reach the physics local inclusions — is therefore SOUND. This is the load-bearing fact and it survives.
 - **Marrakchi-Vaes Thm A (arXiv:2305.14217, Crelle 809 (2024) 247) is UNCONDITIONAL — VERIFIED VERBATIM.** *"such ergodic states form a dense G_δ set among all faithful normal states on any III₁ factor with separable predual"* / *"We solve this problem."* No bicentralizer hypothesis. The finder's §4 — closing the inner carrier horn needs a trivial **centralizer**, which is unconditionally free — is correct, and the finder **corrects** the iter-11 A1 misattribution that had (wrongly) called Thm A conditional. The iter-12 reading is the verified-correct one.
 - **Connes' bicentralizer problem is OPEN in general (2026) — corroborated VERBATIM** via Marrakchi arXiv:2308.15163 (Kadison solved for III₁ only *modulo* the conjecture). Binding iter-11 correction (4) re-upheld: no "Houdayer-Marrakchi-Tomatsu general resolution" exists.
-- **Buchholz-D'Antoni-Fredenhagen (CMP 111 (1987) 123-135) — VERIFIED:** local algebra ≅ unique hyperfinite type III₁ factor ⊗ center. Doplicher-Longo (Invent. Math. 73 (1984)) split⟹hyperfinite and Buchholz-Wichmann nuclearity⟹split are standard and correctly attributed. The injective-III₁ chain for physics nets ⟹ Haagerup makes B(M(O),φ)=C1 unconditionally is SOUND.
+- **Buchholz-D'Antoni-Fredenhagen (CMP 111 (1987) 123-135) — VERIFIED:** local algebra ≅ unique hyperfinite type III₁ factor ⊗ center. Doplicher-Longo (Invent. Math. 75 (1984)) split⟹hyperfinite and Buchholz-Wichmann nuclearity⟹split are standard and correctly attributed. The injective-III₁ chain for physics nets ⟹ Haagerup makes B(M(O),φ)=C1 unconditionally is SOUND.
 
 ### The decisive adversarial check is the right one (binding corrections (2)-(3) enforced and upheld)
 
@@ -139,7 +139,13 @@ A verdict-neutral, citation-clean submission whose honest core is verified-corre
 - arXiv:2308.15163 (Marrakchi, Invent. Math. 2024) — Kadison modulo the conjecture; conjecture OPEN in general; verbatim-verified.
 - Haagerup, Acta Math. 158 (1987) 95-148 — injective-III₁ trivial bicentralizer + large-centralizer biconditional; real, faithfully used (biconditional verbatim-audited in the iter-11 record).
 - Buchholz-D'Antoni-Fredenhagen, CMP 111 (1987) 123-135 — hyperfinite III₁ local algebra; verified.
-- Doplicher-Longo, Invent. Math. 73 (1984) 493-536; Buchholz-Wichmann, CMP 106 (1986); Izumi-Longo-Popa, J. Funct. Anal. (1998) — real, correctly attributed (ILP Def-number precision = finder-inference).
+- Doplicher-Longo, Invent. Math. 75 (1984) 493-536; Buchholz-Wichmann, CMP 106 (1986); Izumi-Longo-Popa, J. Funct. Anal. (1998) — real, correctly attributed (ILP Def-number precision = finder-inference).
+
+---
+
+### Correction addendum (2026-07-03, iteration 16 — binding, referee R2)
+
+Two wording repairs to this note; its conclusions (no normal expectation; non-discreteness; the lever's non-load-bearing status) are unaffected. (i) **"Irreducible" is FALSE for the local inclusions M(O) ⊂ M(W):** by Haag duality the relative commutant M(O)′ ∩ M(W) ⊇ M(O′ ∩ W) — the collar algebra — is far from trivial. The no-normal-expectation conclusion survives independently via Takesaki's criterion (a normal expectation would force a state on M(W) whose modular flow globally preserves M(O); the BW-geometric ambient flows move O). Read every "irreducible" in this note under this repair. (ii) The Doplicher–Longo volume number has been corrected in place to Invent. Math. **75** (1984) 493–536 (web-verified, Springer DOI 10.1007/BF01388641; formerly "73").
 
 ---
 

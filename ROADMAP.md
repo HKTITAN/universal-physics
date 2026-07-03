@@ -2,13 +2,13 @@
 title: Research Roadmap
 type: schema
 tags: [schema, roadmap, prioritization]
-updated: 2026-06-19
+updated: 2026-07-03
 ---
 
 # Research Roadmap
 
-**Status:** Terminal analytical saturation — consolidation + watch-mode (the analytical program is complete; only external input can now move the verdict).
-**Last updated:** 2026-06-19
+**Status:** Terminal analytical saturation — consolidation + watch-mode (clock-gated; iteration 16 ran on a clock-(1) input and advanced the hedge to R7; the no-go now rests on {n₁, (E_O)}).
+**Last updated:** 2026-07-03
 
 > **Update (post-iteration-5):** the analytical program is **saturated** — five iterations converged on a stable PARTIAL / encodes-not-generates / not-yet-physics verdict, and the one designated verdict-flipping lever (OP-46 Lorentzian non-CKV readout) was executed and did not flip. The standing verdict is consolidated in [CONCLUSION.md](CONCLUSION.md). Active effort now shifts from analysis to **lightweight experiment-tracking** ([EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)). The Tier-1/2 analytical items below are retained as a *record of what was attacked and closed*; the only genuinely-open analytical lever is OP-44/OP-CP1 (nonperturbative crossed-product fate, regime boundary $N_\ast$), plus the standing "what would reopen the analysis" trigger in [CONCLUSION.md](CONCLUSION.md) §8.
 
@@ -27,6 +27,8 @@ updated: 2026-06-19
 > - all three of iteration 11's open subquestions are discharged; a web-verified 2023–2026 external-math sweep found no result touching the residual.
 >
 > **Conclusion (referee-upheld A3 audit, iteration 11; re-confirmed iteration 12):** every verdict-bearing residual is now decidable only by **external input** — a genuinely new operator-algebra / AQFT theorem (the net-naturality theorem / a reverse-WW witness / an external resolution of Connes' bicentralizer problem), or the **2027 DESI five-year $w(z)$** experiment (which bears on the *target*, not the wager). **No purely-reasoning iteration can move the verdict.** Active mode is therefore **consolidation + lightweight watch**, on exactly two clocks: (1) the carrier / net-naturality / bicentralizer / GMA-reconstruction mathematics (2025–2027), and (2) the 2027 DESI $w(z)$ verdict (nearest dated external event; the DR2 dynamical-dark-energy preference reduces to < 2σ under low-z SN-calibration systematics). New analytical iterations are **not** launched unless one of those clocks delivers a genuinely new input. The standing deliverable — the maximally-sharp reasoned account of *why-not-yet* — is the README-sanctioned obtained-outcome.
+
+> **Update (2026-07-03, iteration 16) — clock (1) fired; the iteration ran; the hedge advanced; watch-mode resumes on a sharper state.** Watch-sweep #1's clock-(1) input (Marrakchi arXiv:2606.23636) sanctioned the first post-saturation analytical iteration (G1–G4, referees binding; [synthesis](notes/2026-07-03-iter16-synthesis.md)). Outcome: verdict unchanged (**15th consecutive**), but **HYP-CKV-VACUITY advances R6 → R7** — the first hedge movement since iteration 9. The commutant-to-generated gap is now **classified (not closed)** by the referee-verified LEM-NET-NATURALITY-G (localized branch: dead, proof-grade; fully-natural non-localized branch: gauge gradings, Δ_geo = 0, proof-grade); the entire no-go now rests on {n₁ AND **(E_O)**} where (E_O) = vacuum ergodicity on massive double-cone algebras `[OPEN]`. **The active watch state (supersedes sweep-#1's target, which iteration 16 showed ill-posed):** clock (1) = (α) new definitions/theorems for expectation-free relative-bicentralizer-type invariants; (β) bicentralizer triviality; (γ) expectation-free relative T-invariant computations (adjacent conjecture T(M(O) ⊂ M(W)) = {0}); **(δ) any resolution of (E_O) — the principal item**; (ε) the DCNG definability lever (needs an operator-algebra/continuous-logic collaborator). Clock (2) unchanged: 2027 DESI five-year w(z) (Euclid cosmology co-timed mid-2027). New analytical iterations remain gated on a genuinely new clock input.
 
 What to work on next, and why. Items are framed as *questions to resolve* or *artifacts to produce*, prioritized by leverage — how much a credible answer would move the central question of whether a universal theory is possible. Cross-references point to where the work lands.
 
