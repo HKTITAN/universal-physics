@@ -7,7 +7,7 @@ updated: 2026-07-03
 
 # Findings — Cumulative Synthesis
 
-**Status:** Living synthesis — current through iteration 17. Read this first; it is the executive summary of the whole wiki.
+**Status:** Living synthesis — current through iteration 18. Read this first; it is the executive summary of the whole wiki.
 **Last updated:** 2026-07-07
 
 This page distills the current state of the investigation into six questions: *what is solid; where do the frameworks genuinely clash; which deep principles look most fundamental; what candidate unifying directions survive scrutiny; is a universal theory even possible; and what should we work on next.* Every claim is tagged per [EPISTEMICS.md](EPISTEMICS.md). Detail and derivations live on the linked pages; this page is the map, not the territory.
@@ -320,6 +320,13 @@ Three track agents brought frameworks NEVER previously applied to the carrier pr
 - **General (H) (referee CONFIRMED): all three structure-theory routes FAIL.** `[INFERENCE, high]` clustering not transportable to bounded-region modular mixing; Δ_O-fixity ⇏ Δ_W-fixity; genericity not pinnable to the vacuum. Marrakchi arXiv:2606.23636 does not transfer (expectation-free gate).
 - **Disproof FAILED (referee CONFIRMED): no carrier.** `[INFERENCE, high]` eight candidate mechanisms die on {bounded ∧ in M(O) ∧ exactly Δ_O-fixed}; honest status BARE OPEN (referee down-calibrated the finder's "leaning true").
 - **Hedge ledger:** HYP-CKV-VACUITY R7 UNCHANGED (grade conditional HIGH, condition {n₁ AND (E_O)}); the (E_O) item gains a free-field internal reduction. Carrier-convergence count stays FIVE; no numeric ID consumed. NOT-YET-PHYSICS unchanged; 2027 DESI w(z) remains the nearest dated external event. See the [iteration-17 synthesis](notes/2026-07-07-iter17-EO-assault-synthesis.md).
+
+## Iteration 18 update (2026-07-07) — the generative assault + the first (E_O) numerics: NO FLIP
+
+**Outcome: verdict UNCHANGED — SEVENTEENTH consecutive confirmation; NO FLIP.** User-demanded iteration (the instruction was to try to *devise* the generative step). Two fronts, both adversarially refereed.
+- **Front A — generative-construction assault (four angles, both referees FLIP_REFUTED):** `[INFERENCE, high]` C1 (build the carrier on a ¬(E_O) mode) — any survivor is *j*-even, commutes with the one-particle Hamiltonian ⟹ internal species-label count, Δ_geo = 0; smuggle-free failure. C2 (relative/multi-state modular data) — installs the indefinite form or needs a nonexistent expectation; arXiv:2505.04682 (2025) independently gives a signature-free symplectic form. C3 (AdS/CFT) — Jacobson installs the signature three ways; generates the Einstein-equation form and G, not the signature. C4 (derive n₁) — HSMI *is* the causal order; the Euler element's 3-grading *is* the lightcone splitting; n₁ presupposed.
+- **Front B — first numerical computation:** `[INFERENCE, high — validated lattice computation; not a continuum proof]` the free massive scalar double-cone modular spectrum (Peschel method; validated) obeys **ε_min → π²/ln(L)** (universal), a uniform reflection-degenerate ladder with **no isolated mode below it** — continuous spectrum, no eigenvalue at 0 ⟹ **(E_O) holds** for free d=2; no zero-mode, no carrier. [scripts/eo-modular-numerics.py](scripts/eo-modular-numerics.py).
+- **Net:** reasoning, construction, and computation all converge on encodes-not-generates. Hedge stays R7; count FIVE; no numeric ID consumed. See the [iteration-18 synthesis](notes/2026-07-07-iter18-generative-assault.md).
 
 ## See also
 - [CONCLUSION.md](CONCLUSION.md) — the capstone verdict · [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)

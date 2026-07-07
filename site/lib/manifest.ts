@@ -812,6 +812,13 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-07-07-iter17-EO-assault-synthesis.md",
         group: "Iteration 17 — 2026-07-07 · the (E_O) assault: the free-field reduction, three route-closures, the failed disproof (verdict unchanged 16th; hedge holds at R7)",
       },
+      {
+        num: "13.84",
+        slug: "2026-07-07-iter18-generative-assault",
+        title: "Iteration-18 Synthesis — The Generative Assault and the First (E_O) Numerics: Four Constructions Fail, No Zero-Mode, No Flip",
+        file: "notes/2026-07-07-iter18-generative-assault.md",
+        group: "Iteration 18 — 2026-07-07 · the user-demanded generative assault + the first numerical computation (four constructions fail; the numerics find no zero-mode; verdict unchanged 17th; hedge holds at R7)",
+      },
     ],
   },
   {
