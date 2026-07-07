@@ -2,13 +2,13 @@
 title: Index — Content Catalog
 type: index
 tags: [index, catalog, navigation]
-updated: 2026-07-03
+updated: 2026-07-07
 ---
 
 # Index — Content Catalog
 
 **Status:** Maintained catalog — one line per page, grouped by role.
-**Last updated:** 2026-07-03
+**Last updated:** 2026-07-07
 
 Every page in the wiki, with an honest one-line summary. Entry point and reading order: [README.md](README.md). Operations history: [log.md](log.md) (thin index) over [CHANGELOG.md](CHANGELOG.md) (canonical).
 
@@ -114,7 +114,7 @@ Every page in the wiki, with an honest one-line summary. Entry point and reading
 - [notes/2026-06-10-iter6-experiment-refresh.md](notes/2026-06-10-iter6-experiment-refresh.md) — Mid-2026 numbers re-verified; the w(z) decision point compresses to 2027; nothing touches the wager.
 - [notes/2026-06-10-iter6-synthesis.md](notes/2026-06-10-iter6-synthesis.md) — Verdict unchanged for the fifth consecutive iteration; hedge accounting (2 → 3, one shrunk) and what could move it next.
 
-### Iterations 7–16 — 2026-06-10 / 2026-07-03 (lever execution → terminal saturation → the clock-(1) iteration)
+### Iterations 7–17 — 2026-06-10 / 2026-07-07 (lever execution → terminal saturation → the clock-(1) iteration → the (E_O) assault)
 
 The per-note catalogue for iterations 7–15 is maintained in the authoritative iteration index, **[notes/README.md](notes/README.md)** (kept here as a single home to avoid dual-maintenance drift). In brief:
 
@@ -129,6 +129,8 @@ The per-note catalogue for iterations 7–15 is maintained in the authoritative 
 - **Iteration 15** — the net-naturality theorem attacked from three new mathematical frameworks (factorization-algebra/functorial QFT; index/K-theory; higher-categorical AQFT); all reproduce the encoding screen; the carrier problem posed as a dossier for external solvers; verdict unchanged (14th).
 - **Watch mode (2026-07-02 →)** — post-saturation dated sweeps of the external-input clocks (not iterations; no counter change). Sweep #1: dry at strong; bicentralizer cluster active (Marrakchi); Euclid DR1 cosmology → mid-2027. See [notes/2026-07-02-watch-sweep-01.md](notes/2026-07-02-watch-sweep-01.md).
 - **Iteration 16** — the clock-(1)-triggered multi-wedge iteration (2026-07-03): the commutant-to-generated gap **classified, not closed** (LEM-NET-NATURALITY-G, referee-verified proofs); the residual pinned to hypothesis **(E_O)** (massive double-cone vacuum ergodicity); **HYP-CKV-VACUITY advances R6 → R7** — the first hedge movement since iteration 9; verdict unchanged (**15th**). Tracks: [G1](notes/2026-07-03-iter16-G1-multiwedge-naturality.md) · [G2](notes/2026-07-03-iter16-G2-constructive-carrier.md) · [G3](notes/2026-07-03-iter16-G3-marrakchi-transfer.md) · [G4](notes/2026-07-03-iter16-G4-untried-readouts.md) · [synthesis](notes/2026-07-03-iter16-synthesis.md).
+- **Watch sweep #2 (2026-07-07)** — window 07-02→07-07; three channels; zero strong survivors; clock-(1) (α)–(ε) static; DESI/Euclid/Roman procedural-only. See [notes/2026-07-07-watch-sweep-02.md](notes/2026-07-07-watch-sweep-02.md).
+- **Iteration 17** — the (E_O) assault (2026-07-07): the first direct attack on the residual **(E_O)** (five lenses E1–E5, three binding referees). (E_O) neither proved nor disproved — **HYP-CKV-VACUITY stays R7**; verdict unchanged (**16th**). New refereed content: the free-field case sharply **reduced** to a one-particle spectral question (purely continuous spectrum of $\ln\delta_O$ / weak mixing ⟹ $M(O)_\omega=\mathbb C1$; naive "no-eigenvalue-0" reading refuted; spectral fact numerical-only, leaning-true); all three structure-theory routes for general (H) **fail**; the adversarial disproof **fails** on eight candidate mechanisms. See [synthesis](notes/2026-07-07-iter17-EO-assault-synthesis.md).
 
 ---
 

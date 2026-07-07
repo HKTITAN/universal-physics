@@ -7,8 +7,8 @@ updated: 2026-07-03
 
 # Findings — Cumulative Synthesis
 
-**Status:** Living synthesis — current through iteration 16. Read this first; it is the executive summary of the whole wiki.
-**Last updated:** 2026-07-03
+**Status:** Living synthesis — current through iteration 17. Read this first; it is the executive summary of the whole wiki.
+**Last updated:** 2026-07-07
 
 This page distills the current state of the investigation into six questions: *what is solid; where do the frameworks genuinely clash; which deep principles look most fundamental; what candidate unifying directions survive scrutiny; is a universal theory even possible; and what should we work on next.* Every claim is tagged per [EPISTEMICS.md](EPISTEMICS.md). Detail and derivations live on the linked pages; this page is the map, not the territory.
 
@@ -311,6 +311,15 @@ Three track agents brought frameworks NEVER previously applied to the carrier pr
 **Standing-record repairs (binding, propagated):** Doplicher–Longo = Invent. Math. **75** (1984) 493–536 (iter-12 note fixed in place); "irreducible" for M(O) ⊂ M(W) is FALSE (collar algebra in the relative commutant; conclusions survive via Takesaki's criterion — dated addenda on the iter-12 note and watch-sweep #1); Houdayer–Marrakchi 2511.11409 states an implication, not an equivalence.
 
 **Saturation status and the hedge ledger after iteration 16.** `[INFERENCE, high]` The headline stands a fifteenth time — no carrier, no reverse-WW witness, no generative construction, no distinguishing test; NOT-YET-PHYSICS unchanged; the 2027 DESI $w(z)$ verdict remains the nearest dated external event. What moved: **hedge 1 (OP-46 residual) advances R6 → R7** — grade unchanged (conditional HIGH), condition restructured from the diffuse {n₁ + commutant-to-generated gap} to the sharp **{n₁ AND (E_O)}**; **hedge 3 (HYP-ENCODING-SCREEN) inherits** the R7 condition — a proof of (E_O) would make the no-go and its no-test corollary theorems on the stated hypotheses. Carrier-convergence count stays **FIVE**; no numeric ID consumed (next free OP-51 / A-24 / GC-18 / H9); three named items enter (LEM-NET-NATURALITY-G; (E_O); DCNG). Watch-mode resumes on the re-sharpened five-item clock-(1) state with (E_O) as the principal item. See the [iteration-16 synthesis](notes/2026-07-03-iter16-synthesis.md).
+
+## Iteration 17 update (2026-07-07) — the (E_O) assault: free-field reduction, three route-closures, disproof failure; hedge stays R7
+
+**Outcome: verdict UNCHANGED — SIXTEENTH consecutive confirmation; the principal hedge STAYS at R7 — (E_O) neither proved nor disproved.** The first direct attack on the residual (E_O) (five finder lenses E1–E5; three binding referees; watch-sweep #2 in the same pass, dry). Clock-legitimate — (E_O) is the designated principal watch item (δ), and the assault is the sanctioned next step. Every load-bearing 2020–2026 citation re-verified live.
+
+- **Free field (referee PARTIAL): (E_O) OPEN, sharply reduced.** `[INFERENCE, high on the reduction; OPEN on the spectral input]` Via second quantization, M(O)_ω = ℂ1 is IMPLIED by purely continuous one-particle spectrum of ln δ_O (weak mixing). The naive "no-eigenvalue-0 ⟹ ergodic" reading is REFUTED (bosonic dΓ(A) are modular-fixed regardless of point spectrum). Spectral fact numerical-only (BCM arXiv:2209.04681; Cadamuro arXiv:2312.08525); no closed-form massive double-cone modular Hamiltonian (Longo–Morsella arXiv:2012.00565, massive-ball result "contained a gap, and have been removed"). Leaning-true, unproven.
+- **General (H) (referee CONFIRMED): all three structure-theory routes FAIL.** `[INFERENCE, high]` clustering not transportable to bounded-region modular mixing; Δ_O-fixity ⇏ Δ_W-fixity; genericity not pinnable to the vacuum. Marrakchi arXiv:2606.23636 does not transfer (expectation-free gate).
+- **Disproof FAILED (referee CONFIRMED): no carrier.** `[INFERENCE, high]` eight candidate mechanisms die on {bounded ∧ in M(O) ∧ exactly Δ_O-fixed}; honest status BARE OPEN (referee down-calibrated the finder's "leaning true").
+- **Hedge ledger:** HYP-CKV-VACUITY R7 UNCHANGED (grade conditional HIGH, condition {n₁ AND (E_O)}); the (E_O) item gains a free-field internal reduction. Carrier-convergence count stays FIVE; no numeric ID consumed. NOT-YET-PHYSICS unchanged; 2027 DESI w(z) remains the nearest dated external event. See the [iteration-17 synthesis](notes/2026-07-07-iter17-EO-assault-synthesis.md).
 
 ## See also
 - [CONCLUSION.md](CONCLUSION.md) — the capstone verdict · [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)

@@ -798,6 +798,20 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-07-03-iter16-synthesis.md",
         group: "Iteration 16 — 2026-07-03 · the clock-(1) iteration: the multi-wedge closure and the first hedge advance since iteration 9",
       },
+      {
+        num: "13.82",
+        slug: "2026-07-07-watch-sweep-02",
+        title: "Watch-Mode Sweep #2 — External-Input Channels (Dry; No Clock Moved)",
+        file: "notes/2026-07-07-watch-sweep-02.md",
+        group: "Iteration 17 — 2026-07-07 · the (E_O) assault: the free-field reduction, three route-closures, the failed disproof (verdict unchanged 16th; hedge holds at R7)",
+      },
+      {
+        num: "13.83",
+        slug: "2026-07-07-iter17-EO-assault-synthesis",
+        title: "Iteration-17 Synthesis — The (E_O) Assault: The Free-Field Reduction and Why the Hedge Holds at R7",
+        file: "notes/2026-07-07-iter17-EO-assault-synthesis.md",
+        group: "Iteration 17 — 2026-07-07 · the (E_O) assault: the free-field reduction, three route-closures, the failed disproof (verdict unchanged 16th; hedge holds at R7)",
+      },
     ],
   },
   {

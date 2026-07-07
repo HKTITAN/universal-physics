@@ -2,13 +2,13 @@
 title: Experiment Watchlist
 type: registry
 tags: [registry, experiments, phenomenology]
-updated: 2026-07-02
+updated: 2026-07-07
 ---
 
 # Experiment Watchlist
 
 **Status:** Living watch-list (post-saturation mode). The analytical program is saturated (see [CONCLUSION.md](CONCLUSION.md)); the object-level verdict is now gated by *experiment*, not by further reasoning. This page tracks the channels that bear on the landscape. Refreshed and extended in iteration 6 (2026-06-10); clocks re-verified in watch-sweep #1 ([notes/2026-07-02-watch-sweep-01.md](notes/2026-07-02-watch-sweep-01.md)).
-**Last updated:** 2026-07-02
+**Last updated:** 2026-07-07
 
 > **Read this caveat first.** **NO channel on this page decides the central wager** (causal/algebraic/entanglement structure precedes metric geometry) — a fact that, as of iteration 6, is a *corollary* of the encode-not-generate obstruction (HYP-ENCODING-SCREEN, [HYPOTHESES.md](HYPOTHESES.md)) and inherits its MEDIUM hedge, not merely an observation about the 2026 landscape. The channels constrain the program's logical **gate** (is gravity non-classical?), its fixed **cores** (is linearity/Lorentz/strong-field GR exact?), its correct **target** (is the universe eternal dS?), or — a fourth category added this iteration — **program-adjacent phenomenology**: GQuEST is the first *funded* experiment probing a conjecture *inspired by* Program A's modular/causal-diamond vocabulary, but its inference chain re-imports the area-entropy coefficient $\eta=1/4G$ at the modular→metric step (extending HYP-dS-CARDINALITY-R1's pattern from derivation routes to a phenomenological chain), so it is decision-grade only for **minimal-graviton-EFT IR noise vs exotic Planck-normalized UV-IR mixing** — on no reading a wager test. A positive anywhere yields *abductive* support at most, never class-level separation. Note also the **asymmetric gate-closure route**: falsification of the explicit classical-quantum (CQ) diffusion kernels would close the gate *from the classical side* — by eliminating the principal live local stochastic classical alternative, within that model-class scope — possibly years before any BMV-style entanglement witness runs. That the wager remains untestable even in principle until a *distinguishing* prediction is found is the standing obstacle, not a temporary gap.
 
@@ -57,6 +57,10 @@ These are the residual open levers from [CONCLUSION.md](CONCLUSION.md) §5. None
 - **DESI five-year $w(z)$** verdict reaffirmed **2027**; the DR2 dynamical-dark-energy preference reduces to **< 2σ** under low-z SN-calibration systematics (Huang–Cai–Wang, arXiv:2502.04212); Roman launch 2026, Roman+Euclid joint dark-energy ~2027. Bears on Program A's **target**, **never the wager**.
 - **Theory-watch-item 6 (reverse-WW):** "GR from RG" (arXiv:2602.11806) confirmed an **evade-not-invert** Weinberg–Witten instance (UV-Dirichlet-fixed installed metric) — discharges the iteration-11 minor "WW gloss not confirmable" defect. Reverse-WW stays [OPEN, as of 2026-06].
 - **New 2026 carrier-adjacent math:** the Morinelli–Neeb–Olafsson Euler-pair geometric-BW / Spin–Statistics theorems (arXiv:2603.26390 Part II / 2508.10960 Part I) are a cleaner statement of HYP-ENCODING-SCREEN (symmetry = input) — **NOT** a carrier, **NOT** a sixth route.
+
+*Watch-sweep #2 (2026-07-07) — no dated clock movement. From the iteration-17 pass (referee-verified live).*
+- **DESI five-year $w(z)$** analysis ~2027 UNCHANGED (2026-07-03 DESI post = outreach cosmic-web visualization, no science; observing into 2028). Euclid DR1 mid-2027 UNCHANGED. Roman launch NET **2026-08-30** on Falcon Heavy UNCHANGED (NASA blog 2026-07-06 vertical-positioning prelaunch milestone at KSC). Tabletop-QG cores (Oppenheim CQ; QGEM/BMV; GQuEST/Verlinde–Zurek): no in-window dated movement. The 2027 DESI $w(z)$ decision point holds as the nearest dated external event; none of these tests the wager.
+- **Theory-watch-item (δ) — (E_O), the principal analytical clock:** STATIC as to resolution, but iteration 17 sharpened its free-field branch — the sharpest decidable sub-target is now "prove purely continuous spectrum (no eigenvectors) of the massive double-cone one-particle modular Hamiltonian $\ln\delta_O$ for the free scalar" (⟹ (E_O) on the free subclass via weak mixing ⟹ R7 → R8 there). Adjacent numerics: Bostelmann–Cadamuro–Minz arXiv:2209.04681; Cadamuro arXiv:2312.08525 (leaning-true, no proof/closed-form). See [notes/2026-07-07-iter17-EO-assault-synthesis.md](notes/2026-07-07-iter17-EO-assault-synthesis.md).
 
 ---
 
