@@ -40,7 +40,7 @@ export default function FigEncodeGenerate() {
   return (
     <FigurePlate
       id="2.1"
-      caption="Encode vs generate — one wall, five routes. From the modular data alone (algebra 𝔄, state ω; Tomita–Takesaki Δ, J) FIVE independent routes attempt to extract Lorentzian geometry, and all five halt at the same obstruction: the carrier problem (= the reverse-Weinberg–Witten / net-naturality theorem) — derive a localized, algebra-compatible, indefinite (n,n) / Krein pairing from modular data. Each route only installs the signature it should derive, so the program encodes geometry but does not generate it; the indefinite-metric / Krein attempt collapses back onto route 5 (the count stays FIVE, not six). This is HYP-CKV-VACUITY-R6, a no-go over currently-known readouts, grade MEDIUM-HIGH→HIGH conditional. [INFERENCE, high]"
+      caption="Encode vs generate — one wall, five routes. From the modular data alone (algebra 𝔄, state ω; Tomita–Takesaki Δ, J) FIVE independent routes attempt to extract Lorentzian geometry, and all five halt at the same obstruction: the carrier problem (= the reverse-Weinberg–Witten / net-naturality theorem) — derive a localized, algebra-compatible, indefinite (n,n) / Krein pairing from modular data. Each route only installs the signature it should derive, so the program encodes geometry but does not generate it; the indefinite-metric / Krein attempt collapses back onto route 5 (the count stays FIVE, not six). This is HYP-CKV-VACUITY-R7 (advanced from R6 at iteration 16, held at iteration 17), a no-go over currently-known readouts, grade conditional HIGH on the localization template n₁ AND hypothesis (E_O). [INFERENCE, high]"
     >
       <svg
         viewBox="0 0 760 470"
@@ -256,10 +256,10 @@ export default function FigEncodeGenerate() {
           generates ✗
         </text>
         <text x="232" y="452" fontSize="11.5" fill={S.faint}>
-          HYP-CKV-VACUITY-R6
+          HYP-CKV-VACUITY-R7
         </text>
         <text x="420" y="452" fontSize="11.5" fill={S.faint}>
-          verdict unchanged · 14 consecutive iterations
+          verdict unchanged · 16 consecutive iterations
         </text>
       </svg>
     </FigurePlate>

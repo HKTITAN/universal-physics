@@ -8,7 +8,7 @@
       "Claude (Anthropic)"
     ],
     "edition": "First edition",
-    "publicationDate": "2026-06",
+    "publicationDate": "2026-07",
     "license": {
       "content": "CC BY-SA 4.0",
       "code": "MIT"
@@ -375,6 +375,22 @@
             "notes/2026-06-19-iter15-carrier-problem-dossier.md"
           ],
           "trim": "Drop YAML frontmatter and 'See also'; keep the dossier body verbatim (it is the formal open-problem statement). The closing chapter of the research arc: fifteen iterations distilled into the single most-attackable form of the one open gate, posed for external resolution."
+        },
+        {
+          "number": 36,
+          "title": "Iteration 16: The Multi-Wedge Closure — the Gap Classified and the Hedge Advanced to R7",
+          "sources": [
+            "notes/2026-07-03-iter16-synthesis.md"
+          ],
+          "trim": "Drop YAML frontmatter and 'See also' block. The clock-(1) iteration: the commutant-to-generated gap classified (not closed) by the referee-verified LEM-NET-NATURALITY-G, the residual pinned to hypothesis (E_O), and the first hedge advance (R6 to R7) since iteration 9."
+        },
+        {
+          "number": 37,
+          "title": "Iteration 17: The (E_O) Assault — the Free-Field Reduction and Why the Hedge Holds at R7",
+          "sources": [
+            "notes/2026-07-07-iter17-EO-assault-synthesis.md"
+          ],
+          "trim": "Drop YAML frontmatter and 'See also' block. The first direct attack on the residual (E_O): the free-field case reduced to a one-particle spectral question, all three structure-theory routes and the adversarial disproof failing, the hedge holding at R7; the verdict stands a sixteenth time."
         }
       ]
     },
@@ -384,7 +400,7 @@
       "opener": "book/frontmatter/part-openers/part-6.md",
       "chapters": [
         {
-          "number": 36,
+          "number": 38,
           "title": "Conclusion: The Converged Verdict",
           "sources": [
             "CONCLUSION.md"
@@ -392,7 +408,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
         },
         {
-          "number": 37,
+          "number": 39,
           "title": "The Experiment Watchlist",
           "sources": [
             "EXPERIMENT_WATCHLIST.md"
@@ -400,7 +416,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
         },
         {
-          "number": 38,
+          "number": 40,
           "title": "Roadmap: What Comes Next",
           "sources": [
             "ROADMAP.md"
