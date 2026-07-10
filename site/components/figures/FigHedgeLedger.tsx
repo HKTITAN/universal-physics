@@ -1,6 +1,6 @@
 import FigurePlate, { S } from "./FigurePlate";
 
-/** FIG 13.1 — the saturation flatline: 17 iterations, one verdict that never moves. */
+/** FIG 13.1 — the saturation flatline: 18 iterations, one verdict that never moves. */
 export default function FigHedgeLedger() {
   // one one-word action per iteration; the flatline runs across all of them
   const iters: Array<[number, string]> = [
@@ -21,6 +21,7 @@ export default function FigHedgeLedger() {
     [15, "NEW-MATH"],
     [16, "MULTI-WEDGE"],
     [17, "E_O"],
+    [18, "NUMERICS"],
   ];
 
   const x0 = 56;
@@ -32,7 +33,7 @@ export default function FigHedgeLedger() {
   return (
     <FigurePlate
       id="13.1"
-      caption="The saturation flatline. A single perfectly flat line runs across all seventeen iterations: the verdict (PARTIAL coherence · encodes-not-generates · not-yet-physics) has not moved for sixteen consecutive confirmations — terminal analytical saturation, robust across every modern mathematical framework tried, and holding through the multi-wedge closure (iteration 16) and the direct assault on the residual (iteration 17). Three hedges survive: the principal HYP-CKV-VACUITY, advanced at iteration 16 to grade R7 (conditional HIGH, on the localization template n₁ AND hypothesis (E_O) — vacuum ergodicity on massive double-cone algebras) and held there by iteration 17; OP-48c horn C (theorem-conditional-on-framework); and HYP-ENCODING-SCREEN (the no-test corollary, inheriting the grade). The flatness is the result: marginal yield of further reasoning has gone to zero — only external input can move it. [INFERENCE, high]"
+      caption="The saturation flatline. A single perfectly flat line runs across all eighteen iterations: the verdict (PARTIAL coherence · encodes-not-generates · not-yet-physics) has not moved for seventeen consecutive confirmations — terminal analytical saturation, robust across every modern mathematical framework tried, holding through the multi-wedge closure (iteration 16), the direct assault on the residual (iteration 17), and — decisively — the user-demanded maximal GENERATIVE assault plus the project's first numerical computation (iteration 18), in which four construction angles all failed to generate geometry and the free-field double-cone modular spectrum was measured to have no zero-mode (supporting (E_O)). Reasoning, construction, and computation converge. Three hedges survive: the principal HYP-CKV-VACUITY, advanced at iteration 16 to grade R7 (conditional HIGH, on the localization template n₁ AND hypothesis (E_O) — vacuum ergodicity on massive double-cone algebras) and held there since; OP-48c horn C (theorem-conditional-on-framework); and HYP-ENCODING-SCREEN (the no-test corollary, inheriting the grade). The flatness is the result: marginal yield of further work has gone to zero — only external input can move it. [INFERENCE, high]"
     >
       <svg
         viewBox="0 0 760 416"
@@ -41,12 +42,12 @@ export default function FigHedgeLedger() {
         style={{ fontFamily: S.mono }}
       >
         <title>
-          A horizontal axis of seventeen iterations, one tick each, with a one-word action
+          A horizontal axis of eighteen iterations, one tick each, with a one-word action
           under every tick: map, stress-test, attempt, attack, saturate, new-input,
           levers, net, naturality, gap, bicentralizer, terminal, frame, assault, new-math,
-          multi-wedge, E_O. A single perfectly flat horizontal line runs straight across
-          all seventeen ticks without deviating — this
-          flat line is the verdict, unchanged for sixteen consecutive confirmations:
+          multi-wedge, E_O, numerics. A single perfectly flat horizontal line runs straight across
+          all eighteen ticks without deviating — this
+          flat line is the verdict, unchanged for seventeen consecutive confirmations:
           partial coherence, encodes but does not generate, not yet physics. Below, three
           surviving hedges are listed in ochre, and a small note records that the marginal
           yield of further reasoning has fallen to zero.
