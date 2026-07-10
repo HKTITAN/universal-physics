@@ -2,13 +2,13 @@
 title: Index — Content Catalog
 type: index
 tags: [index, catalog, navigation]
-updated: 2026-07-07
+updated: 2026-07-10
 ---
 
 # Index — Content Catalog
 
 **Status:** Maintained catalog — one line per page, grouped by role.
-**Last updated:** 2026-07-07
+**Last updated:** 2026-07-10
 
 Every page in the wiki, with an honest one-line summary. Entry point and reading order: [README.md](README.md). Operations history: [log.md](log.md) (thin index) over [CHANGELOG.md](CHANGELOG.md) (canonical).
 
@@ -114,7 +114,7 @@ Every page in the wiki, with an honest one-line summary. Entry point and reading
 - [notes/2026-06-10-iter6-experiment-refresh.md](notes/2026-06-10-iter6-experiment-refresh.md) — Mid-2026 numbers re-verified; the w(z) decision point compresses to 2027; nothing touches the wager.
 - [notes/2026-06-10-iter6-synthesis.md](notes/2026-06-10-iter6-synthesis.md) — Verdict unchanged for the fifth consecutive iteration; hedge accounting (2 → 3, one shrunk) and what could move it next.
 
-### Iterations 7–18 — 2026-06-10 / 2026-07-07 (lever execution → terminal saturation → the clock-(1) iteration → the (E_O) assault → the generative assault + first numerics)
+### Iterations 7–19 — 2026-06-10 / 2026-07-10 (lever execution → terminal saturation → the clock-(1) iteration → the (E_O) assault → the generative assault + first numerics → proving the numerics)
 
 The per-note catalogue for iterations 7–15 is maintained in the authoritative iteration index, **[notes/README.md](notes/README.md)** (kept here as a single home to avoid dual-maintenance drift). In brief:
 
@@ -132,6 +132,7 @@ The per-note catalogue for iterations 7–15 is maintained in the authoritative 
 - **Watch sweep #2 (2026-07-07)** — window 07-02→07-07; three channels; zero strong survivors; clock-(1) (α)–(ε) static; DESI/Euclid/Roman procedural-only. See [notes/2026-07-07-watch-sweep-02.md](notes/2026-07-07-watch-sweep-02.md).
 - **Iteration 17** — the (E_O) assault (2026-07-07): the first direct attack on the residual **(E_O)** (five lenses E1–E5, three binding referees). (E_O) neither proved nor disproved — **HYP-CKV-VACUITY stays R7**; verdict unchanged (**16th**). New refereed content: the free-field case sharply **reduced** to a one-particle spectral question (purely continuous spectrum of $\ln\delta_O$ / weak mixing ⟹ $M(O)_\omega=\mathbb C1$; naive "no-eigenvalue-0" reading refuted; spectral fact numerical-only, leaning-true); all three structure-theory routes for general (H) **fail**; the adversarial disproof **fails** on eight candidate mechanisms. See [synthesis](notes/2026-07-07-iter17-EO-assault-synthesis.md).
 - **Iteration 18** — the generative assault + the first numerics (2026-07-07): the user-demanded attempt to *devise* the generative step. Four construction angles (build the carrier on a ¬(E_O) mode; relative/multi-state modular data; AdS/CFT-as-generation; derive the causal order n₁) — **all fail, both referees FLIP_REFUTED**; each either fails smuggle-free or is caught installing the signature by hand. And the **first numerical computation in the project** — the free massive scalar double-cone modular spectrum (Peschel method) — obeys $\varepsilon_{\min}\to\pi^2/\ln L$ with no isolated mode ⟹ continuous spectrum, no eigenvalue at 0 ⟹ **(E_O) holds** for free d=2; **no flip**; verdict unchanged (**17th**); hedge stays R7. See [synthesis](notes/2026-07-07-iter18-generative-assault.md) · [numerics](scripts/eo-modular-numerics.py).
+- **Iteration 19** — proving the numerics (2026-07-10): **LEM-K0** refereed CONFIRMED — for the factorial double-cone standard subspace, 1 is never an eigenvalue of $\delta_O$, so the **E=0 / fixed-Weyl half of free-field (E_O) is a theorem** (`[ESTABLISHED]`; attribution: Figliolini–Guido 1989 proved it first via antilocality — primary source read, the iter-17 `[unverified]` tag retired; LEM-K0 = independent second proof). Massless (3+1) case theorem-grade a.c. The **λ≠1 exclusion** is the entire remaining free-field residual — undecidable at invariant level (Powers/Araki–Woods), bounded by conditional Mourre, observed **zero** by the pinning scan (no embedded eigenvalue anywhere); **best-lead: extend FG's antilocality from μ = ±1 to all real μ**. Hedge stays R7; verdict unchanged (**18th**). See [synthesis](notes/2026-07-10-iter19-prove-the-numerics.md).
 
 ---
 

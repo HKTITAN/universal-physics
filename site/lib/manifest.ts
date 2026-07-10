@@ -819,6 +819,13 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-07-07-iter18-generative-assault.md",
         group: "Iteration 18 — 2026-07-07 · the user-demanded generative assault + the first numerical computation (four constructions fail; the numerics find no zero-mode; verdict unchanged 17th; hedge holds at R7)",
       },
+      {
+        num: "13.85",
+        slug: "2026-07-10-iter19-prove-the-numerics",
+        title: "Iteration-19 Synthesis — Proving the Numerics: The E=0 Half Becomes a Theorem; the λ≠1 Residual Sharpened; No Embedded Eigenvalue",
+        file: "notes/2026-07-10-iter19-prove-the-numerics.md",
+        group: "Iteration 19 — 2026-07-10 · proving the numerics (LEM-K0 confirmed; FG-1989 primary source verified; pinning scan clean; verdict unchanged 18th; hedge holds at R7)",
+      },
     ],
   },
   {

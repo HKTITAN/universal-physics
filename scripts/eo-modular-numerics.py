@@ -61,3 +61,51 @@ print("  VERDICT: eps_min -> 0 as pi^2/ln(L) (universal, mass-indep in continuum
 print("  uniform ladder in reflection-degenerate pairs; NO isolated mode below pi^2/ln(L). This is a")
 print("  CONTINUOUS modular spectrum with NO eigenvalue at 0 => trivial centralizer => (E_O) HOLDS")
 print("  for the free massive scalar (d=2). No NOT-(E_O) signal; no carrier entry-ticket; no flip.")
+
+
+# ============================================================================
+# Iteration 19 extension — embedded-eigenvalue (pinning) scan.
+# An eigenvalue E != 0 of the continuum ln delta_O would appear as a lattice mode
+# whose eps_k(L) converges to a nonzero limit under continuum refinement; continuum
+# (a.c.) modes shrink as (2j+1) pi^2 / ln L. Scale-aware statistic per sorted mode:
+#   g_k = [eps_k(L_max) ln L_max] / [eps_k(L_min) ln L_min]
+#   continuum: g ~ 1 (finite-size drift); PINNED eigenvalue: g = ln L_max / ln L_min.
+# Precision note: modes with eps >~ 22 have nu - 1/2 <~ 1e-10; use the symmetrized
+# solver below (eig(X_A P_A) = eigh(P^{1/2} X_A P^{1/2})) and exclude them.
+# ============================================================================
+from numpy.linalg import eigh as _eigh
+
+def eps_spectrum_sym(L, m_phys, R_phys, ring_factor=8):
+    m_lat = m_phys*R_phys/L
+    N = ring_factor*L
+    Xr, Pr = corr(N, m_lat)
+    XA, PA = toe(Xr, L), toe(Pr, L)
+    w, V = _eigh(PA)
+    Ph = (V*np.sqrt(np.clip(w, 1e-300, None))) @ V.T
+    M = Ph @ XA @ Ph
+    ev = np.clip(_eigh(0.5*(M+M.T))[0], 0.25, None)
+    nu = np.sort(np.sqrt(ev))
+    with np.errstate(divide='ignore'):
+        eps = np.log((nu+0.5)/(nu-0.5))
+    return np.sort(eps[np.isfinite(eps)])
+
+if __name__ == "__main__":
+    print()
+    print("=" * 100)
+    print("ITERATION-19 PINNING SCAN — embedded eigenvalues at E != 0? (E = 0 excluded by LEM-K0)")
+    print("=" * 100)
+    R = 8.0; Ls = [96, 192, 384, 768]; TRUST = 22.0
+    pinned_g = np.log(Ls[-1])/np.log(Ls[0])
+    print(f"g_k continuum ~ 1; PINNED = {pinned_g:.3f}. Trusted window eps(L_min) < {TRUST}")
+    worst = 0.0
+    for m in [0.5, 1.0, 2.0, 4.0]:
+        E = {L: eps_spectrum_sym(L, m, R) for L in Ls}
+        ktr = min(int((E[Ls[0]] < TRUST).sum()), *[len(E[L]) for L in Ls])
+        g = (E[Ls[-1]][:ktr]*np.log(Ls[-1]))/(E[Ls[0]][:ktr]*np.log(Ls[0]))
+        worst = max(worst, g.max())
+        print(f"  m={m}: trusted modes={ktr}  max g={g.max():.4f}  median g={np.median(g):.4f}")
+    print(f"  WORST g anywhere = {worst:.4f} vs pinned {pinned_g:.3f}: "
+          + ("NO pinned mode — no embedded eigenvalue; supports NO point spectrum at any E."
+         if worst < 0.5*(1+pinned_g) else "PINNED CANDIDATE — investigate."))
+    print("  (High-mode 'drift' above the trusted window converges UPWARD to ladder slots"
+          " (2j+1)pi^2/lnL — late-onset ladder levels, not eigenvalues.)")

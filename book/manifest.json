@@ -398,7 +398,15 @@
           "sources": [
             "notes/2026-07-07-iter18-generative-assault.md"
           ],
-          "trim": "Drop YAML frontmatter and 'See also' block. The user-demanded attempt to devise the generative step: four construction angles all fail (both referees FLIP_REFUTED), and the first numerical computation in the project (the free massive scalar double-cone modular spectrum) finds no zero-mode, supporting (E_O). The verdict stands a seventeenth time. The closing chapter of the research arc — reasoning, construction, and computation converged."
+          "trim": "Drop YAML frontmatter and 'See also' block. The user-demanded attempt to devise the generative step: four construction angles all fail (both referees FLIP_REFUTED), and the first numerical computation in the project (the free massive scalar double-cone modular spectrum) finds no zero-mode, supporting (E_O). The verdict stands a seventeenth time."
+        },
+        {
+          "number": 39,
+          "title": "Iteration 19: Proving the Numerics — The E=0 Half Becomes a Theorem; the Residual Sharpened to One Question",
+          "sources": [
+            "notes/2026-07-10-iter19-prove-the-numerics.md"
+          ],
+          "trim": "Drop YAML frontmatter and 'See also' block. The analytic follow-through: LEM-K0 refereed confirmed (the E=0 half of free-field (E_O) established, with the Figliolini-Guido 1989 primary source verified and the iteration-17 unverified tag retired); the lambda != 1 exclusion isolated as the entire remaining free-field residual with a named single-mechanism best-lead; the pinning scan finds no embedded eigenvalue. The verdict stands an eighteenth time. The closing chapter of the research arc — reasoning, construction, and computation converged, and part of the computation became proof."
         }
       ]
     },
@@ -408,7 +416,7 @@
       "opener": "book/frontmatter/part-openers/part-6.md",
       "chapters": [
         {
-          "number": 39,
+          "number": 40,
           "title": "Conclusion: The Converged Verdict",
           "sources": [
             "CONCLUSION.md"
@@ -416,7 +424,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
         },
         {
-          "number": 40,
+          "number": 41,
           "title": "The Experiment Watchlist",
           "sources": [
             "EXPERIMENT_WATCHLIST.md"
@@ -424,7 +432,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
         },
         {
-          "number": 41,
+          "number": 42,
           "title": "Roadmap: What Comes Next",
           "sources": [
             "ROADMAP.md"

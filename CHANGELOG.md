@@ -10,6 +10,16 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-07-10 — Iteration 19: proving the numerics (verdict unchanged 18th consecutive; the E=0 half of free-field (E_O) becomes ESTABLISHED; hedge stays R7)
+
+The analytic follow-through of iteration 18 — the sanctioned sharpest decidable lever (prove the free-field spectral fact). LEM-K0 adversarially refereed with a primary-source novelty check; three λ≠1 proof attempts (Mourre; locality/rigidity; literature+structure), one binding verifier (grade B+, no fabrications); a precision-hardened embedded-eigenvalue pinning scan. Synthesis: [notes/2026-07-10-iter19-prove-the-numerics.md](notes/2026-07-10-iter19-prove-the-numerics.md).
+
+- **LEM-K0 (referee CONFIRMED_WITH_CORRECTIONS; correction attributional):** for a factorial standard subspace, 1 is never an eigenvalue of δ and K contains no δ-eigenvector — `[ESTABLISHED]`, cold-checkable. Applied to K_O (R(K_O) a type III₁ factor): **1 ∉ σ_p(δ_O) — the E=0 / fixed-Weyl half of free-field (E_O) is a THEOREM.** Attribution: the referee downloaded and read Figliolini–Guido 1989 (Ann. IHP 51, 419; numdam PDF) — p. 429 verbatim proves it via antilocality; LEM-K0 is a verification + independent second proof. **The iteration-17 `[unverified]` FG tag is retired to `[ESTABLISHED]`** (dated addendum on the iter-17 note).
+- **Massless (3+1) double cone: purely a.c., no eigenvalues — `[ESTABLISHED]`** (Hislop–Longo + Borchers/Stone–von Neumann); upgrades the iter-16 conformal transport sketch at the one-particle spectral level.
+- **λ≠1 residual: `[OPEN]`, sharpened.** Invariant-level arguments provably cannot decide it (Powers/Araki–Woods counterexamples); conditional Mourre (unproven H1/H2) bounds point spectrum to finite-per-compact-interval; new rigidity proved (π-strip boost-analyticity in every wedge, W-independent norm; no half-sided modular inclusion for m>0). **Named best-lead: extend FG's antilocality argument from μ = ±1 to all real μ** (FG Thm 3.6 maps λ≠1 eigenvalues to real μ = (λ+1)/(λ−1) of their operator B). Statement proved nowhere in the literature (live-verified).
+- **Pinning scan (numerics): NO embedded eigenvalue** at any energy/mass (worst scale-aware statistic 1.049 vs pinned 1.456; m=1 continuum-exact to three decimals); the suspicious mid-spectrum drift resolved as late-onset ladder levels → (2j+1)π²/lnL. Complements Mourre: allowed finitely-many, observed zero. Script extended: [scripts/eo-modular-numerics.py](scripts/eo-modular-numerics.py) (symmetrized solver; trusted-window discipline for ε ≳ 22).
+- **Hedge: HYP-CKV-VACUITY STAYS R7** (R8 requires full free-field (E_O) closure; only the E=0 half closed). Verdict unchanged (18th consecutive); count FIVE; no numeric ID consumed. New named item: LEM-K0.
+
 ## 2026-07-07 — Iteration 18: the generative assault + the first (E_O) numerics (verdict unchanged 17th consecutive; NO FLIP; HYP-CKV-VACUITY STAYS R7)
 
 User-demanded iteration: the explicit instruction was to try to *devise* the generative step — flip "encodes" to "generates". Mounted as the strongest positive assault yet, on two fronts. Synthesis: [notes/2026-07-07-iter18-generative-assault.md](notes/2026-07-07-iter18-generative-assault.md).

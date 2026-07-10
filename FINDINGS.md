@@ -2,13 +2,13 @@
 title: Findings — Cumulative Synthesis
 type: synthesis
 tags: [synthesis, executive-summary, unification]
-updated: 2026-07-03
+updated: 2026-07-10
 ---
 
 # Findings — Cumulative Synthesis
 
-**Status:** Living synthesis — current through iteration 18. Read this first; it is the executive summary of the whole wiki.
-**Last updated:** 2026-07-07
+**Status:** Living synthesis — current through iteration 19. Read this first; it is the executive summary of the whole wiki.
+**Last updated:** 2026-07-10
 
 This page distills the current state of the investigation into six questions: *what is solid; where do the frameworks genuinely clash; which deep principles look most fundamental; what candidate unifying directions survive scrutiny; is a universal theory even possible; and what should we work on next.* Every claim is tagged per [EPISTEMICS.md](EPISTEMICS.md). Detail and derivations live on the linked pages; this page is the map, not the territory.
 
@@ -327,6 +327,15 @@ Three track agents brought frameworks NEVER previously applied to the carrier pr
 - **Front A — generative-construction assault (four angles, both referees FLIP_REFUTED):** `[INFERENCE, high]` C1 (build the carrier on a ¬(E_O) mode) — any survivor is *j*-even, commutes with the one-particle Hamiltonian ⟹ internal species-label count, Δ_geo = 0; smuggle-free failure. C2 (relative/multi-state modular data) — installs the indefinite form or needs a nonexistent expectation; arXiv:2505.04682 (2025) independently gives a signature-free symplectic form. C3 (AdS/CFT) — Jacobson installs the signature three ways; generates the Einstein-equation form and G, not the signature. C4 (derive n₁) — HSMI *is* the causal order; the Euler element's 3-grading *is* the lightcone splitting; n₁ presupposed.
 - **Front B — first numerical computation:** `[INFERENCE, high — validated lattice computation; not a continuum proof]` the free massive scalar double-cone modular spectrum (Peschel method; validated) obeys **ε_min → π²/ln(L)** (universal), a uniform reflection-degenerate ladder with **no isolated mode below it** — continuous spectrum, no eigenvalue at 0 ⟹ **(E_O) holds** for free d=2; no zero-mode, no carrier. [scripts/eo-modular-numerics.py](scripts/eo-modular-numerics.py).
 - **Net:** reasoning, construction, and computation all converge on encodes-not-generates. Hedge stays R7; count FIVE; no numeric ID consumed. See the [iteration-18 synthesis](notes/2026-07-07-iter18-generative-assault.md).
+
+## Iteration 19 update (2026-07-10) — proving the numerics: the E=0 half becomes ESTABLISHED; hedge stays R7
+
+**Outcome: verdict UNCHANGED — EIGHTEENTH consecutive confirmation; hedge stays R7.** The analytic follow-through of iteration 18 (LEM-K0 + three λ≠1 attempts + the pinning scan), all adversarially refereed.
+- **E=0 half of free-field (E_O): `[ESTABLISHED]`.** LEM-K0 (factorial standard subspace ⟹ no eigenvalue 1 of δ; no δ-eigenvector in K) refereed CONFIRMED; applied to K_O via factoriality (Figliolini–Guido JOT 31 (1994)). Attribution: FG 1989 already proved it via antilocality — primary source downloaded and read (numdam, p. 429 verbatim); the iter-17 `[unverified]` tag retired. No modular-fixed one-particle vector; no fixed Weyl operator.
+- **Massless (3+1) case: `[ESTABLISHED]` purely a.c., no eigenvalues** (Hislop–Longo + Borchers/Stone–von Neumann).
+- **λ≠1 residual: `[OPEN]`, sharpened** — undecidable at invariant level (Powers/Araki–Woods); conditional Mourre bounds it to finite-per-interval; new wedge-analyticity rigidity proved; **best-lead: extend FG antilocality from μ = ±1 to all real μ**. Proved nowhere in the literature (live-verified).
+- **Pinning scan: no embedded eigenvalue** (worst g = 1.049 vs pinned 1.456; m = 1 continuum-exact). Allowed finitely-many (Mourre), observed zero.
+- **Hedge ledger:** R7 unchanged (R8 needs the full free-field closure); count FIVE. See the [iteration-19 synthesis](notes/2026-07-10-iter19-prove-the-numerics.md).
 
 ## See also
 - [CONCLUSION.md](CONCLUSION.md) — the capstone verdict · [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)
