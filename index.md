@@ -38,6 +38,7 @@ Every page in the wiki, with an honest one-line summary. Entry point and reading
 - [HYPOTHESES.md](HYPOTHESES.md) — Refereed candidate research directions (H0–H8) toward background-independent physics, each with a referee verdict — directions, not results.
 - [ASSUMPTIONS_LEDGER.md](ASSUMPTIONS_LEDGER.md) — Registry (`A-n`) classifying the assumptions of physical theory along the fundamental ↔ historical-artifact axis.
 - [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md) — Post-saturation tracker of the channels that constrain the program's gate, cores, and target — no channel decides the central wager.
+- [PROVENANCE.md](PROVENANCE.md) — Color-coded attribution ledger: 🔵 prior art, 🟢 discovered/invented here, 🟡 rediscoveries credited to prior sources, 🔴 impossibility results proved here.
 
 ## References
 

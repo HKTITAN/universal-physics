@@ -925,6 +925,15 @@ export const CHAPTERS: ManualChapter[] = [
       },
     ],
   },
+  {
+    num: "18",
+    slug: "provenance",
+    title: "Provenance",
+    file: "PROVENANCE.md",
+    summary:
+      "Color-coded attribution ledger: 🔵 prior art the program stands on, 🟢 results discovered/invented here, 🟡 rediscoveries credited to their prior sources, 🔴 impossibility results proved here.",
+    sections: [],
+  },
 ];
 
 /** Flat reading order, used for prev/next navigation and static params. */
