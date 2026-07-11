@@ -9,3 +9,11 @@ book/dist/
 
 .claude/
 .cursor/
+
+# supermemory local (encrypted memory store; repo-local, never committed)
+.supermemory/
+supermemory-*.log
+
+# eve agents
+agents/node_modules/
+agents/.eve/
