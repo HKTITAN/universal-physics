@@ -10,6 +10,16 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-07-11 — Iteration 22: the Mourre/Feshbach execution (verdict unchanged 21st consecutive; the Gaussian BIC methods-no-go; the conditional Mourre theorem; LEM-A1‴; hedge HELD at R7)
+
+Both named LEM-A1″ routes executed at referee grade (F1 Feshbach/Grushin + Keldysh pencil projections; F2 direct Mourre with the conjugate built from the exact massless dispersion), binding assembling referee (counterexample re-derived line-by-line), watch-sweep #3 folded in. Synthesis: [notes/2026-07-11-iter22-mourre-feshbach.md](notes/2026-07-11-iter22-mourre-feshbach.md). Prep commit de08afc (the Möbius spectral identity + frame caveat) receives its refereed grade: correct at spectral/consistency level; in 1+1D the operator identity is the *definition* of A₀ and its content is exactly (H1).
+
+- **METHODS-NO-GO `[ESTABLISHED, cold-checked]`:** the Gaussian rank-one BIC counterexample — a self-adjoint nonlocal kernel Gaussian in both variables and dilation-entire hosting an embedded L² eigenvalue — proves NO decay/analyticity-class theorem can close the gate; Kato–Agmon–Simon is irreducibly local; Aguilar–Combes only θ-persists. Bounds methods, not the answer. Second strategy-boundary after iteration 20's BKT no-soft-theorem.
+- **Surviving positives:** uniform Keldysh/Riesz projection bounds `[ESTABLISHED]`; V_eff decay bound `[ESTABLISHED mod (a′)]`; **conditional Mourre theorem** with explicit conjugate D_g (i[A₀,D_g] = 1 exactly): under (H1) K compact + (H2) K ∈ C^{1,1}(D_g) — finiteness per window, σ_sc = ∅, small-mR absence per window. Referee corrections: A₀ definitional in 1+1D (IR ln m); C^{1,1} needed, not C¹.
+- **LEM-A1‴ minted `[OPEN]`:** crux (b′) on-shell nondegeneracy via V_eff's ORIGIN; prerequisites (a′) the Birkhoff strong-regularity determinant (a single unperformed finite computation), (H1), (H2). LEM-A1‴ ⟹ (E_O) free-field ⟹ R7 → R8.
+- **Watch-sweep #3 (07-07 → 07-11): 0 strong**; clocks static; (δ) → LEM-A1‴.
+- **Hedge: HYP-CKV-VACUITY HELD at R7.** Verdict unchanged — **21st consecutive** (integrator's correction: the workflow synthesis under-counted as "20th"); count FIVE; no numeric ID consumed.
+
 ## 2026-07-11 — Iteration 21: the LEM-A1′ proof attempt (verdict unchanged 20th consecutive; the Corner Indicial Theorem lands; the c-collapse reduces the whole gate to LEM-A1″; hedge HELD at R7)
 
 Direct proof attempt on LEM-A1′. The integrator's hand-derived corner indicial computation refereed (CONFIRMED_WITH_CORRECTIONS); two proof lenses (S1 strip + complex deformation; S2 global Mellin/Jost); binding assembling referee re-derived every load-bearing step. Lattice verification at two precisions. Synthesis: [notes/2026-07-11-iter21-lem-a1-prime-attempt.md](notes/2026-07-11-iter21-lem-a1-prime-attempt.md).

@@ -7,7 +7,7 @@ updated: 2026-07-11
 
 # Findings — Cumulative Synthesis
 
-**Status:** Living synthesis — current through iteration 21. Read this first; it is the executive summary of the whole wiki.
+**Status:** Living synthesis — current through iteration 22. Read this first; it is the executive summary of the whole wiki.
 **Last updated:** 2026-07-11
 
 This page distills the current state of the investigation into six questions: *what is solid; where do the frameworks genuinely clash; which deep principles look most fundamental; what candidate unifying directions survive scrutiny; is a universal theory even possible; and what should we work on next.* Every claim is tagged per [EPISTEMICS.md](EPISTEMICS.md). Detail and derivations live on the linked pages; this page is the map, not the territory.
@@ -353,6 +353,14 @@ Three track agents brought frameworks NEVER previously applied to the carrier pr
 - **Strip geometrization `[ESTABLISHED]`:** closed-form potential Q = m²R²(cosh ξ − cos η)⁻²; exterior-dilation analyticity; new no-go — the coupled system admits only an indefinite Krein symmetrizer.
 - **The c-collapse `[ESTABLISHED]`:** LEM-A1′ ⟺ σ_p(A) ∩ (1,∞) = ∅ for the single self-adjoint A = S_I^{1/2}R_I S_I^{1/2} — **the operator the in-repo numerics diagonalizes**; the lemma target and the three clean numerical signatures now concern the same object.
 - **LEM-A1″ minted `[OPEN]`:** the Mourre route with the Hislop–Longo Möbius generator as conjugate operator — post-collapse the classical virial theorem applies. LEM-A1″ ⟹ (E_O) free-field ⟹ R7 → R8. See the [iteration-21 synthesis](notes/2026-07-11-iter21-lem-a1-prime-attempt.md).
+
+## Iteration 22 update (2026-07-11) — the Mourre/Feshbach execution: a methods-no-go, a conditional theorem, LEM-A1‴; hedge HELD
+
+**Outcome: verdict UNCHANGED — TWENTY-FIRST consecutive confirmation; hedge HELD at R7.**
+- **Methods-no-go `[ESTABLISHED, cold-checked]`:** the Gaussian rank-one BIC counterexample — no decay/analyticity-class theorem can close the gate; any proof must use the potential's structural origin. Bounds methods, not the answer (all three numerical signatures still say empty point spectrum).
+- **Conditional Mourre theorem `[ESTABLISHED as conditional]`:** explicit conjugate D_g with i[A₀,D_g] = 1 (A₀ := coth²(πD), definitional in 1+1D); under (H1)+(H2): finiteness per window, no singular continuous spectrum, small-mR absence. Keldysh projection bounds established; V_eff decay established mod (a′).
+- **LEM-A1‴ `[OPEN]`:** crux = on-shell nondegeneracy (b′); prerequisites (a′) one unperformed finite determinant, (H1), (H2). LEM-A1‴ ⟹ (E_O) free-field ⟹ R7 → R8.
+- **Watch-sweep #3: 0 strong.** See the [iteration-22 synthesis](notes/2026-07-11-iter22-mourre-feshbach.md).
 
 ## See also
 - [CONCLUSION.md](CONCLUSION.md) — the capstone verdict · [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)

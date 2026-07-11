@@ -482,6 +482,16 @@ When a future direction is judged genuinely unsound or vacuous, record it here w
 - **LEM-A1″ — the new named target.** `[OPEN]` Primary route: Mourre estimate for A with conjugate operator D = the Hislop–Longo Möbius-flow generator (the exact massless symmetry; the mass term has exactly the decay/analyticity profile Mourre wants; post-collapse the classical virial theorem applies — no Krein obstruction). Fallback: Feshbach n=0-channel + nonlocal subordinacy (sub-lemmas open). **LEM-A1″ ⟹ (E_O) free-field ⟹ R7 → R8.**
 - **HYP-CKV-VACUITY-R7 — HELD** (assembly: no complete proof; exclusion open in both routes). Verdict unchanged 20th consecutive; count FIVE; no numeric ID consumed.
 
+## Iteration 22 refinements (2026-07-11) — the Mourre/Feshbach execution: the Gaussian BIC methods-no-go, the conditional Mourre theorem, LEM-A1‴; hedge HELD at R7
+
+*Both named LEM-A1″ routes executed and assembled (binding referee; counterexample re-derived cold; watch-sweep #3 folded in, 0 strong). Verdict unchanged (21st consecutive — integrator's counter correction over the workflow synthesis). See [notes/2026-07-11-iter22-mourre-feshbach.md](notes/2026-07-11-iter22-mourre-feshbach.md).*
+
+- **METHODS-NO-GO (the Gaussian rank-one BIC counterexample).** `[ESTABLISHED — re-derived cold]` −d² + λ|φ⟩⟨φ| with φ = g″ + τ₀²g (g Gaussian), λ = 1/⟨φ,g⟩ is self-adjoint, kernel Gaussian in both variables (inside every e^{−a(|ξ|+|ξ′|)} class), dilation-**entire** — yet has an L² eigenfunction embedded at +τ₀². So **no decay/analyticity-class theorem can close the gate**; Kato–Agmon–Simon is irreducibly local; Aguilar–Combes only θ-persists embedded eigenvalues. Bounds METHODS, not the answer (no mechanism for A itself; all three numerical signatures still indicate empty point spectrum). Second proved strategy-boundary after iteration 20's BKT no-soft-theorem.
+- **Surviving positives.** `[ESTABLISHED]` Uniform finite-rank Keldysh/Riesz projection bounds on compact κ-sets; `[ESTABLISHED mod (a′)]` the V_eff decay bound |V_eff| ≤ C_δ(1+|ln|ξ−ξ′||)e^{−(2−δ)(|ξ|+|ξ′|)}; `[ESTABLISHED as conditional]` the **conditional Mourre theorem**: with A₀ := coth²(πD) (definitional in 1+1D — referee correction: the massless operator is IR-divergent, content migrates to H1) and the **explicit conjugate D_g with i[A₀,D_g] = 1 exactly**, under (H1) K = A − A₀ compact `[OPEN — INFERENCE medium]` and (H2) K ∈ C^{1,1}(D_g) `[OPEN]` (C^{1,1}, not C¹ — referee-caught gap): finite point spectrum per compact window, σ_sc = ∅, absence at small mR per window (perturbative only).
+- **LEM-A1‴ — the new named target.** `[OPEN]` Crux (b′): on-shell nondegeneracy — prove ŵ(±τ₀) = 0 forces u = 0 via V_eff's ORIGIN (Schur-complement/energy-monotonicity, or the Froese–Herbst bootstrap with D_g past the nonlocal rate ceiling a = 2). Prerequisites cheap-first: **(a′) the Birkhoff strong-regularity determinant — a single unperformed finite computation** `[INFERENCE, high]`; (H1); (H2). LEM-A1‴ ⟹ (E_O) free-field ⟹ R7 → R8.
+- **Watch-sweep #3 (07-07 → 07-11): 0 strong** (11 in-window math.OA postings, none on watch topics; near-misses 2607.05195, 2607.07810 logged, not load-bearing). Clocks (α)–(ε) static; (δ) → LEM-A1‴.
+- **HYP-CKV-VACUITY-R7 — HELD.** Verdict unchanged **21st consecutive**; count FIVE; no numeric ID consumed.
+
 ---
 
 ## See also

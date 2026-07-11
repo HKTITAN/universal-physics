@@ -840,6 +840,13 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-07-11-iter21-lem-a1-prime-attempt.md",
         group: "Iteration 21 — 2026-07-11 · the LEM-A1′ proof attempt (Corner Indicial Theorem established; the c-collapse to one operator; LEM-A1″ minted; verdict unchanged 20th; hedge holds at R7)",
       },
+      {
+        num: "13.88",
+        slug: "2026-07-11-iter22-mourre-feshbach",
+        title: "Iteration-22 Synthesis — The Mourre/Feshbach Execution: The Gaussian BIC Methods-No-Go, the Conditional Mourre Theorem, and LEM-A1‴",
+        file: "notes/2026-07-11-iter22-mourre-feshbach.md",
+        group: "Iteration 22 — 2026-07-11 · the Mourre/Feshbach execution (the BIC methods-no-go; the conditional theorem; LEM-A1‴ minted; verdict unchanged 21st; hedge holds at R7)",
+      },
     ],
   },
   {

@@ -422,7 +422,15 @@
           "sources": [
             "notes/2026-07-11-iter21-lem-a1-prime-attempt.md"
           ],
-          "trim": "Drop YAML frontmatter and 'See also' block. The direct proof attempt: the Corner Indicial Theorem lands (cos^2(pi s) = c; tau_0 = eps/2pi exactly — Bisognano-Wichmann recovered from a corner computation; lattice-verified); the strip geometrization with closed-form potential and the Krein-symmetrizer no-go; and the c-collapse — the entire free-field gate becomes one spectral question (LEM-A1'') about one explicitly-constructed self-adjoint operator, the very operator the project's numerics diagonalize. No complete proof assembles; the verdict stands a twentieth time. The closing chapter of the research arc."
+          "trim": "Drop YAML frontmatter and 'See also' block. The direct proof attempt: the Corner Indicial Theorem lands (cos^2(pi s) = c; tau_0 = eps/2pi exactly — Bisognano-Wichmann recovered from a corner computation; lattice-verified); the strip geometrization with closed-form potential and the Krein-symmetrizer no-go; and the c-collapse — the entire free-field gate becomes one spectral question (LEM-A1'') about one explicitly-constructed self-adjoint operator, the very operator the project's numerics diagonalize. No complete proof assembles; the verdict stands a twentieth time."
+        },
+        {
+          "number": 42,
+          "title": "Iteration 22: The Mourre-Feshbach Execution — The BIC Methods-No-Go, the Conditional Theorem, and LEM-A1'''",
+          "sources": [
+            "notes/2026-07-11-iter22-mourre-feshbach.md"
+          ],
+          "trim": "Drop YAML frontmatter and 'See also' block. Both routes to LEM-A1'' executed: the Gaussian rank-one BIC counterexample proves no decay/analyticity-class theorem can close the gate (a second strategy-boundary after BKT); the conditional Mourre theorem lands with an explicit conjugate operator; the residue compresses to LEM-A1''' — one crux (on-shell nondegeneracy through the potential's structural origin) plus three prerequisites, one a single unperformed finite determinant. The verdict stands a twenty-first time. The closing chapter of the research arc."
         }
       ]
     },
@@ -432,7 +440,7 @@
       "opener": "book/frontmatter/part-openers/part-6.md",
       "chapters": [
         {
-          "number": 42,
+          "number": 43,
           "title": "Conclusion: The Converged Verdict",
           "sources": [
             "CONCLUSION.md"
@@ -440,7 +448,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
         },
         {
-          "number": 43,
+          "number": 44,
           "title": "The Experiment Watchlist",
           "sources": [
             "EXPERIMENT_WATCHLIST.md"
@@ -448,7 +456,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
         },
         {
-          "number": 44,
+          "number": 45,
           "title": "Roadmap: What Comes Next",
           "sources": [
             "ROADMAP.md"
