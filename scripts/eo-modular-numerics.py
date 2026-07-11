@@ -174,3 +174,33 @@ if __name__ == "__main__":
 # conditioning and fake non-compactness. The frame-correct vector-level test
 # requires D conjugated into the A-self-adjoint representation (analytic task,
 # handed to the iteration-22 referee), or purely spectral comparisons as above.
+
+
+# ============================================================================
+# Iteration 23 (prep) — (a') computed; frame-fixed dispersion; resolvent-H1 probe
+# ============================================================================
+# (a') THE BIRKHOFF STRONG-REGULARITY DETERMINANT [computed 2026-07-11, referee
+# pending]: in the Birkhoff variable z = e^{2 pi i s}, the transverse pencil's
+# characteristic function c - cos^2(pi s) is proportional to the quadratic
+#     z^2 - 2(2c-1) z + 1,   discriminant 16 c(c-1) > 0 for ALL c > 1,
+# with distinct real roots z_pm = (sqrt(c) +- sqrt(c-1))^2 = e^{+-2 pi tau0}
+# (consistency: e^{arccosh sqrt(c)} = sqrt(c) + sqrt(c-1)). Distinct roots for
+# every c > 1 = the strong-regularity signature; the remaining step is the
+# framework citation (system-Birkhoff/Shkalikov: strongly regular => Riesz basis).
+#
+# FRAME FIX (corrects the iteration-22 caveat): A_sym = (2P)^{1/2}(2X)(2P)^{1/2}
+# IS the plain-l2 self-adjoint lattice representative of A, and the Mobius D is
+# plain-l2 Hermitian — SAME frame; pair A_sym's own eigenvectors with D directly.
+# Frame-fixed dispersion ratios improve to 0.86..0.74 with the residual deficit
+# attributed to central-difference damping on corner-concentrated oscillations
+# (the clean measurement remains the iteration-21 phase fit: tau = eps/2pi at 1-3%).
+#
+# H1 RESOLVENT PROBE [2026-07-11 run]: K_res = (A_sym+1)^{-1} - (coth^2(pi D)+1)^{-1}
+# has top singular values 0.377 / 0.388 / 0.397 at L = 128/256/512 (refinement-
+# stable, slow lnL-type drift) with FAST index decay: sv[12] ~ 4e-4, sv[24] ~ 1e-6
+# — the compactness signature of hypothesis (H1) in its bounded-transform form.
+#
+# CRUX SHARPENING (analysis note): the iteration-22 BIC counterexample is a
+# LINEAR eigenvalue problem; the true V_eff is ENERGY-DEPENDENT (a Schur
+# complement, monotone in kappa) — the structural origin a proof must exploit.
+# Untried lens: Krein-space definitizability (Langer-Jonas) for the strip pencil.
