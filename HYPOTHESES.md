@@ -502,6 +502,15 @@ When a future direction is judged genuinely unsound or vacuous, record it here w
 - **Residual: LEM-A1‴-T (upstream bottleneck) → LEM-A1⁗ (Pontryagin-channel on-shell transversality), + (H1) `[INFERENCE, medium]` / (H2) `[OPEN]`.** Designated next move: the numerical Gram-matrix probe of LEM-A1‴-T.
 - **HYP-CKV-VACUITY-R7 — HELD.** Verdict unchanged **22nd consecutive**; count FIVE; no numeric ID consumed.
 
+## Iteration 24 refinements (2026-07-11) — LEM-A1‴-T FALLS (the transfer lemma proved); LEM-A1⁗ the sole remaining blocker; hedge HELD at R7
+
+*Two proof lenses + binding assembly (PROOF_ASSEMBLES; independent cold re-derivation; machine-verified 1.4e-15); watch-sweep #4 dry. Verdict unchanged (23rd consecutive). See [notes/2026-07-11-iter24-transfer-lemma-falls.md](notes/2026-07-11-iter24-transfer-lemma-falls.md).*
+
+- **LEM-A1‴-T — PROVED.** `[ESTABLISHED — conditional only on its own explicit spectral data, per (a′)]` For every fixed c > 1 the transverse-pencil eigenvector family is a Riesz basis of L²((0,π); ℂ²), by the elementary three-step transfer: constant Im s_n ⟹ weighted-Fourier Riesz basis on (0,2π); the folding (f(η), f(2π−η)) is UNITARY with q = e^{2πis_n} n-independent; a constant intertwiner M (det M = (t/2)e^{2πτ₀} ≠ 0) carries it exactly onto the eigenvectors. Explicit frame bounds bracket all measured Gram spectra. No heavy machinery needed — the known repeated-root gap is bypassed, not solved.
+- **The conditioning surprise dissolved.** `[ESTABLISHED]` Closed-form Gram G = Toeplitz + (πC/2)J; two explicit degeneracy laws: λ_min ~ (c−1)/2 at c→1⁺ (pair collision — the iteration-23 "cleanest at c→1⁺" reading was the integrator's misread of rank-local N-saturation, corrected in assembly) and ~ ln(4c)/(2c²) at c→∞ (envelope lopsidedness). Riesz bounds uniform precisely on compact subsets of (1,∞); NO c-uniform bound at either end — flagged for LEM-A1⁗.
+- **Residual: LEM-A1⁗ alone** (Pontryagin-channel on-shell transversality) — now attackable with explicit tools (the intertwiner, the frame bounds, the closed-form Gram, diagonal mode decomposition in folding coordinates). Iteration-25 first move: determine whether it needs c-uniformity (not available) or per-fixed-c bounds (available). Secondary: the one-page Bari supplement discharging the exact-lattice conditionality.
+- **HYP-CKV-VACUITY-R7 — HELD** (R8 requires BOTH lemmas; watch-sweep #4: 0 strong). Verdict unchanged **23rd consecutive**; count FIVE; no numeric ID consumed.
+
 ---
 
 ## See also

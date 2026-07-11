@@ -10,6 +10,14 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-07-11 — Iteration 24: LEM-A1‴-T FALLS (the transfer lemma proved; verdict unchanged 23rd consecutive; LEM-A1⁗ the sole remaining blocker; hedge HELD at R7)
+
+Two proof lenses (T1 direct transfer; T2 closed-form Gram) + binding assembling referee: **PROOF_ASSEMBLES**. Synthesis: [notes/2026-07-11-iter24-transfer-lemma-falls.md](notes/2026-07-11-iter24-transfer-lemma-falls.md).
+
+- **LEM-A1‴-T `[ESTABLISHED]`:** for every fixed c > 1 the transverse-pencil family is a Riesz basis of L²((0,π);ℂ²) — three elementary steps (weighted Fourier from constant Im s_n; unitary folding with n-independent q; constant intertwiner, det M = (t/2)e^{2πτ₀} ≠ 0), machine-verified to 1.4e-15, independently re-derived in assembly; explicit frame bounds bracket all twelve measured Gram points. Conditionality flagged: consumes (a′)'s exact-lattice data; no c-uniform bound at either end.
+- **Surprise dissolved + integrator corrected:** closed-form Gram = Toeplitz + (πC/2)J; λ_min ~ (c−1)/2 at c→1⁺ (the "c→1⁺ cleanest" reading was a misread of rank-local N-saturation) and ~ ln(4c)/(2c²) at c→∞. Uniform on compacts only.
+- **Watch-sweep #4: 0 strong, 0 in-window.** Hedge HELD at R7 (R8 needs both lemmas); LEM-A1⁗ now the single blocker with explicit tools unlocked. Verdict unchanged **23rd consecutive**; count FIVE.
+
 ## 2026-07-11 — Iteration 23: (a′) established + the definitizability no-go + one retraction (verdict unchanged 22nd consecutive; LEM-A1‴-T → LEM-A1⁗; hedge HELD at R7)
 
 The (a′) computation (prep commit af47a43) refereed CONFIRMED_WITH_CORRECTIONS; crux (b′) attacked via G1 (energy-dependent Schur) and G2 (Krein definitizability); binding assembly with independent machine checks. Synthesis: [notes/2026-07-11-iter23-crux-attack.md](notes/2026-07-11-iter23-crux-attack.md).

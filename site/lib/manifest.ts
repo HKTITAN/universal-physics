@@ -854,6 +854,13 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-07-11-iter23-crux-attack.md",
         group: "Iteration 23 — 2026-07-11 · the crux attack ((a′) established; fourth methods-no-go; one retraction; verdict unchanged 22nd; hedge holds at R7)",
       },
+      {
+        num: "13.90",
+        slug: "2026-07-11-iter24-transfer-lemma-falls",
+        title: "Iteration-24 Synthesis — LEM-A1‴-T Falls: The Transfer Lemma Proved; LEM-A1⁗ the Sole Remaining Blocker",
+        file: "notes/2026-07-11-iter24-transfer-lemma-falls.md",
+        group: "Iteration 24 — 2026-07-11 · the transfer lemma falls (PROOF_ASSEMBLES; the gate hangs on one lemma; verdict unchanged 23rd; hedge holds at R7)",
+      },
     ],
   },
   {

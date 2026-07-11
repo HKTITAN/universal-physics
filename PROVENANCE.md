@@ -57,6 +57,7 @@ The color code:
 | 🟢 The **conditional Mourre theorem** with the explicit renormalized conjugate D_g (i[A₀, D_g] = 1; A₀ = coth²(πD)); the Möbius spectral identity reading of the ladder | [iter 22](notes/2026-07-11-iter22-mourre-feshbach.md) |
 | 🟢 The **(a′) Birkhoff computation**: characteristic quadratic z² − 2(2c−1)z + 1, discriminant 16c(c−1) > 0, roots e^{±2πτ₀} — machine-verified two independent ways | iters 22–23; [iter 23](notes/2026-07-11-iter23-crux-attack.md) |
 | 🟢 The **named open lemmas** posed for the field: **LEM-A1‴-T** (the transfer/Gram bound) and **LEM-A1⁗** (Pontryagin-channel on-shell transversality) — the entire remaining free-field gate in two precisely-posed statements | [iter 23](notes/2026-07-11-iter23-crux-attack.md) |
+| 🟢 **LEM-A1‴-T PROVED** — the transverse-pencil eigenvector family is a Riesz basis for every fixed c > 1, by the elementary weighted-Fourier → unitary-folding → constant-intertwiner transfer with explicit frame bounds (assembly: PROOF_ASSEMBLES; machine-verified 1.4×10⁻¹⁵); with it, the closed-form Gram G = Toeplitz + (πC/2)J and both degeneracy laws | [iter 24](notes/2026-07-11-iter24-transfer-lemma-falls.md) |
 | 🟢 The **encoding-screen corollary** (no distinguishing experiment even in principle, as a corollary of encode-not-generate) and the reverse-Weinberg–Witten ⟺ carrier identification | iters 6, 9 |
 
 ## 🟡 Rediscovered here (independent proof; prior art found during our own verification)

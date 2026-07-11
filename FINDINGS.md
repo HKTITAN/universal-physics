@@ -7,7 +7,7 @@ updated: 2026-07-11
 
 # Findings — Cumulative Synthesis
 
-**Status:** Living synthesis — current through iteration 23. Read this first; it is the executive summary of the whole wiki.
+**Status:** Living synthesis — current through iteration 24. Read this first; it is the executive summary of the whole wiki.
 **Last updated:** 2026-07-11
 
 This page distills the current state of the investigation into six questions: *what is solid; where do the frameworks genuinely clash; which deep principles look most fundamental; what candidate unifying directions survive scrutiny; is a universal theory even possible; and what should we work on next.* Every claim is tagged per [EPISTEMICS.md](EPISTEMICS.md). Detail and derivations live on the linked pages; this page is the map, not the territory.
@@ -369,6 +369,13 @@ Three track agents brought frameworks NEVER previously applied to the carrier pr
 - **Fourth methods-no-go `[INFERENCE, high]`:** global Krein definitizability fails for every c > 1; locally, conditional type-π₋ Pontryagin structure; open-channel Krein density −(c−1) `[ESTABLISHED]`.
 - **Retraction:** G1's z-slot monotonicity struck in assembly by internal contradiction — the adversarial discipline functioning as designed.
 - **Residual:** LEM-A1‴-T → LEM-A1⁗ (+ H1 medium / H2 open). See the [iteration-23 synthesis](notes/2026-07-11-iter23-crux-attack.md).
+
+## Iteration 24 update (2026-07-11) — LEM-A1‴-T FALLS; LEM-A1⁗ the sole remaining blocker; hedge HELD
+
+**Outcome: verdict UNCHANGED — TWENTY-THIRD consecutive confirmation; hedge HELD at R7 (R8 requires both lemmas).**
+- **LEM-A1‴-T PROVED `[ESTABLISHED]`** — assembly stance PROOF_ASSEMBLES: the transverse eigenvector family is a Riesz basis for every fixed c > 1, by the elementary weighted-Fourier → unitary-folding → constant-intertwiner transfer (machine-verified 1.4e-15; explicit frame bounds bracket all measured Gram spectra). The known repeated-root gap is bypassed, not solved.
+- **Conditioning surprise dissolved** (closed-form Gram; two explicit degeneracy laws; the integrator's own "c→1⁺ cleanest" misread corrected in assembly). Bounds uniform on compacts of (1,∞) only.
+- **The free-field gate now hangs on LEM-A1⁗ alone**, attackable with explicit tools. Watch-sweep #4 dry. See the [iteration-24 synthesis](notes/2026-07-11-iter24-transfer-lemma-falls.md).
 
 ## See also
 - [CONCLUSION.md](CONCLUSION.md) — the capstone verdict · [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)
