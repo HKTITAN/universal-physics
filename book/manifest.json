@@ -7,7 +7,7 @@
       "Harshit Khemani",
       "Claude (Anthropic)"
     ],
-    "edition": "First edition",
+    "edition": "Second edition (authored narrative)",
     "publicationDate": "2026-07",
     "license": {
       "content": "CC BY-SA 4.0",
@@ -28,9 +28,9 @@
       "OPEN",
       "CONTESTED"
     ],
-    "contentPolicy": "Source .md pages are FROZEN. Trim instructions below may only drop wiki-navigation chrome (YAML frontmatter, 'See also' link blocks, 'Start here' nav, contribution how-tos, inter-page link syntax converted to cross-references). Body text, claims, epistemic tags, and referee verdicts must be reproduced verbatim.",
-    "linkHandling": "Convert internal wiki links to chapter/section cross-references with page numbers; convert links to non-chapter working notes into citations of the form 'Working note: <title> (repo: notes/<file>)'.",
-    "noteOnIterationOne": "Iteration 1 produced the wiki's base pages and has no standalone synthesis note; its synthesis is the opening sections of FINDINGS.md (Chapter 21). Iterations 2-6 each have a synthesis note, included as Chapters 22-26."
+    "contentPolicy": "Second edition: authored narrative chapters written FROM the refereed wiki record (the wiki remains the authoritative research record; the chapters cite it faithfully). Figures are inline SVG — the structural diagrams plus two real-data plots generated from the repository's own numerics.",
+    "linkHandling": "Chapters use plain 'chapter N' cross-references; no wiki links.",
+    "noteOnIterationOne": "The full per-iteration research record lives in the wiki (FINDINGS.md and notes/); this edition narrates it."
   },
   "frontMatter": [
     {
@@ -46,7 +46,7 @@
     {
       "id": "copyright",
       "title": "Copyright",
-      "generate": "Copyright (c) 2026 Harshit Khemani & Claude (Anthropic). Content licensed CC BY-SA 4.0; accompanying code MIT. First edition, June 2026. universal-physics.khe.money - github.com/HKTITAN/universal-physics. Research and content: Harshit Khemani + Claude. Design inspired by Dan Hollick's Making Software (makingsoftware.com)."
+      "generate": "Copyright (c) 2026 Harshit Khemani & Claude (Anthropic). Content licensed CC BY-SA 4.0; accompanying code MIT. Second edition, July 2026. universal-physics.khe.money - github.com/HKTITAN/universal-physics. Research and content: Harshit Khemani + Claude. Design inspired by Dan Hollick's Making Software (makingsoftware.com)."
     },
     {
       "id": "toc",
@@ -62,406 +62,100 @@
   "parts": [
     {
       "part": 1,
-      "title": "PART I — THE QUESTION AND THE METHOD",
-      "opener": "book/frontmatter/part-openers/part-1.md",
+      "title": "PART I — THE QUESTION AND THE GROUND",
+      "opener": "book/frontmatter/part-openers/v2-part-1.md",
       "chapters": [
         {
           "number": 1,
-          "title": "The Project: A Universal Theory, Taken Seriously",
-          "sources": [
-            "README.md"
-          ],
-          "trim": "Drop YAML frontmatter, the 'Start here' navigation list, the 'Full index' link block, and the 'How to contribute' section. Keep the project statement, the LLM-maintained-wiki pattern paragraph, the 'Research notes (iteration logs)' narrative paragraph, and 'The honest one-paragraph status of the field' verbatim."
+          "title": "The Question",
+          "sources": ["book/chapters/ch01.md"],
+          "trim": "Authored chapter; drop leading H1 (title from manifest)."
         },
         {
           "number": 2,
-          "title": "Epistemics: Standards of Evidence and Labeling",
-          "sources": [
-            "EPISTEMICS.md"
-          ],
-          "trim": "Drop YAML frontmatter only. Reproduce in full — this chapter is the key to reading every tag in the book."
+          "title": "The Method",
+          "sources": ["book/chapters/ch02.md"],
+          "trim": "Authored chapter; drop leading H1."
+        },
+        {
+          "number": 3,
+          "title": "What Is Actually Established",
+          "sources": ["book/chapters/ch03.md"],
+          "trim": "Authored chapter; drop leading H1."
+        },
+        {
+          "number": 4,
+          "title": "Where Physics Breaks",
+          "sources": ["book/chapters/ch04.md"],
+          "trim": "Authored chapter; drop leading H1."
         }
       ]
     },
     {
       "part": 2,
-      "title": "PART II — THE ESTABLISHED MAP",
-      "opener": "book/frontmatter/part-openers/part-2.md",
+      "title": "PART II — THE WAGER AND THE WALL",
+      "opener": "book/frontmatter/part-openers/v2-part-2.md",
       "chapters": [
         {
-          "number": 3,
-          "title": "The Theory Map: How the Frameworks Fit Together",
-          "sources": [
-            "THEORY_MAP.md"
-          ],
-          "trim": "Drop YAML frontmatter and trailing 'See also' block. Tables set full-width per STYLE.md."
-        },
-        {
-          "number": 4,
-          "title": "Classical Mechanics",
-          "sources": [
-            "domains/classical-mechanics.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
-        },
-        {
           "number": 5,
-          "title": "Thermodynamics",
-          "sources": [
-            "domains/thermodynamics.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
+          "title": "The Wager",
+          "sources": ["book/chapters/ch05.md"],
+          "trim": "Authored chapter; drop leading H1."
         },
         {
           "number": 6,
-          "title": "Statistical Mechanics",
-          "sources": [
-            "domains/statistical-mechanics.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
+          "title": "Five Roads to One Wall",
+          "sources": ["book/chapters/ch06.md"],
+          "trim": "Authored chapter; drop leading H1."
         },
         {
           "number": 7,
-          "title": "Quantum Mechanics",
-          "sources": [
-            "domains/quantum-mechanics.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
+          "title": "Twenty Iterations of No",
+          "sources": ["book/chapters/ch07.md"],
+          "trim": "Authored chapter; drop leading H1."
         },
         {
           "number": 8,
-          "title": "Quantum Field Theory",
-          "sources": [
-            "domains/quantum-field-theory.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
-        },
-        {
-          "number": 9,
-          "title": "Particle Physics and the Standard Model",
-          "sources": [
-            "domains/particle-physics.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
-        },
-        {
-          "number": 10,
-          "title": "General Relativity",
-          "sources": [
-            "domains/general-relativity.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
-        },
-        {
-          "number": 11,
-          "title": "Cosmology",
-          "sources": [
-            "domains/cosmology.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
-        },
-        {
-          "number": 12,
-          "title": "Information Theory and Physics",
-          "sources": [
-            "domains/information-theory.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
-        },
-        {
-          "number": 13,
-          "title": "Mathematics for Physics",
-          "sources": [
-            "domains/mathematics.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
+          "title": "The Gate Called (E_O)",
+          "sources": ["book/chapters/ch08.md"],
+          "trim": "Authored chapter; drop leading H1."
         }
       ]
     },
     {
       "part": 3,
-      "title": "PART III — WHERE PHYSICS BREAKS",
-      "opener": "book/frontmatter/part-openers/part-3.md",
+      "title": "PART III — COMPUTATION, PROOF, VERDICT",
+      "opener": "book/frontmatter/part-openers/v2-part-3.md",
       "chapters": [
         {
-          "number": 14,
-          "title": "Gaps and Contradictions: The Seventeen Clashes",
-          "sources": [
-            "GAPS_AND_CONTRADICTIONS.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. GC-n identifiers retained verbatim and indexed."
+          "number": 9,
+          "title": "The Computation",
+          "sources": ["book/chapters/ch09.md"],
+          "trim": "Authored chapter; drop leading H1."
         },
         {
-          "number": 15,
-          "title": "The Open-Problems Registry",
-          "sources": [
-            "OPEN_PROBLEMS.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. OP-n identifiers retained verbatim and indexed."
+          "number": 10,
+          "title": "Proof, Where It Could Be Had",
+          "sources": ["book/chapters/ch10.md"],
+          "trim": "Authored chapter; drop leading H1."
         },
         {
-          "number": 16,
-          "title": "Constants, Scales, and Free Parameters",
-          "sources": [
-            "CONSTANTS_AND_SCALES.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. Numeric tables full-width."
-        }
-      ]
-    },
-    {
-      "part": 4,
-      "title": "PART IV — THE CANDIDATE ROADS",
-      "opener": "book/frontmatter/part-openers/part-4.md",
-      "chapters": [
-        {
-          "number": 17,
-          "title": "Candidate Unifying Principles",
-          "sources": [
-            "UNIFYING_PRINCIPLES.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
+          "number": 11,
+          "title": "One Operator, One Question",
+          "sources": ["book/chapters/ch11.md"],
+          "trim": "Authored chapter; drop leading H1."
         },
         {
-          "number": 18,
-          "title": "The Unification Landscape: A Critical Survey",
-          "sources": [
-            "UNIFICATION_LANDSCAPE.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
+          "number": 12,
+          "title": "The Verdict",
+          "sources": ["book/chapters/ch12.md"],
+          "trim": "Authored chapter; drop leading H1."
         },
         {
-          "number": 19,
-          "title": "Hypotheses, Refereed",
-          "sources": [
-            "HYPOTHESES.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. Hn identifiers retained verbatim; referee verdicts set as gray panels per STYLE.md."
-        },
-        {
-          "number": 20,
-          "title": "The Assumptions Ledger: Bedrock or Artifact?",
-          "sources": [
-            "ASSUMPTIONS_LEDGER.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. A-n identifiers retained verbatim and indexed."
-        }
-      ]
-    },
-    {
-      "part": 5,
-      "title": "PART V — THE INVESTIGATION",
-      "opener": "book/frontmatter/part-openers/part-5.md",
-      "notes": "Most of the 74 working notes under notes/ are NOT chapters (only the synthesis notes listed above are). Wherever a synthesis chapter links to one, render the link as a citation: 'Working note: <title> (repo: notes/<filename>)'. The full notes index (notes/README.md) is cited once in the Part V opener and in About This Book.",
-      "chapters": [
-        {
-          "number": 21,
-          "title": "Findings: The Running Synthesis (Iterations 1–11)",
-          "sources": [
-            "FINDINGS.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. This is the narrative spine of Part V; its opening sections double as the iteration-1 synthesis."
-        },
-        {
-          "number": 22,
-          "title": "Iteration 2 Synthesis: Does the Unified Program Cohere?",
-          "sources": [
-            "notes/2026-06-08-unified-program-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
-        },
-        {
-          "number": 23,
-          "title": "Iteration 3 Synthesis: From Surveying to Attempting",
-          "sources": [
-            "notes/2026-06-08-iter3-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
-        },
-        {
-          "number": 24,
-          "title": "Iteration 4 Synthesis: Diminishing Returns, Measured",
-          "sources": [
-            "notes/2026-06-08-iter4-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
-        },
-        {
-          "number": 25,
-          "title": "Iteration 5 Synthesis: Saturation",
-          "sources": [
-            "notes/2026-06-08-iter5-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
-        },
-        {
-          "number": 26,
-          "title": "Iteration 6 Synthesis: The Verdict Meets New Input",
-          "sources": [
-            "notes/2026-06-10-iter6-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
-        },
-        {
-          "number": 27,
-          "title": "Iteration 7 Synthesis: The Decidable Levers, Executed",
-          "sources": [
-            "notes/2026-06-10-iter7-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
-        },
-        {
-          "number": 28,
-          "title": "Iteration 8 Synthesis: The Net/Family Carrier No-Go",
-          "sources": [
-            "notes/2026-06-10-iter8-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
-        },
-        {
-          "number": 29,
-          "title": "Iteration 9 Synthesis: The Carrier No-Go Naturality Content; Reverse-WW = the Carrier Problem",
-          "sources": [
-            "notes/2026-06-10-iter9-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
-        },
-        {
-          "number": 30,
-          "title": "Iteration 10 Synthesis: The Commutant-to-Generated Gap, Attacked From Both Sides",
-          "sources": [
-            "notes/2026-06-10-iter10-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
-        },
-        {
-          "number": 31,
-          "title": "Iteration 11 Synthesis: The Hedge Re-Grounded on a Named Open Problem; Terminal Saturation",
-          "sources": [
-            "notes/2026-06-10-iter11-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter; links to sibling working notes become citations."
-        },
-        {
-          "number": 32,
-          "title": "Iteration 12: Terminal Saturation Re-Confirmed — the Physics-Net Lever Retired and the Indefinite-Metric Route Closed",
-          "sources": [
-            "notes/2026-06-19-iter12-external-input-sweep.md",
-            "notes/2026-06-19-iter12-indefinite-metric-carrier-closed.md"
-          ],
-          "trim": "Drop YAML frontmatter and the referee/provenance blocks; links to sibling working notes become citations. Run the two sources as one chapter: the refreshed terminal-saturation audit followed by the indefinite-metric carrier closure."
-        },
-        {
-          "number": 33,
-          "title": "Iteration 13: The Frame Audited From Outside — Is the Carrier the Unique Gate, and How Close Are We?",
-          "sources": [
-            "notes/2026-06-19-iter13-C1-unique-gate-audit.md",
-            "notes/2026-06-19-iter13-C3-how-close-calibration.md"
-          ],
-          "trim": "Drop YAML frontmatter and the referee/provenance blocks. Run the two sources as one chapter: the bottleneck-completeness audit, then the calibrated 'how close are we' answer (whose single calibrated paragraph is the chapter's close)."
-        },
-        {
-          "number": 34,
-          "title": "Iteration 14: The Verdict Survives Its Maximal Adversarial Assault",
-          "sources": [
-            "notes/2026-06-19-iter14-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also'. The inverse-burden capstone: the three pillars assaulted with the strongest 2024-2026 falsifications, all held; the Schneider corroboration of the screen's sole un-breached seam is the chapter's close."
-        },
-        {
-          "number": 35,
-          "title": "The Carrier Problem, Posed: The Open Gate Distilled for External Solvers",
-          "sources": [
-            "notes/2026-06-19-iter15-carrier-problem-dossier.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also'; keep the dossier body verbatim (it is the formal open-problem statement). The closing chapter of the research arc: fifteen iterations distilled into the single most-attackable form of the one open gate, posed for external resolution."
-        },
-        {
-          "number": 36,
-          "title": "Iteration 16: The Multi-Wedge Closure — the Gap Classified and the Hedge Advanced to R7",
-          "sources": [
-            "notes/2026-07-03-iter16-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. The clock-(1) iteration: the commutant-to-generated gap classified (not closed) by the referee-verified LEM-NET-NATURALITY-G, the residual pinned to hypothesis (E_O), and the first hedge advance (R6 to R7) since iteration 9."
-        },
-        {
-          "number": 37,
-          "title": "Iteration 17: The (E_O) Assault — the Free-Field Reduction and Why the Hedge Holds at R7",
-          "sources": [
-            "notes/2026-07-07-iter17-EO-assault-synthesis.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. The first direct attack on the residual (E_O): the free-field case reduced to a one-particle spectral question, all three structure-theory routes and the adversarial disproof failing, the hedge holding at R7; the verdict stands a sixteenth time."
-        },
-        {
-          "number": 38,
-          "title": "Iteration 18: The Generative Assault and the First Numerics — Four Constructions Fail, No Zero-Mode, No Flip",
-          "sources": [
-            "notes/2026-07-07-iter18-generative-assault.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. The user-demanded attempt to devise the generative step: four construction angles all fail (both referees FLIP_REFUTED), and the first numerical computation in the project (the free massive scalar double-cone modular spectrum) finds no zero-mode, supporting (E_O). The verdict stands a seventeenth time."
-        },
-        {
-          "number": 39,
-          "title": "Iteration 19: Proving the Numerics — The E=0 Half Becomes a Theorem; the Residual Sharpened to One Question",
-          "sources": [
-            "notes/2026-07-10-iter19-prove-the-numerics.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. The analytic follow-through: LEM-K0 refereed confirmed (the E=0 half of free-field (E_O) established, with the Figliolini-Guido 1989 primary source verified and the iteration-17 unverified tag retired); the lambda != 1 exclusion isolated as the entire remaining free-field residual with a named single-mechanism best-lead; the pinning scan finds no embedded eigenvalue. The verdict stands an eighteenth time."
-        },
-        {
-          "number": 40,
-          "title": "Iteration 20: The Antilocality Extension — The Gate Becomes a Bilateral-Antilocality Statement; LEM-A1' Minted",
-          "sources": [
-            "notes/2026-07-11-iter20-antilocality-extension.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. The iteration-19 best-lead attacked head-on with post-1989 fractional unique-continuation theory, an explicit virial computation, and truncated Wiener-Hopf spectral theory: the eigenvalue question becomes exactly a bilateral-antilocality statement with coupling c > 1 (FG-1989 the degenerate boundary case); two new unconditional rigidity theorems; a proved no-soft-theorem obstruction; the missing lemma weakens to the corner problem LEM-A1' — checkable by a fractional-UCP specialist, whose proof fires R7 -> R8. The verdict stands a nineteenth time."
-        },
-        {
-          "number": 41,
-          "title": "Iteration 21: The LEM-A1' Attempt — The Corner Indicial Theorem, the Strip Geometrization, and the c-Collapse",
-          "sources": [
-            "notes/2026-07-11-iter21-lem-a1-prime-attempt.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. The direct proof attempt: the Corner Indicial Theorem lands (cos^2(pi s) = c; tau_0 = eps/2pi exactly — Bisognano-Wichmann recovered from a corner computation; lattice-verified); the strip geometrization with closed-form potential and the Krein-symmetrizer no-go; and the c-collapse — the entire free-field gate becomes one spectral question (LEM-A1'') about one explicitly-constructed self-adjoint operator, the very operator the project's numerics diagonalize. No complete proof assembles; the verdict stands a twentieth time."
-        },
-        {
-          "number": 42,
-          "title": "Iteration 22: The Mourre-Feshbach Execution — The BIC Methods-No-Go, the Conditional Theorem, and LEM-A1'''",
-          "sources": [
-            "notes/2026-07-11-iter22-mourre-feshbach.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. Both routes to LEM-A1'' executed: the Gaussian rank-one BIC counterexample proves no decay/analyticity-class theorem can close the gate (a second strategy-boundary after BKT); the conditional Mourre theorem lands with an explicit conjugate operator; the residue compresses to LEM-A1''' — one crux (on-shell nondegeneracy through the potential's structural origin) plus three prerequisites, one a single unperformed finite determinant. The verdict stands a twenty-first time. The closing chapter of the research arc."
-        }
-      ]
-    },
-    {
-      "part": 6,
-      "title": "PART VI — THE VERDICT",
-      "opener": "book/frontmatter/part-openers/part-6.md",
-      "chapters": [
-        {
-          "number": 43,
-          "title": "Conclusion: The Converged Verdict",
-          "sources": [
-            "CONCLUSION.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
-        },
-        {
-          "number": 44,
-          "title": "The Experiment Watchlist",
-          "sources": [
-            "EXPERIMENT_WATCHLIST.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
-        },
-        {
-          "number": 45,
-          "title": "Roadmap: What Comes Next",
-          "sources": [
-            "ROADMAP.md"
-          ],
-          "trim": "Drop YAML frontmatter and 'See also' block."
+          "number": 13,
+          "title": "How This Book Was Made",
+          "sources": ["book/chapters/ch13.md"],
+          "trim": "Authored chapter; drop leading H1."
         }
       ]
     }
@@ -470,18 +164,14 @@
     {
       "id": "glossary",
       "title": "Glossary",
-      "sources": [
-        "GLOSSARY.md"
-      ],
-      "trim": "Drop YAML frontmatter and 'See also' block; set as two-column definition list if the renderer supports it, single column otherwise."
+      "sources": ["GLOSSARY.md"],
+      "trim": "Drop YAML frontmatter and 'See also' block."
     },
     {
       "id": "bibliography",
       "title": "Bibliography",
-      "sources": [
-        "BIBLIOGRAPHY.md"
-      ],
-      "trim": "Drop YAML frontmatter; hanging-indent reference style. Every entry was web-verified during the investigation; arXiv identifiers retained."
+      "sources": ["BIBLIOGRAPHY.md"],
+      "trim": "Drop YAML frontmatter and 'See also' block."
     },
     {
       "id": "about",
@@ -491,10 +181,8 @@
     {
       "id": "publication-history",
       "title": "Publication History",
-      "sources": [
-        "CHANGELOG.md"
-      ],
-      "trim": "Condense: one dated entry per iteration (1-6) summarizing scope and verdict status, plus the capstone entry. Per-page micro-edits dropped; full log remains in the repository (CHANGELOG.md)."
+      "sources": ["CHANGELOG.md"],
+      "trim": "Drop YAML frontmatter."
     }
   ]
 }
