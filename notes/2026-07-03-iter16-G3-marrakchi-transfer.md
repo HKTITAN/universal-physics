@@ -7,11 +7,11 @@ updated: 2026-07-03
 
 # Track G3 (iteration 16): Marrakchi's bicentralizer-flow theorem — proof map, transfer audit, AHHM re-check, technique harvest
 
-**Status:** Watch-target execution (sharpened target from watch-sweep #1, [2026-07-02-watch-sweep-01.md](../../../../../../PROJECTS/FAFO/universal-physics/notes/2026-07-02-watch-sweep-01.md) §2). **Outcome: EXECUTED — RESOLVED-NEGATIVE on transfer; watch target RE-SHARPENED; AHHM re-check run and closed (no interaction, and stronger: the structural output is pre-satisfied/vacuous for physics nets). Verdict-neutral.**
+**Status:** Watch-target execution (sharpened target from watch-sweep #1, [2026-07-02-watch-sweep-01.md](2026-07-02-watch-sweep-01.md) §2). **Outcome: EXECUTED — RESOLVED-NEGATIVE on transfer; watch target RE-SHARPENED; AHHM re-check run and closed (no interaction, and stronger: the structural output is pre-satisfied/vacuous for physics nets). Verdict-neutral.**
 **Last updated:** 2026-07-03
 **Iteration:** 16
 
-> **Binding inheritance.** Iter-12 corrections respected in full ([2026-06-19-iter12-physics-net-bicentralizer-lever.md](../../../../../../PROJECTS/FAFO/universal-physics/notes/2026-06-19-iter12-physics-net-bicentralizer-lever.md)): the bicentralizer route is NON-load-bearing for the carrier no-go; trivial (relative) bicentralizer is the carrier-FRIENDLY condition; the physics local inclusions M(O) ⊂ M(W) are taken per the binding record as irreducible, infinite-index, non-discrete, with NO normal conditional expectation. Default posture: DOWNGRADE. Every abstract phrase relied on is quoted verbatim; all preprint claims are tagged `[ESTABLISHED as preprint claim]`, never as refereed results.
+> **Binding inheritance.** Iter-12 corrections respected in full ([2026-06-19-iter12-physics-net-bicentralizer-lever.md](2026-06-19-iter12-physics-net-bicentralizer-lever.md)): the bicentralizer route is NON-load-bearing for the carrier no-go; trivial (relative) bicentralizer is the carrier-FRIENDLY condition; the physics local inclusions M(O) ⊂ M(W) are taken per the binding record as irreducible, infinite-index, non-discrete, with NO normal conditional expectation. Default posture: DOWNGRADE. Every abstract phrase relied on is quoted verbatim; all preprint claims are tagged `[ESTABLISHED as preprint claim]`, never as refereed results.
 
 > **Source-integrity note (process record).** The full **TeX source** of arXiv:2606.23636 was downloaded from arxiv.org/e-print this session (gzip tarball, 15,197 bytes; single file `Ergodicity_of_the_relative_bicentralizer_flow.tex`, 774 lines) and every quotation below is taken from it directly. An intermediate PDF-summarization step in the pipeline produced **fabricated content** (nonexistent "Cartan subalgebra" theorems, a nonexistent "Theorem 2.1 spectral gap" statement) which was caught against the source and discarded. This repeats the watch-sweep #1 referee-integrity pattern and is logged deliberately. `[ESTABLISHED — process record]`
 
@@ -146,9 +146,9 @@ Adjacent cluster items surfaced by the sweep (all PRE-window; background only, n
 **Un-verified items flagged:** the existence of an n.s.f. operator-valued weight M(W) → M(O) is `[OPEN]` (§2(b)) — the program should stop asserting it as available structure until sourced; Tomiyama's atomic-image fact for normal expectations on type I algebras is used at `[INFERENCE, high]` without a page-level citation.
 
 ## See also
-- [2026-07-02-watch-sweep-01.md](../../../../../../PROJECTS/FAFO/universal-physics/notes/2026-07-02-watch-sweep-01.md) §2 — the three-referee adjudication and the (now-retired-and-replaced) sharpened watch target
-- [2026-06-19-iter12-physics-net-bicentralizer-lever.md](../../../../../../PROJECTS/FAFO/universal-physics/notes/2026-06-19-iter12-physics-net-bicentralizer-lever.md) — the binding non-load-bearing record + watch-mode addendum this track discharges
-- [2026-06-19-iter15-carrier-problem-dossier.md](../../../../../../PROJECTS/FAFO/universal-physics/notes/2026-06-19-iter15-carrier-problem-dossier.md) §3 — the exact residual the §4 harvest maps onto
+- [2026-07-02-watch-sweep-01.md](2026-07-02-watch-sweep-01.md) §2 — the three-referee adjudication and the (now-retired-and-replaced) sharpened watch target
+- [2026-06-19-iter12-physics-net-bicentralizer-lever.md](2026-06-19-iter12-physics-net-bicentralizer-lever.md) — the binding non-load-bearing record + watch-mode addendum this track discharges
+- [2026-06-19-iter15-carrier-problem-dossier.md](2026-06-19-iter15-carrier-problem-dossier.md) §3 — the exact residual the §4 harvest maps onto
 
 ---
 
