@@ -204,3 +204,26 @@ if __name__ == "__main__":
 # LINEAR eigenvalue problem; the true V_eff is ENERGY-DEPENDENT (a Schur
 # complement, monotone in kappa) — the structural origin a proof must exploit.
 # Untried lens: Krein-space definitizability (Langer-Jonas) for the strip pencil.
+
+
+# ============================================================================
+# Iteration 24 (seed) — the LEM-A1'''-T Gram probe [2026-07-11]
+# ============================================================================
+# Eigenvector family of the transverse pencil: ONE lattice {s_n = n + i tau0}
+# (the conjugate lattice duplicates it: v^-_n = v^+_{-n}, since s^+_{-n} = -conj(s_n)
+# and cosine is even — an indexing trap caught by an exact-degeneracy check when a
+# naive two-lattice family returned lambda_min = 0 identically).
+# Explicit vectors (tan(pi s_n) = i tanh(pi tau0), n-INDEPENDENT):
+#   a_n = cos(s_n eta) + i tanh(pi tau0) sin(s_n eta),  b_n = cos(s_n eta).
+# Gram spectrum of the normalized family, |n| <= N (M = 4000 quadrature):
+#   c=1.02 (tau0=.045, kappa~51):  lmin 0.0098->0.0097, lmax 1.995->2.002 (N=5..80) — STABLE
+#   c=1.5  (tau0=.210):            lmin 0.144->0.122,   lmax 2.01->2.27  — decelerating
+#   c=4.0  (tau0=.419):            lmin 0.116->0.067,   lmax 2.95->4.16  — decelerating
+#   c=25   (tau0=.730, kappa~1.04):lmin 0.014->0.0040,  lmax 4.96->8.25  — slow decay, decelerating
+# READING [INFERENCE, medium — numerical]: Riesz-basis signature at every FIXED c
+# (bounds decelerating toward saturation), SUPPORTING LEM-A1'''-T as stated
+# (per-c Riesz, bounds non-uniform in c). SURPRISE for the referee: degradation
+# occurs at LARGE tau0 (kappa -> 1+, threshold side; e^{tau0 eta} lopsidedness of
+# the eigenvectors), NOT at the predicted c -> 1+ z-root-merging side, which is
+# numerically the CLEANEST regime. The two "degeneracy" mechanisms are distinct
+# objects — flag to the iteration-24 referee.
