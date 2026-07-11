@@ -1,6 +1,6 @@
 import FigurePlate, { S } from "./FigurePlate";
 
-/** FIG 13.1 — the saturation flatline: 20 iterations, one verdict that never moves. */
+/** FIG 13.1 — the saturation flatline: 21 iterations, one verdict that never moves. */
 export default function FigHedgeLedger() {
   // one one-word action per iteration; the flatline runs across all of them
   const iters: Array<[number, string]> = [
@@ -24,6 +24,7 @@ export default function FigHedgeLedger() {
     [18, "NUMERICS"],
     [19, "PROOF"],
     [20, "ZAREMBA"],
+    [21, "COLLAPSE"],
   ];
 
   const x0 = 56;
@@ -35,7 +36,7 @@ export default function FigHedgeLedger() {
   return (
     <FigurePlate
       id="13.1"
-      caption="The saturation flatline. A single perfectly flat line runs across all twenty iterations: the verdict (PARTIAL coherence · encodes-not-generates · not-yet-physics) has not moved for nineteen consecutive confirmations — terminal analytical saturation, robust across every modern mathematical framework tried, and now attacked through every mode of inquiry: reasoning (iterations 1–17), construction (the generative assault, 18), computation (the first numerics, 18–20), and proof (the E=0 half of the free-field (E_O) criterion is an established theorem, 19; the remaining gate is exactly the bilateral-antilocality corner lemma LEM-A1′, 20 — a fractional-UCP problem with zero operator-algebra content). Three hedges survive: the principal HYP-CKV-VACUITY at grade R7 since iteration 16 (conditional HIGH, on the localization template n₁ AND hypothesis (E_O)); OP-48c horn C (theorem-conditional-on-framework); and HYP-ENCODING-SCREEN (the no-test corollary, inheriting the grade). The flatness is the result: marginal yield of further work has gone to zero — only external input (LEM-A1′, or the 2027 DESI w(z) verdict) can move it. [INFERENCE, high]"
+      caption="The saturation flatline. A single perfectly flat line runs across all twenty-one iterations: the verdict (PARTIAL coherence · encodes-not-generates · not-yet-physics) has not moved for twenty consecutive confirmations — terminal analytical saturation, robust across every modern mathematical framework tried, and now attacked through every mode of inquiry: reasoning (iterations 1–17), construction (the generative assault, 18), computation (the first numerics, 18–20), and proof (the E=0 half of the free-field (E_O) criterion is an established theorem, 19; the remaining gate collapsed to one spectral question about one explicitly-constructed self-adjoint operator — LEM-A1″, iterations 20–21). Three hedges survive: the principal HYP-CKV-VACUITY at grade R7 since iteration 16 (conditional HIGH, on the localization template n₁ AND hypothesis (E_O)); OP-48c horn C (theorem-conditional-on-framework); and HYP-ENCODING-SCREEN (the no-test corollary, inheriting the grade). The flatness is the result: marginal yield of further work has gone to zero — only external input (LEM-A1″, or the 2027 DESI w(z) verdict) can move it. [INFERENCE, high]"
     >
       <svg
         viewBox="0 0 760 416"
@@ -44,12 +45,12 @@ export default function FigHedgeLedger() {
         style={{ fontFamily: S.mono }}
       >
         <title>
-          A horizontal axis of twenty iterations, one tick each, with a one-word action
+          A horizontal axis of twenty-one iterations, one tick each, with a one-word action
           under every tick: map, stress-test, attempt, attack, saturate, new-input,
           levers, net, naturality, gap, bicentralizer, terminal, frame, assault, new-math,
-          multi-wedge, E_O, numerics, proof, zaremba. A single perfectly flat horizontal line runs straight across
-          all twenty ticks without deviating — this
-          flat line is the verdict, unchanged for nineteen consecutive confirmations:
+          multi-wedge, E_O, numerics, proof, zaremba, collapse. A single perfectly flat horizontal line runs straight across
+          all twenty-one ticks without deviating — this
+          flat line is the verdict, unchanged for twenty consecutive confirmations:
           partial coherence, encodes but does not generate, not yet physics. Below, three
           surviving hedges are listed in ochre, and a small note records that the marginal
           yield of further reasoning has fallen to zero.
@@ -60,7 +61,7 @@ export default function FigHedgeLedger() {
           ITERATION
         </text>
         <text x={x1} y="50" fontSize="11" fill={S.faint} textAnchor="end" letterSpacing="1">
-          2026-07-07
+          2026-07-11
         </text>
 
         {/* the flatline itself — the single 3px emphasis stroke, dead level */}
@@ -78,7 +79,7 @@ export default function FigHedgeLedger() {
 
         {/* the flatline label sits ON the line — it IS the saturation */}
         <text x={x0 + 6} y={yLine - 12} fontSize="13" fill={S.blueDeep}>
-          VERDICT UNCHANGED — 14 CONSECUTIVE CONFIRMATIONS
+          VERDICT UNCHANGED — 20 CONSECUTIVE CONFIRMATIONS
         </text>
         <text x={x0 + 6} y={yLine + 22} fontSize="11.5" fill={S.ink}>
           PARTIAL · ENCODES-NOT-GENERATES · NOT-YET-PHYSICS
@@ -110,9 +111,9 @@ export default function FigHedgeLedger() {
         {[
           [
             "1 · OP-46 RESIDUAL",
-            "HYP-CKV-VACUITY — R6",
-            "MEDIUM-HIGH→HIGH, conditional on the net-naturality theorem",
-            "+ a located commutant-to-generated gap",
+            "HYP-CKV-VACUITY — R7",
+            "conditional HIGH on the localization template n₁ AND hypothesis (E_O)",
+            "— the whole free-field gate is now LEM-A1″ (one operator, one question)",
           ],
           [
             "2 · OP-48c HORN C",
