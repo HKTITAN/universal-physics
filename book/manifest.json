@@ -414,7 +414,15 @@
           "sources": [
             "notes/2026-07-11-iter20-antilocality-extension.md"
           ],
-          "trim": "Drop YAML frontmatter and 'See also' block. The iteration-19 best-lead attacked head-on with post-1989 fractional unique-continuation theory, an explicit virial computation, and truncated Wiener-Hopf spectral theory: the eigenvalue question becomes exactly a bilateral-antilocality statement with coupling c > 1 (FG-1989 the degenerate boundary case); two new unconditional rigidity theorems; a proved no-soft-theorem obstruction; the missing lemma weakens to the corner problem LEM-A1' — checkable by a fractional-UCP specialist, whose proof fires R7 -> R8. The verdict stands a nineteenth time. The closing chapter of the research arc."
+          "trim": "Drop YAML frontmatter and 'See also' block. The iteration-19 best-lead attacked head-on with post-1989 fractional unique-continuation theory, an explicit virial computation, and truncated Wiener-Hopf spectral theory: the eigenvalue question becomes exactly a bilateral-antilocality statement with coupling c > 1 (FG-1989 the degenerate boundary case); two new unconditional rigidity theorems; a proved no-soft-theorem obstruction; the missing lemma weakens to the corner problem LEM-A1' — checkable by a fractional-UCP specialist, whose proof fires R7 -> R8. The verdict stands a nineteenth time."
+        },
+        {
+          "number": 41,
+          "title": "Iteration 21: The LEM-A1' Attempt — The Corner Indicial Theorem, the Strip Geometrization, and the c-Collapse",
+          "sources": [
+            "notes/2026-07-11-iter21-lem-a1-prime-attempt.md"
+          ],
+          "trim": "Drop YAML frontmatter and 'See also' block. The direct proof attempt: the Corner Indicial Theorem lands (cos^2(pi s) = c; tau_0 = eps/2pi exactly — Bisognano-Wichmann recovered from a corner computation; lattice-verified); the strip geometrization with closed-form potential and the Krein-symmetrizer no-go; and the c-collapse — the entire free-field gate becomes one spectral question (LEM-A1'') about one explicitly-constructed self-adjoint operator, the very operator the project's numerics diagonalize. No complete proof assembles; the verdict stands a twentieth time. The closing chapter of the research arc."
         }
       ]
     },
@@ -424,7 +432,7 @@
       "opener": "book/frontmatter/part-openers/part-6.md",
       "chapters": [
         {
-          "number": 41,
+          "number": 42,
           "title": "Conclusion: The Converged Verdict",
           "sources": [
             "CONCLUSION.md"
@@ -432,7 +440,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
         },
         {
-          "number": 42,
+          "number": 43,
           "title": "The Experiment Watchlist",
           "sources": [
             "EXPERIMENT_WATCHLIST.md"
@@ -440,7 +448,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
         },
         {
-          "number": 43,
+          "number": 44,
           "title": "Roadmap: What Comes Next",
           "sources": [
             "ROADMAP.md"

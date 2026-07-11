@@ -10,6 +10,16 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-07-11 — Iteration 21: the LEM-A1′ proof attempt (verdict unchanged 20th consecutive; the Corner Indicial Theorem lands; the c-collapse reduces the whole gate to LEM-A1″; hedge HELD at R7)
+
+Direct proof attempt on LEM-A1′. The integrator's hand-derived corner indicial computation refereed (CONFIRMED_WITH_CORRECTIONS); two proof lenses (S1 strip + complex deformation; S2 global Mellin/Jost); binding assembling referee re-derived every load-bearing step. Lattice verification at two precisions. Synthesis: [notes/2026-07-11-iter21-lem-a1-prime-attempt.md](notes/2026-07-11-iter21-lem-a1-prime-attempt.md).
+
+- **CORNER INDICIAL THEOREM `[ESTABLISHED]`:** cos²(πs) = c (determinant ≡ −s(c−cos²(πs))); complete simple root set s = n ± iτ₀; **τ₀ = ε/2π exactly** (the Bisognano–Wichmann relation from a corner computation); n=0 family not H¹, n≥1 H¹-admissible ⟹ no local kill. Caveat: resonant mass series (log r at r^{s+2}). Lattice-verified (staircase + 1–3% phase fit).
+- **Strip geometrization `[ESTABLISHED]`:** closed-form Q = m²R²(cosh ξ − cos η)⁻²; translation-invariant coupled edges; e^{−2|ξ|} decay at BOTH ends; exterior-dilation-analytic (complex translation fails structurally — corrected). New no-go: unique pointwise symmetrizer is the indefinite Krein metric [[c,−c],[−c,1]] ⟹ Froese–Herbst not licensed on the coupled system.
+- **The c-collapse `[ESTABLISHED, re-derived + verified 10⁻⁸]`:** LEM-A1′ ⟺ σ_p(A) ∩ (1,∞) = ∅ for the single self-adjoint A = S_I^{1/2}R_I S_I^{1/2} (κ = coth²(ε/2) = 4ν²) — **A is the in-repo numerics operator**; lemma target and numerics are formally the same object. En route: no sign-definite eigenfunction; BKT mechanism needs common endpoints (absent for one interval).
+- **LEM-A1″ minted `[OPEN]`:** Mourre estimate for A with conjugate operator = the Hislop–Longo Möbius-flow generator (exact massless symmetry; mass term has the exact Mourre profile; classical virial applies post-collapse). Fallback: Feshbach n=0 channel + nonlocal subordinacy. LEM-A1″ ⟹ (E_O) free-field ⟹ R7 → R8. Watch item (δ) sharpened accordingly.
+- **Hedge: HYP-CKV-VACUITY HELD at R7** (assembly: no complete proof assembles; exclusion open in both routes; no eigenvalue found). Verdict unchanged (20th consecutive); count FIVE; no numeric ID consumed. Process: the workflow was killed at a session boundary and resumed via resumeFromRunId with cached agents — clean recovery.
+
 ## 2026-07-11 — Iteration 20: the antilocality-extension attack (verdict unchanged 19th consecutive; the eigenvalue question becomes EXACTLY a bilateral-antilocality statement; LEM-A1′ minted; hedge HELD at R7)
 
 Direct attack on the iteration-19 named residual — extend the FG antilocality kill from μ = ±1 to all real μ. Three refereed lenses (A1 fractional-UCP with post-1989 tools: Ghosh–Salo–Uhlmann, Rüland, Fall–Felli — GSU Thm 1.2 verified verbatim; A2 explicit d=1 virial/positive-commutator; A3 truncated Wiener–Hopf spectral theory) + a binding assembling referee (independent re-derivations; grades A−/B+/B) + a new eigenfunction-level numerical probe. Synthesis: [notes/2026-07-11-iter20-antilocality-extension.md](notes/2026-07-11-iter20-antilocality-extension.md).

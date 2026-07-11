@@ -472,6 +472,16 @@ When a future direction is judged genuinely unsound or vacuous, record it here w
 - **Numerics (eigenfunction level, third independent signature).** `[INFERENCE, high]` Fixed-energy edge-divergence probe: central fraction ≤ 0.03 shrinking, edge-window mass → 0.997 growing at every tracked ε\* and mass — the a.c. signature; no bulk-normalizable candidate. (A naive bulk-fraction probe documented as non-discriminating.)
 - **HYP-CKV-VACUITY-R7 — HELD.** No closure (referee: none assembles), no eigenvalue (no entry-ticket). Count FIVE; no numeric ID consumed.
 
+## Iteration 21 refinements (2026-07-11) — the LEM-A1′ proof attempt: the Corner Indicial Theorem, the strip geometrization, and the c-collapse to LEM-A1″; hedge HELD at R7
+
+*Direct proof attempt on LEM-A1′ (indicial referee + two proof lenses + binding assembling referee; every load-bearing step independently re-derived; verdict unchanged, 20th consecutive). See [notes/2026-07-11-iter21-lem-a1-prime-attempt.md](notes/2026-07-11-iter21-lem-a1-prime-attempt.md).*
+
+- **CORNER INDICIAL THEOREM.** `[ESTABLISHED — refereed]` At each corner of LEM-A1′: indicial equation **cos²(πs) = c** (4×4 BC determinant ≡ −s(c − cos²(πs))); complete simple root set **s = n ± iτ₀**, τ₀ = arccosh(√c)/π; **τ₀ = ε/2π exactly** under c = cosh²(ε/2) — the local Bisognano–Wichmann relation recovered from a corner computation; n = 0 family not H¹ (the continuum modes), n ≥ 1 families H¹-admissible ⟹ **no local kill exists**. Caveat: mass series resonant (log r at order r^{s+2}). Lattice-verified two ways (staircase; phase fit 1–3%).
+- **Strip geometrization.** `[ESTABLISHED]` (−Δ + Q)(U,V) = 0 on the strip with **closed-form Q = m²R²(cosh ξ − cos η)⁻²**, translation-invariant coupled edges; Q decays e^{−2|ξ|} at BOTH ends; exterior-dilation-analytic (complex *translation* fails structurally — corrected). **New no-go:** the unique pointwise symmetrizer of the strip pencil is the indefinite Krein metric [[c,−c],[−c,1]] — no positive local inner product; Froese–Herbst not licensed on the coupled system.
+- **The c-collapse.** `[ESTABLISHED — independently re-derived; numerics-verified 10⁻⁸]` LEM-A1′ ⟺ **σ_p(A) ∩ (1,∞) = ∅ for the single fixed self-adjoint A = S_I^{1/2}R_I S_I^{1/2} on L²(I)** (κ = c/(c−1) = coth²(ε/2) = 4ν² — A IS the symmetrized Peschel operator the in-repo numerics diagonalizes). The ∀c quantifier is gone; the lemma target and the numerics are the same object. En route: no sign-definite eigenfunction exists (PF mechanisms fail structurally); the BKT embedded-eigenvalue mechanism needs common endpoints — absent for a single interval.
+- **LEM-A1″ — the new named target.** `[OPEN]` Primary route: Mourre estimate for A with conjugate operator D = the Hislop–Longo Möbius-flow generator (the exact massless symmetry; the mass term has exactly the decay/analyticity profile Mourre wants; post-collapse the classical virial theorem applies — no Krein obstruction). Fallback: Feshbach n=0-channel + nonlocal subordinacy (sub-lemmas open). **LEM-A1″ ⟹ (E_O) free-field ⟹ R7 → R8.**
+- **HYP-CKV-VACUITY-R7 — HELD** (assembly: no complete proof; exclusion open in both routes). Verdict unchanged 20th consecutive; count FIVE; no numeric ID consumed.
+
 ---
 
 ## See also

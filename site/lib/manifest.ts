@@ -833,6 +833,13 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-07-11-iter20-antilocality-extension.md",
         group: "Iteration 20 — 2026-07-11 · the antilocality-extension attack (exact reformulation; two rigidity theorems; LEM-A1′ minted; verdict unchanged 19th; hedge holds at R7)",
       },
+      {
+        num: "13.87",
+        slug: "2026-07-11-iter21-lem-a1-prime-attempt",
+        title: "Iteration-21 Synthesis — The LEM-A1′ Attempt: The Corner Indicial Theorem, the Strip Geometrization, and the c-Collapse to LEM-A1″",
+        file: "notes/2026-07-11-iter21-lem-a1-prime-attempt.md",
+        group: "Iteration 21 — 2026-07-11 · the LEM-A1′ proof attempt (Corner Indicial Theorem established; the c-collapse to one operator; LEM-A1″ minted; verdict unchanged 20th; hedge holds at R7)",
+      },
     ],
   },
   {
