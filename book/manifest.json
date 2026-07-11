@@ -406,7 +406,15 @@
           "sources": [
             "notes/2026-07-10-iter19-prove-the-numerics.md"
           ],
-          "trim": "Drop YAML frontmatter and 'See also' block. The analytic follow-through: LEM-K0 refereed confirmed (the E=0 half of free-field (E_O) established, with the Figliolini-Guido 1989 primary source verified and the iteration-17 unverified tag retired); the lambda != 1 exclusion isolated as the entire remaining free-field residual with a named single-mechanism best-lead; the pinning scan finds no embedded eigenvalue. The verdict stands an eighteenth time. The closing chapter of the research arc — reasoning, construction, and computation converged, and part of the computation became proof."
+          "trim": "Drop YAML frontmatter and 'See also' block. The analytic follow-through: LEM-K0 refereed confirmed (the E=0 half of free-field (E_O) established, with the Figliolini-Guido 1989 primary source verified and the iteration-17 unverified tag retired); the lambda != 1 exclusion isolated as the entire remaining free-field residual with a named single-mechanism best-lead; the pinning scan finds no embedded eigenvalue. The verdict stands an eighteenth time."
+        },
+        {
+          "number": 40,
+          "title": "Iteration 20: The Antilocality Extension — The Gate Becomes a Bilateral-Antilocality Statement; LEM-A1' Minted",
+          "sources": [
+            "notes/2026-07-11-iter20-antilocality-extension.md"
+          ],
+          "trim": "Drop YAML frontmatter and 'See also' block. The iteration-19 best-lead attacked head-on with post-1989 fractional unique-continuation theory, an explicit virial computation, and truncated Wiener-Hopf spectral theory: the eigenvalue question becomes exactly a bilateral-antilocality statement with coupling c > 1 (FG-1989 the degenerate boundary case); two new unconditional rigidity theorems; a proved no-soft-theorem obstruction; the missing lemma weakens to the corner problem LEM-A1' — checkable by a fractional-UCP specialist, whose proof fires R7 -> R8. The verdict stands a nineteenth time. The closing chapter of the research arc."
         }
       ]
     },
@@ -416,7 +424,7 @@
       "opener": "book/frontmatter/part-openers/part-6.md",
       "chapters": [
         {
-          "number": 40,
+          "number": 41,
           "title": "Conclusion: The Converged Verdict",
           "sources": [
             "CONCLUSION.md"
@@ -424,7 +432,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. The one-paragraph verdict blockquote is set as a featured panel on the chapter opening page."
         },
         {
-          "number": 41,
+          "number": 42,
           "title": "The Experiment Watchlist",
           "sources": [
             "EXPERIMENT_WATCHLIST.md"
@@ -432,7 +440,7 @@
           "trim": "Drop YAML frontmatter and 'See also' block. Watchlist tables full-width."
         },
         {
-          "number": 42,
+          "number": 43,
           "title": "Roadmap: What Comes Next",
           "sources": [
             "ROADMAP.md"

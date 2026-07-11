@@ -2,7 +2,7 @@
 title: "Hypotheses: Candidate Research Directions Toward Background-Independent Physics"
 type: registry
 tags: [registry, hypotheses, background-independence]
-updated: 2026-07-10
+updated: 2026-07-11
 ---
 
 # Hypotheses: Candidate Research Directions Toward Background-Independent Physics
@@ -459,6 +459,18 @@ When a future direction is judged genuinely unsound or vacuous, record it here w
 - **(E_O) — the λ≠1 residual: `[OPEN]`, provably narrower and provably harder.** `[INFERENCE, high]` (i) Invariant-level arguments CANNOT decide it (Powers/Araki–Woods ITPFI factors realize factorial standard subspaces with pure-point one-particle modular spectra); any kill must use locality/mass-shell data. (ii) Conditional Mourre (under unproven H1 C^{1,1}-regularity + H2 form-compactness): point spectrum in any compact I ⊂ ℝ∖{0} at most finite. (iii) New rigidity (proved, iteration 19): any δ_O-eigenvector extends π-strip boost-analytically in every wedge containing O with W-independent norm; and (K_O, K_W) is NOT a half-sided modular inclusion for m > 0. (iv) **Named best-lead:** FG Thm 3.6 maps λ≠1 eigenvalues to real eigenvalues μ = (λ+1)/(λ−1), |μ|>1 of their operator B; FG antilocality kills exactly μ = ±1; **extending antilocality to all real μ is the sharpest open proof target.** (v) The statement is proved nowhere in the literature (live-verified).
 - **(E_O) — pinning scan (numerics, iteration-19 extension): NO embedded eigenvalue.** `[INFERENCE, high — validated lattice computation]` Scale-aware statistic g_k (continuum ≈ 1, pinned = 1.456): worst g anywhere = 1.049; m = 1 median 1.0001 (continuum to three decimals); heavier masses drift below 1. The mid-spectrum drift resolved as late-onset ladder levels converging to (2j+1)π²/lnL slots. Complements the conditional Mourre bound: allowed "finitely many", observed **zero**. Reproducible: [scripts/eo-modular-numerics.py](scripts/eo-modular-numerics.py).
 - **HYP-CKV-VACUITY-R7 — UNCHANGED.** Grade and condition {n₁ AND (E_O)} unchanged; R8 requires full free-field (E_O) closure (referee-confirmed), and only the E=0 half closed. Carrier-convergence count stays FIVE; no numeric ID consumed.
+
+## Iteration 20 refinements (2026-07-11) — the antilocality-extension attack: exact reformulation, two rigidity theorems, LEM-A1′; hedge HELD at R7
+
+*Direct attack on the iteration-19 best-lead (three refereed lenses + assembling referee, all load-bearing steps independently re-derived, citations live-verified). No closure, no eigenvalue found; verdict unchanged (19th consecutive). See [notes/2026-07-11-iter20-antilocality-extension.md](notes/2026-07-11-iter20-antilocality-extension.md).*
+
+- **The λ≠1 question becomes EXACTLY a bilateral-antilocality statement.** `[ESTABLISHED — referee re-derived]` μ² > 1 is an eigenvalue ⟺ defect-matched data exist with ωF = 0 on I, ωG = 0 on E, G = cF on I, G = F on E, c = μ²/(μ²−1) > 1. FG-1989's kill is the degenerate boundary case. Zero operator-algebra content remains — the gate is now a statement about the fractional operator ω = (m²−Δ)^{1/2} alone.
+- **Two new unconditional rigidity theorems.** `[ESTABLISHED]` (i) *Dirichlet rigidity:* every eigenfunction lies in H¹₀(I) (m > 0 essential; Lions–Magenes Hardy condition forces vanishing boundary values); (ii) *support rigidity:* no eigenfunction vanishes on any open subinterval (needs only H¹-level massive antilocality, freed by (i) — `[ESTABLISHED modulo routine extension]`).
+- **Exact commutator structure.** `[ESTABLISHED]` With the interval dilation generator, order-0 parts cancel identically; the virial bulk is O(m²) — structurally explaining the massless (Hislop–Longo) a.c. case. Bulk provably not sign-definite; boundary terms behind the verified Georgescu–Gérard C¹(A) wall. No positive-commutator kill.
+- **No-soft-theorem obstruction.** `[ESTABLISHED — live-verified]` Bertola–Katsevich–Tovbis (arXiv:2008.10058): embedded eigenvalues genuinely occur in the finite-interval-convolution family (multi-interval finite Hilbert transform), so no family-level theorem can decide our case. The massive kernel admits no Morrison/prolate-type commuting differential operator (Grabovsky–Hovsepyan classification; log branch point) `[INFERENCE, high]` — why exactly the massless cases are the solved ones.
+- **LEM-A1′ — the new named target (strictly weaker than iteration 19's).** `[OPEN]` For every c > 1: ωF = 0 on I, ω(χ_E F + cχ_I F) = 0 on E, χ_I F ∈ H¹₀(I) ⟹ F ≡ 0. Route: Caffarelli–Silvestre extension → coupled Zaremba corner problem; Almgren monotonicity + Carleman at ±R must force indicial exponents −1/2 + iτ(c), τ ≠ 0 (non-L²). Checkable cold by a fractional-UCP specialist; no operator-algebra input. **LEM-A1′ ⟹ (E_O) free-field ⟹ R7 → R8.** Secondary lead: BKT-style Riemann–Hilbert steepest descent on the Casini–Huerta Painlevé-V resolvent.
+- **Numerics (eigenfunction level, third independent signature).** `[INFERENCE, high]` Fixed-energy edge-divergence probe: central fraction ≤ 0.03 shrinking, edge-window mass → 0.997 growing at every tracked ε\* and mass — the a.c. signature; no bulk-normalizable candidate. (A naive bulk-fraction probe documented as non-discriminating.)
+- **HYP-CKV-VACUITY-R7 — HELD.** No closure (referee: none assembles), no eigenvalue (no entry-ticket). Count FIVE; no numeric ID consumed.
 
 ---
 

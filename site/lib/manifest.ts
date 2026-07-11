@@ -826,6 +826,13 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-07-10-iter19-prove-the-numerics.md",
         group: "Iteration 19 — 2026-07-10 · proving the numerics (LEM-K0 confirmed; FG-1989 primary source verified; pinning scan clean; verdict unchanged 18th; hedge holds at R7)",
       },
+      {
+        num: "13.86",
+        slug: "2026-07-11-iter20-antilocality-extension",
+        title: "Iteration-20 Synthesis — The Antilocality Extension: The Gate Becomes a Bilateral-Antilocality Statement; Two Rigidity Theorems; LEM-A1′",
+        file: "notes/2026-07-11-iter20-antilocality-extension.md",
+        group: "Iteration 20 — 2026-07-11 · the antilocality-extension attack (exact reformulation; two rigidity theorems; LEM-A1′ minted; verdict unchanged 19th; hedge holds at R7)",
+      },
     ],
   },
   {

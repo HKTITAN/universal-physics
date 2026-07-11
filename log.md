@@ -2,13 +2,13 @@
 title: Operations Log
 type: schema
 tags: [schema, log, operations, provenance]
-updated: 2026-07-10
+updated: 2026-07-11
 ---
 
 # Operations Log
 
 **Status:** Thin append-only index — one line per major operation.
-**Last updated:** 2026-07-10
+**Last updated:** 2026-07-11
 
 [CHANGELOG.md](CHANGELOG.md) is the **canonical detailed log**: it records what changed, why, and every epistemic promotion/demotion, entry by entry. This page is the thin operations index over it — one line per major operation (ingest / synthesis / lint), oldest first, for fast orientation. Detail always lives in the corresponding CHANGELOG.md entry.
 
@@ -40,3 +40,4 @@ updated: 2026-07-10
 ## 2026-07-07 synthesis | Iteration 17: the (E_O) assault — five lenses (E1–E5), three binding referees; (E_O) neither proved nor disproved; free-field REDUCED to a one-particle spectral question (naive no-eigenvalue-0 reading refuted); three structure-theory routes and the adversarial disproof all FAIL; HYP-CKV-VACUITY stays R7; verdict unchanged 16th consecutive
 ## 2026-07-07 synthesis | Iteration 18: the user-demanded GENERATIVE assault (C1–C4, both referees FLIP_REFUTED) + the FIRST numerical computation in the project (Peschel double-cone modular spectrum: ε_min→π²/ln L, no zero-mode ⟹ (E_O) holds for free d=2); NO FLIP; HYP-CKV-VACUITY stays R7; verdict unchanged 17th consecutive
 ## 2026-07-10 synthesis | Iteration 19: proving the numerics — LEM-K0 refereed CONFIRMED (E=0 half of free-field (E_O) now ESTABLISHED; FG-1989 primary source read, iter-17 [unverified] tag retired); λ≠1 residual sharpened (undecidable at invariant level; best-lead = FG antilocality extension to all real μ); pinning scan: no embedded eigenvalue; hedge stays R7; verdict unchanged 18th consecutive
+## 2026-07-11 synthesis | Iteration 20: the antilocality-extension attack — eigenvalue question becomes EXACTLY bilateral antilocality with coupling c>1 (FG-1989 = boundary case); two new rigidity theorems (H¹₀; nowhere-locally-zero); O(m²) virial bulk; no-soft-theorem obstruction (BKT embedded eigenvalues occur in the family); LEM-A1′ minted (coupled Zaremba corner lemma, fractional-UCP-checkable); edge-divergence numerics clean; hedge HELD at R7; verdict unchanged 19th consecutive

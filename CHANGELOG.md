@@ -10,6 +10,18 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-07-11 — Iteration 20: the antilocality-extension attack (verdict unchanged 19th consecutive; the eigenvalue question becomes EXACTLY a bilateral-antilocality statement; LEM-A1′ minted; hedge HELD at R7)
+
+Direct attack on the iteration-19 named residual — extend the FG antilocality kill from μ = ±1 to all real μ. Three refereed lenses (A1 fractional-UCP with post-1989 tools: Ghosh–Salo–Uhlmann, Rüland, Fall–Felli — GSU Thm 1.2 verified verbatim; A2 explicit d=1 virial/positive-commutator; A3 truncated Wiener–Hopf spectral theory) + a binding assembling referee (independent re-derivations; grades A−/B+/B) + a new eigenfunction-level numerical probe. Synthesis: [notes/2026-07-11-iter20-antilocality-extension.md](notes/2026-07-11-iter20-antilocality-extension.md).
+
+- **Exact reformulation `[ESTABLISHED]`:** eigenvalue μ² > 1 ⟺ bilateral-antilocality data (ωF = 0 on I, ωG = 0 on E, G = cF on I, G = F on E, c = μ²/(μ²−1) > 1); FG-1989 = the degenerate boundary case. The gate now has zero operator-algebra content — it is a statement about (m²−Δ)^{1/2} alone.
+- **Two new unconditional rigidity theorems `[ESTABLISHED]`:** every eigenfunction lies in H¹₀(I) (Dirichlet rigidity; m > 0 essential); no eigenfunction vanishes on any open subinterval (support rigidity; needs only H¹-level massive antilocality, freed by the former).
+- **Exact commutators `[ESTABLISHED]`:** order-0 cancellation; O(m²) virial bulk (explains massless a.c.); bulk provably not sign-definite; boundary terms behind the verified Georgescu–Gérard C¹(A) wall (A2's formal boundary bookkeeping flagged by the referee — double-counted cutoff, δ·χ ill-defined — folded into the gap, not propagated).
+- **No-soft-theorem obstruction `[ESTABLISHED, live-verified]`:** embedded eigenvalues genuinely occur in the finite-interval-convolution family (Bertola–Katsevich–Tovbis arXiv:2008.10058) — only geometry-specific analysis can decide ours; the massive kernel admits no commuting differential operator (Grabovsky–Hovsepyan; log branch point).
+- **LEM-A1′ minted** (strictly weaker than iteration 19's target): for every c > 1, ωF = 0 on I + ω(χ_E F + cχ_I F) = 0 on E + χ_I F ∈ H¹₀(I) ⟹ F ≡ 0. Caffarelli–Silvestre → coupled Zaremba corner problem; checkable by a fractional-UCP specialist. LEM-A1′ ⟹ (E_O) free-field ⟹ R7 → R8. Watch item (δ) sharpened accordingly.
+- **Numerics:** fixed-energy edge-divergence probe (third independent signature) — a.c. behavior at every tracked energy, no bulk-normalizable candidate; a naive bulk-fraction probe documented as non-discriminating. [scripts/eo-modular-numerics.py](scripts/eo-modular-numerics.py) extended.
+- **Hedge: HYP-CKV-VACUITY HELD at R7** (referee: no complete proof assembles; no eigenvalue found either). Verdict unchanged (19th consecutive); count FIVE; no numeric ID consumed.
+
 ## 2026-07-10 — Iteration 19: proving the numerics (verdict unchanged 18th consecutive; the E=0 half of free-field (E_O) becomes ESTABLISHED; hedge stays R7)
 
 The analytic follow-through of iteration 18 — the sanctioned sharpest decidable lever (prove the free-field spectral fact). LEM-K0 adversarially refereed with a primary-source novelty check; three λ≠1 proof attempts (Mourre; locality/rigidity; literature+structure), one binding verifier (grade B+, no fabrications); a precision-hardened embedded-eigenvalue pinning scan. Synthesis: [notes/2026-07-10-iter19-prove-the-numerics.md](notes/2026-07-10-iter19-prove-the-numerics.md).

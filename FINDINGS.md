@@ -2,13 +2,13 @@
 title: Findings — Cumulative Synthesis
 type: synthesis
 tags: [synthesis, executive-summary, unification]
-updated: 2026-07-10
+updated: 2026-07-11
 ---
 
 # Findings — Cumulative Synthesis
 
-**Status:** Living synthesis — current through iteration 19. Read this first; it is the executive summary of the whole wiki.
-**Last updated:** 2026-07-10
+**Status:** Living synthesis — current through iteration 20. Read this first; it is the executive summary of the whole wiki.
+**Last updated:** 2026-07-11
 
 This page distills the current state of the investigation into six questions: *what is solid; where do the frameworks genuinely clash; which deep principles look most fundamental; what candidate unifying directions survive scrutiny; is a universal theory even possible; and what should we work on next.* Every claim is tagged per [EPISTEMICS.md](EPISTEMICS.md). Detail and derivations live on the linked pages; this page is the map, not the territory.
 
@@ -336,6 +336,15 @@ Three track agents brought frameworks NEVER previously applied to the carrier pr
 - **λ≠1 residual: `[OPEN]`, sharpened** — undecidable at invariant level (Powers/Araki–Woods); conditional Mourre bounds it to finite-per-interval; new wedge-analyticity rigidity proved; **best-lead: extend FG antilocality from μ = ±1 to all real μ**. Proved nowhere in the literature (live-verified).
 - **Pinning scan: no embedded eigenvalue** (worst g = 1.049 vs pinned 1.456; m = 1 continuum-exact). Allowed finitely-many (Mourre), observed zero.
 - **Hedge ledger:** R7 unchanged (R8 needs the full free-field closure); count FIVE. See the [iteration-19 synthesis](notes/2026-07-10-iter19-prove-the-numerics.md).
+
+## Iteration 20 update (2026-07-11) — the antilocality-extension attack: exact reformulation + two rigidity theorems; LEM-A1′; hedge HELD
+
+**Outcome: verdict UNCHANGED — NINETEENTH consecutive confirmation; hedge HELD at R7** (referee: no complete proof assembles; no eigenvalue found — no entry-ticket). The iteration-19 best-lead attacked head-on, three refereed lenses + assembling referee.
+- **The gate is now purely a fractional-operator statement `[ESTABLISHED]`:** eigenvalue μ² > 1 ⟺ bilateral antilocality with coupling c = μ²/(μ²−1) > 1 (FG-1989 = the boundary case). Zero operator-algebra content remains.
+- **Two unconditional rigidity theorems `[ESTABLISHED]`:** eigenfunctions lie in H¹₀(I); eigenfunctions vanish on no open subinterval.
+- **Structure `[ESTABLISHED]`:** O(m²) virial bulk with exact order-0 cancellation (explains massless a.c.); no positive-commutator kill (Georgescu–Gérard wall); no soft theorem possible (embedded eigenvalues occur in the operator family — BKT, live-verified; no commuting differential operator for the massive kernel).
+- **LEM-A1′ minted `[OPEN]`** — the strictly-weaker missing lemma (H¹-input coupled Zaremba corner problem via Caffarelli–Silvestre; checkable by a fractional-UCP specialist). LEM-A1′ ⟹ (E_O) free-field ⟹ R7 → R8.
+- **Numerics:** third independent signature (fixed-energy edge-divergence probe) — a.c. everywhere, no bulk-normalizable candidate. See the [iteration-20 synthesis](notes/2026-07-11-iter20-antilocality-extension.md).
 
 ## See also
 - [CONCLUSION.md](CONCLUSION.md) — the capstone verdict · [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)
