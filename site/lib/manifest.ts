@@ -847,6 +847,13 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-07-11-iter22-mourre-feshbach.md",
         group: "Iteration 22 — 2026-07-11 · the Mourre/Feshbach execution (the BIC methods-no-go; the conditional theorem; LEM-A1‴ minted; verdict unchanged 21st; hedge holds at R7)",
       },
+      {
+        num: "13.89",
+        slug: "2026-07-11-iter23-crux-attack",
+        title: "Iteration-23 Synthesis — (a′) Established, the Definitizability No-Go, One Honest Retraction, and LEM-A1‴-T → LEM-A1⁗",
+        file: "notes/2026-07-11-iter23-crux-attack.md",
+        group: "Iteration 23 — 2026-07-11 · the crux attack ((a′) established; fourth methods-no-go; one retraction; verdict unchanged 22nd; hedge holds at R7)",
+      },
     ],
   },
   {

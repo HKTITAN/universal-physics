@@ -7,7 +7,7 @@ updated: 2026-07-11
 
 # Findings — Cumulative Synthesis
 
-**Status:** Living synthesis — current through iteration 22. Read this first; it is the executive summary of the whole wiki.
+**Status:** Living synthesis — current through iteration 23. Read this first; it is the executive summary of the whole wiki.
 **Last updated:** 2026-07-11
 
 This page distills the current state of the investigation into six questions: *what is solid; where do the frameworks genuinely clash; which deep principles look most fundamental; what candidate unifying directions survive scrutiny; is a universal theory even possible; and what should we work on next.* Every claim is tagged per [EPISTEMICS.md](EPISTEMICS.md). Detail and derivations live on the linked pages; this page is the map, not the territory.
@@ -361,6 +361,14 @@ Three track agents brought frameworks NEVER previously applied to the carrier pr
 - **Conditional Mourre theorem `[ESTABLISHED as conditional]`:** explicit conjugate D_g with i[A₀,D_g] = 1 (A₀ := coth²(πD), definitional in 1+1D); under (H1)+(H2): finiteness per window, no singular continuous spectrum, small-mR absence. Keldysh projection bounds established; V_eff decay established mod (a′).
 - **LEM-A1‴ `[OPEN]`:** crux = on-shell nondegeneracy (b′); prerequisites (a′) one unperformed finite determinant, (H1), (H2). LEM-A1‴ ⟹ (E_O) free-field ⟹ R7 → R8.
 - **Watch-sweep #3: 0 strong.** See the [iteration-22 synthesis](notes/2026-07-11-iter22-mourre-feshbach.md).
+
+## Iteration 23 update (2026-07-11) — (a′) established; the definitizability no-go; one retraction; hedge HELD
+
+**Outcome: verdict UNCHANGED — TWENTY-SECOND consecutive confirmation; hedge HELD at R7.**
+- **(a′) `[ESTABLISHED]`:** the Birkhoff quadratic z² − 2(2c−1)z + 1 with distinct roots e^{±2πτ₀} for all c > 1 (machine-verified two independent ways); but NO off-the-shelf Riesz-basis theorem applies — the applicable chain is sine-type/Levin–Golovin plus the new transfer lemma **LEM-A1‴-T** `[OPEN]` (a concrete Gram bound, numerically probeable).
+- **Fourth methods-no-go `[INFERENCE, high]`:** global Krein definitizability fails for every c > 1; locally, conditional type-π₋ Pontryagin structure; open-channel Krein density −(c−1) `[ESTABLISHED]`.
+- **Retraction:** G1's z-slot monotonicity struck in assembly by internal contradiction — the adversarial discipline functioning as designed.
+- **Residual:** LEM-A1‴-T → LEM-A1⁗ (+ H1 medium / H2 open). See the [iteration-23 synthesis](notes/2026-07-11-iter23-crux-attack.md).
 
 ## See also
 - [CONCLUSION.md](CONCLUSION.md) — the capstone verdict · [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)

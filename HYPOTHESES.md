@@ -492,6 +492,16 @@ When a future direction is judged genuinely unsound or vacuous, record it here w
 - **Watch-sweep #3 (07-07 → 07-11): 0 strong** (11 in-window math.OA postings, none on watch topics; near-misses 2607.05195, 2607.07810 logged, not load-bearing). Clocks (α)–(ε) static; (δ) → LEM-A1‴.
 - **HYP-CKV-VACUITY-R7 — HELD.** Verdict unchanged **21st consecutive**; count FIVE; no numeric ID consumed.
 
+## Iteration 23 refinements (2026-07-11) — (a′) established; the definitizability no-go; one retraction; LEM-A1‴-T → LEM-A1⁗; hedge HELD at R7
+
+*The (a′) computation refereed and the crux attacked through both structural lenses (binding assembly; independent machine checks). Verdict unchanged (22nd consecutive). See [notes/2026-07-11-iter23-crux-attack.md](notes/2026-07-11-iter23-crux-attack.md).*
+
+- **(a′) — ESTABLISHED.** The transverse characteristic function is −(z² − 2(2c−1)z + 1)/(4z) in z = e^{2πis}; discriminant 16c(c−1) > 0 ∀c > 1; roots z± = e^{±2πτ₀}; spectrum = two shifted simple uniformly-separated lattices (machine-verified 1e−15 + independent BC determinant 1e−13). Corrections: regularity degenerates as c → 1⁺; and **no off-the-shelf Riesz-basis theorem applies** (repeated-characteristic-root structure defeats the scalar and systems chains; Keldysh cannot help — already linear in λ = s²). Applicable chain: sine-type/Levin–Golovin `[ESTABLISHED]` + **LEM-A1‴-T `[OPEN]`** (the transfer/Gram bound — concrete, cold-checkable, numerically probeable; non-uniform as c → 1⁺).
+- **FOURTH METHODS-NO-GO: global definitizability fails.** `[INFERENCE, high]` Transverse eigenvalues ν_n = n² − τ₀² ± 2inτ₀ — one real branch, infinitely many non-real pairs ⟹ σ_ess exceeds Langer's finiteness bound: **the strip pair is not globally definitizable in the Krein metric for any c > 1**. Locally (|Im z| < 2τ₀): conditional definitizability with 0 of type π₋ (finite-index Pontryagin subspace) `[INFERENCE, medium]`; and the n = 0 open channel has **constant negative Krein density −(c−1)** `[ESTABLISHED — machine-verified]`.
+- **RETRACTION (house discipline).** G1's z-slot Herglotz/Loewner monotonicity, submitted `[ESTABLISHED]`, was internally contradicted by G2's machine-verified non-real closed channels and is **struck to `[OPEN]`** by the assembler. Surviving: the Feshbach–Schur scheme; the BC-slot Hellmann–Feynman identity with sign via nowhere-locally-zero rigidity `[INFERENCE, medium]`.
+- **Residual: LEM-A1‴-T (upstream bottleneck) → LEM-A1⁗ (Pontryagin-channel on-shell transversality), + (H1) `[INFERENCE, medium]` / (H2) `[OPEN]`.** Designated next move: the numerical Gram-matrix probe of LEM-A1‴-T.
+- **HYP-CKV-VACUITY-R7 — HELD.** Verdict unchanged **22nd consecutive**; count FIVE; no numeric ID consumed.
+
 ---
 
 ## See also

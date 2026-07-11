@@ -10,6 +10,15 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-07-11 — Iteration 23: (a′) established + the definitizability no-go + one retraction (verdict unchanged 22nd consecutive; LEM-A1‴-T → LEM-A1⁗; hedge HELD at R7)
+
+The (a′) computation (prep commit af47a43) refereed CONFIRMED_WITH_CORRECTIONS; crux (b′) attacked via G1 (energy-dependent Schur) and G2 (Krein definitizability); binding assembly with independent machine checks. Synthesis: [notes/2026-07-11-iter23-crux-attack.md](notes/2026-07-11-iter23-crux-attack.md).
+
+- **(a′) `[ESTABLISHED]`:** characteristic quadratic z² − 2(2c−1)z + 1, discriminant 16c(c−1) > 0 ∀c>1, roots e^{±2πτ₀}; two shifted simple uniformly-separated transverse lattices (1e−15 machine identity + independent 4×4 BC determinant at the roots). Corrections: non-uniformity as c → 1⁺; and NO off-the-shelf Riesz-basis theorem applies (repeated characteristic roots defeat scalar + systems chains; Keldysh moot). Applicable chain: sine-type/Levin–Golovin + **LEM-A1‴-T** (transfer/Gram bound) `[OPEN]`.
+- **Fourth methods-no-go `[INFERENCE, high]`:** the strip pair is NOT globally definitizable for any c > 1 (infinitely many non-real essential branches ν_n = n² − τ₀² ± 2inτ₀ exceed Langer's bound). Locally: conditional type-π₋ Pontryagin structure over |Im z| < 2τ₀; open-channel Krein density −(c−1) `[ESTABLISHED, machine-verified]`.
+- **Retraction:** G1's z-slot Herglotz monotonicity (submitted ESTABLISHED) struck to `[OPEN]` by internal contradiction with G2's machine-verified computation — the discipline caught it in assembly.
+- **Residual:** LEM-A1‴-T (upstream bottleneck, numerically probeable Gram bound) → LEM-A1⁗ (Pontryagin-channel on-shell transversality); (H1) medium / (H2) open. Hedge HELD at R7; verdict unchanged **22nd consecutive**; count FIVE.
+
 ## 2026-07-11 — Iteration 22: the Mourre/Feshbach execution (verdict unchanged 21st consecutive; the Gaussian BIC methods-no-go; the conditional Mourre theorem; LEM-A1‴; hedge HELD at R7)
 
 Both named LEM-A1″ routes executed at referee grade (F1 Feshbach/Grushin + Keldysh pencil projections; F2 direct Mourre with the conjugate built from the exact massless dispersion), binding assembling referee (counterexample re-derived line-by-line), watch-sweep #3 folded in. Synthesis: [notes/2026-07-11-iter22-mourre-feshbach.md](notes/2026-07-11-iter22-mourre-feshbach.md). Prep commit de08afc (the Möbius spectral identity + frame caveat) receives its refereed grade: correct at spectral/consistency level; in 1+1D the operator identity is the *definition* of A₀ and its content is exactly (H1).
