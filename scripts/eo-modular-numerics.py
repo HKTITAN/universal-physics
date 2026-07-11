@@ -150,3 +150,27 @@ if __name__ == "__main__":
             print(row)
     print("  RESULT (2026-07-11 run): Fc <= 0.03 shrinking, Ee -> 0.96-0.997 growing at every eps* and mass —")
     print("  edge-divergent a.c. signature at every tracked energy; NO bulk-normalizable candidate anywhere.")
+
+
+# ============================================================================
+# Iteration 22 (prep) — the Mobius spectral identity, and a frame caveat
+# ============================================================================
+# NEW STRUCTURAL READING [INFERENCE, high — spectral level]: the established
+# ladder eps_k -> (2k+1) pi^2 / ln L is EXACTLY the box (Weyl) quantization of
+# the Mobius/Hislop-Longo generator D on the log coordinate u = arctanh(x/R)
+# (box half-length u_max ~ (ln L)/2): tau_k = (2k+1) pi / (2 ln L), eps = 2 pi tau.
+# Hence AT THE SPECTRAL LEVEL the c-collapse operator satisfies
+#     spec(A)  ~=  coth^2( pi * spec(D_log-box) )
+# i.e. A is spectrally a function of the Mobius generator — the global upgrade
+# of the Corner Indicial Theorem's tau0 = eps/2pi, and the structural basis of
+# the iteration-22 Mourre-transfer route (A = coth^2(pi D) + compact mass term).
+#
+# METHODOLOGY CAVEAT (documented 2026-07-11, integrator's own failed test):
+# naive VECTOR-level tests of this identity are frame-contaminated and must not
+# be used: (i) A's eigenvectors are orthogonal only in the S^{1/2}-conjugated
+# frame; pairing them with D built in raw L^2(dx) gives drifting <D^2> ratios
+# (0.77 -> 0.53 across the ladder — an artifact, not physics); (ii) windowed
+# commutator tests via pinv of the non-orthogonal physical frame amplify
+# conditioning and fake non-compactness. The frame-correct vector-level test
+# requires D conjugated into the A-self-adjoint representation (analytic task,
+# handed to the iteration-22 referee), or purely spectral comparisons as above.
