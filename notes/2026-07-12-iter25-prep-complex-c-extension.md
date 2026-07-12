@@ -92,6 +92,34 @@ for the Bari argument — only finiteness and explicitness are load-bearing). Wo
 sits at Re s = ½, Im s at the top of the strip, consistent with the cosh envelope.
 `[measurement — supports, does not referee, the claimed proof]`
 
+## Addendum 2 (2026-07-12) — two new structural observations for the iteration-25 fleet
+
+**(N1) The compact-core exclusion program `[NEW ROUTE — DRAFT, unrefereed]`.** Never
+tried in 24 iterations: computer-assisted spectral exclusion. The pieces now exist:
+(i) the scope verdict (compact-window architecture is forced AND sufficient; the gate
+follows from exhausting (1,∞) by compacts, with the four asymptotic corners covered
+separately); (ii) iteration 24's **explicit** constants (frame bounds, closed-form Gram,
+exact lattice) — the precondition rigorous numerics always needs; (iii) the extended
+Birman–Schwinger principle for nonlocal kinetic parts (Ishida–Lőrinczi–Sasaki,
+arXiv:2109.01564). The criterion: with A = A₀ + K, A₀ = coth²(πD), for κ in a window
+W ⊂ (1,∞), κ ∈ σ_p(A) requires 1 ∈ σ(BS(κ)) for the Birman–Schwinger operator of the
+pair (A₀, K); a **rigorous interval-arithmetic bound ‖BS(κ)‖ < 1 uniformly on W × [mR-box]**
+is an unconditional no-eigenvalue theorem on that box — no decay-class reasoning (so no
+BIC-no-go conflict: the bound is computed for THE operator, not a class). Architecture:
+compact (mR, κ) core by machine; corners mR → 0 (perturbative Mourre, iteration 22),
+mR → ∞ (large-mass asymptotics — open, name it), κ → 1⁺ (FG-1989/LEM-K0 threshold ledger),
+κ → ∞ (scope's vacuity note). Honest caveats: needs (H1)-type relative compactness to
+ground BS; interval-arithmetic discretization error must be bounded by the explicit frame
+constants — that bound is the real work. Status: route minted, nothing proved.
+
+**(N2) Exact parity split `[elementary — verify and consume]`.** Q(−ξ, η) = Q(ξ, η) and
+the η-edge conditions are ξ-independent, so interval reflection z ↦ −z (⟺ ξ ↦ −ξ)
+commutes with the full coupled system and with A. Every candidate eigenfunction splits
+into even/odd sectors; LEM-A1⁗'s transversality statement decouples into two
+half-multiplicity statements, one per parity — simplifying the local Pontryagin index
+count. (Consistent with the reflection-degenerate ladder observed numerically in
+iteration 18.)
+
 ## See also
 - [2026-07-11-iter24-transfer-lemma-falls.md](2026-07-11-iter24-transfer-lemma-falls.md) — the real-c theorem this extends
 - [../scripts/eo-modular-numerics.py](../scripts/eo-modular-numerics.py) — the Gram-probe code for (R2)
