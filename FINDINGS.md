@@ -7,7 +7,7 @@ updated: 2026-07-11
 
 # Findings — Cumulative Synthesis
 
-**Status:** Living synthesis — current through iteration 25. Read this first; it is the executive summary of the whole wiki.
+**Status:** Living synthesis — current through iteration 26. Read this first; it is the executive summary of the whole wiki.
 **Last updated:** 2026-07-11
 
 This page distills the current state of the investigation into six questions: *what is solid; where do the frameworks genuinely clash; which deep principles look most fundamental; what candidate unifying directions survive scrutiny; is a universal theory even possible; and what should we work on next.* Every claim is tagged per [EPISTEMICS.md](EPISTEMICS.md). Detail and derivations live on the linked pages; this page is the map, not the territory.
@@ -388,6 +388,16 @@ Three track agents brought frameworks NEVER previously applied to the carrier pr
 - **The mechanism observed:** on-shell suppression costs the FULL spectral gap (σ_⊥/gap ∈ [0.92, 1.02] at all 33 points); deleting the on-shell channel collapses the BS spectral radius to ≈ 0 — LEM-A1⁗'s content, seen directly. Support at `[INFERENCE, medium]`.
 - **Full-ladder probes (both negative, as expected):** the carrier screen REPRODUCES in mode coordinates (common-cause theorem: constant Im s_n drives both explicitness and vacuity); the n₁ **order-blindness lemma** `[ESTABLISHED, indicial scope]` — but the full-germ strengthening was REFUTED (the first mass correction is R1-odd: mass orients the edges), so the n₁ wall is a conformal-scope theorem.
 - Watch #6 dry (0 strong). See the [iteration-25 synthesis](notes/2026-07-12-iter25-normal-form.md).
+
+## Iteration 26 update (2026-07-12) — S5 DISCHARGED; the channel equivalence ESTABLISHED; LEM-TRACE established; the seam chain graded; hedge HELD
+
+**Outcome: verdict UNCHANGED — TWENTY-FIFTH consecutive confirmation; hedge HELD at R7 (equivalences and groundwork moved; no exclusion theorem exists).**
+- **S5 `[ESTABLISHED, repaired slacked form]`** — the n-uniform weighted-Volterra bound, with a structural correction to the iteration-25 skeleton (the un-slacked norm fails n-uniformity Θ(n); the geometric slack repairs it at zero cost). Branch (a) of the terminal-profile dichotomy promoted to the INFINITE system; **{LEM-A1⁗-N} ⟺ LEM-A1⁗ now `[ESTABLISHED]`**.
+- **LEM-TRACE `[ESTABLISHED, mR > 0]`** — the corner-weighted trace lemma; the seam identity holds AS WRITTEN, no extra corner term; the iteration-21 resonant-log caveat DISCHARGED; monodromy pinned μ = e^{2πτ₀}.
+- **The seam chain graded, not closed:** B0 `[ESTABLISHED]` (Perron constraint grounded mod SEAM-ESS); B1 free part `[ESTABLISHED]` (positivity-improving, Schoenberg-1951); B2/B3 `[INFERENCE]`; **LEM-SEAM-SC `[OPEN]`** minted (the sign-changing case is the residual crux).
+- **Bookkeeping trio `[ESTABLISHED]`:** the orientation-reversing Krein/parity dictionary Φ*J_cΦ = −((c−1)/2)P (bilinear-only continuation to complex c); the P1-NF domain-closure lemma; the explicit complex-c radius r(c₀).
+- **Numerics:** the corrected spectral shell closure — deleted-BS sr ≤ 0.006 globally over 369 points; off-shell supercritical everywhere; T7 sharp failure (geometric compression invalid); T8 honest downgrade of the iteration-25 exhibit; Bari head-distinctness machine-checked per window; CH-26 minted (hard part: the b → 0 channel closure, unprobeable on the lattice).
+- Watch #7: 0 strong; the BPT adjacency answered NEGATIVE by direct PDF read (a quick-summary hallucination trap recorded). See the [iteration-26 synthesis](notes/2026-07-12-iter26-s5-and-seam.md).
 
 ## See also
 - [CONCLUSION.md](CONCLUSION.md) — the capstone verdict · [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)

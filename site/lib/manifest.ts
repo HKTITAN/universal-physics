@@ -875,6 +875,13 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-07-12-iter25-normal-form.md",
         group: "Iteration 25 — 2026-07-12 · the normal form (P1-NF; Bari discharged; a=2 retracted; crux → LEM-SEAM; verdict unchanged 24th; hedge holds at R7)",
       },
+      {
+        num: "13.93",
+        slug: "2026-07-12-iter26-s5-and-seam",
+        title: "Iteration-26 Synthesis — S5 Discharged; The Channel Equivalence Established; The Seam Graded to LEM-SEAM-SC",
+        file: "notes/2026-07-12-iter26-s5-and-seam.md",
+        group: "Iteration 26 — 2026-07-12 · S5 and the seam (equivalence established; LEM-TRACE established; verdict unchanged 25th; hedge holds at R7)",
+      },
     ],
   },
   {

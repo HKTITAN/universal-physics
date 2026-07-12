@@ -10,6 +10,17 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-07-12 — Iteration 26: S5 DISCHARGED + the seam graded (the equivalence established; LEM-TRACE established; verdict unchanged 25th consecutive; hedge HELD at R7)
+
+Three lenses + referees + numerics + binding assembly (PARTIAL_PROGRESS; assembler cold re-derivation). Synthesis: [notes/2026-07-12-iter26-s5-and-seam.md](notes/2026-07-12-iter26-s5-and-seam.md).
+
+- **S5 `[ESTABLISHED, repaired]`:** the n-uniform weighted-Volterra bound on the geometric-slack space; the iteration-25 un-slacked skeleton corrected (fails Θ(n) structurally); branch (a) ⟹ u ≡ 0 for the infinite system; **{LEM-A1⁗-N} ⟺ LEM-A1⁗ `[ESTABLISHED]`**; branch-(b) rate promotion `[OPEN]`.
+- **LEM-TRACE `[ESTABLISHED, mR > 0]`:** the seam identity as written, no extra corner term; resonant-log caveat DISCHARGED; μ pinned e^{2πτ₀}.
+- **Seam chain graded:** B0 + B1-free `[ESTABLISHED]` (Schoenberg positivity-improving); B2/B3 `[INFERENCE]`; **LEM-SEAM-SC `[OPEN]`** minted. No exclusion theorem.
+- **Bookkeeping trio `[ESTABLISHED]`:** the orientation-reversing Krein/parity dictionary (bilinear-only complex continuation); the domain-closure lemma; explicit r(c₀).
+- **Numerics:** 369-point global shell closure (sr ≤ 0.006 at 2 units); T7 (geometric compression invalid); T8 (honest downgrade of the iter-25 exhibit); Bari head ledger machine-checked; CH-26 minted; two new lattice traps in-script.
+- Watch #7: 0 strong; BPT adjacency answered negative (direct PDF; summary-hallucination trap recorded). Hedge HELD at R7; verdict unchanged **25th consecutive**; count FIVE.
+
 ## 2026-07-12 — Iteration 25: THE NORMAL FORM (P1-NF established; Bari discharged; a=2 retracted; crux → LEM-SEAM; verdict unchanged 24th consecutive; hedge HELD at R7)
 
 Widened five-lens fleet + scope + referees + numerics + binding assembly (PARTIAL_PROGRESS; cold re-derivation 36/36). Synthesis: [notes/2026-07-12-iter25-normal-form.md](notes/2026-07-12-iter25-normal-form.md).

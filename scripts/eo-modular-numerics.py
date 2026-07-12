@@ -527,3 +527,323 @@ if __name__ == "__main__":
 # on-shell channel closed analytically by transversality, and should work in
 # the strip/mode variables (iteration-24 exact lattice + explicit Gram), not
 # the interval Peschel lattice.
+# NOTE (iteration 26, T8): the "sr_del ~ 0.000 on kap in [2.6, 8.4]" rows of
+# the DELETED-BS above are PART-VACUOUS — on exactly those grid points the
+# |rho - mu| > 3*dmu mask deletes ALL L levels (mu sits in the top spectral
+# gap, so dmu built from the 4 nearest unique levels spans the whole ladder).
+# The corrected, non-vacuous shell closure and re-measurement: PROBE P1 below.
+
+
+# ============================================================================
+# Iteration 26 — PROBE P1: the on-shell-PROJECTED (shell-deleted) Birman-
+#                Schwinger, corrected form + full (m, L) quantification;
+#                PROBE P2: the Bari head-ledger — (Q2) head-eigenvalue
+#                distinctness machine-certified per compact c-window
+#                [2026-07-12]
+# ============================================================================
+# P1 TARGET (iteration-25 directive): close the shell channel and measure the
+# deleted-BS spectral radius on kappa in (1.1, 20], L in {128, 256, 512},
+# m in {0.5, 1, 2}; quantify the "sr ~ 0 beyond the ladder top" finding and
+# its L-trend; state the continuum hypothesis a rigorous version needs.
+#
+# P1 DESIGN. Three channel-closure forms were implemented and compared:
+#  (a) GEOMETRIC rank-4 compression (the directive as literally written):
+#      project the 4D per-edge threshold span Q (iteration-25 Probe A object)
+#      out of the FREE resolvent — G_perp = U_perp (U_perp^T R0 U_perp
+#      - mu)^{-1} U_perp^T, U_perp = orth. complement of Q, R0 =
+#      (coth^2(pi D_lat)+1)^{-1}, mu = (1+kappa)^{-1}; BS as in Probe C.
+#  (b) SPECTRAL tau-band deletion (the corrected closure): delete the free
+#      levels with | |t| - tau0(kappa) | <= b * pi/ln(2L) (b resolution
+#      units, bilateral in t — the T1 unit; 6-12 of L levels), eta = 0.
+#  (c) CONTROL: delete an equal-width band centered OFF the shell (at
+#      tau0 + 3 units) — specificity check for (b).
+# Falsifiers named before the run: if (b) gives sr >= 1 somewhere with the
+# control ALSO small, the "coupling is on-shell" reading dies; if the control
+# is small everywhere, the statistic is vacuous.
+#
+# P1 TRAPS (encountered 2026-07-12):
+# (T7, NEW — sharp failure of form (a)): geometric rank-4 compression does
+#   NOT close the channel: compression INTERLACES — the compressed operator
+#   R0_perp keeps levels near mu (dist(mu, spec R0_perp) down to 2.6e-4) —
+#   because the free near-shell eigenvectors are BOX modes whose interior
+#   (|u| < 2.5) mass survives the per-edge projection and reconstitutes
+#   near-resonant spectrum. Measured: sr erratic and supercritical, e.g.
+#   m=1 L=256: sr = 8.4 / 32.3 / 3.1 at kappa = 2.44 / 5.04 / 12.94, spiking
+#   to 1260 where a compressed level lands on mu. Channel closure must be
+#   SPECTRAL (a band of the free spectral measure), not a finite-rank
+#   geometric projection under the resolvent.
+# (T8, NEW — iteration-25 correction): the mu-spacing mask |rho - mu| > 3 dmu
+#   is VACUOUS beyond the ladder top wherever mu sits in the top spectral
+#   gap: dmu is then so large the mask deletes ALL L levels (ndel = L), and
+#   sr_del = 0 trivially — this produced iteration-25's "~ 0.000 on
+#   [2.6, 8.4]" rows. The qualitative finding SURVIVES re-measurement in the
+#   non-vacuous form (b) (numbers below), but the "~ 0" rows overstated.
+# (T9) Threshold-edge shell widening: at kappa -> 1+ (kappa = 1.1 endpoint),
+#   mu -> 1/2- while the WHOLE high-tau dispersion tail flattens onto 1/2-
+#   (rho(tau) = 1/2 - O(e^{-2 pi tau})), so the effective shell is ~2
+#   resolution units wide: at L = 512, b = 1 gives sr = 0.90/0.92/0.94
+#   (m = 0.5/1/2) at kappa = 1.1 ONLY; b = 2 restores 0.0056/0.0049/0.0024.
+#   Matches the iteration-24/25 finding that kappa -> 1+ is the degrading
+#   edge. (Also a window-aggregation trap: (lo, hi] windows with lo = 1.1
+#   silently DROP the endpoint — dev aggregates missed it; global-max scan
+#   caught it.)
+# (Row-shift check, mandatory per N1b): FIRED — kappa_top(L=128, m=1) =
+#   1.692640 vs kappa_top(L=256, m=2) = 1.692576 (delta 6.4e-5); (256, 1) =
+#   1.976268 vs (512, 2) = 1.976196: at m_lat >= 0.03 the ladder top is a
+#   function of m_lat = mR/L alone to 4e-5 — the m = 2 column's apparent
+#   mass dependence is a lattice artifact. At smaller m_lat the match
+#   loosens ((128, 0.5) = 1.981591 vs (256, 1) = 1.976268, 0.27%) — the
+#   pi^2/ln L continuum law reasserting. No mass trend below is physical.
+#
+# P2 TARGET: turn (Q2)'s HEAD-eigenvalue-distinctness hypothesis of the Bari
+# supplement into a checked fact per compact window c in {[1.05, 1.5],
+# [1.5, 4], [4, 25]} — the Birkhoff quadratic z^2 - 2(2c-1)z + 1 (a',
+# ESTABLISHED iteration 23; Birkhoff-1908 strong regularity, Shkalikov-1986
+# framework) handles the tail; the finitely many head roots of
+# cos^2(pi s) = c need explicit pairwise-separation margins.
+# P2 TRAP (the iteration-24 conjugate-lattice trap at ledger level): the
+# naive two-branch eigenvalue list {(n +/- i tau0)^2} contains EXACT
+# duplicates (lambda_n^+ = lambda_{-n}^-, min sep 0.00e+00 — demonstrated in
+# the run); the s -> -s quotient is MANDATORY before any distinctness claim.
+
+def _p26_setup(L, m):
+    A = _p25_A(L, m)
+    vals = np.linalg.eigvalsh(A)
+    t26, Phi, x, beta, a = _p25_D(L)
+    g = 1/np.tanh(np.pi*np.clip(np.abs(t26), 1e-12, None))**2
+    rho = 1/(1+g)
+    R0 = ((Phi*rho) @ Phi.conj().T).real; R0 = 0.5*(R0 + R0.T)
+    Kres = np.linalg.inv(A + np.eye(L)) - R0; Kres = 0.5*(Kres + Kres.T)
+    lam, V = _eigh25(Kres)
+    idx = np.argsort(-np.abs(lam))[:100]
+    lam, V = lam[idx], V[:, idx]
+    keep = np.abs(lam) > 1e-13
+    return A, vals, R0, rho, lam[keep], V[:, keep], Phi, t26, x, beta
+
+def _p26_sr(core, lam):
+    sh = np.sqrt(np.abs(lam))
+    B = -(sh[:, None]*core)*(sh*np.sign(lam))[None, :]
+    return float(np.max(np.abs(_eigvals25(B))))
+
+def _p26_masked_sr(t26, rho, W, lam, mu, ctr, halfwidth):
+    msk = (np.abs(np.abs(t26) - ctr) > halfwidth).astype(float)
+    res = msk/(rho - mu)
+    return _p26_sr((W*res) @ W.conj().T, lam), int(len(rho) - msk.sum())
+
+def _p26_geo_demo(L, m, ksel):
+    A, vals, R0, rho, lam, V, Phi, t26, x, beta = _p26_setup(L, m)
+    out = []
+    for kap in ksel:
+        mu = 1/(1+kap); tau0 = np.arctanh(1/np.sqrt(kap))/np.pi
+        u = np.log(x/(_R25-x))
+        cols = []
+        for chi in ((u < -2.5).astype(float), (u > 2.5).astype(float)):
+            cols += [np.cos(tau0*u)/np.sqrt(beta)*chi,
+                     np.sin(tau0*u)/np.sqrt(beta)*chi]
+        Up = np.linalg.qr(np.vstack(cols).T, mode='complete')[0][:, 4:]
+        wp, Zp = _eigh25(Up.T @ R0 @ Up)
+        C = Zp.T @ (Up.T @ V)
+        res = 1/(wp - mu)
+        out.append((kap, _p26_sr(C.T @ (res[:, None]*C), lam),
+                    float(np.min(np.abs(wp - mu)))))
+    return out
+
+def _p26_f(s, c):
+    return np.cos(np.pi*s)**2 - c
+
+def _p26_fp(s):
+    return -np.pi*np.sin(2*np.pi*s)
+
+def _p26_argp(c, N_ap, tau0, npts=60000):
+    X, Y = N_ap + 0.5, tau0 + 0.5
+    corners = [X+1j*Y, -X+1j*Y, -X-1j*Y, X-1j*Y, X+1j*Y]
+    tot = 0.0+0.0j
+    for z0, z1 in zip(corners[:-1], corners[1:]):
+        n = max(int(npts*abs(z1-z0)/(8*(X+Y))), 2000)
+        s = z0 + (z1-z0)*np.arange(n+1)/n
+        tot += np.trapezoid(_p26_fp(s)/_p26_f(s, c), s)
+    return tot/(2j*np.pi)
+
+def _p26_ledger(c_lo, c_hi, N_head=64, nc=2001):
+    cs = np.linspace(c_lo, c_hi, nc)
+    tau = np.arccosh(np.sqrt(cs))/np.pi
+    ns = np.arange(-N_head, N_head+1)
+    minsep, argm, resid = np.inf, None, 0.0
+    for ci, t0 in zip(cs, tau):
+        s_lat = ns + 1j*t0
+        resid = max(resid, float(np.max(np.abs(_p26_f(s_lat, ci)))))
+        lamv = s_lat**2
+        Dm = np.abs(lamv[:, None] - lamv[None, :]) + np.eye(len(ns))*1e18
+        j = int(np.argmin(Dm)); r, q = divmod(j, len(ns))
+        if Dm.flat[j] < minsep:
+            minsep, argm = float(Dm.flat[j]), (ci, int(ns[r]), int(ns[q]))
+    t0 = np.arccosh(np.sqrt(0.5*(c_lo+c_hi)))/np.pi
+    both = np.concatenate([ns + 1j*t0, ns - 1j*t0])**2
+    Db = np.abs(both[:, None] - both[None, :]) + np.eye(2*len(ns))*1e18
+    checks = []
+    for ci in (c_lo, 0.5*(c_lo+c_hi), c_hi):
+        t0 = np.arccosh(np.sqrt(ci))/np.pi
+        cnt = _p26_argp(ci, 8, t0)
+        dev = 0.0
+        for sgn in (1, -1):
+            s = ns + sgn*1j*t0 + (0.05+0.05j)
+            for _ in range(60):
+                s = s - _p26_f(s, ci)/_p26_fp(s)
+            dev = max(dev, float(np.max(np.abs(s - (ns + sgn*1j*t0)))))
+        checks.append((ci, cnt, dev))
+    return dict(tau_lo=float(tau[0]), tau_hi=float(tau[-1]),
+                mono=float(np.min(np.diff(tau))), minsep=minsep, argm=argm,
+                resid=resid, naive_dup=float(Db.min()),
+                fp_min=float(np.pi*np.sinh(2*np.pi*tau[0])), checks=checks)
+
+if __name__ == "__main__":
+    print()
+    print("=" * 100)
+    print("ITERATION-26 PROBE P1: shell-deleted (on-shell-projected) BS — corrected form, full (m, L) scan")
+    print("=" * 100)
+    kappas26 = np.geomspace(1.1, 20.0, 41)
+    wins26 = [(1.1, 2.0), (2.0, 5.0), (5.0, 10.0), (10.0, 20.0)]
+    for m in [0.5, 1.0, 2.0]:
+        for L in [128, 256, 512]:
+            A, vals, R0, rho, lam, V, Phi, t26, x, beta = _p26_setup(L, m)
+            ktop = float(vals[-1]); W = V.T @ Phi
+            resol = np.pi/np.log(2*L)
+            mu = 1/(1+ktop)
+            res = 1/(rho - mu)
+            dev1 = float(np.min(np.abs(
+                _eigvals25(-(np.sqrt(np.abs(lam))[:, None] *
+                             ((W*res) @ W.conj().T)) *
+                           (np.sqrt(np.abs(lam))*np.sign(lam))[None, :]) - 1.0)))
+            tau0t = np.arctanh(1/np.sqrt(ktop))/np.pi
+            sr_top, _ = _p26_masked_sr(t26, rho, W, lam, mu, tau0t, resol)
+            rows = []
+            for kap in kappas26:
+                mu = 1/(1+kap); tau0 = np.arctanh(1/np.sqrt(kap))/np.pi
+                s1, n1 = _p26_masked_sr(t26, rho, W, lam, mu, tau0, resol)
+                s2, n2 = _p26_masked_sr(t26, rho, W, lam, mu, tau0, 2*resol)
+                sc, ncc = _p26_masked_sr(t26, rho, W, lam, mu,
+                                         tau0 + 3*resol, resol)
+                rows.append(dict(kap=kap, pop=(kap <= ktop), s1=s1, s2=s2,
+                                 sc=sc, n1=n1, n2=n2))
+            print(f"\n m={m} L={L}: kappa_top={ktop:.6f} Kres_top={np.abs(lam).max():.4f}"
+                  f" |BSev-1|@top={dev1:.2e} srSHELLDEL@top={sr_top:.4f} resol={resol:.4f}")
+            r0 = rows[0]
+            print(f"   kappa=1.1 endpoint (T9): sr(1u/2u)={r0['s1']:.4f}/{r0['s2']:.4f} ctl={r0['sc']:.2f}")
+            for lo, hi in wins26:
+                s = [r for r in rows if lo < r['kap'] <= hi]
+                for z, tag in ((True, 'POP'), (False, 'BEY')):
+                    zz = [r for r in s if r['pop'] == z]
+                    if zz:
+                        print(f"   win({lo},{hi}] {tag} n={len(zz)}: "
+                              f"sr1 max={max(r['s1'] for r in zz):.4f} "
+                              f"sr2 max={max(r['s2'] for r in zz):.4f} "
+                              f"ctl min/max={min(r['sc'] for r in zz):.2f}/{max(r['sc'] for r in zz):.1f} "
+                              f"ndel1={sorted(set(r['n1'] for r in zz))}")
+            for ksel in [2.44, 5.04, 12.9, 20.0]:
+                r = min(rows, key=lambda rr: abs(rr['kap']-ksel))
+                print(f"     k={r['kap']:7.3f} pop={int(r['pop'])} sr1={r['s1']:.4f}"
+                      f" sr2={r['s2']:.4f} ctl={r['sc']:.2f} ndel={r['n1']}/{r['n2']}")
+    print("\n P1 (T7) geometric rank-4 compression demo (m=1, L=256) — the form that FAILS:")
+    for kap, srg, dp in _p26_geo_demo(256, 1.0, [2.4417, 5.0434, 12.9440]):
+        print(f"   kappa={kap:.4f}: sr_geo={srg:.2f}  dist(mu, spec R0_perp)={dp:.2e}")
+    print()
+    print("=" * 100)
+    print("ITERATION-26 PROBE P2: Bari head-ledger — (Q2) head distinctness per compact window")
+    print("=" * 100)
+    for (c_lo, c_hi) in [(1.05, 1.5), (1.5, 4.0), (4.0, 25.0)]:
+        r = _p26_ledger(c_lo, c_hi)
+        print(f"\n window c in [{c_lo}, {c_hi}]: tau0 in [{r['tau_lo']:.6f}, {r['tau_hi']:.6f}]"
+              f"  min grid dtau={r['mono']:.2e} (>0 = monotone)")
+        print(f"   min pairwise |lam_n-lam_m| (|n|<=64, quotiented) = {r['minsep']:.6f}"
+              f" at c={r['argm'][0]:.4f} pair (n={r['argm'][1]}, m={r['argm'][2]})"
+              f"; candidates 4*tau0(c_lo)={4*r['tau_lo']:.6f},"
+              f" sqrt(1+4tau0^2)(c_lo)={np.sqrt(1+4*r['tau_lo']**2):.6f}")
+        print(f"   simplicity min|f'| = pi sinh(2 pi tau0(c_lo)) = {r['fp_min']:.6f};"
+              f" s-plane min sep = 1 (lattice); max residual = {r['resid']:.2e}")
+        print(f"   TRAP: naive two-branch lambda list min sep = {r['naive_dup']:.2e} (exact duplicates)")
+        for ci, cnt, dev in r['checks']:
+            print(f"   c={ci:8.4f}: arg-principle count (|Re s|<=8.5 box) = {cnt.real:.6f}"
+                  f" (expect 34); Newton max|root-lattice| = {dev:.2e}")
+
+# ============================================================================
+# ITERATION-26 RESULTS (2026-07-12 dev runs; the block above reprints them)
+# ============================================================================
+# P1 VALIDATION ANCHORS: Kres_top = 0.3774/0.3877 (m=1, L=128/256) = the
+#   iteration-23/25 values exactly; kappa_top(m=1) = 1.6926/1.9763/2.3027 =
+#   iteration-25's 1.69/1.98/2.30; plain-BS eigenvalue at kappa_top: |ev-1| =
+#   1.7e-14/1.7e-15/7.0e-16 (m=1, L=128/256/512) — detection at machine
+#   precision (Birman-1961/Schwinger-1961; Konno-Kuroda-1966).
+# P1 HEADLINE (form (b), eta = 0, deleting only 6-12 of L free levels):
+#   b=1 unit:  sr <= 0.0378 at ALL 41 kappa in (1.1, 20], all m, all L —
+#     EXCEPT kappa = 1.1 at L = 512: sr = 0.90/0.92/0.94 (T9 threshold-edge
+#     widening; NOT off-shell coupling).
+#   b=2 units: sr <= 0.0056 GLOBALLY (369 points; max at kappa=1.1, L=512).
+#   b=3 units: sr <= 0.0011 GLOBALLY.
+#   CONTROL (equal-width off-shell band): sr in [1.46, 274] — supercritical
+#     at EVERY point. The collapse is specific to the shell band: the
+#     eigenvalue-forming coupling lives within <= 2 resolution units of the
+#     Corner-Indicial frequency tau0(kappa).
+#   AT THE EXACT LATTICE EIGENVALUE kappa_top (plain BS ev = 1 to 2e-15):
+#     shell deletion collapses sr to 0.0053/0.0053/0.0089 (m=1, L=128/256/
+#     512); range over all nine (m, L): [0.0029, 0.0150]. The LEM-A1''''
+#     mechanism at an actual eigenvalue: remove the shell channel and no BS
+#     fixed point survives, by two orders of magnitude.
+#   L-TREND (the requested quantification; beyond-top, b=1, fixed kappa):
+#     (m=1, k=5.04): 0.0144 -> 0.0163 -> 0.0215; (m=1, k=20): 0.0106 ->
+#     0.0120 -> 0.0158 (L=128/256/512); +15-35% per L-doubling, consistent
+#     with the deleted tau-window shrinking as pi/ln(2L) at fixed ndel = 6.
+#     b=2 max over masses: 0.0015 -> 0.0027 -> 0.0056. The drift is UPWARD and
+#     log-slow: margins of 26x-180x below criticality at reachable L, but
+#     NOT a convergent-looking sequence — no continuum limit is claimed.
+# (CH-26) WHAT A RIGOROUS CONTINUUM VERSION NEEDS — exactly three things:
+#   (i)  off-band resolvent bound: for R0^b(kappa) = (1-Pi_b)(A0-kappa)^{-1},
+#        Pi_b = 1_{band}(A0), A0 = coth^2(pi D) (Hislop-Longo-1982):
+#        elementary functional calculus — no LAP needed OFF the band;
+#   (ii) (H1): K_res = (A+1)^{-1} - (A0+1)^{-1} compact with |K_res|^{1/2}-
+#        factored BS norm-continuous in kappa (Konno-Kuroda-1966; Kato-1966
+#        smoothness; nonlocal-kinetic version Ishida-Lorinczi-Sasaki
+#        arXiv:2109.01564) — numerically supported since iteration 23
+#        (sv decay 0.39 -> 4e-4 @ 12 -> 1e-6 @ 24) but UNPROVEN;
+#   (iii) THE HARD PART — the b -> 0 channel closure: A0-LAP in the shell
+#        channel (Agmon-1975 weighted-L2; Mourre-1981 for D) + quantitative
+#        transversality (lattice constants: sigma_perp/gap in [0.92, 1.02];
+#        sin theta_0 >= 0.57 on compact c-sets) converting the LEM-A1''''
+#        hypothesis w-hat(+/-tau0) = 0 into vanishing on-band coupling as
+#        b -> 0. Then sr(BS^b) <= sigma < 1 on a compact window plus (iii)
+#        excludes embedded eigenvalues with vanishing on-shell amplitude
+#        there. The lattice CANNOT probe the b -> 0 limit — b is pinned at
+#        >= pi/ln(2L) (T1); measured here: the off-band sr and its L-trend.
+# P1 HONEST READING [INFERENCE, medium — numerical, eta = 0 lattice, band
+#   pinned at the resolution unit]: off-band sr <= 0.006 at two units,
+#   uniformly over the whole scan, control supercritical everywhere, and the
+#   at-eigenvalue collapse — the strongest numerical exhibit yet of the
+#   LEM-A1'''' mechanism; SUPPORTS but cannot decide the lemma. Sharp
+#   negatives delivered: (T7) the geometric-compression form of the closure
+#   FAILS (do not retry: spectral-band form only); (T8) iteration-25's
+#   deleted-BS "~0.000" rows were part-vacuous (mask deleted all L levels).
+# P2 RESULTS (head |n| <= 64, i.e. 129 eigenvalues per c after the mandatory
+#   s -> -s quotient; 2001-point c-grids; N_ap = 8 argument-principle boxes):
+#   [1.05, 1.5]: min |lam_n - lam_m| = 0.282384 = 4*tau0(1.05), binding pair
+#     (-1, 1); min |f'(s_n)| = 1.439659; count = 34.000000 (imag <= 2e-17)
+#     at c = 1.05/1.275/1.5; Newton max dev = 7.1e-15; residual <= 3.7e-14.
+#   [1.5, 4]:  min = 0.838401 = 4*tau0(1.5), pair (-1, 1); min |f'| =
+#     5.441398; count = 34.000000; Newton 7.1e-15; residual <= 1.5e-13.
+#   [4, 25]:   min = 1.304959 = sqrt(1 + 4 tau0^2)(4) — the BINDING PAIR
+#     SWITCHES to the adjacent (-1, 0); the naive 4*tau0 formula would
+#     overstate (1.6768). min |f'| = 21.765592; count = 34.000000; Newton
+#     7.1e-15; residual <= 1.1e-12.
+#   Uniformity over each window: both margin candidates are increasing in
+#   tau0 and tau0(c) is strictly increasing (dtau0/dc = 1/(2 pi
+#   sqrt(c(c-1))) > 0; machine-checked min grid increment 4.1e-5) — so the
+#   window minimum sits at c_lo, as the grid scan confirms.
+#   TRAP DEMONSTRATED: the unquotiented two-branch lambda list has min
+#   pairwise separation 0.00e+00 (exact duplicates lambda_n^+ =
+#   lambda_{-n}^-) in every window — distinctness claims made without the
+#   quotient are vacuously FALSE.
+# P2 STATEMENT EARNED [ESTABLISHED, machine-checked — double precision,
+#   O(1) conditioning, margins >= 0.28 i.e. ~13 orders above rounding; NOT
+#   interval-arithmetic-certified]: on each compact window, the head
+#   eigenvalues of the transverse pencil are pairwise distinct and simple
+#   with the explicit margins above; combined with the Birkhoff-quadratic
+#   tail (a') (distinct z-roots for every c > 1, ESTABLISHED iteration 23),
+#   (Q2)'s head-distinctness hypothesis is a checked fact per window.
