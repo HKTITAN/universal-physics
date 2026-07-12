@@ -75,18 +75,18 @@ export default function About() {
           B.4 — Design
         </h2>
         <p>
-          The site&rsquo;s technical-reference-manual presentation is inspired by Dan
-          Hollick&rsquo;s{" "}
-          <a href="https://www.makingsoftware.com" rel="noreferrer">
-            Making Software
+          The site&rsquo;s design system (&ldquo;night ledger&rdquo;) is original to this project:
+          one warm charcoal surface ramp, a single terracotta accent, and figures printed as ivory
+          plates on the dark page. Type is set in{" "}
+          <a href="https://fonts.google.com/specimen/Fraunces" rel="noreferrer">
+            Fraunces
           </a>{" "}
-          (inspiration only — all copy, figures, and assets here are original to this project).
-          Type is set in{" "}
-          <a href="https://departuremono.com" rel="noreferrer">
-            Departure Mono
+          (display), Source Serif 4 (body), and{" "}
+          <a href="https://vercel.com/font" rel="noreferrer">
+            Geist Mono
           </a>{" "}
-          (Helena Zhang, OFL) and Source Serif 4. All figure plates are hand-coded SVG drawn from
-          the wiki&rsquo;s actual content.
+          (labels). All figure plates are hand-coded SVG drawn from the wiki&rsquo;s actual
+          content.
         </p>
 
         <h2 className="numbered-rule" id="license">

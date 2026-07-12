@@ -1,18 +1,21 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import { Source_Serif_4 } from "next/font/google";
+import { Fraunces, Geist_Mono, Source_Serif_4 } from "next/font/google";
 import Link from "next/link";
 import "katex/dist/katex.min.css";
 import "./globals.css";
 
-const departure = localFont({
-  src: "../public/fonts/DepartureMono-Regular.woff2",
-  weight: "400",
-  style: "normal",
+const fraunces = Fraunces({
+  subsets: ["latin"],
   display: "swap",
-  variable: "--font-departure",
-  adjustFontFallback: false,
-  fallback: ["ui-monospace", "SFMono-Regular", "Menlo", "Consolas", "monospace"],
+  variable: "--font-display",
+  style: ["normal", "italic"],
+  axes: ["opsz", "SOFT", "WONK"],
+});
+
+const geistMono = Geist_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-mono",
 });
 
 const sourceSerif = Source_Serif_4({
@@ -26,15 +29,15 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL("https://universal-physics.khe.money"),
   title: {
-    default: "Universal Physics — a six-iteration research manual",
+    default: "Universal Physics — a twenty-four-iteration research manual",
     template: "%s · Universal Physics",
   },
   description:
-    "A six-iteration, adversarially-refereed research program toward a universal theory of physics — and the precise account of why one is not yet in hand. 17 catalogued clashes, ~90 refereed findings in iteration 6, three explicit hedges.",
+    "A twenty-four-iteration, adversarially-refereed research program toward a universal theory of physics — and the precise account of why one is not yet in hand. 17 catalogued clashes, four methods-no-gos, one remaining named lemma.",
   openGraph: {
     title: "Universal Physics",
     description:
-      "A six-iteration, adversarially-refereed research program toward a universal theory of physics — and the precise account of why one is not yet in hand.",
+      "A twenty-four-iteration, adversarially-refereed research program toward a universal theory of physics — and the precise account of why one is not yet in hand.",
     url: "https://universal-physics.khe.money",
     siteName: "Universal Physics",
     type: "website",
@@ -46,7 +49,7 @@ export const metadata: Metadata = {
         url: "/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "Universal Physics — a six-iteration research manual",
+        alt: "Universal Physics — a twenty-four-iteration research manual",
       },
     ],
   },
@@ -54,14 +57,17 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Universal Physics",
     description:
-      "A six-iteration, adversarially-refereed research manual: the verdict, the registries, the open problems, the experiment watchlist.",
+      "A twenty-four-iteration, adversarially-refereed research manual: the verdict, the registries, the open problems, the experiment watchlist.",
     images: ["/og-image.svg"],
   },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${departure.variable} ${sourceSerif.variable}`}>
+    <html
+      lang="en"
+      className={`${fraunces.variable} ${geistMono.variable} ${sourceSerif.variable}`}
+    >
       <body>
         <a className="skip-link" href="#main">
           Skip to content
@@ -89,10 +95,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="site-footer">
           <div className="site-footer-inner">
             <p style={{ margin: 0 }}>
-              Harshit Khemani + Claude · design inspired by Dan Hollick&rsquo;s{" "}
-              <a href="https://www.makingsoftware.com" rel="noreferrer">
-                Making Software
-              </a>
+              Harshit Khemani + Claude · set in Fraunces, Source Serif &amp; Geist Mono
             </p>
             <p style={{ margin: 0 }}>
               <a href="https://github.com/HKTITAN/universal-physics" rel="noreferrer">
