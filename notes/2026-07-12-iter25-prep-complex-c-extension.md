@@ -73,6 +73,25 @@ It must be refereed (default REFUTE) before anything consumes it.
   the real axis (limiting absorption from above), this whole note may be unnecessary —
   the scope agent's caveat was conditional. The consumer should say which.
 
+## Appendix — referee-support data for the Bari supplement (2026-07-12)
+
+The iteration-25 Bari prover (output cached, unrefereed) claims the Lipschitz constant
+L(τ₀) = π·√(5π/3)·cosh(π(τ₀ + ½)) for the eigenvector map Φ(s) on the strip
+|Im s − τ₀| ≤ ½. Integrator's numerical check (sup of ‖∂ₛΦ‖_{L²} over Re s ∈ [0,40],
+Im s spanning the strip; Lipschitz constant on a convex set = sup of derivative norm):
+
+| τ₀ (c ≈) | L claimed | measured sup‖∂ₛΦ‖ | ratio | verdict |
+|---|---|---|---|---|
+| 0.0462 (1.02) | 20.64 | 8.79 | 0.43 | HOLDS |
+| 0.2108 (1.5) | 33.92 | 11.03 | 0.33 | HOLDS |
+| 0.4196 (4) | 64.81 | 17.87 | 0.28 | HOLDS |
+| 0.7298 (25) | 171.30 | 42.07 | 0.25 | HOLDS |
+
+The claimed constant is **valid with 2.4–4.3× headroom** (an over-estimate is harmless
+for the Bari argument — only finiteness and explicitness are load-bearing). Worst point
+sits at Re s = ½, Im s at the top of the strip, consistent with the cosh envelope.
+`[measurement — supports, does not referee, the claimed proof]`
+
 ## See also
 - [2026-07-11-iter24-transfer-lemma-falls.md](2026-07-11-iter24-transfer-lemma-falls.md) — the real-c theorem this extends
 - [../scripts/eo-modular-numerics.py](../scripts/eo-modular-numerics.py) — the Gram-probe code for (R2)
