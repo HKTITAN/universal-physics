@@ -1,9 +1,9 @@
 # universal-physics.khe.money — site
 
 Next.js (App Router, TypeScript) site for the Universal Physics research wiki.
-Design: technical-reference-manual aesthetic, inspired by Dan Hollick's
-[Making Software](https://www.makingsoftware.com) (inspiration only — all copy,
-figures, and assets are original). Code MIT; rendered content CC BY-SA 4.0.
+Design: the "night ledger" system, original to this project — one warm charcoal
+surface ramp, a single terracotta accent, and SVG figures printed as ivory
+plates on the dark page. Code MIT; rendered content CC BY-SA 4.0.
 
 ## How it works
 
@@ -14,21 +14,26 @@ figures, and assets are original). Code MIT; rendered content CC BY-SA 4.0.
   internal-link map; `lib/markdown.ts` is the unified/remark/rehype pipeline
   (gray-matter frontmatter strip, KaTeX math, epistemic-tag chips, .md-link
   rewriting, responsive table wrapping).
-- Figure plates are hand-coded SVG in `components/figures/`.
-- Fonts: Departure Mono (self-hosted, OFL — `public/fonts/`) + Source Serif 4
-  (next/font/google).
+- Figure plates are hand-coded SVG in `components/figures/`. They consume the
+  legacy role tokens (`--ink-*`, `--blue`, `--ochre`, `--paper-*`), which
+  `.figure-plate` re-scopes to a light "printed plate" palette — so the figure
+  components never need theme-awareness.
+- Fonts (all next/font/google): Fraunces (display), Source Serif 4 (body),
+  Geist Mono (labels).
 
 ## Develop / build
 
 ```sh
 npm install
 npm run dev    # http://localhost:3000
-npm run build  # production build (fully static, 72 pages)
+npm run build  # production build (fully static)
 ```
 
 ## Deploy (Vercel)
 
-Set the project **Root Directory** to `site/` and keep
-**"Include source files outside of the Root Directory in the Build Step"**
-enabled (the default), since the prebuild step reads the wiki from `../`.
-No other configuration is required.
+The GitHub repo is connected to the Vercel project (`khemani/universal-physics`),
+so pushes to `main` deploy to production automatically. The repo-root
+`vercel.json` points the build at `site/` (`installCommand` / `buildCommand` /
+`outputDirectory`), which also makes the git build read the live wiki sources
+from the repo root during `prepare-content`. Manual deploys still work with
+`vercel deploy --prod --yes` from either the repo root or `site/`.
