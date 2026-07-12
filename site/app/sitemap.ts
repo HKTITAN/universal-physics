@@ -10,7 +10,7 @@ import { FLAT } from "@/lib/manifest";
 const BASE = "https://universal-physics.khe.money";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["/", "/about", "/contribute"].map((path) => ({
+  const staticRoutes = ["/", "/research", "/about", "/contribute"].map((path) => ({
     url: new URL(path, BASE).toString(),
     changeFrequency: "monthly" as const,
   }));

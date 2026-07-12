@@ -81,6 +81,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               UNIVERSAL PHYSICS
             </Link>
             <nav className="site-nav" aria-label="Site">
+              <Link href="/research">The Research</Link>
               <Link href="/#contents">Contents</Link>
               <Link href="/manual/conclusion">The Verdict</Link>
               <Link href="/contribute">Contribute</Link>
