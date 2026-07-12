@@ -19,3 +19,6 @@ agents/node_modules/
 agents/.eve/
 
 .vercel
+
+# local press assets — screenshot material, never deployed or pushed
+press/
