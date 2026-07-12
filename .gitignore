@@ -17,3 +17,5 @@ supermemory-*.log
 # eve agents
 agents/node_modules/
 agents/.eve/
+
+.vercel

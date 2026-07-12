@@ -10,6 +10,19 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-07-12 — Iteration 25: THE NORMAL FORM (P1-NF established; Bari discharged; a=2 retracted; crux → LEM-SEAM; verdict unchanged 24th consecutive; hedge HELD at R7)
+
+Widened five-lens fleet + scope + referees + numerics + binding assembly (PARTIAL_PROGRESS; cold re-derivation 36/36). Synthesis: [notes/2026-07-12-iter25-normal-form.md](notes/2026-07-12-iter25-normal-form.md).
+
+- **P1-NF `[ESTABLISHED]`:** coupled strip ⟺ scalar H(iτ₀) imaginary-AB-flux problem via T∘W; the gate = no L² zero mode of the continued positive-flux family; LEM-A1‴-T subsumed; ŵ(±τ₀) closed form; Step-6 sign error caught by referee, repaired (seam orientation flipped).
+- **Bari supplement `[ESTABLISHED, repaired]`** — iteration-24 conditionality DISCHARGED; **complex-c extension `[ESTABLISHED]`** (prep draft passed referee; fifth complex point verified).
+- **RETRACTION:** the iteration-22 a = 2 FH ceiling (separable-envelope artifact; true per-channel 2+2n open-sense; local part none). Mode recast = coupled LOCAL system (falsifier F3 discharged, 3.1e-9).
+- **Minted `[OPEN]`:** LEM-SEAM (1D positive seam pencil; Perron constraint); LEM-PI-INDEX; {LEM-A1⁗-N} equivalence `[INFERENCE, high]` conditional on the named S5 lemma (n-uniform weighted-Volterra bound).
+- **Fifth methods-negative (numerical):** plain Konno–Kuroda infeasible (sr 2.3–3.0 everywhere; ~1/η scaling); + N1a naive splitting; + N1b integrator self-refutation (two-L row-shift trap minted).
+- **Numerics:** falsifiers F1–F3 untriggered; σ_⊥/gap ∈ [0.92, 1.02] (33 points); deleted-BS sr ≈ 0 — the LEM-A1⁗ mechanism observed. Support `[INFERENCE, medium]`.
+- **Full-ladder:** carrier screen reproduces in mode coordinates (common-cause theorem; corner-scope vacuity second proof); n₁ order-blindness lemma `[ESTABLISHED, indicial]` with the full-germ strengthening REFUTED (mass orients the edges — the wall is conformal-scope). Scope verdict: compact-window uniformity suffices `[ESTABLISHED]`.
+- Watch #6: 0 strong (weak: 2604.02357 Lévy-UCP; 2603.28403 local Krein non-negativity; 2605.20001; 2512.04659). Hedge HELD at R7; verdict unchanged **24th consecutive**; count FIVE.
+
 ## 2026-07-11 — Iteration 24: LEM-A1‴-T FALLS (the transfer lemma proved; verdict unchanged 23rd consecutive; LEM-A1⁗ the sole remaining blocker; hedge HELD at R7)
 
 Two proof lenses (T1 direct transfer; T2 closed-form Gram) + binding assembling referee: **PROOF_ASSEMBLES**. Synthesis: [notes/2026-07-11-iter24-transfer-lemma-falls.md](notes/2026-07-11-iter24-transfer-lemma-falls.md).

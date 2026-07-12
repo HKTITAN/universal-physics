@@ -7,7 +7,7 @@ updated: 2026-07-11
 
 # Findings — Cumulative Synthesis
 
-**Status:** Living synthesis — current through iteration 24. Read this first; it is the executive summary of the whole wiki.
+**Status:** Living synthesis — current through iteration 25. Read this first; it is the executive summary of the whole wiki.
 **Last updated:** 2026-07-11
 
 This page distills the current state of the investigation into six questions: *what is solid; where do the frameworks genuinely clash; which deep principles look most fundamental; what candidate unifying directions survive scrutiny; is a universal theory even possible; and what should we work on next.* Every claim is tagged per [EPISTEMICS.md](EPISTEMICS.md). Detail and derivations live on the linked pages; this page is the map, not the territory.
@@ -376,6 +376,18 @@ Three track agents brought frameworks NEVER previously applied to the carrier pr
 - **LEM-A1‴-T PROVED `[ESTABLISHED]`** — assembly stance PROOF_ASSEMBLES: the transverse eigenvector family is a Riesz basis for every fixed c > 1, by the elementary weighted-Fourier → unitary-folding → constant-intertwiner transfer (machine-verified 1.4e-15; explicit frame bounds bracket all measured Gram spectra). The known repeated-root gap is bypassed, not solved.
 - **Conditioning surprise dissolved** (closed-form Gram; two explicit degeneracy laws; the integrator's own "c→1⁺ cleanest" misread corrected in assembly). Bounds uniform on compacts of (1,∞) only.
 - **The free-field gate now hangs on LEM-A1⁗ alone**, attackable with explicit tools. Watch-sweep #4 dry. See the [iteration-24 synthesis](notes/2026-07-11-iter24-transfer-lemma-falls.md).
+
+## Iteration 25 update (2026-07-12) — THE NORMAL FORM: the gate becomes a scalar imaginary-flux problem; the Bari conditionality discharged; a standing obstacle retracted; the crux relocated to LEM-SEAM; hedge HELD
+
+**Outcome: verdict UNCHANGED — TWENTY-FOURTH consecutive confirmation; hedge HELD at R7 (the Bari half of the R8 condition substantially met; the transversality half open). The strongest structural iteration since 21.**
+- **P1-NF `[ESTABLISHED]` (assembler re-derived cold, 36/36 machine checks):** the coupled strip system is EXACTLY equivalent, via the bounded-invertible T∘W, to the scalar problem H(iτ₀)g = 0 — plain periodicity plus **imaginary Aharonov–Bohm flux iτ₀**. The gate: *a positive real-flux family analytically continued to imaginary flux has no L² zero mode*. LEM-A1‴-T subsumed; on-shell functional in closed form; a prover sign error (Step 6) caught and repaired by referee.
+- **The Bari conditionality DISCHARGED `[ESTABLISHED, repaired]`** — iteration-24's exact-lattice caveat closed; the integrator's complex-c extension draft passed referee to `[ESTABLISHED]`.
+- **RETRACTION:** the iteration-22 FH rate ceiling a = 2 was an envelope ARTIFACT — true per-channel ceiling 2+2n (open sense); the local part has none; the mode recast is a coupled LOCAL system.
+- **Crux relocated:** LEM-A1⁗ → **LEM-SEAM `[OPEN]`** (1D positive seam pencil, Perron constraint, positivity-improving B) ≡ {LEM-A1⁗-N} conditional on the named S5 lemma (n-uniform weighted-Volterra bound). Difficulty conserved, terrain improved.
+- **Fifth methods-negative** (numerical): plain Konno–Kuroda contraction infeasible; computer-assisted exclusion survives only in on-shell-projected form (assistant, not bypass).
+- **The mechanism observed:** on-shell suppression costs the FULL spectral gap (σ_⊥/gap ∈ [0.92, 1.02] at all 33 points); deleting the on-shell channel collapses the BS spectral radius to ≈ 0 — LEM-A1⁗'s content, seen directly. Support at `[INFERENCE, medium]`.
+- **Full-ladder probes (both negative, as expected):** the carrier screen REPRODUCES in mode coordinates (common-cause theorem: constant Im s_n drives both explicitness and vacuity); the n₁ **order-blindness lemma** `[ESTABLISHED, indicial scope]` — but the full-germ strengthening was REFUTED (the first mass correction is R1-odd: mass orients the edges), so the n₁ wall is a conformal-scope theorem.
+- Watch #6 dry (0 strong). See the [iteration-25 synthesis](notes/2026-07-12-iter25-normal-form.md).
 
 ## See also
 - [CONCLUSION.md](CONCLUSION.md) — the capstone verdict · [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)
