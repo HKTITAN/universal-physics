@@ -882,6 +882,13 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-07-12-iter26-s5-and-seam.md",
         group: "Iteration 26 — 2026-07-12 · S5 and the seam (equivalence established; LEM-TRACE established; verdict unchanged 25th; hedge holds at R7)",
       },
+      {
+        num: "13.94",
+        slug: "2026-07-12-iter27-seam-groundwork",
+        title: "Iteration-27 Synthesis — The Seam Groundwork: CH-26(iii)'s Parts Established; The Gate Compresses to the Off-Band Bound (B)",
+        file: "notes/2026-07-12-iter27-seam-groundwork.md",
+        group: "Iteration 27 — 2026-07-12 · the seam groundwork (CH-26(iii) parts established; the crux compresses to (B); one cold self-refutation; verdict unchanged 26th; hedge holds at R7)",
+      },
     ],
   },
   {

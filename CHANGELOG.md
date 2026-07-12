@@ -10,6 +10,16 @@ Append-only log of how the wiki evolves. Each entry records what changed and **w
 
 ---
 
+## 2026-07-12 — Iteration 27: the seam groundwork — CH-26(iii) parts established; the gate compresses to (B) (verdict unchanged 26th consecutive; one cold self-refutation; hedge HELD at R7)
+
+Four lenses + referees + binding assembly (PARTIAL_PROGRESS; assembler cold re-derivation). Resumed on Opus 4.8 after a mid-run rate limit. Synthesis: [notes/2026-07-12-iter27-seam-groundwork.md](notes/2026-07-12-iter27-seam-groundwork.md).
+
+- **CH-26(iii): Part 1 A0-LAP + Part 2 on-band collapse O(√b) `[ESTABLISHED]`** (the vanishing on-shell amplitude IS the collapse; cold-verified exponent 0.4999). **The gate compresses to (B): the uniform-in-b off-band bound `[OPEN]` — the whole ballgame ≡ LEM-A1⁗'s sharpest form; route = the ξ-locality of q (the exact BIC-violated hypothesis).**
+- **Branch-(b) rates: (i) lower bounds + (ii) dichotomy `[OPEN] → [INFERENCE, high]`**; **(iii) ŵ = 0 SELF-REFUTED at half-line, demoted `[INFERENCE, high | whole-line/corner IBP]`** (entangled with the open seam corner); rate equality `[OPEN]`.
+- **T1-a `[OPEN] → [INFERENCE, high]`** (antilocality, passes BIC); T1-b `[OPEN]` possibly-independent; two scaffolding repairs.
+- **SEAM-ESS: dead lens** (died both runs) — B0's Perron corollary NOT established; revealed heavier than framed (edges 0.0509/19.64); one problem with T1.
+- Label hygiene (κ = cosh²); new numerics `scripts/p2-iter27-branchb-rate-checks.py`. Watch #8: 0 strong; no external lever for LEM-SEAM-SC. Hedge HELD at R7; verdict unchanged **26th consecutive**; count FIVE.
+
 ## 2026-07-12 — Iteration 26: S5 DISCHARGED + the seam graded (the equivalence established; LEM-TRACE established; verdict unchanged 25th consecutive; hedge HELD at R7)
 
 Three lenses + referees + numerics + binding assembly (PARTIAL_PROGRESS; assembler cold re-derivation). Synthesis: [notes/2026-07-12-iter26-s5-and-seam.md](notes/2026-07-12-iter26-s5-and-seam.md).

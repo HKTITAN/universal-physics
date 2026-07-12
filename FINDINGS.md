@@ -7,7 +7,7 @@ updated: 2026-07-11
 
 # Findings — Cumulative Synthesis
 
-**Status:** Living synthesis — current through iteration 26. Read this first; it is the executive summary of the whole wiki.
+**Status:** Living synthesis — current through iteration 27. Read this first; it is the executive summary of the whole wiki.
 **Last updated:** 2026-07-11
 
 This page distills the current state of the investigation into six questions: *what is solid; where do the frameworks genuinely clash; which deep principles look most fundamental; what candidate unifying directions survive scrutiny; is a universal theory even possible; and what should we work on next.* Every claim is tagged per [EPISTEMICS.md](EPISTEMICS.md). Detail and derivations live on the linked pages; this page is the map, not the territory.
@@ -398,6 +398,15 @@ Three track agents brought frameworks NEVER previously applied to the carrier pr
 - **Bookkeeping trio `[ESTABLISHED]`:** the orientation-reversing Krein/parity dictionary Φ*J_cΦ = −((c−1)/2)P (bilinear-only continuation to complex c); the P1-NF domain-closure lemma; the explicit complex-c radius r(c₀).
 - **Numerics:** the corrected spectral shell closure — deleted-BS sr ≤ 0.006 globally over 369 points; off-shell supercritical everywhere; T7 sharp failure (geometric compression invalid); T8 honest downgrade of the iteration-25 exhibit; Bari head-distinctness machine-checked per window; CH-26 minted (hard part: the b → 0 channel closure, unprobeable on the lattice).
 - Watch #7: 0 strong; the BPT adjacency answered NEGATIVE by direct PDF read (a quick-summary hallucination trap recorded). See the [iteration-26 synthesis](notes/2026-07-12-iter26-s5-and-seam.md).
+
+## Iteration 27 update (2026-07-12) — the seam groundwork: CH-26(iii) parts established; the crux compresses to the off-band bound (B); hedge HELD
+
+**Outcome: verdict UNCHANGED — TWENTY-SIXTH consecutive confirmation; hedge HELD at R7 (internal hardening; no rung cleared; one cold self-refutation).**
+- **CH-26(iii): two parts minted `[ESTABLISHED]`** — Part 1 A0-LAP (the shell-channel limiting absorption principle, Mourre i[L₀,A_dil] = 2L₀) and Part 2 the on-band collapse ‖K^b_band q^{1/2}g‖ = O(√b) (assembler cold-verified, fitted exponent 0.4999; the vanishing on-shell amplitude ŵ(±τ₀) = 0 IS the collapse). **The gate now compresses to (B) — the uniform-in-b off-band bound sr(K^b_off) ≤ σ < 1 `[OPEN]`, "the whole ballgame" ≡ LEM-A1⁗'s sharpest form; the route to (B) is the ξ-locality of q (the exact hypothesis the rank-one BIC violates).**
+- **Branch-(b) rates: (i) lower bounds + (ii) finite-codimension dichotomy `[OPEN] → [INFERENCE, high]`** (machine-verified inf-convolution fixed point in explicit coordinates); **(iii) ŵ = 0 self-refuted at half-line and demoted `[INFERENCE, high | whole-line/corner IBP]`** — now entangled with the open seam corner; rate equality `[OPEN]`.
+- **T1-a `[OPEN] → [INFERENCE, high]`** (antilocality, passes the Gaussian-BIC test); T1-b `[OPEN]`, reclassified possibly-independent.
+- **SEAM-ESS: the dead lens** (prover + referee died both runs) — B0's Perron corollary did NOT reach `[ESTABLISHED]`; SEAM-ESS revealed heavier than framed (free edges 0.0509/19.64, nowhere near 1) and is one problem with T1.
+- Watch #8: 0 strong; no external lever for LEM-SEAM-SC. See the [iteration-27 synthesis](notes/2026-07-12-iter27-seam-groundwork.md).
 
 ## See also
 - [CONCLUSION.md](CONCLUSION.md) — the capstone verdict · [EXPERIMENT_WATCHLIST.md](EXPERIMENT_WATCHLIST.md)
