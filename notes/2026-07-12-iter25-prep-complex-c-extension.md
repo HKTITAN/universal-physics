@@ -126,6 +126,19 @@ singular-value decay (sv[12] ~ 4e-4). A resolvent-difference norm < 1 with rapid
 decay is exactly the shape a Konno–Kuroda exclusion needs. Route refined, still
 nothing proved; the interval-arithmetic-with-explicit-constants step is untouched.
 
+**(N1b) The mR → ∞ corner does NOT close by norm bounds — own conjecture refuted,
+trap documented `[measurement + retraction, 2026-07-12]`.** The integrator conjectured
+the fourth corner of the compact-core program (mR → ∞) closes by norm collapse
+(‖A(mR)‖ → 1). A two-L lattice scan refutes the design: the apparent growth of ε_min
+with mass is a pure lattice-mass artifact — the signature is exact row-shift
+ε_min(L=128, m) = ε_min(L=256, 2m) (e.g. 2.0339 vs 2.0340), i.e. ε_min is a function
+of m_lat = 8m/L alone in the scanned range. In the continuum, the iteration-18 law
+(ε_min·ln L → π² at fixed mR) means σ(A) = [1, ∞) a.c. for **every** mR: A is
+unbounded, no norm-collapse corner closure exists. **The mR → ∞ corner of the
+compact-core program is genuinely OPEN** (what varies with mR is spectral weight,
+not spectral support). TRAP for future probes: any large-mass lattice scan must
+include the two-L row-shift check before reading mass dependence as physical.
+
 **(N2) Exact parity split `[elementary — verify and consume]`.** Q(−ξ, η) = Q(ξ, η) and
 the η-edge conditions are ξ-independent, so interval reflection z ↦ −z (⟺ ξ ↦ −ξ)
 commutes with the full coupled system and with A. Every candidate eigenfunction splits
