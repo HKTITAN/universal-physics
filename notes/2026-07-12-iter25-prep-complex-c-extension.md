@@ -112,6 +112,20 @@ mR → ∞ (large-mass asymptotics — open, name it), κ → 1⁺ (FG-1989/LEM-
 ground BS; interval-arithmetic discretization error must be bounded by the explicit frame
 constants — that bound is the real work. Status: route minted, nothing proved.
 
+**(N1a) First feasibility scan — the NAIVE splitting fails; the bounded-transform
+form is the viable one `[measurement, 2026-07-12]`.** Lattice scan at L = 192,
+m ∈ {1, 2}: with raw K = A_sym − coth²(πD_lat), ‖K‖ ≈ 9.7 — as large as the lattice
+A₀'s whole spectral range [1, 10.9] (the two regularizations disagree at the spectral
+top: box quantization vs Peschel — an artifact concentrated at small ε), and
+‖|K|^{1/2}(A₀−κ−iη)^{-1}|K|^{1/2}‖ > 1 at every tested κ ∈ [1.5, 20]. So the
+compact-core program must be built on the **bounded-transform (Konno–Kuroda-type)
+Birman–Schwinger**, not the raw splitting — and there the feasibility indicator
+already exists: the iteration-23 resolvent probe measured
+‖(A_sym+1)^{-1} − (coth²(πD)+1)^{-1}‖ ≈ 0.377–0.397 (refinement-stable) with fast
+singular-value decay (sv[12] ~ 4e-4). A resolvent-difference norm < 1 with rapid
+decay is exactly the shape a Konno–Kuroda exclusion needs. Route refined, still
+nothing proved; the interval-arithmetic-with-explicit-constants step is untouched.
+
 **(N2) Exact parity split `[elementary — verify and consume]`.** Q(−ξ, η) = Q(ξ, η) and
 the η-edge conditions are ξ-independent, so interval reflection z ↦ −z (⟺ ξ ↦ −ξ)
 commutes with the full coupled system and with A. Every candidate eigenfunction splits
