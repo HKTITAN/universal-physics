@@ -8,7 +8,7 @@ export default function Cover() {
       {/* ── manual cover plate ── */}
       <section className="cover-plate" aria-labelledby="cover-title">
         <p className="cover-kicker">
-          <span>Technical reference manual · Revision 25 · 2026-07-12</span>
+          <span>Technical reference manual · Revision 26 · 2026-07-12</span>
           <span className="ref">DOC UP-2026 · universal-physics.khe.money</span>
         </p>
         <h1 className="cover-title" id="cover-title">
@@ -17,14 +17,14 @@ export default function Cover() {
           <span className="accent">PHYSICS</span>
         </h1>
         <p className="cover-subtitle">
-          A twenty-five-iteration, adversarially-refereed research program toward a universal theory of
+          A twenty-six-iteration, adversarially-refereed research program toward a universal theory of
           physics — and the precise account of why one is not yet in hand.
         </p>
         <dl className="cover-stats">
           <div>
             <dt>Iterations</dt>
             <dd>
-              25 <span className="unit">(terminal saturation)</span>
+              26 <span className="unit">(terminal saturation)</span>
             </dd>
           </div>
           <div>
@@ -48,7 +48,7 @@ export default function Cover() {
           <div>
             <dt>Verdict</dt>
             <dd>
-              <span className="unit">unchanged 24 iters:</span> not-yet-physics
+              <span className="unit">unchanged 25 iters:</span> not-yet-physics
             </dd>
           </div>
         </dl>
@@ -72,7 +72,7 @@ export default function Cover() {
           sharp, coherent research <em>strategy</em>, not a result.
         </p>
         <p style={{ fontFamily: "var(--mono)", fontSize: "0.72rem", color: "var(--ink-500)" }}>
-          Condensed; the full paragraph, with its hedges and its twenty-four-iteration stability record,
+          Condensed; the full paragraph, with its hedges and its twenty-five-iteration stability record,
           is <Link href="/manual/conclusion">chapter 1</Link>.
         </p>
       </blockquote>

@@ -29,15 +29,15 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL("https://universal-physics.khe.money"),
   title: {
-    default: "Universal Physics — a twenty-five-iteration research manual",
+    default: "Universal Physics — a twenty-six-iteration research manual",
     template: "%s · Universal Physics",
   },
   description:
-    "A twenty-five-iteration, adversarially-refereed research program toward a universal theory of physics — and the precise account of why one is not yet in hand. 17 catalogued clashes, five methods-negatives, one remaining named lemma.",
+    "A twenty-six-iteration, adversarially-refereed research program toward a universal theory of physics — and the precise account of why one is not yet in hand. 17 catalogued clashes, five methods-negatives, one remaining named lemma.",
   openGraph: {
     title: "Universal Physics",
     description:
-      "A twenty-five-iteration, adversarially-refereed research program toward a universal theory of physics — and the precise account of why one is not yet in hand.",
+      "A twenty-six-iteration, adversarially-refereed research program toward a universal theory of physics — and the precise account of why one is not yet in hand.",
     url: "https://universal-physics.khe.money",
     siteName: "Universal Physics",
     type: "website",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
         url: "/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "Universal Physics — a twenty-five-iteration research manual",
+        alt: "Universal Physics — a twenty-six-iteration research manual",
       },
     ],
   },
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Universal Physics",
     description:
-      "A twenty-five-iteration, adversarially-refereed research manual: the verdict, the registries, the open problems, the experiment watchlist.",
+      "A twenty-six-iteration, adversarially-refereed research manual: the verdict, the registries, the open problems, the experiment watchlist.",
     images: ["/og-image.svg"],
   },
 };
