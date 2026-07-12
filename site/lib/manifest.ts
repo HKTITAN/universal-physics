@@ -861,6 +861,13 @@ export const CHAPTERS: ManualChapter[] = [
         file: "notes/2026-07-11-iter24-transfer-lemma-falls.md",
         group: "Iteration 24 — 2026-07-11 · the transfer lemma falls (PROOF_ASSEMBLES; the gate hangs on one lemma; verdict unchanged 23rd; hedge holds at R7)",
       },
+      {
+        num: "13.91",
+        slug: "2026-07-12-iter25-prep-complex-c-extension",
+        title: "Iteration-25 Prep — The Complex-c Extension of LEM-A1‴-T (Draft, Unrefereed)",
+        file: "notes/2026-07-12-iter25-prep-complex-c-extension.md",
+        group: "Iteration 25 — 2026-07-12 · in progress (the LEM-A1⁗ attack + full-ladder new-asset probes)",
+      },
     ],
   },
   {
