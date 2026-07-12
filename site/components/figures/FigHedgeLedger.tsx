@@ -1,6 +1,6 @@
 import FigurePlate, { S } from "./FigurePlate";
 
-/** FIG 13.1 — the saturation flatline: 26 iterations, one verdict that never moves. */
+/** FIG 13.1 — the saturation flatline: 27 iterations, one verdict that never moves. */
 export default function FigHedgeLedger() {
   // one one-word action per iteration; the flatline runs across all of them
   const iters: Array<[number, string]> = [
@@ -30,6 +30,7 @@ export default function FigHedgeLedger() {
     [24, "TRANSFER"],
     [25, "SEAM"],
     [26, "VOLTERRA"],
+    [27, "OFF-BAND"],
   ];
 
   const x0 = 56;
@@ -41,7 +42,7 @@ export default function FigHedgeLedger() {
   return (
     <FigurePlate
       id="13.1"
-      caption="The saturation flatline. A single perfectly flat line runs across all twenty-six iterations: the verdict (PARTIAL coherence · encodes-not-generates · not-yet-physics) has not moved for twenty-five consecutive confirmations — terminal analytical saturation, robust across every modern mathematical framework tried, and now attacked through every mode of inquiry: reasoning (iterations 1–17), construction (the generative assault, 18), computation (the first numerics, 18–20), and proof (the E=0 half of the free-field (E_O) criterion is an established theorem, 19; the remaining gate collapsed to one spectral question about one explicitly-constructed self-adjoint operator — LEM-A1″ and its residues, iterations 20–23; the transfer lemma proved, 24; the normal form P1-NF, 25; S5 and the channel equivalence, 26 — the whole gate is now a scalar imaginary-flux zero-mode exclusion, open at LEM-SEAM-SC). Three hedges survive: the principal HYP-CKV-VACUITY at grade R7 since iteration 16 (conditional HIGH, on the localization template n₁ AND hypothesis (E_O)); OP-48c horn C (theorem-conditional-on-framework); and HYP-ENCODING-SCREEN (the no-test corollary, inheriting the grade). The flatness is the result: marginal yield of further work has gone to zero — only external input (the sign-changing seam case LEM-SEAM-SC, or the 2027 DESI w(z) verdict) can move it. [INFERENCE, high]"
+      caption="The saturation flatline. A single perfectly flat line runs across all twenty-seven iterations: the verdict (PARTIAL coherence · encodes-not-generates · not-yet-physics) has not moved for twenty-six consecutive confirmations — terminal analytical saturation, robust across every modern mathematical framework tried, and now attacked through every mode of inquiry: reasoning (iterations 1–17), construction (the generative assault, 18), computation (the first numerics, 18–20), and proof (the E=0 half of the free-field (E_O) criterion is an established theorem, 19; the remaining gate collapsed to one spectral question about one explicitly-constructed self-adjoint operator — LEM-A1″ and its residues, iterations 20–23; the transfer lemma proved, 24; the normal form P1-NF, 25; S5 and the channel equivalence, 26; the shell LAP and on-band collapse, 27 — the whole gate is now a single uniform off-band operator-norm bound). Three hedges survive: the principal HYP-CKV-VACUITY at grade R7 since iteration 16 (conditional HIGH, on the localization template n₁ AND hypothesis (E_O)); OP-48c horn C (theorem-conditional-on-framework); and HYP-ENCODING-SCREEN (the no-test corollary, inheriting the grade). The flatness is the result: marginal yield of further work has gone to zero — only external input (the off-band bound (B), or the 2027 DESI w(z) verdict) can move it. [INFERENCE, high]"
     >
       <svg
         viewBox="0 0 760 416"
@@ -50,13 +51,13 @@ export default function FigHedgeLedger() {
         style={{ fontFamily: S.mono }}
       >
         <title>
-          A horizontal axis of twenty-six iterations, one tick each, with a one-word action
+          A horizontal axis of twenty-seven iterations, one tick each, with a one-word action
           under every tick: map, stress-test, attempt, attack, saturate, new-input,
           levers, net, naturality, gap, bicentralizer, terminal, frame, assault, new-math,
           multi-wedge, E_O, numerics, proof, zaremba, collapse, bic, gram, transfer, seam,
-          volterra. A single perfectly flat horizontal line runs straight across
-          all twenty-six ticks without deviating — this
-          flat line is the verdict, unchanged for twenty-five consecutive confirmations:
+          volterra, off-band. A single perfectly flat horizontal line runs straight across
+          all twenty-seven ticks without deviating — this
+          flat line is the verdict, unchanged for twenty-six consecutive confirmations:
           partial coherence, encodes but does not generate, not yet physics. Below, three
           surviving hedges are listed in ochre, and a small note records that the marginal
           yield of further reasoning has fallen to zero.
@@ -85,7 +86,7 @@ export default function FigHedgeLedger() {
 
         {/* the flatline label sits ON the line — it IS the saturation */}
         <text x={x0 + 6} y={yLine - 12} fontSize="13" fill={S.blueDeep}>
-          VERDICT UNCHANGED — 25 CONSECUTIVE CONFIRMATIONS
+          VERDICT UNCHANGED — 26 CONSECUTIVE CONFIRMATIONS
         </text>
         <text x={x0 + 6} y={yLine + 22} fontSize="11.5" fill={S.ink}>
           PARTIAL · ENCODES-NOT-GENERATES · NOT-YET-PHYSICS
